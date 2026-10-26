@@ -4,7 +4,7 @@ First-person gothic horror shorts for Instagram Reels / YouTube Shorts (9:16, 10
 Remotion + React + TypeScript on the **Gothic POV kit**. Everything you see is code-drawn SVG, everything you hear is
 synthesised, and the narrator is a local TTS model, so there are no stock assets or paid services.
 
-Current series: **THE WATCH**, a werewolf story in five episodes. Episodes live in `src/episodes/portrait/the-watch-0*`. A 16:9 long-form vampire story is in development.
+Current series: **THE WATCH**, a werewolf story in five episodes. Shorts live in `src/episodes/portrait/` (THE WATCH, Parts I–II); the 16:9 long-form vampire story *The Quarter Turn* is in `src/episodes/landscape/the-quarter-turn`.
 
 ## Where everything is
 
@@ -149,6 +149,8 @@ reorganised:
 | --- | --- | --- | --- |
 | `TheWatch01` | `src/episodes/portrait/the-watch-01` | 66.2 s | The Watch, Part I (werewolf series), narrated with Chatterbox in the owner's voice |
 | `TheWatch02` | `src/episodes/portrait/the-watch-02` | 64.4 s | The Watch, Part II: Mick's notebooks, "D. took my arm." |
+| `TheQuarterTurn` | `src/episodes/landscape/the-quarter-turn` | 10:13 | Long-form 16:9 vampire story, "NEVER FIX your grandmother's dripping tap" (Kokoro, three voices) |
+| `TheQuarterTurnCh1` | same | 2:22 | Review cut: cold open + Chapter I |
 | `TheCount01` | `src/episodes/portrait/the-count-01` | 64.0 s | Kit reference film |
 | `Template` | `src/episodes/portrait/_template` | 18.5 s | "The Knock", starting point for new stories |
 | `Catalog` | `src/catalog` | n/a | Every kit component (9:16) |
