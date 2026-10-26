@@ -1,6 +1,6 @@
 {
  "unit": "seconds",
- "total": 54.792,
+ "total": 58.24,
  "provenance": "chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples",
  "lines": [
   {
@@ -257,17 +257,38 @@
    "phraseSource": "measured-silence"
   },
   {
+   "id": "L13b",
+   "text": "His mum was at the window. Watching me count.",
+   "start": 36.122,
+   "end": 39.209,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "His mum was at the window.",
+     "start": 36.122,
+     "end": 37.787
+    },
+    {
+     "text": "Watching me count.",
+     "start": 37.787,
+     "end": 39.209
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
    "id": "L14",
    "text": "Every house on Moor End.",
-   "start": 36.242,
-   "end": 38.208,
+   "start": 39.689,
+   "end": 41.656,
    "whisper": false,
    "voice": "chatterbox",
    "phrases": [
     {
      "text": "Every house on Moor End.",
-     "start": 36.242,
-     "end": 38.208
+     "start": 39.689,
+     "end": 41.656
     }
    ],
    "phraseSource": "whole-line"
@@ -275,15 +296,15 @@
   {
    "id": "L15",
    "text": "Except one.",
-   "start": 38.608,
-   "end": 39.571,
+   "start": 42.056,
+   "end": 43.018,
    "whisper": false,
    "voice": "chatterbox",
    "phrases": [
     {
      "text": "Except one.",
-     "start": 38.608,
-     "end": 39.571
+     "start": 42.056,
+     "end": 43.018
     }
    ],
    "phraseSource": "whole-line"
@@ -291,15 +312,15 @@
   {
    "id": "L16",
    "text": "Mick's.",
-   "start": 40.291,
-   "end": 41.011,
+   "start": 43.738,
+   "end": 44.458,
    "whisper": false,
    "voice": "chatterbox",
    "phrases": [
     {
      "text": "Mick's.",
-     "start": 40.291,
-     "end": 41.011
+     "start": 43.738,
+     "end": 44.458
     }
    ],
    "phraseSource": "whole-line"
@@ -307,25 +328,25 @@
   {
    "id": "L17",
    "text": "Eight little holes in the wood. Fresh. Still splintered.",
-   "start": 41.571,
-   "end": 45.323,
+   "start": 45.018,
+   "end": 48.771,
    "whisper": false,
    "voice": "chatterbox",
    "phrases": [
     {
      "text": "Eight little holes in the wood.",
-     "start": 41.571,
-     "end": 43.381
+     "start": 45.018,
+     "end": 46.828
     },
     {
      "text": "Fresh.",
-     "start": 43.381,
-     "end": 44.066
+     "start": 46.828,
+     "end": 47.513
     },
     {
      "text": "Still splintered.",
-     "start": 44.066,
-     "end": 45.324
+     "start": 47.513,
+     "end": 48.771
     }
    ],
    "phraseSource": "measured-silence"
@@ -333,15 +354,15 @@
   {
    "id": "L18",
    "text": "Danny hadn't come to warn me.",
-   "start": 46.043,
-   "end": 47.95,
+   "start": 49.491,
+   "end": 51.397,
    "whisper": false,
    "voice": "chatterbox",
    "phrases": [
     {
      "text": "Danny hadn't come to warn me.",
-     "start": 46.043,
-     "end": 47.95
+     "start": 49.491,
+     "end": 51.397
     }
    ],
    "phraseSource": "whole-line"
@@ -349,15 +370,15 @@
   {
    "id": "L19",
    "text": "He'd come to pull them out.",
-   "start": 48.31,
-   "end": 49.911,
+   "start": 51.757,
+   "end": 53.359,
    "whisper": false,
    "voice": "chatterbox",
    "phrases": [
     {
      "text": "He'd come to pull them out.",
-     "start": 48.31,
-     "end": 49.911
+     "start": 51.757,
+     "end": 53.359
     }
    ],
    "phraseSource": "whole-line"
@@ -365,15 +386,15 @@
   {
    "id": "L20",
    "text": "Come out.",
-   "start": 53.111,
-   "end": 54.152,
+   "start": 56.559,
+   "end": 57.6,
    "whisper": true,
    "voice": "chatterbox",
    "phrases": [
     {
      "text": "Come out.",
-     "start": 53.111,
-     "end": 54.152
+     "start": 56.559,
+     "end": 57.6
     }
    ],
    "phraseSource": "whole-line"

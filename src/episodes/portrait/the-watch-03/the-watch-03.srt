@@ -83,41 +83,49 @@ Silver.
 Even Danny's house.
 
 22
-00:00:34,854 --> 00:00:36,092
+00:00:34,854 --> 00:00:36,072
 Silver.
 
 23
-00:00:36,242 --> 00:00:38,458
-Every house on Moor End.
+00:00:36,122 --> 00:00:37,737
+His mum was at the window.
 
 24
-00:00:38,608 --> 00:00:39,821
-Except one.
+00:00:37,787 --> 00:00:39,459
+Watching me count.
 
 25
-00:00:40,291 --> 00:00:41,261
-Mick's.
+00:00:39,689 --> 00:00:41,906
+Every house on Moor End.
 
 26
-00:00:41,571 --> 00:00:43,331
-Eight little holes in the wood.
+00:00:42,056 --> 00:00:43,268
+Except one.
 
 27
-00:00:43,381 --> 00:00:44,016
-Fresh.
+00:00:43,738 --> 00:00:44,708
+Mick's.
 
 28
-00:00:44,066 --> 00:00:45,574
-Still splintered.
+00:00:45,018 --> 00:00:46,778
+Eight little holes in the wood.
 
 29
-00:00:46,043 --> 00:00:48,200
-Danny hadn't come to warn me.
+00:00:46,828 --> 00:00:47,463
+Fresh.
 
 30
-00:00:48,310 --> 00:00:50,161
-He'd come to pull them out.
+00:00:47,513 --> 00:00:49,021
+Still splintered.
 
 31
-00:00:53,111 --> 00:00:54,402
+00:00:49,491 --> 00:00:51,647
+Danny hadn't come to warn me.
+
+32
+00:00:51,757 --> 00:00:53,609
+He'd come to pull them out.
+
+33
+00:00:56,559 --> 00:00:57,850
 Come out.

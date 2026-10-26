@@ -32,11 +32,11 @@ export const DoorHook: React.FC<{t: number}> = ({t}) => {
       <Camera t={t} zoom={1.25 + lt * 0.035} x={90} y={-20} shake={6} seed={601}>
         <Stage>
           <DoorWall id="dh" t={t} mode="night" open={open} under={0.2} underColor="#9fb4cf" beyond={<rect x={0} y={0} width={1080} height={1920} fill="#050608" />}>
-            <Hand id="dh-h" x={mix(560, 610, curl)} y={980} rot={-96} scale={1.45} style={lerpStyle(DANNY, DANNY_WOLF, 0.85)} pose={lerpPose(POSES.flat, POSES.claw, curl)} light={0.9} />
+            <Hand id="dh-h" x={mix(560, 610, curl)} y={980} rot={-96} scale={1.45} style={{...lerpStyle(DANNY, DANNY_WOLF, 0.85), sleeveLen: 170}} pose={lerpPose(POSES.flat, POSES.claw, curl)} light={0.9} />
           </DoorWall>
         </Stage>
       </Camera>
-      <Torch x={640} y={900} r={560} ambient={0.14} />
+      <Torch x={640} y={900} r={620} ambient={0.24} />
     </AbsoluteFill>
   );
 };
@@ -121,7 +121,7 @@ export const StreetWalk: React.FC<{t: number}> = ({t}) => {
  * A terrace window from outside: stone wall, the enamel number, dark glass, a stone sill.
  * nails: silver nail heads in the sill; holes: fresh holes instead; inside: something behind the glass.
  */
-export const OutsideSill: React.FC<{t: number; t0: number; n: string; paint: string; nails?: boolean; holes?: boolean; inside?: React.ReactNode; zoom?: number; y?: number; children?: React.ReactNode}> = ({
+export const OutsideSill: React.FC<{t: number; t0: number; n: string; paint: string; nails?: boolean; holes?: boolean; inside?: React.ReactNode; backlight?: string; zoom?: number; y?: number; children?: React.ReactNode}> = ({
   t,
   t0,
   n,
@@ -129,7 +129,8 @@ export const OutsideSill: React.FC<{t: number; t0: number; n: string; paint: str
   nails = true,
   holes = false,
   inside,
-  zoom = 1.6,
+  backlight,
+  zoom = 1.3,
   y = 260,
   children,
 }) => {
@@ -147,6 +148,15 @@ export const OutsideSill: React.FC<{t: number; t0: number; n: string; paint: str
           {/* window: frame, dark glass, glazing bars */}
           <rect x={220} y={500} width={640} height={700} fill={paint} />
           <rect x={250} y={530} width={580} height={640} fill="#05070b" />
+          {backlight && (
+            <g>
+              <radialGradient id={`bl-${n}`} cx="0.5" cy="0.45" r="0.7">
+                <stop offset="0" stopColor={backlight} stopOpacity={0.75} />
+                <stop offset="1" stopColor={backlight} stopOpacity={0.08} />
+              </radialGradient>
+              <rect x={250} y={530} width={580} height={640} fill={`url(#bl-${n})`} />
+            </g>
+          )}
           {inside}
           <path d="M540,530 L540,1170 M250,850 L830,850" stroke={paint} strokeWidth={14} />
           <rect x={250} y={530} width={580} height={640} fill="#9fb4cf" opacity={0.04} />
@@ -156,11 +166,11 @@ export const OutsideSill: React.FC<{t: number; t0: number; n: string; paint: str
           <rect x={180} y={1262} width={720} height={40} fill="#14171d" />
           {nails && <SilverNails xs={xs} y={1228} t={t + r() * 3} rust={0.15} />}
           {holes && <NailHoles xs={xs} y={1228} />}
-          <HousePlate x={960} y={760} s={1.2} n={n} />
+          <HousePlate x={540} y={1380} s={1.1} n={n} />
           {children}
         </Stage>
       </Camera>
-      <Torch x={540} y={1180 - y * 0.0} r={420} ambient={0.12} />
+      <Torch x={540} y={900} r={620} ambient={0.22} />
     </AbsoluteFill>
   );
 };
@@ -224,9 +234,10 @@ export const MicksWindow: React.FC<{t: number; phase: 'except' | 'holes' | 'pull
         paint="#1c1410"
         nails={false}
         holes={phase !== 'except' || t > B.micks + 0.6}
-        zoom={phase === 'holes' ? 3.0 + jolt : 1.5 + jolt}
-        y={phase === 'holes' ? 680 : 240}
-        inside={<BehindGlass a={phase === 'except' ? 0.9 : 0.6} />}
+        zoom={phase === 'holes' ? 2.6 + jolt : 1.3 + jolt}
+        y={phase === 'holes' ? 268 : 240}
+        backlight="#6f86a6"
+        inside={<BehindGlass a={phase === 'except' ? 0.95 : 0.7} />}
       >
         {phase === 'pull' && (
           <g>

@@ -9,16 +9,17 @@
   "two": 28.628,
   "four": 30.928,
   "danny": 33.139,
-  "every": 36.242,
-  "except": 38.608,
-  "micks": 40.291,
-  "holes": 41.571,
-  "warn": 46.043,
-  "pull": 48.31,
-  "out": 49.561,
-  "reach": 50.411,
-  "cut": 52.991
+  "mum": 36.122,
+  "every": 39.689,
+  "except": 42.056,
+  "micks": 43.738,
+  "holes": 45.018,
+  "warn": 49.491,
+  "pull": 51.757,
+  "out": 53.009,
+  "reach": 53.859,
+  "cut": 56.439
  },
- "durationSec": 57.59,
+ "durationSec": 61.04,
  "source": "timing.json (chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples)"
 }
