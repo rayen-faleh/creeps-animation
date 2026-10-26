@@ -1,0 +1,2902 @@
+{
+ "unit": "seconds",
+ "total": 603.296,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "C0_01",
+   "text": "Before she died, my grandmother made me promise one thing.",
+   "start": 0.35,
+   "end": 4.056,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Before she died,",
+     "start": 0.35,
+     "end": 1.57
+    },
+    {
+     "text": "my grandmother made me promise one thing.",
+     "start": 1.57,
+     "end": 4.056
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C0_02",
+   "text": "Never fix the kitchen tap.",
+   "start": 4.616,
+   "end": 6.559,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Never fix the kitchen tap.",
+     "start": 4.616,
+     "end": 6.559
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C0_03",
+   "text": "I lasted nine days.",
+   "start": 7.119,
+   "end": 8.908,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I lasted nine days.",
+     "start": 7.119,
+     "end": 8.908
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C1_01",
+   "text": "Gran's house stands at the very end of Moor End, in Thornhallow, where the road gives up and the moor begins.",
+   "start": 16.908,
+   "end": 24.01,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "chapter": [
+    "CHAPTER I",
+    "The Promise"
+   ],
+   "phrases": [
+    {
+     "text": "Gran's house stands at the very end of Moor End,",
+     "start": 16.908,
+     "end": 20.873
+    },
+    {
+     "text": "in Thornhallow,",
+     "start": 20.873,
+     "end": 22.533
+    },
+    {
+     "text": "where the road gives up and the moor begins.",
+     "start": 22.533,
+     "end": 24.01
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_02",
+   "text": "Stone walls. A slate roof that leaks in one corner. A garden that's mostly nettles, apart from the roses.",
+   "start": 24.57,
+   "end": 32.374,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Stone walls.",
+     "start": 24.57,
+     "end": 25.9
+    },
+    {
+     "text": "A slate roof that leaks in one corner.",
+     "start": 25.9,
+     "end": 28.63
+    },
+    {
+     "text": "A garden that's mostly nettles,",
+     "start": 28.63,
+     "end": 30.78
+    },
+    {
+     "text": "apart from the roses.",
+     "start": 30.78,
+     "end": 32.375
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_03",
+   "text": "She grew them in a ring at the bottom of the garden. Red ones. They flowered in December. Nobody ever asked her how.",
+   "start": 32.934,
+   "end": 40.533,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She grew them in a ring at the bottom of the garden.",
+     "start": 32.934,
+     "end": 35.624
+    },
+    {
+     "text": "Red ones.",
+     "start": 35.624,
+     "end": 36.804
+    },
+    {
+     "text": "They flowered in December.",
+     "start": 36.804,
+     "end": 38.684
+    },
+    {
+     "text": "Nobody ever asked her how.",
+     "start": 38.684,
+     "end": 40.533
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_04",
+   "text": "I spent every summer in that house as a boy. Mum worked, and Gran didn't mind having me.",
+   "start": 41.093,
+   "end": 47.466,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I spent every summer in that house as a boy.",
+     "start": 41.093,
+     "end": 43.958
+    },
+    {
+     "text": "Mum worked,",
+     "start": 43.958,
+     "end": 45.323
+    },
+    {
+     "text": "and Gran didn't mind having me.",
+     "start": 45.323,
+     "end": 47.467
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_05",
+   "text": "She was strict about very little. Shoes off at the door. Grace before tea.",
+   "start": 48.026,
+   "end": 53.03,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She was strict about very little.",
+     "start": 48.026,
+     "end": 49.666
+    },
+    {
+     "text": "Shoes off at the door.",
+     "start": 49.666,
+     "end": 51.306
+    },
+    {
+     "text": "Grace before tea.",
+     "start": 51.306,
+     "end": 53.029
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_06",
+   "text": "And the tap.",
+   "start": 53.59,
+   "end": 54.587,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And the tap.",
+     "start": 53.59,
+     "end": 54.587
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C1_07",
+   "text": "Every night, at eleven o'clock, she'd go into the kitchen in her dressing gown, take hold of the cold tap, and give it a quarter turn.",
+   "start": 55.387,
+   "end": 63.803,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Every night,",
+     "start": 55.387,
+     "end": 57.332
+    },
+    {
+     "text": "at eleven o'clock,",
+     "start": 57.332,
+     "end": 60.107
+    },
+    {
+     "text": "she'd go into the kitchen in her dressing gown,",
+     "start": 60.107,
+     "end": 62.107
+    },
+    {
+     "text": "take hold of the cold tap,",
+     "start": 62.107,
+     "end": 62.837
+    },
+    {
+     "text": "and give it a quarter turn.",
+     "start": 62.837,
+     "end": 63.803
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_08",
+   "text": "Not a half. Not a full turn. A quarter.",
+   "start": 64.363,
+   "end": 67.463,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Not a half.",
+     "start": 64.363,
+     "end": 65.263
+    },
+    {
+     "text": "Not a full turn.",
+     "start": 65.263,
+     "end": 66.603
+    },
+    {
+     "text": "A quarter.",
+     "start": 66.603,
+     "end": 67.463
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_09",
+   "text": "Then she'd stand there, very still, until it started to drip. One drop, every two seconds.",
+   "start": 68.583,
+   "end": 74.94,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then she'd stand there,",
+     "start": 68.583,
+     "end": 69.868
+    },
+    {
+     "text": "very still,",
+     "start": 69.868,
+     "end": 70.978
+    },
+    {
+     "text": "until it started to drip.",
+     "start": 70.978,
+     "end": 72.658
+    },
+    {
+     "text": "One drop,",
+     "start": 72.658,
+     "end": 73.718
+    },
+    {
+     "text": "every two seconds.",
+     "start": 73.718,
+     "end": 74.94
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_10",
+   "text": "Only then would she go up to bed.",
+   "start": 75.5,
+   "end": 77.868,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Only then would she go up to bed.",
+     "start": 75.5,
+     "end": 77.868
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C1_11",
+   "text": "I asked her once why she didn't just get it fixed.",
+   "start": 78.428,
+   "end": 81.628,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I asked her once why she didn't just get it fixed.",
+     "start": 78.428,
+     "end": 81.628
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C1_12",
+   "text": "She said,",
+   "start": 82.188,
+   "end": 82.995,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She said,",
+     "start": 82.188,
+     "end": 82.995
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C1_13",
+   "text": "Some things want fixing. Some things want watching.",
+   "start": 84.115,
+   "end": 87.198,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "Some things want fixing.",
+     "start": 84.115,
+     "end": 85.585
+    },
+    {
+     "text": "Some things want watching.",
+     "start": 85.585,
+     "end": 87.198
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_14",
+   "text": "I was eight. I didn't understand.",
+   "start": 87.838,
+   "end": 90.291,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I was eight.",
+     "start": 87.838,
+     "end": 88.778
+    },
+    {
+     "text": "I didn't understand.",
+     "start": 88.778,
+     "end": 90.291
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_15",
+   "text": "There was one room I was never allowed in. The back bedroom, at the top of the stairs. It was always locked.",
+   "start": 91.251,
+   "end": 98.252,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "There was one room I was never allowed in.",
+     "start": 91.251,
+     "end": 93.906
+    },
+    {
+     "text": "The back bedroom,",
+     "start": 93.906,
+     "end": 94.696
+    },
+    {
+     "text": "at the top of the stairs.",
+     "start": 94.696,
+     "end": 96.811
+    },
+    {
+     "text": "It was always locked.",
+     "start": 96.811,
+     "end": 98.252
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_16",
+   "text": "She said it was full of Grandad's things, and she couldn't face them.",
+   "start": 98.812,
+   "end": 102.586,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She said it was full of Grandad's things,",
+     "start": 98.812,
+     "end": 101.162
+    },
+    {
+     "text": "and she couldn't face them.",
+     "start": 101.162,
+     "end": 102.586
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_17",
+   "text": "Grandad walked out on her in the winter of nineteen seventy-four. He took nothing. He left no note. Nobody ever saw him again.",
+   "start": 103.146,
+   "end": 111.566,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Grandad walked out on her in the winter of nineteen seventy-four.",
+     "start": 103.146,
+     "end": 107.021
+    },
+    {
+     "text": "He took nothing.",
+     "start": 107.021,
+     "end": 108.191
+    },
+    {
+     "text": "He left no note.",
+     "start": 108.191,
+     "end": 109.686
+    },
+    {
+     "text": "Nobody ever saw him again.",
+     "start": 109.686,
+     "end": 111.566
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_18",
+   "text": "She never remarried. She never even took off her ring.",
+   "start": 112.126,
+   "end": 115.441,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She never remarried.",
+     "start": 112.126,
+     "end": 113.511
+    },
+    {
+     "text": "She never even took off her ring.",
+     "start": 113.511,
+     "end": 115.441
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_19",
+   "text": "Everyone said I had her eyes. Grey, like the moor in the rain.",
+   "start": 116.001,
+   "end": 120.449,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Everyone said I had her eyes.",
+     "start": 116.001,
+     "end": 117.956
+    },
+    {
+     "text": "Grey,",
+     "start": 117.956,
+     "end": 118.841
+    },
+    {
+     "text": "like the moor in the rain.",
+     "start": 118.841,
+     "end": 120.45
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_20",
+   "text": "Gran died in October. She was eighty-six.",
+   "start": 121.009,
+   "end": 124.251,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Gran died in October.",
+     "start": 121.009,
+     "end": 122.859
+    },
+    {
+     "text": "She was eighty-six.",
+     "start": 122.859,
+     "end": 124.25
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_21",
+   "text": "The last time I saw her, in the hospital, she took my wrist and held it so hard it bruised.",
+   "start": 124.811,
+   "end": 130.899,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The last time I saw her,",
+     "start": 124.811,
+     "end": 127.516
+    },
+    {
+     "text": "in the hospital,",
+     "start": 127.516,
+     "end": 128.821
+    },
+    {
+     "text": "she took my wrist and held it so hard it bruised.",
+     "start": 128.821,
+     "end": 130.9
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_22",
+   "text": "Promise me you won't fix that tap.",
+   "start": 131.459,
+   "end": 133.51,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "Promise me you won't fix that tap.",
+     "start": 131.459,
+     "end": 133.51
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C1_23",
+   "text": "I promised. I'd have promised her anything.",
+   "start": 134.15,
+   "end": 136.984,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I promised.",
+     "start": 134.15,
+     "end": 135.195
+    },
+    {
+     "text": "I'd have promised her anything.",
+     "start": 135.195,
+     "end": 136.984
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C1_24",
+   "text": "She left me the house.",
+   "start": 138.104,
+   "end": 139.508,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She left me the house.",
+     "start": 138.104,
+     "end": 139.508
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C2_01",
+   "text": "I moved in the week after the funeral.",
+   "start": 143.908,
+   "end": 146.576,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "chapter": [
+    "CHAPTER II",
+    "Nine Days"
+   ],
+   "phrases": [
+    {
+     "text": "I moved in the week after the funeral.",
+     "start": 143.908,
+     "end": 146.576
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C2_02",
+   "text": "The house still smelt of her. Lavender, coal tar soap, and something underneath it, like a cellar after rain.",
+   "start": 147.135,
+   "end": 154.553,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The house still smelt of her.",
+     "start": 147.135,
+     "end": 149.01
+    },
+    {
+     "text": "Lavender,",
+     "start": 149.01,
+     "end": 149.99
+    },
+    {
+     "text": "coal tar soap,",
+     "start": 149.99,
+     "end": 151.295
+    },
+    {
+     "text": "and something underneath it,",
+     "start": 151.295,
+     "end": 152.85
+    },
+    {
+     "text": "like a cellar after rain.",
+     "start": 152.85,
+     "end": 154.552
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_03",
+   "text": "On the first night, I'd forgotten all about the tap, until I was lying in bed.",
+   "start": 155.113,
+   "end": 160.207,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "On the first night,",
+     "start": 155.113,
+     "end": 156.333
+    },
+    {
+     "text": "I'd forgotten all about the tap,",
+     "start": 156.333,
+     "end": 158.413
+    },
+    {
+     "text": "until I was lying in bed.",
+     "start": 158.413,
+     "end": 160.208
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_04",
+   "text": "It's a small sound, in daylight. At night, in an empty house, it fills every room.",
+   "start": 165.807,
+   "end": 171.536,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It's a small sound,",
+     "start": 165.807,
+     "end": 167.102
+    },
+    {
+     "text": "in daylight.",
+     "start": 167.102,
+     "end": 168.097
+    },
+    {
+     "text": "At night,",
+     "start": 168.097,
+     "end": 169.997
+    },
+    {
+     "text": "in an empty house,",
+     "start": 169.997,
+     "end": 170.772
+    },
+    {
+     "text": "it fills every room.",
+     "start": 170.772,
+     "end": 171.536
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_05",
+   "text": "I'd lie there counting. I couldn't stop. Seven hundred drops. Eight hundred.",
+   "start": 172.096,
+   "end": 177.179,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I'd lie there counting.",
+     "start": 172.096,
+     "end": 173.526
+    },
+    {
+     "text": "I couldn't stop.",
+     "start": 173.526,
+     "end": 174.671
+    },
+    {
+     "text": "Seven hundred drops.",
+     "start": 174.671,
+     "end": 176.311
+    },
+    {
+     "text": "Eight hundred.",
+     "start": 176.311,
+     "end": 177.179
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_06",
+   "text": "By the third night, I was sleeping with a pillow over my head.",
+   "start": 177.739,
+   "end": 181.55,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "By the third night,",
+     "start": 177.739,
+     "end": 178.874
+    },
+    {
+     "text": "I was sleeping with a pillow over my head.",
+     "start": 178.874,
+     "end": 181.549
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_07",
+   "text": "By the fifth, I'd started to notice something.",
+   "start": 182.11,
+   "end": 184.92,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "By the fifth,",
+     "start": 182.11,
+     "end": 182.995
+    },
+    {
+     "text": "I'd started to notice something.",
+     "start": 182.995,
+     "end": 184.921
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_08",
+   "text": "The drip wasn't steady.",
+   "start": 185.48,
+   "end": 187.092,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The drip wasn't steady.",
+     "start": 185.48,
+     "end": 187.092
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C2_09",
+   "text": "On dark nights, when there was no moon over the garden, it came faster. As if the tap was nervous.",
+   "start": 189.012,
+   "end": 195.591,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "On dark nights,",
+     "start": 189.012,
+     "end": 190.267
+    },
+    {
+     "text": "when there was no moon over the garden,",
+     "start": 190.267,
+     "end": 193.587
+    },
+    {
+     "text": "it came faster.",
+     "start": 193.587,
+     "end": 194.682
+    },
+    {
+     "text": "As if the tap was nervous.",
+     "start": 194.682,
+     "end": 195.591
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_10",
+   "text": "On bright nights, it slowed right down.",
+   "start": 196.151,
+   "end": 198.921,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "On bright nights,",
+     "start": 196.151,
+     "end": 197.326
+    },
+    {
+     "text": "it slowed right down.",
+     "start": 197.326,
+     "end": 198.92
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_11",
+   "text": "I told myself it was the pressure. Old pipes. Cold weather.",
+   "start": 199.48,
+   "end": 203.712,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I told myself it was the pressure.",
+     "start": 199.48,
+     "end": 201.3
+    },
+    {
+     "text": "Old pipes.",
+     "start": 201.3,
+     "end": 202.53
+    },
+    {
+     "text": "Cold weather.",
+     "start": 202.53,
+     "end": 203.712
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_11b",
+   "text": "And once, around four in the morning, I looked out of the back window, and there was frost on the whole garden. Everywhere except the rose bed.",
+   "start": 204.272,
+   "end": 213.267,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And once,",
+     "start": 204.272,
+     "end": 206.517
+    },
+    {
+     "text": "around four in the morning,",
+     "start": 206.517,
+     "end": 208.342
+    },
+    {
+     "text": "I looked out of the back window,",
+     "start": 208.342,
+     "end": 210.907
+    },
+    {
+     "text": "and there was frost on the whole garden.",
+     "start": 210.907,
+     "end": 212.167
+    },
+    {
+     "text": "Everywhere except the rose bed.",
+     "start": 212.167,
+     "end": 213.266
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_12",
+   "text": "On the seventh day, I met the man next door. Mr Haworth. Ninety, if he was a day.",
+   "start": 215.187,
+   "end": 220.935,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "On the seventh day,",
+     "start": 215.187,
+     "end": 217.282
+    },
+    {
+     "text": "I met the man next door.",
+     "start": 217.282,
+     "end": 217.882
+    },
+    {
+     "text": "Mr Haworth.",
+     "start": 217.882,
+     "end": 219.117
+    },
+    {
+     "text": "Ninety,",
+     "start": 219.117,
+     "end": 219.932
+    },
+    {
+     "text": "if he was a day.",
+     "start": 219.932,
+     "end": 220.935
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_13",
+   "text": "He watched me carrying bin bags down the path, and said, you'll be keeping the water going, then.",
+   "start": 221.495,
+   "end": 227.505,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He watched me carrying bin bags down the path,",
+     "start": 221.495,
+     "end": 224.295
+    },
+    {
+     "text": "and said,",
+     "start": 224.295,
+     "end": 225.26
+    },
+    {
+     "text": "you'll be keeping the water going, then.",
+     "start": 225.26,
+     "end": 227.505
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C2_14",
+   "text": "I said, sorry?",
+   "start": 228.065,
+   "end": 229.166,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I said, sorry?",
+     "start": 228.065,
+     "end": 229.166
+    }
+   ],
+   "phraseSource": "whole-line(fallback)"
+  },
+  {
+   "id": "C2_15",
+   "text": "He said, your gran. She kept the water moving. Every night. Fifty-odd years.",
+   "start": 229.966,
+   "end": 235.427,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He said,",
+     "start": 229.966,
+     "end": 231.366
+    },
+    {
+     "text": "your gran.",
+     "start": 231.366,
+     "end": 231.961
+    },
+    {
+     "text": "She kept the water moving.",
+     "start": 231.961,
+     "end": 233.036
+    },
+    {
+     "text": "Every night.",
+     "start": 233.036,
+     "end": 233.981
+    },
+    {
+     "text": "Fifty-odd years.",
+     "start": 233.981,
+     "end": 235.427
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_16",
+   "text": "I asked him what for.",
+   "start": 235.987,
+   "end": 237.414,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I asked him what for.",
+     "start": 235.987,
+     "end": 237.414
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C2_17",
+   "text": "He looked past me, down the garden, at the roses. Then he went inside and shut his door.",
+   "start": 237.974,
+   "end": 244.016,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He looked past me,",
+     "start": 237.974,
+     "end": 239.174
+    },
+    {
+     "text": "down the garden,",
+     "start": 239.174,
+     "end": 240.269
+    },
+    {
+     "text": "at the roses.",
+     "start": 240.269,
+     "end": 241.444
+    },
+    {
+     "text": "Then he went inside and shut his door.",
+     "start": 241.444,
+     "end": 244.017
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_18",
+   "text": "That night, I tried the back bedroom. Still locked. I searched the whole house for the key. Every drawer. Every tin. Every coat pocket.",
+   "start": 244.576,
+   "end": 253.247,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "That night,",
+     "start": 244.576,
+     "end": 246.351
+    },
+    {
+     "text": "I tried the back bedroom.",
+     "start": 246.351,
+     "end": 247.536
+    },
+    {
+     "text": "Still locked.",
+     "start": 247.536,
+     "end": 249.746
+    },
+    {
+     "text": "I searched the whole house for the key.",
+     "start": 249.746,
+     "end": 250.886
+    },
+    {
+     "text": "Every drawer.",
+     "start": 250.886,
+     "end": 251.846
+    },
+    {
+     "text": "Every tin.",
+     "start": 251.846,
+     "end": 252.716
+    },
+    {
+     "text": "Every coat pocket.",
+     "start": 252.716,
+     "end": 253.247
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_19",
+   "text": "Nothing.",
+   "start": 253.807,
+   "end": 254.58,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Nothing.",
+     "start": 253.807,
+     "end": 254.58
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C2_20",
+   "text": "By the ninth day, I hadn't slept properly in over a week. I was counting drops in my dreams.",
+   "start": 255.62,
+   "end": 261.834,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "By the ninth day,",
+     "start": 255.62,
+     "end": 256.665
+    },
+    {
+     "text": "I hadn't slept properly in over a week.",
+     "start": 256.665,
+     "end": 259.385
+    },
+    {
+     "text": "I was counting drops in my dreams.",
+     "start": 259.385,
+     "end": 261.834
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_21",
+   "text": "And I thought, she's gone. It's a tap. It's a washer that costs forty pence.",
+   "start": 262.394,
+   "end": 267.652,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And I thought,",
+     "start": 262.394,
+     "end": 263.189
+    },
+    {
+     "text": "she's gone.",
+     "start": 263.189,
+     "end": 264.099
+    },
+    {
+     "text": "It's a tap.",
+     "start": 264.099,
+     "end": 265.159
+    },
+    {
+     "text": "It's a washer that costs forty pence.",
+     "start": 265.159,
+     "end": 267.652
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C2_22",
+   "text": "So I rang a plumber.",
+   "start": 268.212,
+   "end": 269.85,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "So I rang a plumber.",
+     "start": 268.212,
+     "end": 269.85
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C3_01",
+   "text": "He was young, and cheerful, and called Kieran. He had a van with a cartoon spanner on the side.",
+   "start": 274.25,
+   "end": 280.637,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "chapter": [
+    "CHAPTER III",
+    "The Plumber"
+   ],
+   "phrases": [
+    {
+     "text": "He was young,",
+     "start": 274.25,
+     "end": 275.07
+    },
+    {
+     "text": "and cheerful,",
+     "start": 275.07,
+     "end": 276.015
+    },
+    {
+     "text": "and called Kieran.",
+     "start": 276.015,
+     "end": 277.49
+    },
+    {
+     "text": "He had a van with a cartoon spanner on the side.",
+     "start": 277.49,
+     "end": 280.637
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_02",
+   "text": "He took one look at the tap and laughed. Your gran's been doing this on purpose, he said. Washer's fine. It's just been opened a quarter turn.",
+   "start": 281.197,
+   "end": 290.344,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He took one look at the tap and laughed.",
+     "start": 281.197,
+     "end": 282.567
+    },
+    {
+     "text": "Your gran's been doing this on purpose,",
+     "start": 282.567,
+     "end": 283.447
+    },
+    {
+     "text": "he said.",
+     "start": 283.447,
+     "end": 286.677
+    },
+    {
+     "text": "Washer's fine.",
+     "start": 286.677,
+     "end": 288.117
+    },
+    {
+     "text": "It's just been opened a quarter turn.",
+     "start": 288.117,
+     "end": 290.344
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_03",
+   "text": "Then he crouched under the sink with his torch, and went quiet.",
+   "start": 290.904,
+   "end": 294.499,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then he crouched under the sink with his torch,",
+     "start": 290.904,
+     "end": 293.294
+    },
+    {
+     "text": "and went quiet.",
+     "start": 293.294,
+     "end": 294.499
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_04",
+   "text": "That's odd, he said.",
+   "start": 295.059,
+   "end": 296.565,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "That's odd,",
+     "start": 295.059,
+     "end": 295.954
+    },
+    {
+     "text": "he said.",
+     "start": 295.954,
+     "end": 296.565
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_05",
+   "text": "The cold pipe didn't go where it should. It didn't go down to the mains.",
+   "start": 297.365,
+   "end": 302.015,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The cold pipe didn't go where it should.",
+     "start": 297.365,
+     "end": 300.01
+    },
+    {
+     "text": "It didn't go down to the mains.",
+     "start": 300.01,
+     "end": 302.016
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_06",
+   "text": "It went sideways. Through the back wall. Out into the garden.",
+   "start": 302.575,
+   "end": 306.787,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It went sideways.",
+     "start": 302.575,
+     "end": 303.905
+    },
+    {
+     "text": "Through the back wall.",
+     "start": 303.905,
+     "end": 305.285
+    },
+    {
+     "text": "Out into the garden.",
+     "start": 305.285,
+     "end": 306.787
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_07",
+   "text": "We followed it with a spade. It ran a foot under the lawn, in a long, careful curve.",
+   "start": 307.347,
+   "end": 313.071,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "We followed it with a spade.",
+     "start": 307.347,
+     "end": 309.037
+    },
+    {
+     "text": "It ran a foot under the lawn,",
+     "start": 309.037,
+     "end": 311.022
+    },
+    {
+     "text": "in a long,",
+     "start": 311.022,
+     "end": 311.962
+    },
+    {
+     "text": "careful curve.",
+     "start": 311.962,
+     "end": 313.071
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_08",
+   "text": "All the way round the rose bed.",
+   "start": 313.631,
+   "end": 315.649,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "All the way round the rose bed.",
+     "start": 313.631,
+     "end": 315.649
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C3_09",
+   "text": "And back into the house, to the drain under the sink.",
+   "start": 316.209,
+   "end": 319.492,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And back into the house,",
+     "start": 316.209,
+     "end": 317.699
+    },
+    {
+     "text": "to the drain under the sink.",
+     "start": 317.699,
+     "end": 319.491
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_10",
+   "text": "A complete circle.",
+   "start": 320.052,
+   "end": 321.33,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "A complete circle.",
+     "start": 320.052,
+     "end": 321.33
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C3_11",
+   "text": "Kieran stood up and scratched his head. Somebody's built a ring of running water round your roses, he said. Like a moat. Never seen anything like it.",
+   "start": 323.25,
+   "end": 333.267,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Kieran stood up and scratched his head.",
+     "start": 323.25,
+     "end": 325.59
+    },
+    {
+     "text": "Somebody's built a ring of running water round your roses,",
+     "start": 325.59,
+     "end": 329.385
+    },
+    {
+     "text": "he said.",
+     "start": 329.385,
+     "end": 330.165
+    },
+    {
+     "text": "Like a moat.",
+     "start": 330.165,
+     "end": 331.37
+    },
+    {
+     "text": "Never seen anything like it.",
+     "start": 331.37,
+     "end": 333.267
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_12",
+   "text": "He said it was old. Copper. Seventies, by the look of the joints.",
+   "start": 333.827,
+   "end": 338.356,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He said it was old.",
+     "start": 333.827,
+     "end": 335.092
+    },
+    {
+     "text": "Copper.",
+     "start": 335.092,
+     "end": 335.907
+    },
+    {
+     "text": "Seventies,",
+     "start": 335.907,
+     "end": 336.862
+    },
+    {
+     "text": "by the look of the joints.",
+     "start": 336.862,
+     "end": 338.356
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_13",
+   "text": "Nineteen seventy-four, I thought. And I didn't know why.",
+   "start": 338.916,
+   "end": 342.533,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Nineteen seventy-four, I thought.",
+     "start": 338.916,
+     "end": 341.096
+    },
+    {
+     "text": "And I didn't know why.",
+     "start": 341.096,
+     "end": 342.533
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C3_14",
+   "text": "He asked me what I wanted done.",
+   "start": 343.093,
+   "end": 345.096,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He asked me what I wanted done.",
+     "start": 343.093,
+     "end": 345.096
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C3_15",
+   "text": "I should have said, leave it.",
+   "start": 345.656,
+   "end": 347.403,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I should have said,",
+     "start": 345.656,
+     "end": 346.626
+    },
+    {
+     "text": "leave it.",
+     "start": 346.626,
+     "end": 347.403
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_16",
+   "text": "I said, can you just make it stop.",
+   "start": 347.963,
+   "end": 350.335,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I said,",
+     "start": 347.963,
+     "end": 348.753
+    },
+    {
+     "text": "can you just make it stop.",
+     "start": 348.753,
+     "end": 350.335
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_17",
+   "text": "He capped the pipe at the wall. Ten minutes. Thirty quid.",
+   "start": 350.895,
+   "end": 354.52,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He capped the pipe at the wall.",
+     "start": 350.895,
+     "end": 352.38
+    },
+    {
+     "text": "Ten minutes.",
+     "start": 352.38,
+     "end": 353.375
+    },
+    {
+     "text": "Thirty quid.",
+     "start": 353.375,
+     "end": 354.52
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_18",
+   "text": "And the house went quiet.",
+   "start": 355.08,
+   "end": 356.79,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And the house went quiet.",
+     "start": 355.08,
+     "end": 356.79
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C3_19",
+   "text": "For the first time in fifty-two years, nothing in that kitchen moved.",
+   "start": 361.59,
+   "end": 365.945,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "For the first time in fifty-two years,",
+     "start": 361.59,
+     "end": 363.93
+    },
+    {
+     "text": "nothing in that kitchen moved.",
+     "start": 363.93,
+     "end": 365.945
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_20",
+   "text": "I stood there for a long time, listening to the silence.",
+   "start": 366.505,
+   "end": 370.074,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I stood there for a long time,",
+     "start": 366.505,
+     "end": 368.405
+    },
+    {
+     "text": "listening to the silence.",
+     "start": 368.405,
+     "end": 370.074
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C3_21",
+   "text": "I remember thinking how peaceful it was.",
+   "start": 370.634,
+   "end": 373.103,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I remember thinking how peaceful it was.",
+     "start": 370.634,
+     "end": 373.103
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_01",
+   "text": "That night, I slept like the dead. Deep, and black, and dreamless.",
+   "start": 377.503,
+   "end": 382.004,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "chapter": [
+    "CHAPTER IV",
+    "The Quiet"
+   ],
+   "phrases": [
+    {
+     "text": "That night, I slept like the dead.",
+     "start": 377.503,
+     "end": 379.408
+    },
+    {
+     "text": "Deep,",
+     "start": 379.408,
+     "end": 380.113
+    },
+    {
+     "text": "and black,",
+     "start": 380.113,
+     "end": 381.013
+    },
+    {
+     "text": "and dreamless.",
+     "start": 381.013,
+     "end": 382.004
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C4_02",
+   "text": "I woke at three. I didn't know why.",
+   "start": 382.564,
+   "end": 385.173,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I woke at three.",
+     "start": 382.564,
+     "end": 383.884
+    },
+    {
+     "text": "I didn't know why.",
+     "start": 383.884,
+     "end": 385.172
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_03",
+   "text": "Then I did.",
+   "start": 385.733,
+   "end": 386.922,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then I did.",
+     "start": 385.733,
+     "end": 386.922
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_04",
+   "text": "There was no drip. There would never be a drip again. And somewhere in the house, something else had taken its place.",
+   "start": 388.041,
+   "end": 394.975,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "There was no drip.",
+     "start": 388.041,
+     "end": 389.271
+    },
+    {
+     "text": "There would never be a drip again.",
+     "start": 389.271,
+     "end": 391.311
+    },
+    {
+     "text": "And somewhere in the house,",
+     "start": 391.311,
+     "end": 392.936
+    },
+    {
+     "text": "something else had taken its place.",
+     "start": 392.936,
+     "end": 394.974
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_05",
+   "text": "A sound, downstairs. Slow. Heavy. Like someone stamping the mud off their boots.",
+   "start": 395.535,
+   "end": 401.472,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "A sound, downstairs.",
+     "start": 395.535,
+     "end": 397.18
+    },
+    {
+     "text": "Slow. Heavy.",
+     "start": 397.18,
+     "end": 398.675
+    },
+    {
+     "text": "Like someone stamping the mud off their boots.",
+     "start": 398.675,
+     "end": 401.472
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C4_06",
+   "text": "I went down with my phone torch.",
+   "start": 402.032,
+   "end": 404.205,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I went down with my phone torch.",
+     "start": 402.032,
+     "end": 404.205
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_07",
+   "text": "The back door was shut. Locked. The key on its hook.",
+   "start": 404.765,
+   "end": 408.288,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The back door was shut.",
+     "start": 404.765,
+     "end": 406.245
+    },
+    {
+     "text": "Locked.",
+     "start": 406.245,
+     "end": 407.075
+    },
+    {
+     "text": "The key on its hook.",
+     "start": 407.075,
+     "end": 408.287
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_08",
+   "text": "But there was soil on the kitchen floor.",
+   "start": 408.848,
+   "end": 411.384,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "But there was soil on the kitchen floor.",
+     "start": 408.848,
+     "end": 411.384
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_09",
+   "text": "Wet, dark soil. And rose petals. Red ones.",
+   "start": 411.944,
+   "end": 415.336,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Wet,",
+     "start": 411.944,
+     "end": 412.279
+    },
+    {
+     "text": "dark soil.",
+     "start": 412.279,
+     "end": 413.154
+    },
+    {
+     "text": "And rose petals.",
+     "start": 413.154,
+     "end": 414.409
+    },
+    {
+     "text": "Red ones.",
+     "start": 414.409,
+     "end": 415.336
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_08b",
+   "text": "It smelt of the rose bed. Turned earth, and something sweet underneath it, like fruit left too long.",
+   "start": 415.896,
+   "end": 422.411,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It smelt of the rose bed.",
+     "start": 415.896,
+     "end": 417.726
+    },
+    {
+     "text": "Turned earth,",
+     "start": 417.726,
+     "end": 418.751
+    },
+    {
+     "text": "and something sweet underneath it,",
+     "start": 418.751,
+     "end": 420.661
+    },
+    {
+     "text": "like fruit left too long.",
+     "start": 420.661,
+     "end": 422.412
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_10",
+   "text": "A trail of it, from the back door, across the kitchen, to the bottom of the stairs.",
+   "start": 423.371,
+   "end": 428.669,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "A trail of it,",
+     "start": 423.371,
+     "end": 424.336
+    },
+    {
+     "text": "from the back door,",
+     "start": 424.336,
+     "end": 425.546
+    },
+    {
+     "text": "across the kitchen,",
+     "start": 425.546,
+     "end": 426.861
+    },
+    {
+     "text": "to the bottom of the stairs.",
+     "start": 426.861,
+     "end": 428.668
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_11",
+   "text": "And up them.",
+   "start": 429.229,
+   "end": 430.257,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And up them.",
+     "start": 429.229,
+     "end": 430.257
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_12",
+   "text": "I followed it, one stair at a time. Every step had a print on it. A man's boot. An old-fashioned heel.",
+   "start": 431.858,
+   "end": 439.258,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I followed it,",
+     "start": 431.858,
+     "end": 434.063
+    },
+    {
+     "text": "one stair at a time.",
+     "start": 434.063,
+     "end": 435.968
+    },
+    {
+     "text": "Every step had a print on it.",
+     "start": 435.968,
+     "end": 437.493
+    },
+    {
+     "text": "A man's boot.",
+     "start": 437.493,
+     "end": 438.808
+    },
+    {
+     "text": "An old-fashioned heel.",
+     "start": 438.808,
+     "end": 439.258
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_13",
+   "text": "It stopped at the top of the stairs.",
+   "start": 439.818,
+   "end": 441.931,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It stopped at the top of the stairs.",
+     "start": 439.818,
+     "end": 441.931
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_14",
+   "text": "At the back bedroom.",
+   "start": 442.491,
+   "end": 443.811,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "At the back bedroom.",
+     "start": 442.491,
+     "end": 443.811
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_15",
+   "text": "The door was open.",
+   "start": 444.611,
+   "end": 446.049,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The door was open.",
+     "start": 444.611,
+     "end": 446.049
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_16",
+   "text": "Fifty-two years locked, and now it stood open, just a crack, and cold air was coming out of it.",
+   "start": 447.809,
+   "end": 454.542,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Fifty-two years locked,",
+     "start": 447.809,
+     "end": 449.519
+    },
+    {
+     "text": "and now it stood open,",
+     "start": 449.519,
+     "end": 451.194
+    },
+    {
+     "text": "just a crack,",
+     "start": 451.194,
+     "end": 452.239
+    },
+    {
+     "text": "and cold air was coming out of it.",
+     "start": 452.239,
+     "end": 454.543
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_17",
+   "text": "I pushed it.",
+   "start": 455.102,
+   "end": 456.188,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I pushed it.",
+     "start": 455.102,
+     "end": 456.188
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C4_18",
+   "text": "Inside, it was nineteen seventy-four.",
+   "start": 458.268,
+   "end": 461.106,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Inside,",
+     "start": 458.268,
+     "end": 459.063
+    },
+    {
+     "text": "it was nineteen seventy-four.",
+     "start": 459.063,
+     "end": 461.105
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_19",
+   "text": "A brown armchair. A calendar on the wall, turned to December. A man's coat laid out on the bed, as if he'd only just taken it off.",
+   "start": 463.186,
+   "end": 472.462,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "A brown armchair.",
+     "start": 463.186,
+     "end": 464.611
+    },
+    {
+     "text": "A calendar on the wall,",
+     "start": 464.611,
+     "end": 466.296
+    },
+    {
+     "text": "turned to December.",
+     "start": 466.296,
+     "end": 467.776
+    },
+    {
+     "text": "A man's coat laid out on the bed,",
+     "start": 467.776,
+     "end": 470.321
+    },
+    {
+     "text": "as if he'd only just taken it off.",
+     "start": 470.321,
+     "end": 472.462
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_20",
+   "text": "A wedding photo on the bedside table. Gran, young, laughing. And next to her, a man in a dark suit, with my nose, and my chin.",
+   "start": 473.022,
+   "end": 482.469,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "A wedding photo on the bedside table.",
+     "start": 473.022,
+     "end": 475.587
+    },
+    {
+     "text": "Gran,",
+     "start": 475.587,
+     "end": 476.517
+    },
+    {
+     "text": "young, laughing.",
+     "start": 476.517,
+     "end": 477.867
+    },
+    {
+     "text": "And next to her,",
+     "start": 477.867,
+     "end": 478.957
+    },
+    {
+     "text": "a man in a dark suit,",
+     "start": 478.957,
+     "end": 480.592
+    },
+    {
+     "text": "with my nose,",
+     "start": 480.592,
+     "end": 481.947
+    },
+    {
+     "text": "and my chin.",
+     "start": 481.947,
+     "end": 482.47
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C4_21",
+   "text": "The bed was dented. As if someone had been sitting on it.",
+   "start": 483.029,
+   "end": 486.871,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The bed was dented.",
+     "start": 483.029,
+     "end": 484.594
+    },
+    {
+     "text": "As if someone had been sitting on it.",
+     "start": 484.594,
+     "end": 486.871
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_22",
+   "text": "And on the pillow, there was a letter. In Gran's handwriting.",
+   "start": 487.431,
+   "end": 491.497,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And on the pillow,",
+     "start": 487.431,
+     "end": 488.436
+    },
+    {
+     "text": "there was a letter.",
+     "start": 488.436,
+     "end": 489.581
+    },
+    {
+     "text": "In Gran's handwriting.",
+     "start": 489.581,
+     "end": 491.497
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_23",
+   "text": "On the envelope, one word.",
+   "start": 492.057,
+   "end": 494.054,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "On the envelope,",
+     "start": 492.057,
+     "end": 493.122
+    },
+    {
+     "text": "one word.",
+     "start": 493.122,
+     "end": 494.054
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C4_24",
+   "text": "My name.",
+   "start": 494.614,
+   "end": 495.454,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "My name.",
+     "start": 494.614,
+     "end": 495.454
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C5_01",
+   "text": "If you're reading this, you fixed the tap. Don't be cross with yourself. I always knew you would. You never could leave a thing alone.",
+   "start": 499.854,
+   "end": 506.612,
+   "whisper": false,
+   "voice": "bf_emma",
+   "chapter": [
+    "CHAPTER V",
+    "The Quarter Turn"
+   ],
+   "phrases": [
+    {
+     "text": "If you're reading this,",
+     "start": 499.854,
+     "end": 501.644
+    },
+    {
+     "text": "you fixed the tap.",
+     "start": 501.644,
+     "end": 501.949
+    },
+    {
+     "text": "Don't be cross with yourself.",
+     "start": 501.949,
+     "end": 503.569
+    },
+    {
+     "text": "I always knew you would.",
+     "start": 503.569,
+     "end": 504.904
+    },
+    {
+     "text": "You never could leave a thing alone.",
+     "start": 504.904,
+     "end": 506.613
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_02",
+   "text": "I'm sorry I lied to you about your grandad. He didn't walk out.",
+   "start": 507.252,
+   "end": 511.069,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "I'm sorry I lied to you about your grandad.",
+     "start": 507.252,
+     "end": 509.767
+    },
+    {
+     "text": "He didn't walk out.",
+     "start": 509.767,
+     "end": 511.068
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_03",
+   "text": "In the winter of seventy-four, he came home late across the moor. Something had followed him. By the next night, he wasn't your grandad any more.",
+   "start": 511.709,
+   "end": 519.828,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "In the winter of seventy-four, he came home late across the moor.",
+     "start": 511.709,
+     "end": 515.314
+    },
+    {
+     "text": "Something had followed him.",
+     "start": 515.314,
+     "end": 517.124
+    },
+    {
+     "text": "By the next night, he wasn't your grandad any more.",
+     "start": 517.124,
+     "end": 519.828
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C5_04",
+   "text": "I did what had to be done. I put him in the garden. I planted roses over him. And I laid the pipe myself.",
+   "start": 520.468,
+   "end": 527.123,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "I did what had to be done.",
+     "start": 520.468,
+     "end": 521.923
+    },
+    {
+     "text": "I put him in the garden.",
+     "start": 521.923,
+     "end": 523.573
+    },
+    {
+     "text": "I planted roses over him.",
+     "start": 523.573,
+     "end": 526.333
+    },
+    {
+     "text": "And I laid the pipe myself.",
+     "start": 526.333,
+     "end": 527.123
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_05",
+   "text": "Running water, love. It's the one thing they cannot cross. As long as the water moved, he couldn't rise.",
+   "start": 527.763,
+   "end": 533.993,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "Running water, love.",
+     "start": 527.763,
+     "end": 529.228
+    },
+    {
+     "text": "It's the one thing they cannot cross.",
+     "start": 529.228,
+     "end": 531.428
+    },
+    {
+     "text": "As long as the water moved, he couldn't rise.",
+     "start": 531.428,
+     "end": 533.993
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C5_06",
+   "text": "So every night, I gave it a quarter turn.",
+   "start": 534.633,
+   "end": 537.084,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "So every night, I gave it a quarter turn.",
+     "start": 534.633,
+     "end": 537.084
+    }
+   ],
+   "phraseSource": "whole-line(fallback)"
+  },
+  {
+   "id": "C5_07",
+   "text": "Fifty-two years of quarter turns.",
+   "start": 537.724,
+   "end": 539.982,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "Fifty-two years of quarter turns.",
+     "start": 537.724,
+     "end": 539.982
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C5_08",
+   "text": "I'm not sorry. But I'm so tired.",
+   "start": 540.622,
+   "end": 542.782,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "I'm not sorry. But I'm so tired.",
+     "start": 540.622,
+     "end": 542.782
+    }
+   ],
+   "phraseSource": "whole-line(fallback)"
+  },
+  {
+   "id": "C5_09",
+   "text": "If the water's stopped, he'll come home. He'll go to his room. He'll think it's still nineteen seventy-four.",
+   "start": 543.422,
+   "end": 549.147,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "If the water's stopped, he'll come home.",
+     "start": 543.422,
+     "end": 545.392
+    },
+    {
+     "text": "He'll go to his room.",
+     "start": 545.392,
+     "end": 546.767
+    },
+    {
+     "text": "He'll think it's still nineteen seventy-four.",
+     "start": 546.767,
+     "end": 549.147
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C5_10",
+   "text": "And then, he'll look for me.",
+   "start": 549.787,
+   "end": 551.353,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "And then, he'll look for me.",
+     "start": 549.787,
+     "end": 551.353
+    }
+   ],
+   "phraseSource": "whole-line(fallback)"
+  },
+  {
+   "id": "C5_11",
+   "text": "Don't let him see your face.",
+   "start": 551.993,
+   "end": 553.743,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "Don't let him see your face.",
+     "start": 551.993,
+     "end": 553.743
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C5_12",
+   "text": "You look just like me.",
+   "start": 554.383,
+   "end": 555.875,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "You look just like me.",
+     "start": 554.383,
+     "end": 555.875
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C5_13",
+   "text": "I read it twice. Then I ran.",
+   "start": 558.675,
+   "end": 561.009,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I read it twice.",
+     "start": 558.675,
+     "end": 560.01
+    },
+    {
+     "text": "Then I ran.",
+     "start": 560.01,
+     "end": 561.009
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_14",
+   "text": "Down the stairs. Into the kitchen. To the tap.",
+   "start": 561.569,
+   "end": 564.887,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Down the stairs.",
+     "start": 561.569,
+     "end": 562.689
+    },
+    {
+     "text": "Into the kitchen.",
+     "start": 562.689,
+     "end": 563.879
+    },
+    {
+     "text": "To the tap.",
+     "start": 563.879,
+     "end": 564.887
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_15",
+   "text": "I took hold of it, the way she always did, and I gave it a quarter turn.",
+   "start": 565.447,
+   "end": 570.297,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I took hold of it,",
+     "start": 565.447,
+     "end": 566.697
+    },
+    {
+     "text": "the way she always did,",
+     "start": 566.697,
+     "end": 568.417
+    },
+    {
+     "text": "and I gave it a quarter turn.",
+     "start": 568.417,
+     "end": 570.297
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_16",
+   "text": "Nothing.",
+   "start": 570.857,
+   "end": 571.63,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Nothing.",
+     "start": 570.857,
+     "end": 571.63
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C5_17",
+   "text": "Another.",
+   "start": 572.67,
+   "end": 573.4,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Another.",
+     "start": 572.67,
+     "end": 573.4
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "C5_18",
+   "text": "Nothing. Not a drop. Kieran had capped it at the wall.",
+   "start": 574.201,
+   "end": 577.807,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Nothing.",
+     "start": 574.201,
+     "end": 574.856
+    },
+    {
+     "text": "Not a drop.",
+     "start": 574.856,
+     "end": 575.801
+    },
+    {
+     "text": "Kieran had capped it at the wall.",
+     "start": 575.801,
+     "end": 577.808
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_19",
+   "text": "And behind me, at the top of the stairs, a door opened.",
+   "start": 578.367,
+   "end": 582.099,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And behind me,",
+     "start": 578.367,
+     "end": 579.377
+    },
+    {
+     "text": "at the top of the stairs,",
+     "start": 579.377,
+     "end": 580.897
+    },
+    {
+     "text": "a door opened.",
+     "start": 580.897,
+     "end": 582.098
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_20",
+   "text": "Footsteps. Slow. Heavy. Coming down.",
+   "start": 582.659,
+   "end": 585.426,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Footsteps. Slow.",
+     "start": 582.659,
+     "end": 583.949
+    },
+    {
+     "text": "Heavy.",
+     "start": 583.949,
+     "end": 584.489
+    },
+    {
+     "text": "Coming down.",
+     "start": 584.489,
+     "end": 585.426
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "C5_21",
+   "text": "I stood in the dark, with my hand on a dry tap, and I didn't turn around.",
+   "start": 585.986,
+   "end": 591.039,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I stood in the dark,",
+     "start": 585.986,
+     "end": 587.291
+    },
+    {
+     "text": "with my hand on a dry tap,",
+     "start": 587.291,
+     "end": 589.371
+    },
+    {
+     "text": "and I didn't turn around.",
+     "start": 589.371,
+     "end": 591.039
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_22",
+   "text": "The footsteps stopped, right behind me.",
+   "start": 591.598,
+   "end": 594.206,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The footsteps stopped,",
+     "start": 591.598,
+     "end": 592.933
+    },
+    {
+     "text": "right behind me.",
+     "start": 592.933,
+     "end": 594.205
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_23",
+   "text": "And a voice I'd never heard, in a house I'd known all my life, said,",
+   "start": 594.766,
+   "end": 599.403,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And a voice I'd never heard,",
+     "start": 594.766,
+     "end": 596.586
+    },
+    {
+     "text": "in a house I'd known all my life,",
+     "start": 596.586,
+     "end": 597.551
+    },
+    {
+     "text": "said,",
+     "start": 597.551,
+     "end": 599.403
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "C5_24",
+   "text": "Margaret? I'm home.",
+   "start": 600.523,
+   "end": 602.496,
+   "whisper": true,
+   "voice": "bm_george",
+   "phrases": [
+    {
+     "text": "Margaret?",
+     "start": 600.523,
+     "end": 601.363
+    },
+    {
+     "text": "I'm home.",
+     "start": 601.363,
+     "end": 602.496
+    }
+   ],
+   "phraseSource": "measured-silence"
+  }
+ ]
+}

@@ -1,4 +1,4 @@
-# The Quarter Turn — script draft 1
+# The Quarter Turn — script (approved; draft 2 adds two clue beats)
 
 *YouTube title: NEVER FIX your grandmother's dripping tap · 16:9 · first person · narrator: Kokoro `bm_lewis`*
 
@@ -94,6 +94,8 @@ On bright nights, it slowed right down.
 
 I told myself it was the pressure. Old pipes. Cold weather.
 
+And once, around four in the morning, I looked out of the back window, and there was frost on the whole garden. Everywhere except the rose bed.
+
 On the seventh day, I met the man next door. Mr Haworth. Ninety, if he was a day.
 
 He watched me carrying bin bags down the path, and said, you'll be keeping the water going, then.
@@ -183,6 +185,8 @@ The back door was shut. Locked. The key on its hook.
 But there was soil on the kitchen floor.
 
 Wet, dark soil. And rose petals. Red ones.
+
+It smelt of the rose bed. Turned earth, and something sweet underneath it, like fruit left too long.
 
 A trail of it, from the back door, across the kitchen, to the bottom of the stairs.
 
