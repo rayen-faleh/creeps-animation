@@ -166,7 +166,7 @@ export const OutsideSill: React.FC<{t: number; t0: number; n: string; paint: str
           <rect x={180} y={1262} width={720} height={40} fill="#14171d" />
           {nails && <SilverNails xs={xs} y={1228} t={t + r() * 3} rust={0.15} />}
           {holes && <NailHoles xs={xs} y={1228} />}
-          <HousePlate x={540} y={1380} s={1.1} n={n} />
+          {zoom < 2 && <HousePlate x={540} y={1380} s={1.1} n={n} />}
           {children}
         </Stage>
       </Camera>
@@ -256,8 +256,8 @@ export const Reach: React.FC<{t: number}> = ({t}) => {
   const lt = t - B.reach;
   const clear = prog(t, B.reach, B.reach + 1.4, easeInOut);
   const his = prog(t, B.reach + 0.3, B.reach + 1.4, easeOut);
-  const mine = prog(t, B.reach + 1.0, B.cut - 0.1, easeInOut);
-  const turnK = prog(t, B.reach + 1.2, B.cut, (x) => x);
+  const mine = prog(t, B.reach + 0.4, B.reach + 2.0, easeOut);
+  const turnK = prog(t, B.reach + 0.6, B.cut, (x) => x);
   return (
     <AbsoluteFill>
       <Camera t={t} zoom={1.15 + lt * 0.08} y={-60} shake={6} seed={608}>
