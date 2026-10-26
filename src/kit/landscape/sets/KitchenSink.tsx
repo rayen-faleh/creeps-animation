@@ -20,14 +20,16 @@ export const SPOUT = {x: K.tapX + 117 * K.tapS, y: K.tapY - 142 * K.tapS};
 export const KitchenSinkL: React.FC<{
   id: string;
   t: number;
-  mode: 'night' | 'lamp';
+  mode: 'night' | 'lamp' | 'day';
   turn?: number;
   drip?: DripSpec;
   candle?: boolean;
   garden?: {snow?: number; frost?: number; frostRing?: boolean; trench?: number};
   children?: React.ReactNode; // hands, drawn over the sink
-}> = ({id, t, mode, turn = 0, drip, candle = mode === 'lamp', garden = {}, children}) => {
-  const warm = mode === 'lamp' ? 1 : 0;
+  inGlass?: React.ReactNode; // reflections in the dark window glass (drawn over the garden)
+  gardenLight?: 'dusk' | 'night';
+}> = ({id, t, mode, turn = 0, drip, candle = mode === 'lamp', garden = {}, children, inGlass, gardenLight}) => {
+  const warm = mode === 'lamp' ? 1 : mode === 'day' ? 0.25 : 0;
   const wood = lerpColor('#141210', '#3a2412', warm);
   const rim = lerpColor('#8fa3c0', '#ffb45a', warm);
   const {win} = K;
@@ -42,11 +44,15 @@ export const KitchenSinkL: React.FC<{
         w={win.w}
         h={win.h}
         t={t}
-        light={mode === 'lamp' ? 'candle' : 'night'}
+        light={mode === 'lamp' ? 'candle' : mode === 'day' ? 'dawn' : 'night'}
+        dawn={mode === 'day' ? 0.7 : 0}
         cloudCover={0.4}
         outside={
+          <g>
           <g transform={`translate(${win.cx - 960 * 0.42},${win.yb - win.h + 20}) scale(0.42)`}>
-            <GardenView id={`${id}-gdn`} t={t} light="night" {...garden} />
+            <GardenView id={`${id}-gdn`} t={t} light={gardenLight ?? (mode === 'day' ? 'dusk' : 'night')} {...garden} />
+          </g>
+          {inGlass}
           </g>
         }
       />
@@ -82,7 +88,7 @@ export const KitchenSinkL: React.FC<{
       ))}
       {candle && <Candle x={510} y={420} t={t} s={0.6} />}
       <BelfastSink x={960} y={K.sinkY} w={720} warm={warm} lit={0.8} />
-      <Tap id={`${id}-tap`} x={K.tapX} y={K.tapY} s={K.tapS} t={t} turn={turn} drip={drip ? {fall: 190, ...drip} : undefined} light={mode === 'lamp' ? 'warm' : 'night'} />
+      <Tap id={`${id}-tap`} x={K.tapX} y={K.tapY} s={K.tapS} t={t} turn={turn} drip={drip ? {fall: 190, ...drip} : undefined} light={mode === 'night' ? 'night' : 'warm'} />
       {children}
     </g>
   );

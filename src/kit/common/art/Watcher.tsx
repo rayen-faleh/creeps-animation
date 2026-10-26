@@ -22,7 +22,9 @@ export const Watcher: React.FC<{
   rimA?: number;
   sway?: number;
   holding?: React.ReactNode; // drawn in the hand instead of the torch (e.g. a notebook)
-}> = ({id, t, x = 0, y = 0, s = 1, torch = 1, beamTo, beamW = 160, glare = 0, point = 0, rim = '#ffb45a', rimA = 0.6, sway = 1, holding}) => {
+  bothArms?: boolean; // another man: no pinned sleeve, the left arm hangs at his side
+  noTorch?: boolean; // empty right hand
+}> = ({id, t, x = 0, y = 0, s = 1, torch = 1, beamTo, beamW = 160, glare = 0, point = 0, rim = '#ffb45a', rimA = 0.6, sway = 1, holding, bothArms = false, noTorch = false}) => {
   const breathe = Math.sin(t * 1.4) * 4;
   const flap = noise1(t * 2.2, 6) * 6 * sway;
   // torch hand: held at the waist, or raised to point when point -> 1
@@ -64,13 +66,22 @@ export const Watcher: React.FC<{
         />
         <path d="M0,-790 L-10,-300" stroke="#000" strokeWidth={4} opacity={0.7} />
         {/* empty left sleeve, folded and pinned at the shoulder (viewer's right) */}
-        <path d="M150,-780 C178,-768 192,-740 190,-700 C188,-664 172,-646 150,-648 C138,-690 140,-740 150,-780 Z" fill="#080706" />
-        <path d="M152,-700 C170,-694 184,-684 190,-670" stroke="#000" strokeWidth={4} fill="none" />
-        <circle cx={172} cy={-712} r={5} fill="#d9d4c8" opacity={0.7} />
+        {bothArms ? (
+          <g>
+            <path d={`M150,-780 C190,-720 200,-600 ${196 + flap * 0.3},-430 L${150 + flap * 0.3},-424 C150,-560 130,-690 112,-760 Z`} fill="#070606" />
+            <ellipse cx={176 + flap * 0.3} cy={-410} rx={24} ry={30} fill="#0b0908" />
+          </g>
+        ) : (
+          <g>
+            <path d="M150,-780 C178,-768 192,-740 190,-700 C188,-664 172,-646 150,-648 C138,-690 140,-740 150,-780 Z" fill="#080706" />
+            <path d="M152,-700 C170,-694 184,-684 190,-670" stroke="#000" strokeWidth={4} fill="none" />
+            <circle cx={172} cy={-712} r={5} fill="#d9d4c8" opacity={0.7} />
+          </g>
+        )}
         {/* right arm holding the torch */}
         <path d={`M-150,-780 C-185,-720 -200,-640 ${hx - 10},${hy + 30} L${hx + 34},${hy + 18} C-150,-640 -128,-710 -112,-760 Z`} fill="#070606" />
         <ellipse cx={hx} cy={hy} rx={26} ry={22} fill="#0b0908" />
-        {holding ? <g transform={`translate(${hx},${hy})`}>{holding}</g> : <g transform={`translate(${tx},${ty}) rotate(${beamTo ? (Math.atan2(beamTo[1] - ty, beamTo[0] - tx) * 180) / Math.PI : 180})`}>
+        {holding ? <g transform={`translate(${hx},${hy})`}>{holding}</g> : noTorch ? null : <g transform={`translate(${tx},${ty}) rotate(${beamTo ? (Math.atan2(beamTo[1] - ty, beamTo[0] - tx) * 180) / Math.PI : 180})`}>
           <rect x={0} y={-12} width={64} height={24} rx={6} fill="#0d0d0e" />
           <rect x={56} y={-16} width={18} height={32} rx={4} fill="#151517" />
         </g>}
@@ -83,7 +94,8 @@ export const Watcher: React.FC<{
         <g stroke={rim} strokeOpacity={rimA} fill="none" strokeLinecap="round">
           <path d="M-96,-920 C-80,-962 -30,-978 14,-976 C62,-972 86,-950 88,-924" strokeWidth={8} />
           <path d="M-148,-778 C-90,-806 90,-806 148,-778" strokeWidth={7} />
-          <path d="M150,-778 C178,-768 192,-740 190,-700 C188,-664 172,-646 150,-648" strokeWidth={7} />
+          {!bothArms && <path d="M150,-778 C178,-768 192,-740 190,-700 C188,-664 172,-646 150,-648" strokeWidth={7} />}
+          {bothArms && <path d="M150,-778 C190,-720 200,-600 196,-430" strokeWidth={6} />}
           <path d={`M150,-640 C170,-480 ${190 + flap},-380 ${200 + flap},-300`} strokeWidth={5} strokeOpacity={rimA * 0.8} />
           <path d={`M-150,-778 C-182,-722 -196,-644 ${hx - 8},${hy + 26}`} strokeWidth={5} strokeOpacity={rimA * 0.7} />
         </g>
@@ -103,7 +115,7 @@ export const Watcher: React.FC<{
  * empty near sleeve pinned at the shoulder (safety-pin glint). Rim-lit from the front (left) by
  * dusk or lamp light. jaw 0..1 opens the mouth (speech); turn 0..1 dips the head away.
  */
-export const WatcherProfile: React.FC<{id: string; x: number; y: number; s: number; t: number; jaw?: number; turn?: number; rim?: string}> = ({
+export const WatcherProfile: React.FC<{id: string; x: number; y: number; s: number; t: number; jaw?: number; turn?: number; rim?: string; bothArms?: boolean}> = ({
   id,
   x,
   y,
@@ -112,6 +124,7 @@ export const WatcherProfile: React.FC<{id: string; x: number; y: number; s: numb
   jaw = 0,
   turn = 0,
   rim = '#ffb45a',
+  bothArms = false,
 }) => {
   const breathe = Math.sin(t * 1.5) * 3;
   const fl = 0.88 + noise1(t * 6, 5) * 0.12;
@@ -141,6 +154,15 @@ export const WatcherProfile: React.FC<{id: string; x: number; y: number; s: numb
       <path d="M-60,250 L-40,180 L20,220 L-10,330 Z" fill="#0d0706" />
       <path d="M-200,820 C-210,560 -160,330 -60,250" stroke={rim} strokeOpacity={0.5 * fl} strokeWidth={5} fill="none" />
       <path d="M-60,250 L-40,180 L20,220" stroke={rim} strokeOpacity={0.35 * fl} strokeWidth={3} fill="none" />
+      {bothArms ? (
+        <g>
+          {/* a whole sleeve: shoulder down out of frame */}
+          <path d="M48,296 C90,272 170,282 196,324 C214,480 222,640 226,820 L96,820 C92,640 76,460 48,296 Z" fill="#120a08" />
+          <path d="M48,296 C90,272 170,282 196,324 C214,480 222,640 226,820" stroke={rim} strokeOpacity={0.45 * fl} strokeWidth={4} fill="none" />
+          <path d="M120,340 C130,500 136,640 140,820" stroke="#000" strokeOpacity={0.5} strokeWidth={5} fill="none" />
+        </g>
+      ) : (
+        <g>
       {/* the empty near sleeve: a short limp tube, its cuff folded up and pinned */}
       <path d="M48,296 C90,272 170,282 196,324 C206,400 206,470 196,528 C170,552 112,556 84,532 C74,470 66,380 48,296 Z" fill="#160c09" />
       <path d="M84,478 C120,496 166,494 198,474" stroke="#000" strokeWidth={6} fill="none" />
@@ -153,6 +175,8 @@ export const WatcherProfile: React.FC<{id: string; x: number; y: number; s: numb
       </g>
       {/* the coat side falls straight where the arm should be */}
       <path d="M196,530 C204,620 210,720 214,820" stroke="#000" strokeWidth={6} fill="none" opacity={0.8} />
+        </g>
+      )}
       {/* head */}
       <path d={head} fill="#080404" />
       <path d={cap} fill="#050303" />

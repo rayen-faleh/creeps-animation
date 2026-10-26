@@ -195,3 +195,38 @@ export const KeyTag: React.FC<{x: number; y: number; s?: number; swing?: number;
     </g>
   </g>
 );
+
+/** A single handwritten letter page (Gran's), lines revealed in order by `reveal` (0..1 of all lines). */
+export const LetterPage: React.FC<{x: number; y: number; s?: number; rot?: number; lines: string[]; lit?: number; warm?: number; reveal?: number; size?: number; highlight?: number}> = ({
+  x,
+  y,
+  s = 1,
+  rot = 0,
+  lines,
+  lit = 1,
+  warm = 0,
+  reveal = 1,
+  size = 38,
+  highlight = -1,
+}) => {
+  const paper = lerpColor('#c9c3b4', '#e2d4b4', warm);
+  const shown = reveal * lines.length;
+  return (
+    <g transform={`translate(${x},${y}) rotate(${rot}) scale(${s})`}>
+      <rect x={-420} y={-560} width={840} height={1120} fill="#000" opacity={0.5} transform="translate(16,20)" />
+      <rect x={-420} y={-560} width={840} height={1120} fill={paper} />
+      <path d="M-420,-200 L420,-200 M-420,200 L420,200" stroke="#8a8270" strokeOpacity={0.35} strokeWidth={3} />
+      {lines.map((l, i) => {
+        const k = Math.max(0, Math.min(1, shown - i));
+        if (k <= 0) return null;
+        return (
+          <g key={i}>
+            {i === highlight && <rect x={-380} y={-500 + i * 72} width={760} height={size + 22} fill="#fff4d8" opacity={0.22 * lit} rx={8} />}
+            <Script x={-360} y={-462 + i * 72} text={l} size={size} ink="#22202a" seed={50 + i * 11} reveal={k} />
+          </g>
+        );
+      })}
+      <rect x={-420} y={-560} width={840} height={1120} fill="#000" opacity={0.7 * (1 - lit)} />
+    </g>
+  );
+};
