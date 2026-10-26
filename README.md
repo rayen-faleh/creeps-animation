@@ -33,6 +33,7 @@ creeps-animation/
 │   ├── stills.mjs              Render chosen frames to out/stills/<Composition>/
 │   ├── contact.sh              Contact sheet of a rendered MP4
 │   ├── catalog.sh              Rebuild docs/kit-catalog.png from src/catalog
+│   ├── render_parts.sh         Long-form: render chapter by chapter, then join with the full soundtrack
 │   └── make_grain.py           Regenerate assets/textures
 │
 ├── src/
