@@ -78,6 +78,12 @@ src/episodes/the-watch-01/
 | Optional engine | **Chatterbox** (Resemble AI, MIT): clones `tts/voices/storyteller_ref.wav` with more dramatic delivery. It needs its own Python 3.11 venv (`/root/.venvs/chatterbox`, or set `CHATTERBOX_PYTHON`) and access to huggingface.co for the first weight download. Output carries Chatterbox's imperceptible watermark |
 
 ```
+# once, for Chatterbox (Python 3.11 venv; setuptools<81 provides pkg_resources for its watermarker):
+uv venv -p 3.11 /root/.venvs/chatterbox && VIRTUAL_ENV=/root/.venvs/chatterbox uv pip install chatterbox-tts "setuptools<81"
+# the first run downloads weights from huggingface.co plus *.hf.co / *.xethub.hf.co storage hosts
+```
+
+```
 tts/download_models.sh                                         # once: Kokoro weights into tts/models/
 python3 tts/narrate.py src/episodes/the-watch-01               # Kokoro (default)
 python3 tts/narrate.py src/episodes/the-watch-01 --engine chatterbox
