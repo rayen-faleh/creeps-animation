@@ -1,22 +1,108 @@
 [
-  {"id": "L01", "text": "My best mate's a werewolf.", "pauseAfter": 0.25},
-  {"id": "L02", "text": "So am I.", "pauseAfter": 0.3},
-  {"id": "L03", "text": "And he's just let himself in.", "pauseAfter": 0.6},
-  {"id": "L04", "text": "Last week, I found out he took his uncle's arm. And told me I did it.", "pauseAfter": 0.7},
-  {"id": "L05", "text": "He didn't come at me. He sat down.", "pauseAfter": 0.4},
-  {"id": "L06", "text": "He said, it's a full moon in an hour.", "pauseAfter": 0.25},
-  {"id": "L07", "text": "And Mick's not here to watch us.", "pauseAfter": 0.6},
-  {"id": "L08", "text": "Then he slid something across the table.", "pauseAfter": 0.3},
-  {"id": "L09", "text": "A silver nail.", "pauseAfter": 0.5},
-  {"id": "L10", "text": "Mick put one in every windowsill on this street, he said. Go and look.", "pauseAfter": 0.8},
-  {"id": "L11", "text": "Number two. Silver.", "pauseAfter": 0.35},
-  {"id": "L12", "text": "Number four. Silver.", "pauseAfter": 0.35},
-  {"id": "L13", "text": "Even Danny's house. Silver.", "pauseAfter": 0.5},
-  {"id": "L14", "text": "Every house on Moor End.", "pauseAfter": 0.5},
-  {"id": "L15", "text": "Except one.", "pauseAfter": 0.9},
-  {"id": "L16", "text": "Mick's.", "pauseAfter": 0.7},
-  {"id": "L17", "text": "Eight little holes in the wood. Fresh. Still splintered.", "pauseAfter": 0.9},
-  {"id": "L18", "text": "Danny hadn't come to warn me.", "pauseAfter": 0.45},
-  {"id": "L19", "text": "He'd come to pull them out.", "pauseAfter": 4.0},
-  {"id": "L20", "text": "Come out.", "whisper": true, "pauseAfter": 0.8}
+ {
+  "id": "L01",
+  "text": "My best mate's a werewolf.",
+  "pauseAfter": 0.25
+ },
+ {
+  "id": "L02",
+  "text": "So am I.",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L03",
+  "text": "And he's just let himself in.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L04",
+  "text": "Last week, I found out he took his uncle's arm. And told me I did it.",
+  "pauseAfter": 0.7
+ },
+ {
+  "id": "L05",
+  "text": "He didn't come at me. He sat down.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L06",
+  "text": "He said, it's a full moon in an hour.",
+  "pauseAfter": 0.25
+ },
+ {
+  "id": "L07",
+  "text": "And Mick's not here to watch us.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L08",
+  "text": "Then he slid something across the table.",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L09",
+  "text": "A silver nail.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L10",
+  "text": "Mick put one in every windowsill on this street, he said. Go and look.",
+  "pauseAfter": 0.8
+ },
+ {
+  "id": "L11",
+  "text": "Number two. Silver.",
+  "pauseAfter": 0.35
+ },
+ {
+  "id": "L12",
+  "text": "Number four. Silver.",
+  "pauseAfter": 0.35
+ },
+ {
+  "id": "L13",
+  "text": "Even Danny's house. Silver.",
+  "pauseAfter": 0.35
+ },
+ {
+  "id": "L13b",
+  "text": "His mum was at the window. Watching me count.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L14",
+  "text": "Every house on Moor End.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L15",
+  "text": "Except one.",
+  "pauseAfter": 0.9
+ },
+ {
+  "id": "L16",
+  "text": "Mick's.",
+  "pauseAfter": 0.7
+ },
+ {
+  "id": "L17",
+  "text": "Eight little holes in the wood. Fresh. Still splintered.",
+  "pauseAfter": 0.9
+ },
+ {
+  "id": "L18",
+  "text": "Danny hadn't come to warn me.",
+  "pauseAfter": 0.45
+ },
+ {
+  "id": "L19",
+  "text": "He'd come to pull them out.",
+  "pauseAfter": 4.0
+ },
+ {
+  "id": "L20",
+  "text": "Come out.",
+  "whisper": true,
+  "pauseAfter": 0.8
+ }
 ]

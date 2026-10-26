@@ -1,0 +1,382 @@
+{
+ "unit": "seconds",
+ "total": 54.792,
+ "provenance": "chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "My best mate's a werewolf.",
+   "start": 0.35,
+   "end": 2.291,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "My best mate's a werewolf.",
+     "start": 0.35,
+     "end": 2.291
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L02",
+   "text": "So am I.",
+   "start": 2.491,
+   "end": 3.516,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "So am I.",
+     "start": 2.491,
+     "end": 3.516
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "And he's just let himself in.",
+   "start": 3.756,
+   "end": 5.857,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "And he's just let himself in.",
+     "start": 3.756,
+     "end": 5.857
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L04",
+   "text": "Last week, I found out he took his uncle's arm. And told me I did it.",
+   "start": 6.337,
+   "end": 11.443,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Last week,",
+     "start": 6.337,
+     "end": 7.332
+    },
+    {
+     "text": "I found out he took his uncle's arm.",
+     "start": 7.332,
+     "end": 9.862
+    },
+    {
+     "text": "And told me I did it.",
+     "start": 9.862,
+     "end": 11.442
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "He didn't come at me. He sat down.",
+   "start": 12.003,
+   "end": 14.126,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "He didn't come at me.",
+     "start": 12.003,
+     "end": 13.118
+    },
+    {
+     "text": "He sat down.",
+     "start": 13.118,
+     "end": 14.126
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "He said, it's a full moon in an hour.",
+   "start": 14.446,
+   "end": 17.122,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "He said,",
+     "start": 14.446,
+     "end": 15.141
+    },
+    {
+     "text": "it's a full moon in an hour.",
+     "start": 15.141,
+     "end": 17.122
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "And Mick's not here to watch us.",
+   "start": 17.322,
+   "end": 18.981,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "And Mick's not here to watch us.",
+     "start": 17.322,
+     "end": 18.981
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L08",
+   "text": "Then he slid something across the table.",
+   "start": 19.461,
+   "end": 21.631,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Then he slid something across the table.",
+     "start": 19.461,
+     "end": 21.631
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L09",
+   "text": "A silver nail.",
+   "start": 21.871,
+   "end": 23.335,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "A silver nail.",
+     "start": 21.871,
+     "end": 23.335
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L10",
+   "text": "Mick put one in every windowsill on this street, he said. Go and look.",
+   "start": 23.735,
+   "end": 27.988,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Mick put one in every windowsill on this street,",
+     "start": 23.735,
+     "end": 24.11
+    },
+    {
+     "text": "he said.",
+     "start": 24.11,
+     "end": 27.135
+    },
+    {
+     "text": "Go and look.",
+     "start": 27.135,
+     "end": 27.987
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "Number two. Silver.",
+   "start": 28.628,
+   "end": 30.648,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Number two.",
+     "start": 28.628,
+     "end": 29.738
+    },
+    {
+     "text": "Silver.",
+     "start": 29.738,
+     "end": 30.648
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "Number four. Silver.",
+   "start": 30.928,
+   "end": 32.859,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Number four.",
+     "start": 30.928,
+     "end": 32.003
+    },
+    {
+     "text": "Silver.",
+     "start": 32.003,
+     "end": 32.86
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "Even Danny's house. Silver.",
+   "start": 33.139,
+   "end": 35.842,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Even Danny's house.",
+     "start": 33.139,
+     "end": 34.854
+    },
+    {
+     "text": "Silver.",
+     "start": 34.854,
+     "end": 35.842
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "Every house on Moor End.",
+   "start": 36.242,
+   "end": 38.208,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Every house on Moor End.",
+     "start": 36.242,
+     "end": 38.208
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "Except one.",
+   "start": 38.608,
+   "end": 39.571,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Except one.",
+     "start": 38.608,
+     "end": 39.571
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "Mick's.",
+   "start": 40.291,
+   "end": 41.011,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Mick's.",
+     "start": 40.291,
+     "end": 41.011
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L17",
+   "text": "Eight little holes in the wood. Fresh. Still splintered.",
+   "start": 41.571,
+   "end": 45.323,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Eight little holes in the wood.",
+     "start": 41.571,
+     "end": 43.381
+    },
+    {
+     "text": "Fresh.",
+     "start": 43.381,
+     "end": 44.066
+    },
+    {
+     "text": "Still splintered.",
+     "start": 44.066,
+     "end": 45.324
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L18",
+   "text": "Danny hadn't come to warn me.",
+   "start": 46.043,
+   "end": 47.95,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Danny hadn't come to warn me.",
+     "start": 46.043,
+     "end": 47.95
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L19",
+   "text": "He'd come to pull them out.",
+   "start": 48.31,
+   "end": 49.911,
+   "whisper": false,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "He'd come to pull them out.",
+     "start": 48.31,
+     "end": 49.911
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L20",
+   "text": "Come out.",
+   "start": 53.111,
+   "end": 54.152,
+   "whisper": true,
+   "voice": "chatterbox",
+   "phrases": [
+    {
+     "text": "Come out.",
+     "start": 53.111,
+     "end": 54.152
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

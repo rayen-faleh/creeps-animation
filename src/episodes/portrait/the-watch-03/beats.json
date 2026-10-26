@@ -1,0 +1,24 @@
+{
+ "B": {
+  "hook": 0.0,
+  "recap": 6.337,
+  "sat": 12.003,
+  "moon": 14.446,
+  "slid": 19.461,
+  "look": 23.735,
+  "two": 28.628,
+  "four": 30.928,
+  "danny": 33.139,
+  "every": 36.242,
+  "except": 38.608,
+  "micks": 40.291,
+  "holes": 41.571,
+  "warn": 46.043,
+  "pull": 48.31,
+  "out": 49.561,
+  "reach": 50.411,
+  "cut": 52.991
+ },
+ "durationSec": 57.59,
+ "source": "timing.json (chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples)"
+}

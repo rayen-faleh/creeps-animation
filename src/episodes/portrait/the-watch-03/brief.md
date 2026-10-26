@@ -11,6 +11,7 @@ Built on `series/hook-playbook.md`.
 | Loop ladder | Why is he here? (a full moon in an hour; Mick's not here to watch) → what is the nail? → go and look → every house… except one → why the holes? → will he go? |
 | Folklore | Silver against werewolves, in every windowsill on the street |
 | Subversion | "Even Danny's house. Silver." (Part II had us expecting Danny's to be the bare one) |
+| Plant for Part IV | "His mum was at the window. Watching me count." (a woman behind the nets at number 6) |
 | Turn | "Every house on Moor End. Except one. Mick's." Eight fresh holes, still splintered |
 | Proof | Danny's fist opens over the sill; the nails fall: "He'd come to pull them out." |
 | Cliffhanger | The moon clears; Danny's clawed hand reaches out; mine reaches back, turning. Hard cut |

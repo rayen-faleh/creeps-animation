@@ -187,6 +187,18 @@ export const StreetGlints: React.FC<{t: number}> = ({t}) => {
   );
 };
 
+/** A woman behind net curtains: Danny's mum, hair up, very still. */
+export const MumBehindGlass: React.FC<{a: number}> = ({a}) => (
+  <g opacity={a}>
+    <path d="M360,1170 C370,1010 440,950 492,940 L486,900 C452,884 444,830 452,792 C462,740 510,722 544,724 C588,726 628,758 628,808 C628,850 612,878 596,894 L592,940 C644,950 712,1010 722,1170 Z" fill="#000" />
+    <circle cx={560} cy={712} r={34} fill="#000" />
+    <path d="M452,792 C462,740 510,722 544,724 C588,726 628,758 628,808" stroke="#ffcf9a" strokeOpacity={0.25} strokeWidth={3} fill="none" />
+    {Array.from({length: 14}, (_, i) => (
+      <path key={i} d={`M${262 + i * 42},540 q12,320 0,620`} stroke="#c8d0dc" strokeOpacity={0.06} strokeWidth={10} fill="none" />
+    ))}
+  </g>
+);
+
 /** Danny's silhouette behind Mick's glass, head and shoulders. */
 const BehindGlass: React.FC<{a: number}> = ({a}) => (
   <g opacity={a}>

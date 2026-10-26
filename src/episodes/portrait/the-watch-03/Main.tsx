@@ -4,7 +4,8 @@ import beats from './beats.json';
 import {StoryFrame, Grade} from '../../../kit/common/series/StoryFrame';
 import {TitleCard} from '../../../kit/common/series/TitleCard';
 import {Timing} from '../../../kit/common/series/Captions';
-import {B, DoorHook, MicksWindow, MoonWindow, OutsideSill, Reach, Recap, StreetGlints, StreetWalk, Table} from './scenes/Story';
+import {B, DoorHook, MicksWindow, MoonWindow, MumBehindGlass, OutsideSill, Reach, Recap, StreetGlints, StreetWalk, Table} from './scenes/Story';
+import {prog} from '../../../kit/common/util';
 
 /** The Watch — Part III. Werewolf series, episode 3. Length follows the narration (beats.json). */
 export const META = {id: 'TheWatch03', durationSec: beats.durationSec, audio: 'audio/the-watch-03/mix.wav'};
@@ -19,7 +20,7 @@ const sceneAt = (t: number) => {
   if (t < B.two) return <StreetWalk t={t} />; // S06 go and look
   if (t < B.four) return <OutsideSill t={t} t0={B.two} n="2" paint="#22303a" />; // S07 number two
   if (t < B.danny) return <OutsideSill t={t} t0={B.four} n="4" paint="#3a2a22" />; // S08 number four
-  if (t < B.every) return <OutsideSill t={t} t0={B.danny} n="6" paint="#5a1c1c" />; // S09 even Danny's
+  if (t < B.every) return <OutsideSill t={t} t0={B.danny} n="6" paint="#5a1c1c" zoom={1.35} y={160} inside={<MumBehindGlass a={prog(t, B.mum - 0.3, B.mum + 0.9)} />} />; // S09 even Danny's; his mum at the window
   if (t < B.except) return <StreetGlints t={t} />; // S10 every house on Moor End
   if (t < B.holes) return <MicksWindow t={t} phase="except" />; // S11 except one: Mick's
   if (t < B.warn) return <MicksWindow t={t} phase="holes" />; // S12 fresh holes
