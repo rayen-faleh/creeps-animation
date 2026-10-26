@@ -138,6 +138,7 @@ reorganised:
 | Composition | Folder | Length | Notes |
 | --- | --- | --- | --- |
 | `TheWatch01` | `src/episodes/the-watch-01` | 66.2 s | The Watch, Part I (werewolf series), narrated with Chatterbox in the owner's voice |
+| `TheWatch02` | `src/episodes/the-watch-02` | 64.4 s | The Watch, Part II: Mick's notebooks, "D. took my arm." |
 | `TheCount01` | `src/episodes/the-count-01` | 64.0 s | Kit reference film |
 | `Template` | `src/episodes/_template` | 18.5 s | "The Knock", starting point for new stories |
 | `Catalog` | `src/catalog` | n/a | Every kit component |
