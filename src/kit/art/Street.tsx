@@ -231,3 +231,70 @@ export const GardenWall: React.FC<{y: number; warm?: number; lit?: number}> = ({
     </g>
   );
 };
+
+/**
+ * Close on the gas-lamp post: fluted iron, a collar, and a torch lashed to it with twine, aimed back
+ * up the road (toward camera). glare 0..1 = how directly the beam meets the lens. Children hang below
+ * the lashing (e.g. a KeyTag).
+ */
+export const LampPostClose: React.FC<{id: string; x: number; y: number; s?: number; t: number; torch?: number; glare?: number; children?: React.ReactNode}> = ({
+  id,
+  x,
+  y,
+  s = 1,
+  t,
+  torch = 1,
+  glare = 0.6,
+  children,
+}) => {
+  const fl = 0.92 + noise1(t * 7, 3) * 0.08;
+  return (
+    <g transform={`translate(${x},${y}) scale(${s})`}>
+      <defs>
+        <linearGradient id={`${id}-iron`} x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stopColor="#020203" />
+          <stop offset="0.3" stopColor="#1a1d24" />
+          <stop offset="0.42" stopColor="#5d6b80" />
+          <stop offset="0.55" stopColor="#14161c" />
+          <stop offset="1" stopColor="#020203" />
+        </linearGradient>
+        <radialGradient id={`${id}-glare`}>
+          <stop offset="0" stopColor="#ffffff" stopOpacity={1} />
+          <stop offset="0.15" stopColor="#fff3d0" stopOpacity={0.85} />
+          <stop offset="0.45" stopColor="#ffd890" stopOpacity={0.2} />
+          <stop offset="1" stopColor="#ffd890" stopOpacity={0} />
+        </radialGradient>
+      </defs>
+      {/* the post, running off frame top and bottom */}
+      <rect x={-46} y={-1400} width={92} height={2800} fill={`url(#${id}-iron)`} />
+      {[-30, -10, 10, 30].map((fx) => (
+        <path key={fx} d={`M${fx},-1400 L${fx},1400`} stroke="#000" strokeOpacity={0.5} strokeWidth={3} />
+      ))}
+      {/* collar */}
+      <rect x={-70} y={-340} width={140} height={46} rx={10} fill="#0a0b0e" />
+      <rect x={-70} y={-340} width={140} height={6} fill="#8fa3c0" opacity={0.35} />
+      {/* the torch lashed on, head toward us */}
+      <g transform="translate(0,-170)">
+        <rect x={-34} y={-150} width={68} height={240} rx={12} fill="#141518" />
+        <rect x={-34} y={-150} width={10} height={240} fill="#8fa3c0" opacity={0.25} />
+        <ellipse cx={0} cy={110} rx={62} ry={40} fill="#202226" />
+        <ellipse cx={0} cy={110} rx={50} ry={31} fill={torch > 0 ? '#fff6e0' : '#2a2c30'} opacity={torch > 0 ? 0.95 * fl : 1} />
+        {/* twine lashings across post and torch */}
+        {[-110, -60, -10, 40].map((ly, i) => (
+          <g key={i}>
+            <path d={`M-60,${ly} C-20,${ly - 14} 30,${ly + 14} 62,${ly}`} stroke="#8a7350" strokeWidth={9} fill="none" />
+            <path d={`M-60,${ly + 10} C-20,${ly - 4} 30,${ly + 24} 62,${ly + 10}`} stroke="#5a4a32" strokeWidth={7} fill="none" />
+          </g>
+        ))}
+        <path d="M58,50 q24,30 6,70" stroke="#8a7350" strokeWidth={6} fill="none" />
+      </g>
+      {children}
+      {torch > 0 && glare > 0.01 && (
+        <g style={{mixBlendMode: 'screen'}}>
+          <circle cx={0} cy={-60} r={140 + glare * 320} fill={`url(#${id}-glare)`} opacity={glare * fl} />
+          <path d={`M${-560 * glare},-60 L${560 * glare},-60`} stroke="#fff1cc" strokeOpacity={0.4 * glare} strokeWidth={5} />
+        </g>
+      )}
+    </g>
+  );
+};

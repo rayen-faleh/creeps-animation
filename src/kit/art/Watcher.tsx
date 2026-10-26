@@ -21,7 +21,8 @@ export const Watcher: React.FC<{
   rim?: string;
   rimA?: number;
   sway?: number;
-}> = ({id, t, x = 0, y = 0, s = 1, torch = 1, beamTo, beamW = 160, glare = 0, point = 0, rim = '#ffb45a', rimA = 0.6, sway = 1}) => {
+  holding?: React.ReactNode; // drawn in the hand instead of the torch (e.g. a notebook)
+}> = ({id, t, x = 0, y = 0, s = 1, torch = 1, beamTo, beamW = 160, glare = 0, point = 0, rim = '#ffb45a', rimA = 0.6, sway = 1, holding}) => {
   const breathe = Math.sin(t * 1.4) * 4;
   const flap = noise1(t * 2.2, 6) * 6 * sway;
   // torch hand: held at the waist, or raised to point when point -> 1
@@ -69,10 +70,10 @@ export const Watcher: React.FC<{
         {/* right arm holding the torch */}
         <path d={`M-150,-780 C-185,-720 -200,-640 ${hx - 10},${hy + 30} L${hx + 34},${hy + 18} C-150,-640 -128,-710 -112,-760 Z`} fill="#070606" />
         <ellipse cx={hx} cy={hy} rx={26} ry={22} fill="#0b0908" />
-        <g transform={`translate(${tx},${ty}) rotate(${beamTo ? (Math.atan2(beamTo[1] - ty, beamTo[0] - tx) * 180) / Math.PI : 180})`}>
+        {holding ? <g transform={`translate(${hx},${hy})`}>{holding}</g> : <g transform={`translate(${tx},${ty}) rotate(${beamTo ? (Math.atan2(beamTo[1] - ty, beamTo[0] - tx) * 180) / Math.PI : 180})`}>
           <rect x={0} y={-12} width={64} height={24} rx={6} fill="#0d0d0e" />
           <rect x={56} y={-16} width={18} height={32} rx={4} fill="#151517" />
-        </g>
+        </g>}
         {/* head and flat cap */}
         <ellipse cx={0} cy={-865} rx={58} ry={70} fill="#050404" />
         <path d="M-104,-905 C-90,-960 -40,-982 10,-980 C70,-978 96,-950 92,-918 C60,-904 -40,-900 -104,-905 Z" fill="#030303" />

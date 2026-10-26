@@ -5,9 +5,10 @@ import * as TheCount01 from './episodes/the-count-01/Main';
 import * as Template from './episodes/_template/Main';
 import * as Catalog from './catalog/Catalog';
 import * as TheWatch01 from './episodes/the-watch-01/Main';
+import * as TheWatch02 from './episodes/the-watch-02/Main';
 
 /* Every story registers here: {META: {id, durationSec}, Episode}. Add one line per new story. */
-const STORIES = [TheCount01, Template, Catalog, TheWatch01];
+const STORIES = [TheCount01, Template, Catalog, TheWatch01, TheWatch02];
 
 export const RemotionRoot: React.FC = () => (
   <>

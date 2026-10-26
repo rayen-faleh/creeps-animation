@@ -1,0 +1,22 @@
+{
+  "fps": 30,
+  "timing": "boundaries are beats.json keys (derived from timing.json by beats.py)",
+  "shots": [
+    {"id": "S01", "from": "hook", "to": "street", "purpose": "Hook. Torchlit diary pages turning: the same line over and over", "grade": "cold"},
+    {"id": "S02", "from": "street", "to": "post", "purpose": "Walking down the road to the lamp; the torch on the post blazes at us", "grade": "cold"},
+    {"id": "S03", "from": "post", "to": "window", "purpose": "Close: Mick's torch lashed to the post with twine. No one there", "grade": "cold"},
+    {"id": "S04", "from": "window", "to": "key", "purpose": "Reverse: the beam reaches back up the road and lights one upstairs window", "grade": "cold"},
+    {"id": "S05", "from": "key", "to": "door", "purpose": "A key on a luggage tag hangs under the torch: 'Back door'. His hand takes it", "grade": "cold"},
+    {"id": "S06", "from": "door", "to": "shelf", "purpose": "Mick's back door hung with wolfsbane; key in, the lock turns, the door gives", "grade": "cold"},
+    {"id": "S07", "from": "shelf", "to": "memory", "purpose": "Torch along a shelf of twenty notebooks, 2006 to 2025", "grade": "cold"},
+    {"id": "S08", "from": "memory", "to": "page", "purpose": "Memory: Mick at the lamp, torch lashed above him, writing one-handed", "grade": "warm"},
+    {"id": "S09", "from": "page", "to": "y2006", "purpose": "The log: 'S. at window. Held.' month after month", "grade": "cold"},
+    {"id": "S10", "from": "y2006", "to": "open2006", "purpose": "He pulls 2006 off the shelf", "grade": "cold"},
+    {"id": "S11", "from": "open2006", "to": "told", "purpose": "2006: neat 'Both boys in by dark', then the shaky page: 'D. took my arm.'; jolt on 'Danny's.'", "grade": "cold"},
+    {"id": "S12", "from": "told", "to": "last", "purpose": "Danny's texts from Part I in his hand", "grade": "cold"},
+    {"id": "S13", "from": "last", "to": "text-0.4", "purpose": "The 2026 notebook, last page: 'If I go, keep D. away from the boy.'; push, jolt on 'out.'", "grade": "cold"},
+    {"id": "S14", "from": "text-0.4", "to": "turn", "purpose": "New message: 'Saw a light at Mick's' / 'Coming round'", "grade": "cold"},
+    {"id": "S15", "from": "turn", "to": "cut", "purpose": "Whip-turn: the back door handle rattles, the lock gives, it opens a crack", "grade": "cold"},
+    {"id": "S16", "from": "cut", "to": "end", "purpose": "Black. Whisper 'He has a key.' Title THE WATCH, PART II", "grade": "none"}
+  ]
+}

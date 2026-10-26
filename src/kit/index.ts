@@ -17,3 +17,4 @@ export * from './art/Street';
 export * from './art/Watcher';
 export * from './art/Charms';
 export * from './art/Modern';
+export * from './art/Notebook';

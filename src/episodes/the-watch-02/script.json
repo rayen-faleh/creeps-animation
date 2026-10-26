@@ -1,0 +1,22 @@
+[
+  {"id": "L01", "text": "For twenty years, a dead man kept a diary about me.", "pauseAfter": 0.5},
+  {"id": "L02", "text": "The torch was still on when I reached the lamp post.", "pauseAfter": 0.25},
+  {"id": "L03", "text": "No one there. Just Mick's old torch, tied to the post.", "pauseAfter": 0.25},
+  {"id": "L04", "text": "Pointed at my window.", "pauseAfter": 0.4},
+  {"id": "L05", "text": "And under it, a key. Back door.", "pauseAfter": 0.7},
+  {"id": "L06", "text": "Mick's house smelt of wolfsbane.", "pauseAfter": 0.3},
+  {"id": "L07", "text": "Twenty notebooks on the shelf. One for every year.", "pauseAfter": 0.3},
+  {"id": "L08", "text": "Every full moon, the same line.", "pauseAfter": 0.3},
+  {"id": "L09", "text": "My initial. At the window. Held.", "pauseAfter": 0.7},
+  {"id": "L10", "text": "I found the summer we were ten.", "pauseAfter": 0.25},
+  {"id": "L11", "text": "The night I went missing.", "pauseAfter": 0.4},
+  {"id": "L12", "text": "He'd written it one-handed.", "pauseAfter": 0.9},
+  {"id": "L13", "text": "It wasn't my initial.", "pauseAfter": 0.5},
+  {"id": "L14", "text": "It was Danny's.", "pauseAfter": 1.1},
+  {"id": "L15", "text": "Danny told me it was me.", "pauseAfter": 0.6},
+  {"id": "L16", "text": "There was one more page. The night Mick died.", "pauseAfter": 0.4},
+  {"id": "L17", "text": "If I go, keep Danny away from the boy.", "pauseAfter": 0.9},
+  {"id": "L18", "text": "Mick wasn't keeping me in.", "pauseAfter": 0.45},
+  {"id": "L19", "text": "He was keeping Danny out.", "pauseAfter": 4.2},
+  {"id": "L20", "text": "He has a key.", "whisper": true, "pauseAfter": 0.8}
+]
