@@ -1,6 +1,12 @@
 # The Watch, Part I: QA record
 
-Render checked: `out/the-watch-01.mp4` (Kokoro bm_lewis narration), rendered from commit 56bb077 plus layout move.
+Current render: `out/the-watch-01.mp4`, Chatterbox narration in the owner's voice (original recording as reference), from commit 95d7f87.
+- ffprobe: 1080×1920, 30/1 fps, H.264 + AAC stereo, 66.240 s; full decode clean; −15.1 LUFS integrated, peak −1.5 dBFS.
+- Narration 63.1 s (2.7 s cliffhanger silence included), so the film is 66.2 s: about 1 s over the style's 65 s ceiling, accepted for the owner's voice.
+- Cuts re-derived from timing.json by beats.py; contact sheet at 1 s checked: every shot sits under its caption; the S10 hand now clears "First full moon…".
+- Not heard: I cannot play audio here. Chatterbox pronunciation, accent and the whisper line were checked by the owner's ear only (auditions), not by me.
+
+Earlier render (Kokoro bm_lewis, 63.5 s, kept as `out/the-watch-01-kokoro.mp4`), from commit 56bb077 plus layout move:
 
 ## Technical (checked)
 - ffprobe: 1080×1920, 30/1 fps, H.264 + AAC stereo, 63.509 s. Full decode with ffmpeg: no errors.
