@@ -26,7 +26,8 @@ export const Phone: React.FC<{
   nail?: string;
   nailLen?: number;
   sleeve?: string;
-}> = ({id, t, x, y, s = 1, rot = 0, from, clock, msgs, buzz = [], skin = '#b89a86', shade = '#4c3a31', nail = '#d8c0b0', nailLen = 2, sleeve = '#15171c'}) => {
+  screen?: React.ReactNode; // replaces the messages thread (e.g. LockScreen), screen-local coords
+}> = ({id, t, x, y, s = 1, rot = 0, from, clock, msgs, buzz = [], skin = '#b89a86', shade = '#4c3a31', nail = '#d8c0b0', nailLen = 2, sleeve = '#15171c', screen}) => {
   const W = 420, H = 860, R = 56;
   const shake = buzz.reduce((m, b) => (t >= b && t < b + 0.45 ? Math.sin((t - b) * 90) * 5 * (1 - (t - b) / 0.45) : m), 0);
   const glow = 0.9 + noise1(t * 3, 2) * 0.05;
@@ -102,6 +103,7 @@ export const Phone: React.FC<{
       <rect x={0} y={0} width={W} height={H} rx={R} fill="#0b0c0f" />
       <rect x={0} y={0} width={W} height={H} rx={R} fill="none" stroke="#3a3d45" strokeWidth={3} />
       <g clipPath={`url(#${id}-scr)`}>
+        {screen ?? (<>
         <rect x={14} y={14} width={W - 28} height={H - 28} fill="#111216" opacity={glow} />
         <text x={46} y={58} fontFamily="Helvetica, Arial, sans-serif" fontSize={22} fontWeight={600} fill="#e6e8ee">
           {clock}
@@ -115,6 +117,7 @@ export const Phone: React.FC<{
           {from}
         </text>
         {bubbles}
+        </>)}
       </g>
       <rect x={W / 2 - 60} y={26} width={120} height={30} rx={15} fill="#000" />
       {/* thumbs over the bottom corners, fingers wrapping the far edges */}

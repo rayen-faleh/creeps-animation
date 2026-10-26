@@ -1,0 +1,26 @@
+{
+ "B": {
+  "hook": 0.0,
+  "week": 2.807,
+  "day1": 5.069,
+  "noRef": 5.704,
+  "phone": 7.013,
+  "fail": 8.807,
+  "day2": 9.837,
+  "sun": 10.537,
+  "blind": 11.448,
+  "easy": 12.618,
+  "day3": 13.766,
+  "home": 16.324,
+  "cant": 17.404,
+  "rule": 18.895,
+  "drop": 21.731,
+  "rent": 22.571,
+  "text": 24.289,
+  "nine": 26.304,
+  "knock": 27.36,
+  "cut": 28.11
+ },
+ "durationSec": 33.51,
+ "source": "timing.json (kokoro bm_lewis per-line synthesis; times measured from decoded samples)"
+}

@@ -1,0 +1,14 @@
+[
+ {"id": "L01", "text": "You've just been turned into a vampire.", "pauseAfter": 0.25},
+ {"id": "L02", "text": "Would you survive one week?", "pauseAfter": 0.6},
+ {"id": "L03", "text": "Day one. No reflection.", "pauseAfter": 0.25},
+ {"id": "L04", "text": "So your phone doesn't know your face.", "pauseAfter": 0.6},
+ {"id": "L05", "text": "Day two. The sun.", "pauseAfter": 0.25},
+ {"id": "L06", "text": "Blackout blinds. Easy.", "pauseAfter": 0.6},
+ {"id": "L07", "text": "Day three. You pop out after dark.", "pauseAfter": 0.25},
+ {"id": "L08", "text": "You come home. And you can't get in.", "pauseAfter": 0.4},
+ {"id": "L09", "text": "Vampires need an invitation into someone's home.", "pauseAfter": 0.3},
+ {"id": "L10", "text": "And you rent.", "pauseAfter": 1.0},
+ {"id": "L11", "text": "Your landlord's coming round tomorrow. Nine a.m.", "pauseAfter": 0.5},
+ {"id": "L12", "text": "Let me in.", "whisper": true, "pauseAfter": 0.3}
+]

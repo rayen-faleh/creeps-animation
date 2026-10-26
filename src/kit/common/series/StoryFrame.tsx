@@ -24,9 +24,10 @@ export const StoryFrame: React.FC<{
   audio?: string; // path under assets/, e.g. 'audio/my-story/mix.wav'
   format?: Format; // PORTRAIT (default) or LANDSCAPE
   chapters?: Chapter[]; // long-form: subtle chapter markers at scene changes
-}> = ({sceneAt, gradeAt, dipAt, timing, redWords, audio, format = PORTRAIT, chapters}) => (
+  overlay?: (t: number) => React.ReactNode; // on-screen furniture above the grade, below captions (e.g. DayTag)
+}> = ({sceneAt, gradeAt, dipAt, timing, redWords, audio, format = PORTRAIT, chapters, overlay}) => (
   <FormatProvider format={format}>
-    <Frame sceneAt={sceneAt} gradeAt={gradeAt} dipAt={dipAt} timing={timing} redWords={redWords} audio={audio} chapters={chapters} />
+    <Frame sceneAt={sceneAt} gradeAt={gradeAt} dipAt={dipAt} timing={timing} redWords={redWords} audio={audio} chapters={chapters} overlay={overlay} />
   </FormatProvider>
 );
 
@@ -38,7 +39,8 @@ const Frame: React.FC<{
   redWords?: string[];
   audio?: string;
   chapters?: Chapter[];
-}> = ({sceneAt, gradeAt, dipAt, timing, redWords, audio, chapters}) => {
+  overlay?: (t: number) => React.ReactNode;
+}> = ({sceneAt, gradeAt, dipAt, timing, redWords, audio, chapters, overlay}) => {
   useStyleFonts();
   const frame = useCurrentFrame();
   const t = frame / FPS;
@@ -57,6 +59,7 @@ const Frame: React.FC<{
       <FilmGrain frame={frame} opacity={g === 'warm' ? 0.2 : 0.15} />
       <AbsoluteFill style={{background: '#000', opacity: dip}} />
       {chapters && <ChapterTitle t={t} chapters={chapters} />}
+      {overlay && overlay(t)}
       <Captions t={t} timing={timing} redWords={redWords} />
       {audio && <Audio src={staticFile(audio)} />}
     </AbsoluteFill>

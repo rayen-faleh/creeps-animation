@@ -1,0 +1,229 @@
+{
+ "unit": "seconds",
+ "total": 29.405,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "You've just been turned into a vampire.",
+   "start": 0.35,
+   "end": 2.607,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You've just been turned into a vampire.",
+     "start": 0.35,
+     "end": 2.607
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L02",
+   "text": "Would you survive one week?",
+   "start": 2.807,
+   "end": 4.589,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Would you survive one week?",
+     "start": 2.807,
+     "end": 4.589
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "Day one. No reflection.",
+   "start": 5.069,
+   "end": 6.813,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day one.",
+     "start": 5.069,
+     "end": 5.704
+    },
+    {
+     "text": "No reflection.",
+     "start": 5.704,
+     "end": 6.813
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "So your phone doesn't know your face.",
+   "start": 7.013,
+   "end": 9.357,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "So your phone doesn't know your face.",
+     "start": 7.013,
+     "end": 9.357
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L05",
+   "text": "Day two. The sun.",
+   "start": 9.837,
+   "end": 11.248,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day two.",
+     "start": 9.837,
+     "end": 10.537
+    },
+    {
+     "text": "The sun.",
+     "start": 10.537,
+     "end": 11.248
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "Blackout blinds. Easy.",
+   "start": 11.448,
+   "end": 13.286,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Blackout blinds.",
+     "start": 11.448,
+     "end": 12.618
+    },
+    {
+     "text": "Easy.",
+     "start": 12.618,
+     "end": 13.286
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "Day three. You pop out after dark.",
+   "start": 13.766,
+   "end": 16.124,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day three.",
+     "start": 13.766,
+     "end": 14.536
+    },
+    {
+     "text": "You pop out after dark.",
+     "start": 14.536,
+     "end": 16.123
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "You come home. And you can't get in.",
+   "start": 16.324,
+   "end": 18.575,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You come home.",
+     "start": 16.324,
+     "end": 17.404
+    },
+    {
+     "text": "And you can't get in.",
+     "start": 17.404,
+     "end": 18.576
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "Vampires need an invitation into someone's home.",
+   "start": 18.895,
+   "end": 22.331,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Vampires need an invitation into someone's home.",
+     "start": 18.895,
+     "end": 22.331
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L10",
+   "text": "And you rent.",
+   "start": 22.571,
+   "end": 23.489,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And you rent.",
+     "start": 22.571,
+     "end": 23.489
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L11",
+   "text": "Your landlord's coming round tomorrow. Nine a.m.",
+   "start": 24.289,
+   "end": 27.83,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Your landlord's coming round tomorrow.",
+     "start": 24.289,
+     "end": 26.304
+    },
+    {
+     "text": "Nine a.m.",
+     "start": 26.304,
+     "end": 27.83
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "Let me in.",
+   "start": 28.23,
+   "end": 29.165,
+   "whisper": true,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Let me in.",
+     "start": 28.23,
+     "end": 29.165
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}
