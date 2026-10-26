@@ -1,15 +1,15 @@
 import React from 'react';
 import {AbsoluteFill, useCurrentFrame} from 'remotion';
 import {Camera, Eyelids, FilmGrain, Flicker, Stage, Torch, Vignette} from '../kit';
-import {WindowWall} from '../kit/sets/WindowWall';
-import {DoorWall} from '../kit/sets/DoorWall';
-import {Hand, POSES, STYLES} from '../kit/art/Hand';
-import {Candle, Clock, Cloth, CupHand, Duvet, ElderProfile, Mirror, Portrait} from '../kit/art/Props';
-import {Floor, Grain, Wall, pileOf10, scatter} from '../kit/art/Room';
-import {TitleCard} from '../kit/series/TitleCard';
-import {Captions, Timing} from '../kit/series/Captions';
-import {useStyleFonts} from '../kit/series/fonts';
-import {theme} from '../kit/theme';
+import {WindowWall} from '../kit/portrait/sets/WindowWall';
+import {DoorWall} from '../kit/portrait/sets/DoorWall';
+import {Hand, POSES, STYLES} from '../kit/common/art/Hand';
+import {Candle, Clock, Cloth, CupHand, Duvet, ElderProfile, Mirror, Portrait} from '../kit/common/art/Props';
+import {Floor, Grain, Wall, pileOf10, scatter} from '../kit/common/art/Room';
+import {TitleCard} from '../kit/common/series/TitleCard';
+import {Captions, Timing} from '../kit/common/series/Captions';
+import {useStyleFonts} from '../kit/common/series/fonts';
+import {theme} from '../kit/common/theme';
 
 /** One frame per panel. Render with: node scripts/stills.mjs Catalog 0 0.0334 0.0667 ... or scripts/catalog.sh */
 const T = 2.0;

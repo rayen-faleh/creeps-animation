@@ -4,7 +4,7 @@ First-person gothic horror shorts for Instagram Reels / YouTube Shorts (9:16, 10
 Remotion + React + TypeScript on the **Gothic POV kit**. Everything you see is code-drawn SVG, everything you hear is
 synthesised, and the narrator is a local TTS model, so there are no stock assets or paid services.
 
-Current series: **THE WATCH**, a werewolf story in five episodes. Episode 1 lives in `src/episodes/the-watch-01`.
+Current series: **THE WATCH**, a werewolf story in five episodes. Episodes live in `src/episodes/portrait/the-watch-0*`. A 16:9 long-form vampire story is in development.
 
 ## Where everything is
 
@@ -12,7 +12,8 @@ Current series: **THE WATCH**, a werewolf story in five episodes. Episode 1 live
 creeps-animation/
 ├── assets/                     Static files the video loads (Remotion's publicDir, see remotion.config.ts)
 │   ├── fonts/                  Cormorant Garamond (captions), UnifrakturCook (title card)   SIL OFL 1.1
-│   ├── textures/               grain0-7.png film-grain tiles (regenerate: scripts/make_grain.py)
+│   ├── textures/portrait/      grain0-7.png film-grain tiles 540x960  (regenerate: scripts/make_grain.py)
+│   ├── textures/landscape/     grain0-7.png film-grain tiles 960x540
 │   ├── audio/<slug>/mix.wav    Mastered soundtrack per episode (narration + score + SFX), made by sound/build_audio.py
 │   └── provenance.json         Source and licence of every asset
 │
@@ -34,18 +35,23 @@ creeps-animation/
 │   └── make_grain.py           Regenerate assets/textures
 │
 ├── src/
-│   ├── index.ts, Root.tsx      Remotion entry; Root registers one composition per episode
-│   ├── kit/                    Reusable, story-agnostic art and finishing (extend it, never restyle per story)
-│   │   ├── art/                Window, Door, Hand (rig + styles incl. wolf), Room, Props,
-│   │   │                       Street (moor-edge street, garden wall), Watcher (one-armed man), Charms
-│   │   │                       (wolfsbane, silver nails, mud prints), Modern (phone, funeral card)
-│   │   ├── sets/               WindowWall, DoorWall: complete backgrounds
-│   │   ├── series/             StoryFrame (grade, grain, captions, audio), Captions, TitleCard, fonts
-│   │   ├── fx.tsx              Camera (handheld), Stage, Torch, Eyelids, Vignette, Flicker, Grain
-│   │   ├── theme.ts, util.ts   Palette and deterministic helpers (track, prog, rng, noise1)
-│   │   └── index.ts            One import for everything
-│   ├── episodes/<slug>/        One folder per episode (see below)
-│   └── catalog/                A panel per kit component -> docs/kit-catalog.png
+│   ├── index.ts, Root.tsx      Remotion entry; Root registers one composition per episode (size from META.format)
+│   ├── kit/                    Reusable art and finishing (extend it, never restyle per story)
+│   │   ├── common/             Works in BOTH formats
+│   │   │   ├── art/            Window, Door, Hand (rig + styles incl. wolf), Room, Props, Street, Watcher,
+│   │   │   │                   Charms, Modern, Notebook: plain SVG components, placed by the scene
+│   │   │   ├── series/         StoryFrame (grade, grain, captions, chapter titles, audio), Captions,
+│   │   │   │                   ChapterTitle, TitleCard, fonts
+│   │   │   ├── format.tsx      PORTRAIT (1080x1920) / LANDSCAPE (1920x1080): frame size, caption layout, textures
+│   │   │   ├── fx.tsx          Camera (handheld), Stage, Torch, Eyelids, Vignette, Flicker, Grain (format-aware)
+│   │   │   └── theme.ts, util.ts
+│   │   ├── portrait/sets/      9:16 sets: WindowWall, DoorWall
+│   │   ├── landscape/sets/     16:9 sets: WindowWallL, DoorWallL (same art, wide layout)
+│   │   └── index.ts            common exports; kit/portrait and kit/landscape export their sets
+│   ├── episodes/
+│   │   ├── portrait/<slug>/    9:16 shorts (the-watch-01, the-watch-02, the-count-01, _template)
+│   │   └── landscape/<slug>/   16:9 long-form
+│   └── catalog/                Catalog (9:16 kit panels) and CatalogLandscape (16:9 preview)
 │
 ├── series/                     Series bible: brainstorms, arcs, concepts (werewolf-brainstorm*.md)
 ├── docs/                       kit-catalog.png (visual index of the kit), SKILL.md (full kit source edition)
@@ -56,7 +62,7 @@ creeps-animation/
 ### An episode folder
 
 ```
-src/episodes/the-watch-01/
+src/episodes/portrait/the-watch-01/
   brief.md          story brief: folklore, hook, clues, twist, cliffhanger
   script.json       narration lines [{id, text, pauseAfter, whisper?}]
   timing.json       written by tts/narrate.py: measured line and caption-phrase times (the timing authority)
@@ -86,12 +92,12 @@ uv venv -p 3.11 /root/.venvs/chatterbox && VIRTUAL_ENV=/root/.venvs/chatterbox u
 
 ```
 tts/download_models.sh                                         # once: Kokoro weights into tts/models/
-python3 tts/narrate.py src/episodes/the-watch-01               # Kokoro (default)
-python3 tts/narrate.py src/episodes/the-watch-01 --engine chatterbox --ref tts/voices/narrator_ref_original.wav
-python3 src/episodes/the-watch-01/beats.py && python3 sound/build_audio.py the-watch-01 && python3 tts/make_srt.py src/episodes/the-watch-01
+python3 tts/narrate.py src/episodes/portrait/the-watch-01               # Kokoro (default)
+python3 tts/narrate.py src/episodes/portrait/the-watch-01 --engine chatterbox --ref tts/voices/narrator_ref_original.wav
+python3 src/episodes/portrait/the-watch-01/beats.py && python3 sound/build_audio.py the-watch-01 && python3 tts/make_srt.py src/episodes/portrait/the-watch-01
 ```
 
-Either engine writes the same outputs (`work/<slug>/line_*.wav`, `narration.wav`, `src/episodes/<slug>/timing.json`), so
+Either engine writes the same outputs (`work/<slug>/line_*.wav`, `narration.wav`, `src/episodes/<format>/<slug>/timing.json`), so
 everything downstream stays the same. Any change to the narration means re-running `sound/build_audio.py`, and the
 cuts in `Main.tsx` may need to move to the new phrase times.
 
@@ -110,9 +116,9 @@ npx remotion studio src/index.ts        # browse TheWatch01, TheCount01, Templat
 ## Making an episode
 
 ```
-cp -r src/episodes/_template src/episodes/<slug>
+cp -r src/episodes/portrait/_template src/episodes/<portrait|landscape>/<slug>   # landscape: pass format={LANDSCAPE} to StoryFrame, set META.format, use kit/landscape sets
 # write brief.md and script.json; set META in Main.tsx
-python3 tts/narrate.py src/episodes/<slug>                 # aim for 60-63 s of narration
+python3 tts/narrate.py src/episodes/<format>/<slug>        # shorts: aim for 60-63 s of narration
 # shots.json, scenes/*.tsx, sceneAt/gradeAt/dipAt; register in src/Root.tsx; write cues.py
 python3 sound/build_audio.py <slug>
 node scripts/stills.mjs <CompositionId> 1 5 9 ...          # one still per shot, check at phone size
@@ -132,16 +138,20 @@ reorganised:
 | `voice/` | `tts/models/` |
 | `scripts/narrate.py` | `tts/narrate.py` |
 | `scripts/sound_lib.py`, `scripts/build_audio.py` | `sound/` |
+| `src/kit/{art,series,fx,theme,util}` | `src/kit/common/` |
+| `src/kit/sets/` | `src/kit/portrait/sets/` (16:9 versions in `src/kit/landscape/sets/`) |
+| `src/episodes/<slug>` | `src/episodes/portrait/<slug>` |
 
 ## Episodes
 
 | Composition | Folder | Length | Notes |
 | --- | --- | --- | --- |
-| `TheWatch01` | `src/episodes/the-watch-01` | 66.2 s | The Watch, Part I (werewolf series), narrated with Chatterbox in the owner's voice |
-| `TheWatch02` | `src/episodes/the-watch-02` | 64.4 s | The Watch, Part II: Mick's notebooks, "D. took my arm." |
-| `TheCount01` | `src/episodes/the-count-01` | 64.0 s | Kit reference film |
-| `Template` | `src/episodes/_template` | 18.5 s | "The Knock", starting point for new stories |
-| `Catalog` | `src/catalog` | n/a | Every kit component |
+| `TheWatch01` | `src/episodes/portrait/the-watch-01` | 66.2 s | The Watch, Part I (werewolf series), narrated with Chatterbox in the owner's voice |
+| `TheWatch02` | `src/episodes/portrait/the-watch-02` | 64.4 s | The Watch, Part II: Mick's notebooks, "D. took my arm." |
+| `TheCount01` | `src/episodes/portrait/the-count-01` | 64.0 s | Kit reference film |
+| `Template` | `src/episodes/portrait/_template` | 18.5 s | "The Knock", starting point for new stories |
+| `Catalog` | `src/catalog` | n/a | Every kit component (9:16) |
+| `CatalogLandscape` | `src/catalog/CatalogLandscape.tsx` | 5 s | 16:9 sets, captions, chapter title, title card |
 
 ## Licences
 
