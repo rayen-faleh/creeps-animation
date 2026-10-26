@@ -136,3 +136,39 @@ export const MudMarks: React.FC<{x: number; y: number; s?: number; flat?: number
     </g>
   );
 };
+
+/** Holes where nails have just been pulled from a sill: dark pits with pale, fresh splinters round them. */
+export const NailHoles: React.FC<{xs: number[]; y: number; r?: number; fresh?: number; lit?: number}> = ({xs, y, r = 7, fresh = 1, lit = 1}) => (
+  <g>
+    {xs.map((x, i) => (
+      <g key={i}>
+        <ellipse cx={x} cy={y} rx={r} ry={r * 0.55} fill="#020203" />
+        {fresh > 0 &&
+          [-50, 20, 160, 230].map((a, k) => {
+            const rad = (a * Math.PI) / 180;
+            const L = r * (1.6 + ((i + k) % 3) * 0.5);
+            return (
+              <path
+                key={k}
+                d={`M${x + Math.cos(rad) * r * 0.9},${y + Math.sin(rad) * r * 0.5} l${Math.cos(rad) * L},${Math.sin(rad) * L * 0.55}`}
+                stroke="#d8c4a0"
+                strokeOpacity={0.75 * fresh * lit}
+                strokeWidth={2}
+                strokeLinecap="round"
+              />
+            );
+          })}
+      </g>
+    ))}
+  </g>
+);
+
+/** An enamel house-number plate on a stone wall. */
+export const HousePlate: React.FC<{x: number; y: number; s?: number; n: string; lit?: number}> = ({x, y, s = 1, n, lit = 1}) => (
+  <g transform={`translate(${x},${y}) scale(${s})`}>
+    <rect x={-46} y={-34} width={92} height={68} rx={12} fill="#1a2436" stroke="#c8d0dc" strokeOpacity={0.6 * lit} strokeWidth={4} />
+    <text x={0} y={16} textAnchor="middle" fontFamily="CountCaption, serif" fontWeight={600} fontSize={46} fill="#e8eef6" opacity={0.9 * lit}>
+      {n}
+    </text>
+  </g>
+);

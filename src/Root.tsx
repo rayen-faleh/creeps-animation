@@ -9,11 +9,12 @@ import * as TheQuarterTurn from './episodes/landscape/the-quarter-turn/Main';
 import * as TheQuarterTurnCh1 from './episodes/landscape/the-quarter-turn/ChapterOnePreview';
 import * as TheWatch01 from './episodes/portrait/the-watch-01/Main';
 import * as TheWatch02 from './episodes/portrait/the-watch-02/Main';
+import * as TheWatch03 from './episodes/portrait/the-watch-03/Main';
 
 /* Every story registers here: {META: {id, durationSec, format?}, Episode}. Add one line per new story.
    format defaults to portrait (1080x1920); long-form stories pass LANDSCAPE (1920x1080). */
 type Story = {META: {id: string; durationSec: number; format?: {W: number; H: number}}; Episode: React.FC};
-const STORIES: Story[] = [TheCount01, Template, Catalog, TheWatch01, TheWatch02, CatalogLandscape, TheQuarterTurn, TheQuarterTurnCh1];
+const STORIES: Story[] = [TheCount01, Template, Catalog, TheWatch01, TheWatch02, TheWatch03, CatalogLandscape, TheQuarterTurn, TheQuarterTurnCh1];
 
 export const RemotionRoot: React.FC = () => (
   <>

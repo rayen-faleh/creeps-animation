@@ -309,3 +309,19 @@ export const Van: React.FC<{x: number; y: number; s?: number; light?: 'dusk' | '
     </g>
   );
 };
+
+/** Mick's kitchen table seen from a chair: scrubbed planks receding, the far edge, a lamp's warm pool. */
+export const KitchenTable: React.FC<{y?: number; warm?: number; lit?: number; children?: React.ReactNode}> = ({y = 980, warm = 0, lit = 1, children}) => {
+  const wood = lerpColor('#1a1612', '#3a2412', warm);
+  const rim = lerpColor('#8fa3c0', '#ffb45a', warm);
+  return (
+    <g>
+      <path d={`M-300,${y} L1380,${y} L1600,2100 L-520,2100 Z`} fill={wood} />
+      {Array.from({length: 7}, (_, i) => (
+        <path key={i} d={`M${-300 + i * 280},${y} L${-520 + i * 353},2100`} stroke="#000" strokeOpacity={0.45} strokeWidth={4} />
+      ))}
+      <path d={`M-300,${y} L1380,${y}`} stroke={rim} strokeOpacity={0.4 * lit} strokeWidth={4} />
+      {children}
+    </g>
+  );
+};
