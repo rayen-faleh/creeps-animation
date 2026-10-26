@@ -55,7 +55,8 @@ creeps-animation/
 │   │   └── landscape/<slug>/   16:9 long-form
 │   └── catalog/                Catalog (9:16 kit panels) and CatalogLandscape (16:9 preview)
 │
-├── series/                     Series bible: brainstorms, arcs, concepts (werewolf-brainstorm*.md)
+├── .claude/skills/short-form-horror/SKILL.md   Hooks, retention and series craft for horror shorts (project skill)
+├── series/                     Series bible: brainstorms, arcs, concepts, hook-playbook.md
 ├── docs/                       kit-catalog.png (visual index of the kit), SKILL.md (full kit source edition)
 ├── work/<slug>/                Raw narration takes (keep: the final mix alone cannot be re-edited)
 └── out/                        Renders and stills (git-ignored)
