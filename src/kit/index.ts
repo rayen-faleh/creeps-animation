@@ -18,3 +18,6 @@ export * from './common/series/TitleCard';
 export * from './common/series/StoryFrame';
 export * from './common/series/ChapterTitle';
 export * from './common/series/fonts';
+export * from './common/art/Kitchen';
+export * from './common/art/Cottage';
+export * from './common/art/Interior';

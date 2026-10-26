@@ -39,7 +39,9 @@ export const Candle: React.FC<{x: number; y: number; t: number; s?: number; glow
 };
 
 /* ---------------- Clock (brass twin-bell alarm) ---------------- */
-export const Clock: React.FC<{x: number; y: number; s?: number; t: number; lit?: number}> = ({x, y, s = 1, t, lit = 1}) => {
+export const Clock: React.FC<{x: number; y: number; s?: number; t: number; lit?: number; hour?: number; minute?: number}> = ({x, y, s = 1, t, lit = 1, hour = 3, minute = 0}) => {
+  const hourAng = ((hour % 12) + minute / 60) * 30;
+  const minAng = minute * 6;
   const secAng = Math.floor(t) * 6; // ticking second hand
   return (
     <g transform={`translate(${x},${y}) scale(${s})`}>
@@ -70,9 +72,9 @@ export const Clock: React.FC<{x: number; y: number; s?: number; t: number; lit?:
           </text>
         );
       })}
-      {/* hands at 3:00 */}
-      <line x1={0} y1={0} x2={0} y2={-86} stroke="#080808" strokeWidth={7} strokeLinecap="round" />
-      <line x1={0} y1={0} x2={58} y2={0} stroke="#080808" strokeWidth={10} strokeLinecap="round" />
+      {/* hands (default 3:00) */}
+      <line x1={0} y1={0} x2={0} y2={-86} stroke="#080808" strokeWidth={7} strokeLinecap="round" transform={`rotate(${minAng})`} />
+      <line x1={0} y1={0} x2={0} y2={-58} stroke="#080808" strokeWidth={10} strokeLinecap="round" transform={`rotate(${hourAng})`} />
       <line x1={0} y1={14} x2={0} y2={-96} stroke={theme.blood} strokeWidth={2.5} transform={`rotate(${secAng})`} />
       <circle cx={0} cy={0} r={8} fill="#111" />
       {/* glass glint */}

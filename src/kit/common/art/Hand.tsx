@@ -23,6 +23,7 @@ export type HandStyle = {
   furA?: number; // 0..1 how much fur shows (animate a turning)
   furLen?: number;
   mud?: number; // 0..1 dirt on knuckles and under the nails
+  ring?: string; // wedding band colour on the ring finger
 };
 
 const BASE_STYLES: Record<'vamp' | 'adult' | 'gran' | 'child', HandStyle> = {
@@ -242,6 +243,12 @@ export const Hand: React.FC<{
             </g>
           );
         })()}
+        {i === 2 && style.ring && pts.length > 1 && (
+          <g>
+            <path d={`M${pts[1][0] - perp[0] * wBase * 0.62},${pts[1][1] - perp[1] * wBase * 0.62 + 10} L${pts[1][0] + perp[0] * wBase * 0.62},${pts[1][1] + perp[1] * wBase * 0.62 + 10}`} stroke={style.ring} strokeWidth={8} strokeLinecap="round" />
+            <path d={`M${pts[1][0] - perp[0] * wBase * 0.4},${pts[1][1] - perp[1] * wBase * 0.4 + 8} L${pts[1][0]},${pts[1][1] + 8}`} stroke="#fff4c8" strokeOpacity={0.7 * light} strokeWidth={2} strokeLinecap="round" />
+          </g>
+        )}
         {/* knuckle creases */}
         {pts.slice(1, -1).map((q, j) => (
           <path

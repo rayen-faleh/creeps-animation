@@ -15,6 +15,7 @@ creeps-animation/
 │   ├── textures/portrait/      grain0-7.png film-grain tiles 540x960  (regenerate: scripts/make_grain.py)
 │   ├── textures/landscape/     grain0-7.png film-grain tiles 960x540
 │   ├── audio/<slug>/mix.wav    Mastered soundtrack per episode (narration + score + SFX), made by sound/build_audio.py
+│   │                           (long-form mixes are not committed: over GitHub's 100 MB limit; rebuild them)
 │   └── provenance.json         Source and licence of every asset
 │
 ├── tts/                        Narration (text-to-speech)

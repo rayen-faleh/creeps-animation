@@ -5,3 +5,6 @@ tts/models/*.bin
 work/*/mix_raw.wav
 __pycache__/
 work/audition/
+
+# long-form soundtracks exceed GitHub's 100 MB limit; rebuild with: python3 sound/build_audio.py <slug>
+assets/audio/the-quarter-turn/mix.wav
