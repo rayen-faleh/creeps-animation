@@ -60,6 +60,7 @@ src/episodes/the-watch-01/
   brief.md          story brief: folklore, hook, clues, twist, cliffhanger
   script.json       narration lines [{id, text, pauseAfter, whisper?}]
   timing.json       written by tts/narrate.py: measured line and caption-phrase times (the timing authority)
+  beats.py/.json    derives every cut and sound-sync time from timing.json (re-run after re-narrating)
   shots.json        shot list: id, start/end seconds, purpose, light, grade
   Main.tsx          META (id, duration, audio path), sceneAt / gradeAt / dipAt, red caption words
   scenes/*.tsx      the shots (Memory.tsx = childhood, Present.tsx = present day)
@@ -86,7 +87,8 @@ uv venv -p 3.11 /root/.venvs/chatterbox && VIRTUAL_ENV=/root/.venvs/chatterbox u
 ```
 tts/download_models.sh                                         # once: Kokoro weights into tts/models/
 python3 tts/narrate.py src/episodes/the-watch-01               # Kokoro (default)
-python3 tts/narrate.py src/episodes/the-watch-01 --engine chatterbox
+python3 tts/narrate.py src/episodes/the-watch-01 --engine chatterbox --ref tts/voices/narrator_ref_original.wav
+python3 src/episodes/the-watch-01/beats.py && python3 sound/build_audio.py the-watch-01 && python3 tts/make_srt.py src/episodes/the-watch-01
 ```
 
 Either engine writes the same outputs (`work/<slug>/line_*.wav`, `narration.wav`, `src/episodes/<slug>/timing.json`), so
@@ -135,7 +137,7 @@ reorganised:
 
 | Composition | Folder | Length | Notes |
 | --- | --- | --- | --- |
-| `TheWatch01` | `src/episodes/the-watch-01` | 63.5 s | The Watch, Part I (werewolf series) |
+| `TheWatch01` | `src/episodes/the-watch-01` | 66.2 s | The Watch, Part I (werewolf series), narrated with Chatterbox in the owner's voice |
 | `TheCount01` | `src/episodes/the-count-01` | 64.0 s | Kit reference film |
 | `Template` | `src/episodes/_template` | 18.5 s | "The Knock", starting point for new stories |
 | `Catalog` | `src/catalog` | n/a | Every kit component |

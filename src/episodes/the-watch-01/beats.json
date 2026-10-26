@@ -1,40 +1,40 @@
 {
  "T": {
   "hook": 0.0,
-  "profile": 4.373,
+  "profile": 4.281,
   "l03": [
-   6.532,
-   8.575
+   6.363,
+   8.751
   ],
-  "mock": 8.975,
-  "nails": 10.657,
-  "bane": 12.617,
-  "home": 14.767,
-  "window": 18.009,
-  "glare": 21.621,
-  "lamp": 22.804
+  "mock": 9.151,
+  "nails": 10.696,
+  "bane": 13.131,
+  "home": 15.318,
+  "window": 19.363,
+  "glare": 22.303,
+  "lamp": 23.763
  },
  "P": {
-  "card": 25.139,
-  "room": 28.7,
-  "black": 35.403,
-  "mud": 37.106,
-  "phone": 40.147,
+  "card": 27.101,
+  "room": 30.659,
+  "black": 37.404,
+  "mud": 39.391,
+  "phone": 42.481,
   "msgs": [
-   41.931,
-   45.096,
-   46.821
+   44.281,
+   47.165,
+   49.236
   ],
-  "hands": 49.102,
-  "proof": 54.214,
-  "out": 55.852,
-  "turn": 56.902,
-  "cut": 58.902,
-  "wake": 35.603,
-  "buzz": 40.297,
-  "lampOff": 57.302,
-  "torchOn": 57.622
+  "hands": 51.766,
+  "proof": 56.679,
+  "out": 58.59,
+  "turn": 59.64,
+  "cut": 61.64,
+  "wake": 37.604,
+  "buzz": 42.631,
+  "lampOff": 60.04,
+  "torchOn": 60.36
  },
- "durationSec": 63.5,
- "source": "timing.json (kokoro bm_lewis per-line synthesis; times measured from decoded samples)"
+ "durationSec": 66.24,
+ "source": "timing.json (chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples)"
 }

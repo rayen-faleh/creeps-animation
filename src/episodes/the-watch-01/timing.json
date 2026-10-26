@@ -1,19 +1,19 @@
 {
  "unit": "seconds",
- "total": 60.387,
- "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "total": 63.057,
+ "provenance": "chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples",
  "lines": [
   {
    "id": "L01",
    "text": "We used to dare each other to ask Danny's uncle about his arm.",
    "start": 0.35,
-   "end": 4.094,
+   "end": 4.001,
    "whisper": false,
    "phrases": [
     {
      "text": "We used to dare each other to ask Danny's uncle about his arm.",
      "start": 0.35,
-     "end": 4.094
+     "end": 4.001
     }
    ],
    "phraseSource": "whole-line"
@@ -21,14 +21,14 @@
   {
    "id": "L02",
    "text": "He only ever said one thing.",
-   "start": 4.373,
-   "end": 6.292,
+   "start": 4.281,
+   "end": 6.123,
    "whisper": false,
    "phrases": [
     {
      "text": "He only ever said one thing.",
-     "start": 4.373,
-     "end": 6.292
+     "start": 4.281,
+     "end": 6.123
     }
    ],
    "phraseSource": "whole-line"
@@ -36,19 +36,19 @@
   {
    "id": "L03",
    "text": "A wolf took it. On this street.",
-   "start": 6.532,
-   "end": 8.575,
+   "start": 6.363,
+   "end": 8.751,
    "whisper": false,
    "phrases": [
     {
      "text": "A wolf took it.",
-     "start": 6.532,
-     "end": 7.642
+     "start": 6.363,
+     "end": 7.448
     },
     {
      "text": "On this street.",
-     "start": 7.642,
-     "end": 8.575
+     "start": 7.448,
+     "end": 8.751
     }
    ],
    "phraseSource": "measured-silence"
@@ -56,14 +56,14 @@
   {
    "id": "L04",
    "text": "We thought he was mad.",
-   "start": 8.975,
-   "end": 10.417,
+   "start": 9.151,
+   "end": 10.456,
    "whisper": false,
    "phrases": [
     {
      "text": "We thought he was mad.",
-     "start": 8.975,
-     "end": 10.417
+     "start": 9.151,
+     "end": 10.456
     }
    ],
    "phraseSource": "whole-line"
@@ -71,19 +71,19 @@
   {
    "id": "L05",
    "text": "Silver nails in the windowsill. Wolfsbane over the door.",
-   "start": 10.657,
-   "end": 14.487,
+   "start": 10.696,
+   "end": 15.038,
    "whisper": false,
    "phrases": [
     {
      "text": "Silver nails in the windowsill.",
-     "start": 10.657,
-     "end": 12.617
+     "start": 10.696,
+     "end": 13.131
     },
     {
      "text": "Wolfsbane over the door.",
-     "start": 12.617,
-     "end": 14.487
+     "start": 13.131,
+     "end": 15.038
     }
    ],
    "phraseSource": "measured-silence"
@@ -91,19 +91,19 @@
   {
    "id": "L06",
    "text": "Every full moon, he sent us home before dark.",
-   "start": 14.767,
-   "end": 17.809,
+   "start": 15.318,
+   "end": 19.163,
    "whisper": false,
    "phrases": [
     {
      "text": "Every full moon,",
-     "start": 14.767,
-     "end": 15.897
+     "start": 15.318,
+     "end": 17.083
     },
     {
      "text": "he sent us home before dark.",
-     "start": 15.897,
-     "end": 17.809
+     "start": 17.083,
+     "end": 19.163
     }
    ],
    "phraseSource": "measured-silence"
@@ -111,14 +111,14 @@
   {
    "id": "L07",
    "text": "Then he'd stand at the end of the road all night.",
-   "start": 18.009,
-   "end": 20.911,
+   "start": 19.363,
+   "end": 21.593,
    "whisper": false,
    "phrases": [
     {
      "text": "Then he'd stand at the end of the road all night.",
-     "start": 18.009,
-     "end": 20.911
+     "start": 19.363,
+     "end": 21.593
     }
    ],
    "phraseSource": "whole-line"
@@ -126,14 +126,14 @@
   {
    "id": "L08",
    "text": "Watching the houses.",
-   "start": 21.071,
-   "end": 22.404,
+   "start": 21.753,
+   "end": 23.363,
    "whisper": false,
    "phrases": [
     {
      "text": "Watching the houses.",
-     "start": 21.071,
-     "end": 22.404
+     "start": 21.753,
+     "end": 23.363
     }
    ],
    "phraseSource": "whole-line"
@@ -141,14 +141,14 @@
   {
    "id": "L09",
    "text": "We called him Wolfman Mick.",
-   "start": 22.804,
-   "end": 24.499,
+   "start": 23.763,
+   "end": 26.461,
    "whisper": false,
    "phrases": [
     {
      "text": "We called him Wolfman Mick.",
-     "start": 22.804,
-     "end": 24.499
+     "start": 23.763,
+     "end": 26.461
     }
    ],
    "phraseSource": "whole-line"
@@ -156,14 +156,14 @@
   {
    "id": "L10",
    "text": "Mick died last week.",
-   "start": 25.139,
-   "end": 26.775,
+   "start": 27.101,
+   "end": 28.494,
    "whisper": false,
    "phrases": [
     {
      "text": "Mick died last week.",
-     "start": 25.139,
-     "end": 26.775
+     "start": 27.101,
+     "end": 28.494
     }
    ],
    "phraseSource": "whole-line"
@@ -171,19 +171,19 @@
   {
    "id": "L11",
    "text": "I came home for the funeral. Slept in my old room.",
-   "start": 27.015,
-   "end": 30.362,
+   "start": 28.734,
+   "end": 32.201,
    "whisper": false,
    "phrases": [
     {
      "text": "I came home for the funeral.",
-     "start": 27.015,
-     "end": 28.7
+     "start": 28.734,
+     "end": 30.659
     },
     {
      "text": "Slept in my old room.",
-     "start": 28.7,
-     "end": 30.362
+     "start": 30.659,
+     "end": 32.2
     }
    ],
    "phraseSource": "measured-silence"
@@ -191,19 +191,19 @@
   {
    "id": "L12",
    "text": "First full moon in twenty years, with nobody at the end of the road.",
-   "start": 30.642,
-   "end": 34.953,
+   "start": 32.481,
+   "end": 36.954,
    "whisper": false,
    "phrases": [
     {
      "text": "First full moon in twenty years,",
-     "start": 30.642,
-     "end": 32.857
+     "start": 32.481,
+     "end": 33.081
     },
     {
      "text": "with nobody at the end of the road.",
-     "start": 32.857,
-     "end": 34.953
+     "start": 33.081,
+     "end": 36.955
     }
    ],
    "phraseSource": "measured-silence"
@@ -211,14 +211,14 @@
   {
    "id": "L13",
    "text": "I woke at three.",
-   "start": 35.673,
-   "end": 36.866,
+   "start": 37.674,
+   "end": 39.151,
    "whisper": false,
    "phrases": [
     {
      "text": "I woke at three.",
-     "start": 35.673,
-     "end": 36.866
+     "start": 37.674,
+     "end": 39.151
     }
    ],
    "phraseSource": "whole-line"
@@ -226,19 +226,19 @@
   {
    "id": "L14",
    "text": "The window was open. Mud on the sill.",
-   "start": 37.106,
-   "end": 39.667,
+   "start": 39.391,
+   "end": 42.001,
    "whisper": false,
    "phrases": [
     {
      "text": "The window was open.",
-     "start": 37.106,
-     "end": 38.396
+     "start": 39.391,
+     "end": 40.671
     },
     {
      "text": "Mud on the sill.",
-     "start": 38.396,
-     "end": 39.667
+     "start": 40.671,
+     "end": 42.0
     }
    ],
    "phraseSource": "measured-silence"
@@ -246,14 +246,14 @@
   {
    "id": "L15",
    "text": "Then Danny texted.",
-   "start": 40.147,
-   "end": 41.651,
+   "start": 42.481,
+   "end": 44.001,
    "whisper": false,
    "phrases": [
     {
      "text": "Then Danny texted.",
-     "start": 40.147,
-     "end": 41.651
+     "start": 42.481,
+     "end": 44.001
     }
    ],
    "phraseSource": "whole-line"
@@ -261,14 +261,14 @@
   {
    "id": "L16",
    "text": "Mum finally told me how Mick lost his arm.",
-   "start": 41.931,
-   "end": 44.856,
+   "start": 44.281,
+   "end": 46.925,
    "whisper": false,
    "phrases": [
     {
      "text": "Mum finally told me how Mick lost his arm.",
-     "start": 41.931,
-     "end": 44.856
+     "start": 44.281,
+     "end": 46.925
     }
    ],
    "phraseSource": "whole-line"
@@ -276,14 +276,14 @@
   {
    "id": "L17",
    "text": "The summer we were ten.",
-   "start": 45.096,
-   "end": 46.581,
+   "start": 47.165,
+   "end": 48.996,
    "whisper": false,
    "phrases": [
     {
      "text": "The summer we were ten.",
-     "start": 45.096,
-     "end": 46.581
+     "start": 47.165,
+     "end": 48.996
     }
    ],
    "phraseSource": "whole-line"
@@ -291,14 +291,14 @@
   {
    "id": "L18",
    "text": "The night you went missing.",
-   "start": 46.821,
-   "end": 48.382,
+   "start": 49.236,
+   "end": 51.046,
    "whisper": false,
    "phrases": [
     {
      "text": "The night you went missing.",
-     "start": 46.821,
-     "end": 48.382
+     "start": 49.236,
+     "end": 51.046
     }
    ],
    "phraseSource": "whole-line"
@@ -306,14 +306,14 @@
   {
    "id": "L19",
    "text": "I don't remember going missing.",
-   "start": 49.262,
-   "end": 50.867,
+   "start": 51.926,
+   "end": 53.369,
    "whisper": false,
    "phrases": [
     {
      "text": "I don't remember going missing.",
-     "start": 49.262,
-     "end": 50.867
+     "start": 51.926,
+     "end": 53.369
     }
    ],
    "phraseSource": "whole-line"
@@ -321,14 +321,14 @@
   {
    "id": "L20",
    "text": "Mick wasn't watching for wolves getting in.",
-   "start": 51.267,
-   "end": 53.854,
+   "start": 53.769,
+   "end": 56.319,
    "whisper": false,
    "phrases": [
     {
      "text": "Mick wasn't watching for wolves getting in.",
-     "start": 51.267,
-     "end": 53.854
+     "start": 53.769,
+     "end": 56.319
     }
    ],
    "phraseSource": "whole-line"
@@ -336,14 +336,14 @@
   {
    "id": "L21",
    "text": "He was watching for one getting out.",
-   "start": 54.214,
-   "end": 56.302,
+   "start": 56.679,
+   "end": 59.04,
    "whisper": false,
    "phrases": [
     {
      "text": "He was watching for one getting out.",
-     "start": 54.214,
-     "end": 56.302
+     "start": 56.679,
+     "end": 59.04
     }
    ],
    "phraseSource": "whole-line"
@@ -351,14 +351,14 @@
   {
    "id": "L22",
    "text": "Mick?",
-   "start": 59.022,
-   "end": 59.747,
+   "start": 61.76,
+   "end": 62.417,
    "whisper": true,
    "phrases": [
     {
      "text": "Mick?",
-     "start": 59.022,
-     "end": 59.747
+     "start": 61.76,
+     "end": 62.417
     }
    ],
    "phraseSource": "whole-line"

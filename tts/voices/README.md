@@ -2,6 +2,7 @@
 
 | File | What it is | Use |
 | --- | --- | --- |
+| `narrator_ref_original.wav` | The project owner's own voice (supplied with consent), the same 11.8 s cut (3.67–15.48 s), level-normalised only (loudnorm −20 LUFS), **not denoised** (owner preferred its character). Used for The Watch 01 | `--ref tts/voices/narrator_ref_original.wav` |
 | `narrator_ref_clean.wav` | The project owner's own voice (supplied with consent), 11.8 s of continuous speech cut from a 20.7 s recording, denoised | `--ref tts/voices/narrator_ref_clean.wav` |
 | `storyteller_ref.wav` | Synthetic: Kokoro `bm_lewis` reading neutral gothic prose (no real person) | default `--ref` |
 
