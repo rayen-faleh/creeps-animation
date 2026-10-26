@@ -27,9 +27,8 @@ export const BackDoor: React.FC<{t: number}> = ({t}) => {
         <DoorWall id="bd" t={t} mode="night" open={open} beyond={<rect x={0} y={0} width={1080} height={1920} fill="#010102" />}>
           <Hand id="bd-h" x={wx} y={wy + (1 - Math.min(1, insert * 3)) * 400} rot={-70 + twist * 30} scale={1.3} style={STYLES.adult} pose={pose} light={0.7} />
         </DoorWall>
-        <Wolfsbane x={DOOR.cx - 120} y={DOOR.yb - DOOR.h + 330} s={0.9} t={t} warm={0} lit={0.8} />
-        <Wolfsbane x={DOOR.cx + 110} y={DOOR.yb - DOOR.h + 360} s={0.8} t={t + 2} warm={0} lit={0.8} />
-        <Wolfsbane x={DOOR.cx - 10} y={DOOR.yb - DOOR.h + 230} s={0.85} t={t + 4} warm={0} lit={0.8} />
+        <Wolfsbane x={DOOR.cx - 170} y={DOOR.yb - DOOR.h + 380} s={0.6} t={t} warm={0} lit={0.6} />
+        <Wolfsbane x={DOOR.cx + 150} y={DOOR.yb - DOOR.h + 400} s={0.55} t={t + 2} warm={0} lit={0.6} />
       </Stage>
     </Camera>
   );
@@ -236,8 +235,8 @@ export const Cliffhanger: React.FC<{t: number}> = ({t}) => {
             underColor="#9fb4cf"
             beyond={<rect x={0} y={0} width={1080} height={1920} fill="#9fb4cf" opacity={0.25} />}
           />
-          <Wolfsbane x={DOOR.cx - 120} y={DOOR.yb - DOOR.h + 330} s={0.9} t={t} warm={0} lit={0.8} />
-          <Wolfsbane x={DOOR.cx + 110} y={DOOR.yb - DOOR.h + 360} s={0.8} t={t + 2} warm={0} lit={0.8} />
+          <Wolfsbane x={DOOR.cx - 170} y={DOOR.yb - DOOR.h + 380} s={0.6} t={t} warm={0} lit={0.6} />
+          <Wolfsbane x={DOOR.cx + 150} y={DOOR.yb - DOOR.h + 400} s={0.55} t={t + 2} warm={0} lit={0.6} />
         </Stage>
       </Camera>
     </AbsoluteFill>

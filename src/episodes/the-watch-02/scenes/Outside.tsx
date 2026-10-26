@@ -35,13 +35,13 @@ export const HookPages: React.FC<{t: number}> = ({t}) => {
   const flip = t < B.street - 0.6 ? prog(turn, 0.55, 1, easeInOut) : 0;
   return (
     <AbsoluteFill>
-      <Camera t={t} zoom={1.0 + t * 0.03} y={-40} rot={-4} shake={4} seed={201}>
+      <Camera t={t} zoom={1.45 + t * 0.03} x={250} y={-60} rot={-4} shake={4} seed={201}>
         <Stage>
           <rect x={-400} y={-600} width={1880} height={2600} fill="#07080b" />
           <NotebookOpen id="hp" x={560} y={520} s={0.92} rot={-6} t={t} left={LOG_LEFT} right={LOG_PAGE} heading={['2019', '2020']} lit={0.95} turn={flip} size={34} />
         </Stage>
       </Camera>
-      <Torch x={640} y={820} r={520} ambient={0.08} />
+      <Torch x={600} y={760} r={520} ambient={0.08} />
     </AbsoluteFill>
   );
 };
@@ -75,7 +75,7 @@ export const StreetApproach: React.FC<{t: number}> = ({t}) => {
 };
 
 /* S03 + S05: close on the post: the torch lashed with twine; then the key hanging under it, and his hand takes it */
-export const PostClose: React.FC<{t: number; key?: boolean}> = ({t, key: withKey}) => {
+export const PostClose: React.FC<{t: number; withKey?: boolean}> = ({t, withKey}) => {
   const t0 = withKey ? B.key : B.post;
   const lt = t - t0;
   const reach = withKey ? prog(t, t0 + 0.5, t0 + 1.0, easeOut) : 0;
@@ -97,7 +97,7 @@ export const PostClose: React.FC<{t: number; key?: boolean}> = ({t, key: withKey
       <Camera t={t} zoom={withKey ? 1.25 + lt * 0.03 : 1.0 + lt * 0.05} y={withKey ? 220 : -40} shake={4} seed={204}>
         <Stage>
           <LampPostClose id="pc" x={560} y={900} s={1.25} t={t} glare={withKey ? 0.3 : 0.75}>
-            {!(grab > 0.5 && pullAway > 0) && <KeyTag x={0} y={keyY} s={1.4} swing={swing} label="Back door" lit={0.7} />}
+            {withKey && !(grab > 0.5 && pullAway > 0) && <KeyTag x={0} y={keyY} s={1.4} swing={swing} label="Back door" lit={0.7} />}
           </LampPostClose>
           {withKey && (
             <g>

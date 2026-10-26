@@ -1,0 +1,362 @@
+{
+ "unit": "seconds",
+ "total": 61.591,
+ "provenance": "chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "For twenty years, a dead man kept a diary about me.",
+   "start": 0.35,
+   "end": 4.385,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "For twenty years,",
+     "start": 0.35,
+     "end": 1.66
+    },
+    {
+     "text": "a dead man kept a diary about me.",
+     "start": 1.66,
+     "end": 4.385
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "The torch was still on when I reached the lamp post.",
+   "start": 4.785,
+   "end": 7.993,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "The torch was still on when I reached the lamp post.",
+     "start": 4.785,
+     "end": 7.993
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "No one there. Just Mick's old torch, tied to the post.",
+   "start": 8.193,
+   "end": 12.136,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "No one there.",
+     "start": 8.193,
+     "end": 9.233
+    },
+    {
+     "text": "Just Mick's old torch,",
+     "start": 9.233,
+     "end": 10.958
+    },
+    {
+     "text": "tied to the post.",
+     "start": 10.958,
+     "end": 12.136
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "Pointed at my window.",
+   "start": 12.336,
+   "end": 13.87,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Pointed at my window.",
+     "start": 12.336,
+     "end": 13.87
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L05",
+   "text": "And under it, a key. Back door.",
+   "start": 14.19,
+   "end": 17.675,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "And under it,",
+     "start": 14.19,
+     "end": 15.095
+    },
+    {
+     "text": "a key.",
+     "start": 15.095,
+     "end": 16.34
+    },
+    {
+     "text": "Back door.",
+     "start": 16.34,
+     "end": 17.675
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "Mick's house smelt of wolfsbane.",
+   "start": 18.235,
+   "end": 20.963,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Mick's house smelt of wolfsbane.",
+     "start": 18.235,
+     "end": 20.963
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L07",
+   "text": "Twenty notebooks on the shelf. One for every year.",
+   "start": 21.203,
+   "end": 24.579,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Twenty notebooks on the shelf.",
+     "start": 21.203,
+     "end": 22.898
+    },
+    {
+     "text": "One for every year.",
+     "start": 22.898,
+     "end": 24.578
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "Every full moon, the same line.",
+   "start": 24.819,
+   "end": 28.078,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Every full moon,",
+     "start": 24.819,
+     "end": 26.604
+    },
+    {
+     "text": "the same line.",
+     "start": 26.604,
+     "end": 28.078
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "My initial. At the window. Held.",
+   "start": 28.318,
+   "end": 31.58,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "My initial.",
+     "start": 28.318,
+     "end": 29.438
+    },
+    {
+     "text": "At the window.",
+     "start": 29.438,
+     "end": 30.803
+    },
+    {
+     "text": "Held.",
+     "start": 30.803,
+     "end": 31.58
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "I found the summer we were ten.",
+   "start": 32.14,
+   "end": 34.181,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "I found the summer we were ten.",
+     "start": 32.14,
+     "end": 34.181
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L11",
+   "text": "The night I went missing.",
+   "start": 34.381,
+   "end": 36.242,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "The night I went missing.",
+     "start": 34.381,
+     "end": 36.242
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L12",
+   "text": "He'd written it one-handed.",
+   "start": 36.562,
+   "end": 38.167,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "He'd written it one-handed.",
+     "start": 36.562,
+     "end": 38.167
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L13",
+   "text": "It wasn't my initial.",
+   "start": 38.887,
+   "end": 40.274,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "It wasn't my initial.",
+     "start": 38.887,
+     "end": 40.274
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L14",
+   "text": "It was Danny's.",
+   "start": 40.674,
+   "end": 41.789,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "It was Danny's.",
+     "start": 40.674,
+     "end": 41.789
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "Danny told me it was me.",
+   "start": 42.669,
+   "end": 44.705,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Danny told me it was me.",
+     "start": 42.669,
+     "end": 44.705
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "There was one more page. The night Mick died.",
+   "start": 45.185,
+   "end": 48.684,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "There was one more page.",
+     "start": 45.185,
+     "end": 46.87
+    },
+    {
+     "text": "The night Mick died.",
+     "start": 46.87,
+     "end": 48.684
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L17",
+   "text": "If I go, keep Danny away from the boy.",
+   "start": 49.004,
+   "end": 51.884,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "If I go,",
+     "start": 49.004,
+     "end": 50.124
+    },
+    {
+     "text": "keep Danny away from the boy.",
+     "start": 50.124,
+     "end": 51.884
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L18",
+   "text": "Mick wasn't keeping me in.",
+   "start": 52.604,
+   "end": 54.456,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Mick wasn't keeping me in.",
+     "start": 52.604,
+     "end": 54.456
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L19",
+   "text": "He was keeping Danny out.",
+   "start": 54.816,
+   "end": 56.601,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "He was keeping Danny out.",
+     "start": 54.816,
+     "end": 56.601
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L20",
+   "text": "He has a key.",
+   "start": 59.961,
+   "end": 60.951,
+   "whisper": true,
+   "phrases": [
+    {
+     "text": "He has a key.",
+     "start": 59.961,
+     "end": 60.951
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

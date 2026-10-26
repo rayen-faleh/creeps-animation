@@ -16,7 +16,7 @@ const sceneAt = (t: number) => {
   if (t < B.post) return <StreetApproach t={t} />; // S02 the torch still on
   if (t < B.window) return <PostClose t={t} />; // S03 lashed to the post
   if (t < B.key) return <WindowBeam t={t} />; // S04 pointed at my window
-  if (t < B.door) return <PostClose t={t} key />; // S05 a key: back door
+  if (t < B.door) return <PostClose t={t} withKey />; // S05 a key: back door
   if (t < B.shelf) return <BackDoor t={t} />; // S06 Mick's house, wolfsbane
   if (t < B.memory) return <ShelfScene t={t} />; // S07 twenty notebooks
   if (t < B.page) return <MemoryLamp t={t} />; // S08 memory: Mick writing at the lamp

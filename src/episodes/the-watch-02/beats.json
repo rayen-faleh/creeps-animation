@@ -1,0 +1,28 @@
+{
+ "B": {
+  "hook": 0.0,
+  "street": 4.785,
+  "post": 8.193,
+  "window": 12.336,
+  "key": 14.19,
+  "door": 18.235,
+  "shelf": 21.203,
+  "memory": 24.819,
+  "page": 28.318,
+  "y2006": 32.14,
+  "open2006": 34.381,
+  "oneHand": 36.562,
+  "reveal": 38.887,
+  "danny": 40.674,
+  "told": 42.669,
+  "last": 45.185,
+  "keep": 49.004,
+  "inside": 52.604,
+  "out": 56.251,
+  "text": 57.051,
+  "turn": 58.751,
+  "cut": 59.841
+ },
+ "durationSec": 64.44,
+ "source": "timing.json (chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples)"
+}

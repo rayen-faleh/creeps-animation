@@ -7,6 +7,12 @@ _B = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'be
 B = _B['B']
 DUR = _B['durationSec']
 
+def layer(*sigs):
+    """Sum one-shots of different lengths (shorter ones zero-padded)."""
+    n = max(len(x) for x in sigs); out = np.zeros(n)
+    for x in sigs: out[: len(x)] += x
+    return out
+
 def footstep(gain=0.5):
     """Boot on wet cobbles: a low thud with a gritty scrape."""
     n = int(0.18 * SR); t = np.arange(n) / SR
@@ -20,7 +26,9 @@ def buzz(dur=0.42, gain=0.18):
     return lp(x, 900) * gain
 
 def page(gain=0.35):
-    return whoosh(0.35, 1800, 7000, gain) + np.concatenate([np.zeros(int(0.25 * SR)), click(0.5, 3000)])[: int(0.35 * SR)] * gain
+    w = whoosh(0.35, 1800, 7000, gain)
+    c = np.concatenate([np.zeros(int(0.25 * SR)), click(0.5, 3000), np.zeros(len(w))])[: len(w)]
+    return w + c * gain
 
 def cues(S):
     cut = B['cut']
@@ -54,9 +62,9 @@ def cues(S):
     S.sfx_at(boom(3.0, 36), B['out'], 0.9)                                             # "keeping Danny out."
     # the cliffhanger
     S.sfx_at(buzz(), B['text'], 1.0); S.sfx_at(buzz(), B['text'] + 0.6, 1.0)
-    S.sfx_at(click(1.0, 3400) + click(0.6, 2400), B['text'], 0.45); S.sfx_at(click(1.0, 3400) + click(0.6, 2400), B['text'] + 0.55, 0.45)
+    S.sfx_at(layer(click(1.0, 3400), click(0.6, 2400)), B['text'], 0.45); S.sfx_at(layer(click(1.0, 3400), click(0.6, 2400)), B['text'] + 0.55, 0.45)
     S.sfx_at(whoosh(0.4, 300, 4000), B['turn'], 0.7)
-    for k in range(5): S.sfx_at(knock(0.35) + click(0.6, 900), B['turn'] + 0.35 + k * 0.1, 0.6)   # the handle rattles
+    for k in range(5): S.sfx_at(layer(knock(0.35), click(0.6, 900)), B['turn'] + 0.35 + k * 0.1, 0.6)   # the handle rattles
     S.sfx_at(click(1.0, 700), B['turn'] + 0.88, 0.8)                                   # the lock gives
     S.sfx_at(creak(1.2, 0.12), B['turn'] + 0.9)
     S.sfx_at(breath(0.5, 0.15), B['turn'] + 0.95)
