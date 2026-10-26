@@ -36,7 +36,7 @@ export const Grain: React.FC<{frame: number; opacity?: number}> = ({frame, opaci
   return (
     <AbsoluteFill style={{mixBlendMode: 'overlay', opacity, pointerEvents: 'none'}}>
       <Img
-        src={staticFile(`tex/grain${i}.png`)}
+        src={staticFile(`textures/grain${i}.png`)}
         style={{width: W + 80, height: H + 80, marginLeft: -ox, marginTop: -ox * 0.6, imageRendering: 'auto'}}
       />
     </AbsoluteFill>

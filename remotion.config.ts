@@ -7,3 +7,5 @@ if (process.env.REMOTION_BROWSER) {
   Config.setChromeMode('headless-shell');
 }
 Config.setConcurrency(2);
+// Static files (fonts, grain textures, mastered audio) live in assets/ instead of Remotion's default public/.
+Config.setPublicDir('./assets');

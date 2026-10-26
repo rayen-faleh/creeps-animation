@@ -12,7 +12,7 @@ const times = args.filter((a) => !a.startsWith('--')).map(Number);
 const exe = process.env.REMOTION_BROWSER;
 const outDir = path.join('out', 'stills', id);
 fs.mkdirSync(outDir, {recursive: true});
-const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts')});
+const serveUrl = await bundle({entryPoint: path.resolve('src/index.ts'), publicDir: path.resolve('assets')});
 const browser = await openBrowser('chrome', exe ? {browserExecutable: exe, chromeMode: 'headless-shell'} : {});
 const composition = await selectComposition({serveUrl, id, puppeteerInstance: browser});
 for (const t of times) {

@@ -1,7 +1,7 @@
 """Gothic POV sound engine. Everything is synthesised (no samples, no licences).
 
 A story's cues.py defines DUR (seconds) and cues(S) which places score and effects on a Score.
-scripts/build_audio.py runs it, mixes the narration under the house rules and masters the result.
+sound/build_audio.py runs it, mixes the narration under the house rules and masters the result.
 All times are global seconds, the same clock as timing.json and the scene code.
 """
 import numpy as np

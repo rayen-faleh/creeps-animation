@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Build a story's soundtrack: cues -> mix -> master.
 
-usage: python3 scripts/build_audio.py <slug> [--target -15]
+usage: python3 sound/build_audio.py <slug> [--target -15]
 reads   src/episodes/<slug>/cues.py (DUR, cues(S)), src/episodes/<slug>/timing.json, work/<slug>/narration.wav
-writes  work/<slug>/mix_raw.wav, public/episodes/<slug>/mix.wav  (48 kHz stereo, about -15 LUFS, <= -1.3 dBTP)
+writes  work/<slug>/mix_raw.wav, assets/audio/<slug>/mix.wav  (48 kHz stereo, about -15 LUFS, <= -1.3 dBTP)
 """
 import argparse, importlib.util, json, os, re, subprocess, sys
 import soundfile as sf
@@ -19,7 +19,7 @@ def loudness(path):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('slug'); ap.add_argument('--target', type=float, default=-15.0)
     a = ap.parse_args()
-    story = os.path.join('src', 'episodes', a.slug); work = os.path.join('work', a.slug); pub = os.path.join('public', 'episodes', a.slug)
+    story = os.path.join('src', 'episodes', a.slug); work = os.path.join('work', a.slug); pub = os.path.join('assets', 'audio', a.slug)
     os.makedirs(work, exist_ok=True); os.makedirs(pub, exist_ok=True)
     spec = importlib.util.spec_from_file_location('cues', os.path.join(story, 'cues.py')); cues = importlib.util.module_from_spec(spec); spec.loader.exec_module(cues)
     S = SL.Score(cues.DUR); cues.cues(S)

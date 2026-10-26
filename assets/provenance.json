@@ -1,0 +1,11 @@
+{
+  "fonts": [
+    {"path": "assets/fonts/cormorant-garamond-latin-600-*.woff2", "source": "@fontsource/cormorant-garamond", "license": "SIL OFL 1.1"},
+    {"path": "assets/fonts/unifrakturcook-latin-700-normal.woff2", "source": "@fontsource/unifrakturcook", "license": "SIL OFL 1.1"}
+  ],
+  "grain": {"path": "assets/textures/grain0-7.png", "source": "scripts/make_grain.py (seeded noise)", "license": "original"},
+  "audio": {"path": "assets/audio/<slug>/mix.wav", "source": "sound/build_audio.py (narration + synthesised score)", "license": "original"},
+  "art": {"path": "src/kit/art, src/kit/sets", "source": "original code-drawn SVG", "license": "original"},
+  "sound": {"path": "sound/sound_lib.py", "source": "procedural synthesis, no samples", "license": "original"},
+  "voice": {"path": "tts/models (download, not committed)", "model": "Kokoro-82M v1.0 via kokoro-onnx 0.6.1, voice bm_lewis", "license": "Apache-2.0; narration generated per story"}
+}

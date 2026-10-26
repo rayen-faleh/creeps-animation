@@ -19,7 +19,7 @@ export const StoryFrame: React.FC<{
   dipAt?: (t: number) => number; // 0..1 black overlay (time jumps, wake-ups)
   timing: Timing;
   redWords?: string[];
-  audio?: string; // path under public/, e.g. 'episodes/my-story/mix.wav'
+  audio?: string; // path under assets/, e.g. 'audio/my-story/mix.wav'
 }> = ({sceneAt, gradeAt, dipAt, timing, redWords, audio}) => {
   useStyleFonts();
   const frame = useCurrentFrame();

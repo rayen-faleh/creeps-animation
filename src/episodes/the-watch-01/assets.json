@@ -1,0 +1,8 @@
+{
+  "provenance": "All artwork is original code-drawn SVG in src/kit and src/episodes/the-watch-01; all music and effects are synthesised by scripts/sound_lib.py and cues.py; narration is Kokoro-82M (Apache-2.0) voice bm_lewis; fonts Cormorant Garamond and UnifrakturCook (SIL OFL 1.1).",
+  "assets": [
+    {"path": "public/episodes/the-watch-01/mix.wav", "source": "scripts/build_audio.py the-watch-01", "license": "original"},
+    {"path": "work/the-watch-01/narration.wav", "source": "scripts/narrate.py (kokoro-onnx 0.6.1, model files v1.0)", "license": "Apache-2.0 model output"}
+  ],
+  "names": "Thornhallow, Michael 'Mick' Ashworth and Danny are fictional."
+}

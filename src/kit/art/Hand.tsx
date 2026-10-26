@@ -1,5 +1,6 @@
 import React from 'react';
 import {theme} from '../theme';
+import {lerpColor, rng} from '../util';
 
 /**
  * Articulated hand seen from the back (dorsal view), wrist at (0,0), fingers toward -y.
@@ -18,6 +19,10 @@ export type HandStyle = {
   sleeve?: string;
   sleeveLen?: number;
   cuff?: string;
+  fur?: string; // coarse hair on the back of the hand and out of the cuff
+  furA?: number; // 0..1 how much fur shows (animate a turning)
+  furLen?: number;
+  mud?: number; // 0..1 dirt on knuckles and under the nails
 };
 
 const BASE_STYLES: Record<'vamp' | 'adult' | 'gran' | 'child', HandStyle> = {
@@ -80,7 +85,65 @@ export const STYLES = {
   ...BASE_STYLES,
   creature: BASE_STYLES.vamp,
   elder: BASE_STYLES.gran,
+  /** Werewolf: a man's hand gone coarse: sallow skin, black hooked nails, grey-brown fur, mud. */
+  wolf: {
+    skin: '#9a877a',
+    shade: '#3e2f28',
+    rim: '#c5d2e4',
+    nail: '#0c0b0a',
+    nailLen: 26,
+    thin: 0.9,
+    fingerLen: 1.12,
+    veins: true,
+    sleeve: '#15171c',
+    sleeveLen: 520,
+    cuff: '#22252c',
+    fur: '#2b2520',
+    furA: 1,
+    furLen: 18,
+    mud: 1,
+  } as HandStyle,
 };
+
+/** Blend two hand styles (colours and numbers), e.g. adult -> wolf during a turning. */
+export const lerpStyle = (a: HandStyle, b: HandStyle, t: number): HandStyle => {
+  const n = (x: number | undefined, y: number | undefined, d: number) => (x ?? d) + ((y ?? d) - (x ?? d)) * t;
+  const c = (x: string | undefined, y: string | undefined) => (x && y ? lerpColor(x, y, t) : t < 0.5 ? x : y);
+  return {
+    skin: c(a.skin, b.skin)!,
+    shade: c(a.shade, b.shade)!,
+    rim: c(a.rim, b.rim)!,
+    nail: c(a.nail, b.nail)!,
+    nailLen: n(a.nailLen, b.nailLen, 2),
+    thin: n(a.thin, b.thin, 1),
+    fingerLen: n(a.fingerLen, b.fingerLen, 1),
+    veins: t < 0.5 ? a.veins : b.veins,
+    wrinkles: t < 0.5 ? a.wrinkles : b.wrinkles,
+    sleeve: c(a.sleeve, b.sleeve),
+    sleeveLen: n(a.sleeveLen, b.sleeveLen, 520),
+    cuff: c(a.cuff, b.cuff),
+    fur: a.fur ?? b.fur,
+    furA: n(a.fur ? a.furA ?? 1 : 0, b.fur ? b.furA ?? 1 : 0, 0),
+    furLen: n(a.furLen, b.furLen, 24),
+    mud: n(a.mud, b.mud, 0),
+  };
+};
+
+const FUR = (() => {
+  const r = rng(808);
+  // denser toward the outer edges and the wrist, thin over the knuckles
+  return Array.from({length: 110}, () => {
+    const edge = r() < 0.6;
+    const side = r() < 0.5 ? -1 : 1;
+    const x = edge ? side * (34 + r() * 22) : (r() - 0.5) * 70;
+    const y = edge ? -90 + r() * 150 : -20 + r() * 80;
+    return {x, y, a: side * (edge ? 0.5 : 0.15) + (r() - 0.5) * 0.4, l: 0.5 + r() * 0.5};
+  });
+})();
+const CUFF_FUR = (() => {
+  const r = rng(809);
+  return Array.from({length: 26}, (_, i) => ({x: -80 + (i / 25) * 164 + (r() - 0.5) * 6, a: (r() - 0.5) * 0.9, l: 0.6 + r() * 0.6}));
+})();
 
 type Pt = [number, number];
 const FINGERS = [
@@ -286,6 +349,29 @@ export const Hand: React.FC<{
           <path d="M-30,-20 q20,6 40,-2 M-24,-8 q16,4 30,0" />
         </g>
       )}
+      {style.fur && (style.furA ?? 1) > 0.01 && (
+        <g strokeLinecap="round" fill="none">
+          {FUR.map((f, i) => {
+            const L = (style.furLen ?? 24) * f.l * (style.furA ?? 1);
+            const d = `M${f.x * k},${f.y} q${Math.sin(f.a) * L * 0.6},${-L * 0.5} ${Math.sin(f.a) * L},${-L}`;
+            return (
+              <g key={i}>
+                <path d={d} stroke={style.fur} strokeOpacity={0.9 * (style.furA ?? 1)} strokeWidth={3} />
+                <path d={d} stroke={style.rim} strokeOpacity={0.12 * (style.furA ?? 1) * light} strokeWidth={1} transform="translate(-1,-1)" />
+              </g>
+            );
+          })}
+        </g>
+      )}
+      {(style.mud ?? 0) > 0.01 && (
+        <g fill="#2a1e12" opacity={0.7 * (style.mud ?? 0)}>
+          {/* dried streaks dragged across the knuckles toward the wrist, uneven */}
+          <path d="M-52,-118 C-30,-126 10,-128 36,-116 C20,-112 -10,-108 -30,-96 C-40,-100 -50,-108 -52,-118 Z" />
+          <path d="M-8,-90 C4,-70 2,-40 -6,-10 C-12,-30 -16,-60 -8,-90 Z" opacity={0.7} />
+          <path d="M28,-60 C36,-40 40,-10 30,20 C26,0 22,-30 28,-60 Z" opacity={0.55} />
+          <path d="M-48,10 C-30,4 -10,8 4,20 C-14,24 -34,22 -48,10 Z" opacity={0.5} />
+        </g>
+      )}
       {/* knuckle bumps */}
       {FINGERS.map((f, i) => (
         <ellipse key={i} cx={f.bx * k} cy={f.by + 8} rx={f.w * k * 0.5} ry={7} fill={style.rim} opacity={0.12 * light} />
@@ -299,6 +385,15 @@ export const Hand: React.FC<{
           />
           <path d={`M${-84},54 Q0,78 ${86},54 L${86},82 Q0,106 ${-84},82 Z`} fill={style.cuff} />
           <path d={`M${-84},54 Q0,78 ${86},54`} stroke={style.rim} strokeOpacity={0.2 * light} strokeWidth={2} fill="none" />
+          {style.fur && (style.furA ?? 1) > 0.01 && (
+            <g stroke={style.fur} strokeOpacity={0.95 * (style.furA ?? 1)} strokeLinecap="round" fill="none">
+              {CUFF_FUR.map((f, i) => {
+                const L = (style.furLen ?? 24) * 0.9 * f.l * (style.furA ?? 1);
+                const y0 = 60 + Math.sin((f.x / 84) * 1.5) * 4;
+                return <path key={i} d={`M${f.x},${y0} q${Math.sin(f.a) * L * 0.5},${-L * 0.6} ${Math.sin(f.a) * L},${-L}`} strokeWidth={3} />;
+              })}
+            </g>
+          )}
         </g>
       )}
     </g>

@@ -10,7 +10,7 @@ import {BehindScene, DoorScene, MemoryScene} from './scenes/Story';
  *   cp -r src/episodes/_template src/episodes/<slug>   then edit META, script.json, scenes, cues.py,
  *   and add one import + one array entry in src/Root.tsx.
  */
-export const META = {id: 'Template', durationSec: 18.5, audio: 'episodes/_template/mix.wav'};
+export const META = {id: 'Template', durationSec: 18.5, audio: 'audio/_template/mix.wav'};
 
 const CUT = 14.25; // cliffhanger: hard cut to black, whisper, title
 

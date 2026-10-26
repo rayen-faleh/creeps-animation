@@ -10,7 +10,7 @@ import {FloorWorld} from './scenes/Floor';
 import {MirrorReveal, OpenWindow, ScratchScene} from './scenes/Reveal';
 
 /** The Count — Part I. Reference episode for the Gothic POV style. 64.0 s. */
-export const META = {id: 'TheCount01', durationSec: 64.0, audio: 'episodes/the-count-01/mix.wav'};
+export const META = {id: 'TheCount01', durationSec: 64.0, audio: 'audio/the-count-01/mix.wav'};
 
 const sceneAt = (t: number) => {
   if (t < 3.3) return <BedView t={t} t0={0} dawn={0} rice={0} grip={0.6 + lin(t, 1.6, 2.2) * 0.4} flit />;

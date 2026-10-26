@@ -1,6 +1,6 @@
 node_modules/
 out/
-voice/*.onnx
-voice/*.bin
+tts/models/*.onnx
+tts/models/*.bin
 work/*/mix_raw.wav
-scripts/__pycache__/
+__pycache__/

@@ -1,0 +1,23 @@
+{
+  "fps": 30,
+  "durationSec": 63.5,
+  "shots": [
+    {"id": "S01", "start": 0.0, "end": 4.37, "purpose": "Hook. Dusk, sitting on a garden wall; Danny's hand points and prods at his one-armed uncle across the road", "light": "dusk", "grade": "warm"},
+    {"id": "S02", "start": 4.37, "end": 8.97, "purpose": "Mick in profile, empty sleeve pinned; he turns and answers: 'A wolf took it. On this street.'", "light": "dusk", "grade": "warm"},
+    {"id": "S03", "start": 8.97, "end": 10.66, "purpose": "Back on the wall: Danny mocks with claw hands", "light": "dusk", "grade": "warm"},
+    {"id": "S04", "start": 10.66, "end": 12.62, "purpose": "Macro: a child's fingertip runs over silver nails in OUR windowsill (visual clue 1)", "light": "candle", "grade": "warm"},
+    {"id": "S05", "start": 12.62, "end": 14.77, "purpose": "Tilt up our bedroom door to a bundle of wolfsbane", "light": "candle", "grade": "warm"},
+    {"id": "S06", "start": 14.77, "end": 18.01, "purpose": "Full moon rising over the moor, gas lamp catches; Mick points the kids home; we hop off and turn", "light": "dusk", "grade": "warm"},
+    {"id": "S07", "start": 18.01, "end": 22.8, "purpose": "Child's window at night: Mick's torch sweeps the houses, then lands on OUR window (visual clue 2); hands recoil", "light": "night/candle", "grade": "warm"},
+    {"id": "S08", "start": 22.8, "end": 25.14, "purpose": "Mick under the lamp, torch low: 'Wolfman Mick'", "light": "night", "grade": "warm"},
+    {"id": "S09", "start": 25.14, "end": 28.7, "purpose": "Dip: twenty years later. The order-of-service card in adult hands ('He kept watch.')", "light": "night", "grade": "cold"},
+    {"id": "S10", "start": 28.7, "end": 35.4, "purpose": "The old room: he touches the rusted nails; push in to the empty lamp at the end of the road (spoken clue)", "light": "night", "grade": "cold"},
+    {"id": "S11", "start": 35.6, "end": 37.1, "purpose": "After a black hold: eyelids open on the casement swinging, curtains billowing", "light": "night", "grade": "cold"},
+    {"id": "S12", "start": 37.1, "end": 40.15, "purpose": "Tilt down to the sill: a muddy clawed handprint pointing OUT", "light": "night", "grade": "cold"},
+    {"id": "S13", "start": 40.15, "end": 49.1, "purpose": "Phone at 03:07: Danny's three texts; 'you' in red; Danny still typing", "light": "phone", "grade": "cold"},
+    {"id": "S14", "start": 49.1, "end": 54.21, "purpose": "Phone torch on his own hand: mud, then the nails lengthen, fur comes through; freeze and tremble", "light": "torch", "grade": "cold"},
+    {"id": "S15", "start": 54.21, "end": 56.9, "purpose": "Proof: both wolf hands curl to claws; zoom jolt on 'out.'", "light": "torch", "grade": "cold"},
+    {"id": "S16", "start": 56.9, "end": 58.9, "purpose": "Whip turn to the window: the lamp dies; a torch clicks on at the end of the road, aimed at us; push", "light": "night", "grade": "cold"},
+    {"id": "S17", "start": 58.9, "end": 63.5, "purpose": "Hard cut to black. Whisper 'Mick?' Title THE WATCH, PART I", "light": "black", "grade": "none"}
+  ]
+}

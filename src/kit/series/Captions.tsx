@@ -3,7 +3,7 @@ import {AbsoluteFill} from 'remotion';
 import {theme} from '../theme';
 import {lin} from '../util';
 
-/** Shape of timing.json written by scripts/narrate.py. Times are global seconds. */
+/** Shape of timing.json written by tts/narrate.py. Times are global seconds. */
 export type TimingLine = {
   id: string;
   text: string;
