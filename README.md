@@ -57,7 +57,7 @@ creeps-animation/
 │
 ├── .claude/skills/short-form-horror/SKILL.md   Hooks, retention and series craft for horror shorts (project skill)
 ├── series/                     Series bible: brainstorms, arcs, concepts, hook-playbook.md
-├── docs/                       kit-catalog.png (visual index of the kit), SKILL.md (full kit source edition)
+├── docs/                       kit-catalog.png (visual index of the kit), the-quarter-turn-scenes.png (every shot), SKILL.md (full kit source edition)
 ├── work/<slug>/                Raw narration takes (keep: the final mix alone cannot be re-edited)
 └── out/                        Renders and stills (git-ignored)
 ```
