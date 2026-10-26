@@ -16,6 +16,11 @@ for ((i = 0; i < n; i++)); do
   echo "file '$(basename "$f")'" >> "$out/parts.txt"
   echo "PART_DONE $((i + 1)) $f"
 done
+# join: decode the parts' pictures and encode once (a stream-copy concat drops frames at the joins because each
+# part's AAC runs slightly longer than its video), then lay the full soundtrack over in one pass
 film="$out/$(basename "$out").mp4"
-ffmpeg -v error -y -f concat -safe 0 -i "$out/parts.txt" -i "$audio" -map 0:v -map 1:a -c:v copy -c:a aac -b:a 192k -shortest "$film"
+inputs=(); chain=""
+for ((i = 0; i < n; i++)); do inputs+=(-i "$out/part$((i + 1)).mp4"); chain+="[$i:v]"; done
+ffmpeg -v error -y "${inputs[@]}" -i "$audio" -filter_complex "${chain}concat=n=$n:v=1:a=0[v]" -map "[v]" -map "$n:a" \
+  -c:v libx264 -crf 18 -preset veryfast -pix_fmt yuv420p -r 30 -c:a aac -b:a 192k -movflags +faststart "$film"
 echo "FILM_DONE $film"
