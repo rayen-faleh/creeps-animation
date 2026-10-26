@@ -1,0 +1,75 @@
+1
+00:00:00,350 --> 00:00:02,927
+You've just been bitten by a werewolf.
+
+2
+00:00:02,977 --> 00:00:05,009
+Would you survive one week?
+
+3
+00:00:05,239 --> 00:00:05,814
+Day one.
+
+4
+00:00:05,864 --> 00:00:07,759
+The dog won't come near you.
+
+5
+00:00:07,989 --> 00:00:08,574
+Day two.
+
+6
+00:00:08,624 --> 00:00:09,620
+Full moon.
+
+7
+00:00:09,670 --> 00:00:10,500
+Lock the door.
+
+8
+00:00:10,550 --> 00:00:11,660
+Key out of the window.
+
+9
+00:00:11,710 --> 00:00:12,687
+Easy.
+
+10
+00:00:12,917 --> 00:00:13,697
+Day three.
+
+11
+00:00:13,747 --> 00:00:15,217
+You wake up on your doorstep,
+
+12
+00:00:15,267 --> 00:00:16,578
+covered in mud.
+
+13
+00:00:16,628 --> 00:00:18,823
+Your watch logged the whole night.
+
+14
+00:00:18,873 --> 00:00:20,078
+Thirty-one miles.
+
+15
+00:00:20,128 --> 00:00:21,492
+Personal best.
+
+16
+00:00:21,962 --> 00:00:24,780
+And forty minutes stopped at a sheep farm.
+
+17
+00:00:24,930 --> 00:00:25,905
+Then it buzzes.
+
+18
+00:00:25,955 --> 00:00:27,707
+Full moon again tonight.
+
+19
+00:00:27,757 --> 00:00:29,662
+Ready for another run?

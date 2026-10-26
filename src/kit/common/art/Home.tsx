@@ -230,3 +230,168 @@ export const LettingTag: React.FC<{x: number; y: number; s?: number; rot?: numbe
   );
 };
 
+
+/* ---------------- Wearables and screens ---------------- */
+
+/**
+ * Fitness watch on a wrist. Place with armPoint(...) and rotate by (hand rot - 90) so its screen reads upright
+ * when the arm lies horizontally. screen: content in screen coords (-58..58, -66..66). buzz: times it vibrates.
+ */
+export const FitnessWatch: React.FC<{x: number; y: number; rot?: number; s?: number; t: number; lit?: number; on?: number; buzz?: number[]; screen?: React.ReactNode; id: string}> = ({
+  x,
+  y,
+  rot = 0,
+  s = 1,
+  t,
+  lit = 1,
+  on = 1,
+  buzz = [],
+  screen,
+  id,
+}) => {
+  const shake = buzz.reduce((m, b) => (t >= b && t < b + 0.5 ? Math.sin((t - b) * 110) * 3 * (1 - (t - b) / 0.5) : m), 0);
+  return (
+    <g transform={`translate(${x + shake},${y}) rotate(${rot}) scale(${s})`}>
+      <defs>
+        <clipPath id={`${id}-scr`}>
+          <rect x={-58} y={-66} width={116} height={132} rx={26} />
+        </clipPath>
+        <radialGradient id={`${id}-glow`}>
+          <stop offset="0" stopColor="#bcd0ff" stopOpacity={0.3 * on} />
+          <stop offset="1" stopColor="#bcd0ff" stopOpacity={0} />
+        </radialGradient>
+      </defs>
+      <ellipse cx={0} cy={0} rx={190} ry={190} fill={`url(#${id}-glow)`} />
+      {/* strap round the wrist (along the screen's vertical) */}
+      <rect x={-46} y={-150} width={92} height={300} rx={20} fill="#15171c" />
+      <path d="M-46,-140 L-46,140" stroke="#9fb4cf" strokeOpacity={0.15 * lit} strokeWidth={2} />
+      {/* case and screen */}
+      <rect x={-72} y={-82} width={144} height={164} rx={38} fill="#2a2d34" />
+      <rect x={-72} y={-82} width={144} height={164} rx={38} fill="none" stroke="#c8d3e3" strokeOpacity={0.35 * lit} strokeWidth={3} />
+      <rect x={72} y={-30} width={10} height={36} rx={4} fill="#3a3e46" />
+      <rect x={-64} y={-74} width={128} height={148} rx={32} fill="#000" />
+      <g clipPath={`url(#${id}-scr)`} opacity={on}>
+        {screen}
+      </g>
+    </g>
+  );
+};
+
+const WF = 'Helvetica, Arial, sans-serif';
+
+/** Watch screens for FitnessWatch. */
+export const WatchText: React.FC<{lines: {text: string; size?: number; color?: string; bold?: boolean}[]; y0?: number}> = ({lines, y0 = -30}) => {
+  let y = y0;
+  return (
+    <g>
+      {lines.map((l, i) => {
+        const size = l.size ?? 18;
+        y += i === 0 ? 0 : size * 1.25;
+        return (
+          <text key={i} x={0} y={y} textAnchor="middle" fontFamily={WF} fontSize={size} fontWeight={l.bold ? 700 : 400} fill={l.color ?? '#eef0f4'}>
+            {l.text}
+          </text>
+        );
+      })}
+    </g>
+  );
+};
+
+/** A small runner glyph (the run workout icon). */
+export const RunnerIcon: React.FC<{x: number; y: number; s?: number; color?: string}> = ({x, y, s = 1, color = '#b6f25a'}) => (
+  <g transform={`translate(${x},${y}) scale(${s})`} stroke={color} strokeWidth={4} strokeLinecap="round" fill="none">
+    <circle cx={4} cy={-16} r={4} fill={color} stroke="none" />
+    <path d="M2,-10 L-2,4 L-10,14 M-2,4 L6,10 L4,20 M0,-6 L10,-2 M0,-6 L-10,-2" />
+  </g>
+);
+
+/** Confetti burst (deterministic), centred, `p` 0..1 progress. */
+export const Confetti: React.FC<{p: number; seed?: number; r?: number}> = ({p, seed = 12, r = 70}) => {
+  if (p <= 0) return null;
+  const rr = rng(seed);
+  const cols = ['#b6f25a', '#ffb45a', '#c4161c', '#9fd0ff'];
+  return (
+    <g opacity={1 - Math.max(0, p - 0.6) / 0.4}>
+      {Array.from({length: 18}, (_, i) => {
+        const a = rr() * Math.PI * 2, d = r * (0.4 + rr() * 0.8) * Math.min(1, p * 1.6);
+        return <rect key={i} x={Math.cos(a) * d - 3} y={Math.sin(a) * d - 3 + p * 20} width={6} height={6} fill={cols[i % 4]} transform={`rotate(${a * 50})`} />;
+      })}
+    </g>
+  );
+};
+
+/** A crepe bandage wrapped round the wrist, with a seeping stain. Place like FitnessWatch (rotate by hand rot). */
+export const Bandage: React.FC<{x: number; y: number; rot?: number; s?: number; lit?: number; stain?: number}> = ({x, y, rot = 0, s = 1, lit = 1, stain = 0.6}) => (
+  <g transform={`translate(${x},${y}) rotate(${rot}) scale(${s})`}>
+    <path d="M-62,-34 C-20,-44 20,-44 62,-34 L64,36 C20,46 -20,46 -64,36 Z" fill="#b8b2a4" />
+    {[-18, 0, 18].map((k) => (
+      <path key={k} d={`M-62,${k - 6} C-20,${k - 18} 20,${k - 2} 62,${k + 8}`} stroke="#6f6a60" strokeOpacity={0.6} strokeWidth={3} fill="none" />
+    ))}
+    <ellipse cx={14} cy={4} rx={24 * stain + 6} ry={14 * stain + 4} fill="#6a0f12" opacity={0.8} />
+    <ellipse cx={10} cy={2} rx={12 * stain + 3} ry={7 * stain + 2} fill="#8a0f12" />
+    <path d="M62,-34 L64,36" stroke="#dfe8f5" strokeOpacity={0.4 * lit} strokeWidth={3} />
+  </g>
+);
+
+/**
+ * A fitness app's route map for Phone's `screen` slot (screen-local 420x860): contour lines over moorland, the
+ * route drawn up to `draw` (0..1), a home pin, the farm pin with a pause marker, sheep. Header shows the stats.
+ */
+export const RouteMap: React.FC<{draw: number; t: number; title: string; stats: string; farm: string; stop: string; stopShow: number}> = ({draw, t, title, stats, farm, stop, stopShow}) => {
+  const r = rng(31);
+  const route =
+    'M120,690 C140,640 100,600 150,560 C210,520 260,600 300,540 C340,480 250,430 210,400 C160,360 120,300 170,260 C230,210 330,260 340,330 C350,390 280,420 300,470 C320,520 360,470 330,420';
+  const L = 1500;
+  return (
+    <g>
+      <rect x={14} y={14} width={392} height={832} fill="#1a2030" />
+      {/* contours */}
+      {Array.from({length: 12}, (_, i) => {
+        const cy = 160 + i * 58, a = 18 + r() * 20, ph = r() * 6;
+        return <path key={i} d={`M14,${cy} C120,${cy - a} 220,${cy + a * Math.sin(ph)} 406,${cy - a * 0.5}`} stroke="#2c3550" strokeWidth={2} fill="none" />;
+      })}
+      {/* road and the village */}
+      <path d="M14,720 C140,700 260,740 406,710" stroke="#3a4560" strokeWidth={10} fill="none" />
+      {Array.from({length: 7}, (_, i) => (
+        <rect key={i} x={70 + i * 22} y={730 + (i % 2) * 10} width={16} height={12} fill="#3a4560" />
+      ))}
+      {/* the farm: buildings, field, sheep */}
+      <path d="M262,370 L398,350 L400,470 L270,480 Z" fill="#22301f" stroke="#3a4a33" strokeWidth={2} />
+      <rect x={344} y={396} width={30} height={20} fill="#4a5568" />
+      <rect x={376} y={400} width={16} height={16} fill="#4a5568" />
+      {Array.from({length: 9}, (_, i) => (
+        <ellipse key={i} cx={282 + r() * 100} cy={430 + r() * 40} rx={5} ry={4} fill="#e8ecf2" opacity={0.85} />
+      ))}
+      {/* route */}
+      <path d={route} stroke="#000" strokeOpacity={0.4} strokeWidth={12} fill="none" strokeLinecap="round" strokeDasharray={`${L * draw} ${L}`} />
+      <path d={route} stroke="#b6f25a" strokeWidth={7} fill="none" strokeLinecap="round" strokeLinejoin="round" strokeDasharray={`${L * draw} ${L}`} />
+      {/* home pin */}
+      <circle cx={120} cy={690} r={12 + Math.sin(t * 4) * 1.5} fill="#9fd0ff" stroke="#fff" strokeWidth={3} />
+      <text x={140} y={676} fontFamily={WF} fontSize={18} fill="#c4c8d2">
+        Home
+      </text>
+      {/* stop marker at the farm */}
+      <g opacity={stopShow} transform={`translate(330,420) scale(${0.8 + 0.2 * stopShow})`}>
+        <circle r={20} fill="#ffb45a" stroke="#fff" strokeWidth={3} />
+        <rect x={-7} y={-8} width={5} height={16} fill="#1a1a1a" />
+        <rect x={2} y={-8} width={5} height={16} fill="#1a1a1a" />
+        <rect x={-150} y={-96} width={220} height={62} rx={14} fill="#0e1118" opacity={0.92} />
+        <text x={-40} y={-70} textAnchor="middle" fontFamily={WF} fontSize={20} fontWeight={700} fill="#ffb45a">
+          {stop}
+        </text>
+        <text x={-40} y={-46} textAnchor="middle" fontFamily={WF} fontSize={18} fill="#e6e8ee">
+          {farm}
+        </text>
+      </g>
+      {/* header */}
+      <rect x={14} y={14} width={392} height={130} fill="#0e1118" opacity={0.92} />
+      <RunnerIcon x={56} y={86} s={1.2} />
+      <text x={90} y={78} fontFamily={WF} fontSize={30} fontWeight={700} fill="#eef0f4">
+        {title}
+      </text>
+      <text x={90} y={114} fontFamily={WF} fontSize={22} fill="#b6f25a">
+        {stats}
+      </text>
+    </g>
+  );
+};

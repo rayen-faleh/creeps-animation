@@ -29,6 +29,8 @@ About 60–65 spoken words. Only day numbers 1–3 appear; "of 7" keeps the week
 | `Phone` + `LockScreen` | `art/Modern.tsx`, `art/Home.tsx` | Modern-life beats (Face ID, texts); `Phone screen={...}` replaces the thread |
 | `PedestalBasin`, `RollerBlind`, `Smoke`, `Threshold`, `LettingTag` | `art/Home.tsx` | Everyday-home props |
 | `Doorstep` set (+ `WarmHall`) | `kit/portrait/sets/Doorstep.tsx` | Your own front door from outside |
+| `FitnessWatch` (+ `WatchText`, `RunnerIcon`, `Confetti`), `Bandage`, `RouteMap` | `art/Home.tsx` | Wearables; place on the arm with `armPoint()` and a `forearm` hand style (sleeve rolled up) |
+| `Dog` | `art/Animals.tsx` | Profile dog with `fear` (hackles, tucked tail, teeth) and `run` |
 
 ## New episode checklist
 
@@ -44,8 +46,7 @@ python3 sound/build_audio.py survive-<monster> && python3 tts/make_srt.py src/ep
 
 ## Ideas for the next ones
 
-- **Werewolf:** Day one, the dog won't stop staring. Day two, full moon, so you lock yourself in. Easy.
-  Day three, the moon app shows a **supermoon** this month… and you've got a smart lock. Your flatmate has the app.
+- **Werewolf:** made: `survive-werewolf` (the fitness watch logs the night as a personal best).
 - **Ghost:** Day one, the motion-sensor lights won't see you. Day two, you walk through walls. Easy.
   Day three, the new tenants are moving in… and they've hired someone to **cleanse** the house.
 - **Mummy:** Day one, airport scanner. Day two, you can't sleep without the dark. Easy. Day three: a museum wants you **back**.

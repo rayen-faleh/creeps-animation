@@ -1,0 +1,26 @@
+{
+ "B": {
+  "hook": 0.0,
+  "week": 2.977,
+  "day1": 5.239,
+  "dog": 5.864,
+  "bolt": 7.309,
+  "day2": 7.989,
+  "moon": 8.624,
+  "lock": 9.67,
+  "key": 10.55,
+  "easy": 11.71,
+  "day3": 12.917,
+  "wake": 13.747,
+  "mud": 15.267,
+  "watch": 16.628,
+  "miles": 18.873,
+  "best": 20.128,
+  "farm": 21.962,
+  "buzz": 24.93,
+  "tonight": 25.955,
+  "cut": 27.637
+ },
+ "durationSec": 33.04,
+ "source": "timing.json (kokoro bm_lewis per-line synthesis; times measured from decoded samples)"
+}

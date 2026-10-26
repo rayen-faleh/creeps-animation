@@ -24,6 +24,7 @@ export type HandStyle = {
   furLen?: number;
   mud?: number; // 0..1 dirt on knuckles and under the nails
   ring?: string; // wedding band colour on the ring finger
+  forearm?: number; // bare forearm shown between wrist and sleeve (sleeve rolled up), px; room for a watch or bandage
 };
 
 const BASE_STYLES: Record<'vamp' | 'adult' | 'gran' | 'child', HandStyle> = {
@@ -127,7 +128,14 @@ export const lerpStyle = (a: HandStyle, b: HandStyle, t: number): HandStyle => {
     furA: n(a.fur ? a.furA ?? 1 : 0, b.fur ? b.furA ?? 1 : 0, 0),
     furLen: n(a.furLen, b.furLen, 24),
     mud: n(a.mud, b.mud, 0),
+    forearm: n(a.forearm, b.forearm, 0),
   };
+};
+
+/** World position of a point d px down the arm from the hand origin (wrist ~ 60, forearm beyond), for straps, bandages, watches. */
+export const armPoint = (x: number, y: number, rotDeg: number, scale: number, d: number): [number, number] => {
+  const a = (rotDeg * Math.PI) / 180;
+  return [x - d * scale * Math.sin(a), y + d * scale * Math.cos(a)];
 };
 
 const FUR = (() => {
@@ -384,8 +392,24 @@ export const Hand: React.FC<{
         <ellipse key={i} cx={f.bx * k} cy={f.by + 8} rx={f.w * k * 0.5} ry={7} fill={style.rim} opacity={0.12 * light} />
       ))}
       {fingerEls}
-      {showSleeve && style.sleeve && (
+      {(style.forearm ?? 0) > 0 && (
         <g>
+          <path d={`M-48,40 C-52,${60 + style.forearm! * 0.5} -60,${60 + style.forearm!} -66,${80 + style.forearm!} L68,${80 + style.forearm!} C62,${60 + style.forearm!} 54,${60 + style.forearm! * 0.5} 50,40 Z`} fill={style.skin} />
+          <path d={`M50,40 C54,${60 + style.forearm! * 0.5} 62,${60 + style.forearm!} 68,${80 + style.forearm!}`} stroke={style.rim} strokeOpacity={0.3 * light} strokeWidth={3} fill="none" />
+          <path d={`M-48,40 C-52,${60 + style.forearm! * 0.5} -60,${60 + style.forearm!} -66,${80 + style.forearm!}`} stroke={style.shade} strokeOpacity={0.6} strokeWidth={10} fill="none" />
+          {style.fur && (style.furA ?? 1) > 0.01 && (
+            <g stroke={style.fur} strokeOpacity={0.8 * (style.furA ?? 1)} strokeWidth={3} strokeLinecap="round">
+              {Array.from({length: 26}, (_, i) => {
+                const fx = -44 + ((i * 37) % 92), fy = 60 + ((i * 53) % Math.max(1, style.forearm!));
+                const L = (style.furLen ?? 18) * (style.furA ?? 1);
+                return <path key={i} d={`M${fx},${fy} l${(i % 3) - 1 + 4},${-L}`} />;
+              })}
+            </g>
+          )}
+        </g>
+      )}
+      {showSleeve && style.sleeve && (
+        <g transform={`translate(0,${style.forearm ?? 0})`}>
           <path
             d={`M${-80},60 C${-100},${style.sleeveLen! * 0.5} ${-110},${style.sleeveLen} ${-120},${style.sleeveLen! + 40} L${120},${style.sleeveLen! + 40} C${110},${style.sleeveLen} ${104},${style.sleeveLen! * 0.5} ${84},40 Z`}
             fill={style.sleeve}
