@@ -1,20 +1,20 @@
 {
  "unit": "seconds",
- "total": 58.24,
- "provenance": "chatterbox cloning tts/voices/narrator_ref_original.wav per-line synthesis; times measured from decoded samples",
+ "total": 56.341,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
  "lines": [
   {
    "id": "L01",
    "text": "My best mate's a werewolf.",
    "start": 0.35,
-   "end": 2.291,
+   "end": 2.346,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "My best mate's a werewolf.",
      "start": 0.35,
-     "end": 2.291
+     "end": 2.346
     }
    ],
    "phraseSource": "whole-line"
@@ -22,15 +22,15 @@
   {
    "id": "L02",
    "text": "So am I.",
-   "start": 2.491,
-   "end": 3.516,
+   "start": 2.546,
+   "end": 3.485,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "So am I.",
-     "start": 2.491,
-     "end": 3.516
+     "start": 2.546,
+     "end": 3.485
     }
    ],
    "phraseSource": "whole-line"
@@ -38,15 +38,15 @@
   {
    "id": "L03",
    "text": "And he's just let himself in.",
-   "start": 3.756,
-   "end": 5.857,
+   "start": 3.885,
+   "end": 5.866,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "And he's just let himself in.",
-     "start": 3.756,
-     "end": 5.857
+     "start": 3.885,
+     "end": 5.866
     }
    ],
    "phraseSource": "whole-line"
@@ -54,25 +54,25 @@
   {
    "id": "L04",
    "text": "Last week, I found out he took his uncle's arm. And told me I did it.",
-   "start": 6.337,
-   "end": 11.443,
+   "start": 6.346,
+   "end": 10.889,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Last week,",
-     "start": 6.337,
-     "end": 7.332
+     "start": 6.346,
+     "end": 7.086
     },
     {
      "text": "I found out he took his uncle's arm.",
-     "start": 7.332,
-     "end": 9.862
+     "start": 7.086,
+     "end": 9.261
     },
     {
      "text": "And told me I did it.",
-     "start": 9.862,
-     "end": 11.442
+     "start": 9.261,
+     "end": 10.89
     }
    ],
    "phraseSource": "measured-silence"
@@ -80,20 +80,20 @@
   {
    "id": "L05",
    "text": "He didn't come at me. He sat down.",
-   "start": 12.003,
-   "end": 14.126,
+   "start": 11.449,
+   "end": 13.739,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "He didn't come at me.",
-     "start": 12.003,
-     "end": 13.118
+     "start": 11.449,
+     "end": 12.654
     },
     {
      "text": "He sat down.",
-     "start": 13.118,
-     "end": 14.126
+     "start": 12.654,
+     "end": 13.739
     }
    ],
    "phraseSource": "measured-silence"
@@ -101,20 +101,20 @@
   {
    "id": "L06",
    "text": "He said, it's a full moon in an hour.",
-   "start": 14.446,
-   "end": 17.122,
+   "start": 14.059,
+   "end": 16.428,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "He said,",
-     "start": 14.446,
-     "end": 15.141
+     "start": 14.059,
+     "end": 14.654
     },
     {
      "text": "it's a full moon in an hour.",
-     "start": 15.141,
-     "end": 17.122
+     "start": 14.654,
+     "end": 16.429
     }
    ],
    "phraseSource": "measured-silence"
@@ -122,15 +122,15 @@
   {
    "id": "L07",
    "text": "And Mick's not here to watch us.",
-   "start": 17.322,
-   "end": 18.981,
+   "start": 16.628,
+   "end": 18.527,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "And Mick's not here to watch us.",
-     "start": 17.322,
-     "end": 18.981
+     "start": 16.628,
+     "end": 18.527
     }
    ],
    "phraseSource": "whole-line"
@@ -138,15 +138,15 @@
   {
    "id": "L08",
    "text": "Then he slid something across the table.",
-   "start": 19.461,
-   "end": 21.631,
+   "start": 19.007,
+   "end": 21.371,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Then he slid something across the table.",
-     "start": 19.461,
-     "end": 21.631
+     "start": 19.007,
+     "end": 21.371
     }
    ],
    "phraseSource": "whole-line"
@@ -154,15 +154,15 @@
   {
    "id": "L09",
    "text": "A silver nail.",
-   "start": 21.871,
-   "end": 23.335,
+   "start": 21.611,
+   "end": 22.748,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "A silver nail.",
-     "start": 21.871,
-     "end": 23.335
+     "start": 21.611,
+     "end": 22.748
     }
    ],
    "phraseSource": "whole-line"
@@ -170,25 +170,25 @@
   {
    "id": "L10",
    "text": "Mick put one in every windowsill on this street, he said. Go and look.",
-   "start": 23.735,
-   "end": 27.988,
+   "start": 23.388,
+   "end": 27.51,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Mick put one in every windowsill on this street,",
-     "start": 23.735,
-     "end": 24.11
+     "start": 23.388,
+     "end": 25.748
     },
     {
      "text": "he said.",
-     "start": 24.11,
-     "end": 27.135
+     "start": 25.748,
+     "end": 26.423
     },
     {
      "text": "Go and look.",
-     "start": 27.135,
-     "end": 27.987
+     "start": 26.423,
+     "end": 27.51
     }
    ],
    "phraseSource": "measured-silence"
@@ -196,20 +196,20 @@
   {
    "id": "L11",
    "text": "Number two. Silver.",
-   "start": 28.628,
-   "end": 30.648,
+   "start": 28.15,
+   "end": 29.74,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Number two.",
-     "start": 28.628,
-     "end": 29.738
+     "start": 28.15,
+     "end": 29.055
     },
     {
      "text": "Silver.",
-     "start": 29.738,
-     "end": 30.648
+     "start": 29.055,
+     "end": 29.74
     }
    ],
    "phraseSource": "measured-silence"
@@ -217,20 +217,20 @@
   {
    "id": "L12",
    "text": "Number four. Silver.",
-   "start": 30.928,
-   "end": 32.859,
+   "start": 30.02,
+   "end": 31.621,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Number four.",
-     "start": 30.928,
-     "end": 32.003
+     "start": 30.02,
+     "end": 30.94
     },
     {
      "text": "Silver.",
-     "start": 32.003,
-     "end": 32.86
+     "start": 30.94,
+     "end": 31.621
     }
    ],
    "phraseSource": "measured-silence"
@@ -238,20 +238,20 @@
   {
    "id": "L13",
    "text": "Even Danny's house. Silver.",
-   "start": 33.139,
-   "end": 35.842,
+   "start": 31.901,
+   "end": 33.907,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Even Danny's house.",
-     "start": 33.139,
-     "end": 34.854
+     "start": 31.901,
+     "end": 33.216
     },
     {
      "text": "Silver.",
-     "start": 34.854,
-     "end": 35.842
+     "start": 33.216,
+     "end": 33.906
     }
    ],
    "phraseSource": "measured-silence"
@@ -259,20 +259,20 @@
   {
    "id": "L13b",
    "text": "His mum was at the window. Watching me count.",
-   "start": 36.122,
-   "end": 39.209,
+   "start": 34.306,
+   "end": 37.18,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "His mum was at the window.",
-     "start": 36.122,
-     "end": 37.787
+     "start": 34.306,
+     "end": 35.826
     },
     {
      "text": "Watching me count.",
-     "start": 37.787,
-     "end": 39.209
+     "start": 35.826,
+     "end": 37.18
     }
    ],
    "phraseSource": "measured-silence"
@@ -280,15 +280,15 @@
   {
    "id": "L14",
    "text": "Every house on Moor End.",
-   "start": 39.689,
-   "end": 41.656,
+   "start": 37.82,
+   "end": 39.629,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Every house on Moor End.",
-     "start": 39.689,
-     "end": 41.656
+     "start": 37.82,
+     "end": 39.629
     }
    ],
    "phraseSource": "whole-line"
@@ -296,15 +296,15 @@
   {
    "id": "L15",
    "text": "Except one.",
-   "start": 42.056,
-   "end": 43.018,
+   "start": 40.109,
+   "end": 41.057,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Except one.",
-     "start": 42.056,
-     "end": 43.018
+     "start": 40.109,
+     "end": 41.057
     }
    ],
    "phraseSource": "whole-line"
@@ -312,15 +312,15 @@
   {
    "id": "L16",
    "text": "Mick's.",
-   "start": 43.738,
-   "end": 44.458,
+   "start": 42.017,
+   "end": 42.694,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Mick's.",
-     "start": 43.738,
-     "end": 44.458
+     "start": 42.017,
+     "end": 42.694
     }
    ],
    "phraseSource": "whole-line"
@@ -328,25 +328,25 @@
   {
    "id": "L17",
    "text": "Eight little holes in the wood. Fresh. Still splintered.",
-   "start": 45.018,
-   "end": 48.771,
+   "start": 43.494,
+   "end": 47.038,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Eight little holes in the wood.",
-     "start": 45.018,
-     "end": 46.828
+     "start": 43.494,
+     "end": 45.179
     },
     {
      "text": "Fresh.",
-     "start": 46.828,
-     "end": 47.513
+     "start": 45.179,
+     "end": 45.894
     },
     {
      "text": "Still splintered.",
-     "start": 47.513,
-     "end": 48.771
+     "start": 45.894,
+     "end": 47.039
     }
    ],
    "phraseSource": "measured-silence"
@@ -354,15 +354,15 @@
   {
    "id": "L18",
    "text": "Danny hadn't come to warn me.",
-   "start": 49.491,
-   "end": 51.397,
+   "start": 47.958,
+   "end": 49.696,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Danny hadn't come to warn me.",
-     "start": 49.491,
-     "end": 51.397
+     "start": 47.958,
+     "end": 49.696
     }
    ],
    "phraseSource": "whole-line"
@@ -370,15 +370,15 @@
   {
    "id": "L19",
    "text": "He'd come to pull them out.",
-   "start": 51.757,
-   "end": 53.359,
+   "start": 50.056,
+   "end": 51.663,
    "whisper": false,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "He'd come to pull them out.",
-     "start": 51.757,
-     "end": 53.359
+     "start": 50.056,
+     "end": 51.663
     }
    ],
    "phraseSource": "whole-line"
@@ -386,15 +386,15 @@
   {
    "id": "L20",
    "text": "Come out.",
-   "start": 56.559,
-   "end": 57.6,
+   "start": 54.863,
+   "end": 55.701,
    "whisper": true,
-   "voice": "chatterbox",
+   "voice": "bm_lewis",
    "phrases": [
     {
      "text": "Come out.",
-     "start": 56.559,
-     "end": 57.6
+     "start": 54.863,
+     "end": 55.701
     }
    ],
    "phraseSource": "whole-line"

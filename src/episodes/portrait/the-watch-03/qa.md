@@ -1,10 +1,10 @@
 # The Watch, Part III: QA record
 
-Render: `out/the-watch-03.mp4`, Chatterbox narration in the owner's voice.
+Render: `out/the-watch-03.mp4`, Kokoro `bm_lewis` narration (the owner found too many issues in the Chatterbox take; that render is kept as `out/the-watch-03-chatterbox.mp4`).
 
 ## Technical (checked)
-- ffprobe: 1080x1920, 30 fps, H.264 + AAC stereo, 61.0 s; full decode clean; about -15.2 LUFS integrated, peak -1.6 dBFS.
-- Narration 58.2 s (3.2 s cliffhanger silence included); cut 56.44 s; all cuts from timing.json via beats.py. 33 caption phrases; `.srt` from the same timing.
+- Kokoro version: 59.3 s; narration 56.3 s (3.2 s cliffhanger silence included); reveal pauses raised to the style standard (1.0–1.2 s); cut 54.74 s; mix -15.3 LUFS, true peak -1.6 dBFS.
+- Cuts all cuts from timing.json via beats.py. 33 caption phrases; `.srt` from the same timing.
 
 ## Visual (seen)
 - Stills of every shot and a 1 s contact sheet of the render.

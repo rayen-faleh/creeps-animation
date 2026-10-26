@@ -18,4 +18,4 @@ Built on `series/hook-playbook.md`.
 | Whisper | "Come out." (echoes Part I: "watching for one getting out") |
 | Part label | Quiet "THE WATCH · Part III" marker, upper left, first 4 s |
 | Red words | werewolf. · one. · out. |
-| Narrator | Chatterbox, owner's voice (`tts/voices/narrator_ref_original.wav`) |
+| Narrator | Kokoro `bm_lewis` (switched back from Chatterbox after review; Chatterbox takes kept in `work/the-watch-03/chatterbox_takes/`) |
