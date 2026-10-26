@@ -1,0 +1,10 @@
+{
+  "voice": {"path": "public/audio/mix.wav", "source": "Kokoro-82M ONNX (kokoro-onnx), voice bm_lewis, synthesised locally", "license": "Apache-2.0 model; output generated for this project"},
+  "score_sfx": {"path": "scripts/sound.py", "source": "Procedurally synthesised (Karplus-Strong music box, drones, noise-based SFX)", "license": "Original"},
+  "fonts": [
+    {"path": "public/fonts/cormorant-garamond-*.woff2", "source": "@fontsource/cormorant-garamond", "license": "SIL OFL 1.1"},
+    {"path": "public/fonts/unifrakturcook-latin-700-normal.woff2", "source": "@fontsource/unifrakturcook", "license": "SIL OFL 1.1"}
+  ],
+  "artwork": {"path": "src/art/*", "source": "Original code-drawn SVG (window, hands rig, props, rice)", "license": "Original"},
+  "grain": {"path": "public/tex/grain*.png", "source": "Seeded noise generated for this project", "license": "Original"}
+}

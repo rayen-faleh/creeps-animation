@@ -1,0 +1,24 @@
+{
+  "fps": 30,
+  "durationSec": 64.0,
+  "shots": [
+    {"id": "S01", "start": 0.0,   "end": 3.30,  "purpose": "Hook. Child POV in bed, clutching duvet, gothic window, moon, swaying branches", "light": "child-night"},
+    {"id": "S02", "start": 3.30,  "end": 6.73,  "purpose": "Gran's hand tips a tin cup; rice streams onto the INSIDE sill (clue)", "light": "candle"},
+    {"id": "S03", "start": 6.73,  "end": 8.945, "purpose": "Gran leans in, silhouette by candle, finger to lips, whispers", "light": "candle"},
+    {"id": "S04", "start": 8.945, "end": 11.08, "purpose": "Macro rice grains glint one by one: counted", "light": "candle"},
+    {"id": "S05", "start": 11.08, "end": 13.50, "purpose": "Dawn breaks in the window; rice glows; safety", "light": "dawn"},
+    {"id": "S06", "start": 13.50, "end": 17.90, "purpose": "26 years later. Torch beam finds boxes, Gran's ribboned portrait, the window", "light": "torch"},
+    {"id": "S07", "start": 17.90, "end": 20.09, "purpose": "The mirror under black mourning cloth (clue)", "light": "torch"},
+    {"id": "S08", "start": 20.09, "end": 24.55, "purpose": "Adult hand sweeps the old rice off the sill onto the floor", "light": "cold"},
+    {"id": "S09", "start": 24.55, "end": 27.30, "purpose": "Black. Eyelids open on a clock at 3:00", "light": "cold"},
+    {"id": "S10", "start": 27.30, "end": 32.77, "purpose": "Lying awake. Tracery moonlight on ceiling, whispered counting; head turns", "light": "cold"},
+    {"id": "S11", "start": 32.77, "end": 40.44, "purpose": "Empty window -> slow tilt down -> his own grey hands sorting rice into piles of ten; freeze", "light": "cold"},
+    {"id": "S12", "start": 40.44, "end": 42.81, "purpose": "Hands freeze and curl; push in on claws: the voice was mine", "light": "cold"},
+    {"id": "S13", "start": 42.81, "end": 49.99, "purpose": "Grey hand pulls cloth from mirror; reflection shows room and rice, no him", "light": "cold"},
+    {"id": "S14", "start": 49.99, "end": 55.05, "purpose": "Old claw scratches on INSIDE of the window frame; Gran's memory double-exposed", "light": "cold"},
+    {"id": "S15", "start": 55.05, "end": 56.78, "purpose": "Last grain pushed onto the last pile", "light": "cold"},
+    {"id": "S16", "start": 56.78, "end": 58.33, "purpose": "Tilt up to the window: still dark", "light": "cold"},
+    {"id": "S17", "start": 58.33, "end": 61.00, "purpose": "Casements swing open, curtains billow, grey hand reaches for the night", "light": "cold"},
+    {"id": "S18", "start": 61.00, "end": 64.00, "purpose": "Cut to black. Whisper 'One.' Title card", "light": "black"}
+  ]
+}

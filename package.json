@@ -1,0 +1,24 @@
+{
+  "name": "gothic-pov-kit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gothic first-person horror animation kit for Remotion: art kit, sets, series layer, sound engine, narrator.",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc -p .",
+    "render": "remotion render src/index.ts",
+    "stills": "node scripts/stills.mjs"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.538",
+    "@remotion/cli": "4.0.538",
+    "@remotion/renderer": "4.0.538",
+    "remotion": "4.0.538",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}

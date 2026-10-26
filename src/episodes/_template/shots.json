@@ -1,0 +1,12 @@
+{
+  "fps": 30,
+  "durationSec": 18.5,
+  "shots": [
+    {"id": "S01", "start": 0.0, "end": 4.16, "purpose": "Hook. Facing the bedroom door at midnight; three knocks jolt it", "light": "night"},
+    {"id": "S02", "start": 4.16, "end": 6.42, "purpose": "Close on the ring pull; cold light breathing under the door", "light": "night"},
+    {"id": "S03", "start": 6.42, "end": 9.38, "purpose": "Memory: Mother by candle, finger to lips (the rule)", "light": "candle"},
+    {"id": "S04", "start": 9.38, "end": 11.75, "purpose": "Three knocks; his hand reaches for the ring, then recoils at a fourth knock from behind", "light": "night"},
+    {"id": "S05", "start": 11.75, "end": 14.25, "purpose": "Whip-turn to the window: a grey clawed hand on the outside of the glass", "light": "night"},
+    {"id": "S06", "start": 14.25, "end": 18.5, "purpose": "Cut to black. Whisper 'Don't turn around.' Title", "light": "black"}
+  ]
+}

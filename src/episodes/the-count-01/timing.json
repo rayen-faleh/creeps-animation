@@ -1,0 +1,432 @@
+{
+ "unit": "seconds",
+ "total": 62.453,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "When I was eight, I knew vampires were real.",
+   "start": 0.35,
+   "end": 3.018,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "When I was eight,",
+     "start": 0.35,
+     "end": 1.31
+    },
+    {
+     "text": "I knew vampires were real.",
+     "start": 1.31,
+     "end": 3.018
+    }
+   ]
+  },
+  {
+   "id": "L02",
+   "text": "Every night, Gran poured rice along my windowsill.",
+   "start": 3.298,
+   "end": 6.49,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "Every night,",
+     "start": 3.298,
+     "end": 4.048
+    },
+    {
+     "text": "Gran poured rice along my windowsill.",
+     "start": 4.048,
+     "end": 6.489
+    }
+   ]
+  },
+  {
+   "id": "L03",
+   "text": "They can't help themselves, she'd whisper. They must count every grain.",
+   "start": 6.73,
+   "end": 10.922,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "They can't help themselves,",
+     "start": 6.73,
+     "end": 8.025
+    },
+    {
+     "text": "she'd whisper.",
+     "start": 8.025,
+     "end": 8.945
+    },
+    {
+     "text": "They must count every grain.",
+     "start": 8.945,
+     "end": 10.922
+    }
+   ]
+  },
+  {
+   "id": "L04",
+   "text": "And by then... the sun is up.",
+   "start": 11.082,
+   "end": 13.019,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "And by then...",
+     "start": 11.082,
+     "end": 12.002
+    },
+    {
+     "text": "the sun is up.",
+     "start": 12.002,
+     "end": 13.019
+    }
+   ]
+  },
+  {
+   "id": "L05",
+   "text": "I'm thirty-four now. Gran's gone. I moved into her house.",
+   "start": 13.499,
+   "end": 17.659,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "I'm thirty-four now.",
+     "start": 13.499,
+     "end": 14.884
+    },
+    {
+     "text": "Gran's gone.",
+     "start": 14.884,
+     "end": 16.129
+    },
+    {
+     "text": "I moved into her house.",
+     "start": 16.129,
+     "end": 17.659
+    }
+   ]
+  },
+  {
+   "id": "L06",
+   "text": "She'd covered every mirror in it.",
+   "start": 17.899,
+   "end": 19.774,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "She'd covered every mirror in it.",
+     "start": 17.899,
+     "end": 19.774
+    }
+   ]
+  },
+  {
+   "id": "L07",
+   "text": "Vampires aren't real. So tonight, I swept the rice away.",
+   "start": 20.094,
+   "end": 24.019,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "Vampires aren't real.",
+     "start": 20.094,
+     "end": 21.499
+    },
+    {
+     "text": "So tonight,",
+     "start": 21.499,
+     "end": 22.454
+    },
+    {
+     "text": "I swept the rice away.",
+     "start": 22.454,
+     "end": 24.019
+    }
+   ]
+  },
+  {
+   "id": "L08",
+   "text": "Three a.m. Something woke me.",
+   "start": 24.739,
+   "end": 27.051,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "Three a.m.",
+     "start": 24.739,
+     "end": 25.839
+    },
+    {
+     "text": "Something woke me.",
+     "start": 25.839,
+     "end": 27.051
+    }
+   ]
+  },
+  {
+   "id": "L09",
+   "text": "A voice. Counting.",
+   "start": 27.411,
+   "end": 28.915,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "A voice.",
+     "start": 27.411,
+     "end": 28.151
+    },
+    {
+     "text": "Counting.",
+     "start": 28.151,
+     "end": 28.915
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "text": "Four hundred and six. Four hundred and seven.",
+   "start": 29.115,
+   "end": 32.488,
+   "whisper": true,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "Four hundred and six.",
+     "start": 29.115,
+     "end": 30.73
+    },
+    {
+     "text": "Four hundred and seven.",
+     "start": 30.73,
+     "end": 32.487
+    }
+   ]
+  },
+  {
+   "id": "L11",
+   "text": "It wasn't coming from outside.",
+   "start": 32.768,
+   "end": 34.579,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "It wasn't coming from outside.",
+     "start": 32.768,
+     "end": 34.579
+    }
+   ]
+  },
+  {
+   "id": "L12",
+   "text": "It was closer.",
+   "start": 34.859,
+   "end": 35.995,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "It was closer.",
+     "start": 34.859,
+     "end": 35.995
+    }
+   ]
+  },
+  {
+   "id": "L13",
+   "text": "I was on the floor, sorting rice into neat little piles.",
+   "start": 36.475,
+   "end": 40.204,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "I was on the floor,",
+     "start": 36.475,
+     "end": 37.69
+    },
+    {
+     "text": "sorting rice into neat little piles.",
+     "start": 37.69,
+     "end": 40.204
+    }
+   ]
+  },
+  {
+   "id": "L14",
+   "text": "And the voice... was mine.",
+   "start": 40.444,
+   "end": 42.172,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "And the voice...",
+     "start": 40.444,
+     "end": 41.359
+    },
+    {
+     "text": "was mine.",
+     "start": 41.359,
+     "end": 42.172
+    }
+   ]
+  },
+  {
+   "id": "L15",
+   "text": "I pulled the cloth off Gran's mirror.",
+   "start": 42.812,
+   "end": 44.95,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "I pulled the cloth off Gran's mirror.",
+     "start": 42.812,
+     "end": 44.95
+    }
+   ]
+  },
+  {
+   "id": "L16",
+   "text": "The room was there. The rice was there.",
+   "start": 45.35,
+   "end": 47.91,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "The room was there.",
+     "start": 45.35,
+     "end": 46.505
+    },
+    {
+     "text": "The rice was there.",
+     "start": 46.505,
+     "end": 47.91
+    }
+   ]
+  },
+  {
+   "id": "L17",
+   "text": "I wasn't.",
+   "start": 48.27,
+   "end": 49.106,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "I wasn't.",
+     "start": 48.27,
+     "end": 49.106
+    }
+   ]
+  },
+  {
+   "id": "L18",
+   "text": "The rice was never meant to keep them out.",
+   "start": 49.986,
+   "end": 52.54,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "The rice was never meant to keep them out.",
+     "start": 49.986,
+     "end": 52.54
+    }
+   ]
+  },
+  {
+   "id": "L19",
+   "text": "Gran was keeping me in.",
+   "start": 52.78,
+   "end": 54.325,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "Gran was keeping me in.",
+     "start": 52.78,
+     "end": 54.325
+    }
+   ]
+  },
+  {
+   "id": "L20",
+   "text": "I've finished counting.",
+   "start": 55.045,
+   "end": 56.464,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "I've finished counting.",
+     "start": 55.045,
+     "end": 56.464
+    }
+   ]
+  },
+  {
+   "id": "L21",
+   "text": "It's still dark.",
+   "start": 56.784,
+   "end": 57.966,
+   "whisper": false,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "It's still dark.",
+     "start": 56.784,
+     "end": 57.966
+    }
+   ]
+  },
+  {
+   "id": "L22",
+   "text": "And the window... is open.",
+   "start": 58.326,
+   "end": 60.161,
+   "whisper": false,
+   "phraseSource": "measured-silence",
+   "phrases": [
+    {
+     "text": "And the window...",
+     "start": 58.326,
+     "end": 59.306
+    },
+    {
+     "text": "is open.",
+     "start": 59.306,
+     "end": 60.161
+    }
+   ]
+  },
+  {
+   "id": "L23",
+   "text": "One.",
+   "start": 61.121,
+   "end": 61.813,
+   "whisper": true,
+   "phraseSource": "whole-line",
+   "phrases": [
+    {
+     "text": "One.",
+     "start": 61.121,
+     "end": 61.813
+    }
+   ]
+  }
+ ]
+}
