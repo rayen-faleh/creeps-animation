@@ -78,7 +78,7 @@ export const CardScene: React.FC<{t: number}> = ({t}) => {
 export const RoomScene: React.FC<{t: number}> = ({t}) => {
   const k = prog(t, P.room, P.black, easeInOut);
   // his hand touches the rusted nails, then withdraws
-  const touch = prog(t, P.room + 0.3, P.room + 0.9, easeOut) - prog(t, P.room + 2.0, P.room + 2.6, easeIn);
+  const touch = prog(t, P.room + 0.3, P.room + 0.9, easeOut) - prog(t, P.room + 1.45, P.room + 1.8, easeIn); // gone before the next caption
   const pose = lerpPose(POSES.relaxed, POSES.point, touch);
   const [wx, wy] = wristFor(NAIL_XS[6], NAIL_Y - 6, -40, 1.25, STYLES.adult, pose);
   return (
@@ -87,7 +87,7 @@ export const RoomScene: React.FC<{t: number}> = ({t}) => {
         <WindowWall id="rs" t={t} mode="night" cloudCover={0.4} outside={<NightStreet id="rs-st" t={t} />}>
           <SilverNails xs={NAIL_XS} y={NAIL_Y} rust={0.8} t={t} />
         </WindowWall>
-        <Hand id="rs-h" x={mix(wx + 160, wx, touch)} y={mix(wy + 520, wy, touch)} rot={-40} scale={1.25} style={STYLES.adult} pose={pose} light={0.7} />
+        {touch > 0.01 && <Hand id="rs-h" x={mix(wx + 60, wx, touch)} y={mix(wy + 700, wy, touch)} rot={-40} scale={1.25} style={STYLES.adult} pose={pose} light={0.7} />}
       </Stage>
     </Camera>
   );
