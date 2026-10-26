@@ -11,24 +11,10 @@ import {Duvet} from '../../../kit/art/Props';
 import {WindowWall, SILL_Y} from '../../../kit/sets/WindowWall';
 import {easeIn, easeInOut, easeOut, lin, mix, noise1, prog, track} from '../../../kit/util';
 import {NAIL_XS, NAIL_Y, torchWorld} from './Memory';
+import beats from '../beats.json';
 
-export const P = {
-  card: 25.14,
-  room: 28.7,
-  black: 35.4,
-  wake: 35.6,
-  mud: 37.1,
-  phone: 40.15,
-  buzz: 40.3,
-  msgs: [41.93, 45.1, 46.82],
-  hands: 49.1,
-  proof: 54.21,
-  out: 55.85, // "out." lands
-  turn: 56.9,
-  lampOff: 57.3,
-  torchOn: 57.62,
-  cut: 58.9,
-};
+/** Present-day shot boundaries and sync points (global seconds), derived from timing.json by beats.py. */
+export const P = beats.P;
 
 /* the present-day street through the old bedroom window (shared framing) */
 const SS = {x: 343, y: 262, s: 0.62};

@@ -1,13 +1,14 @@
 import React from 'react';
 import timing from './timing.json';
+import beats from './beats.json';
 import {StoryFrame, Grade, dipAround, holdBlack} from '../../kit/series/StoryFrame';
 import {TitleCard} from '../../kit/series/TitleCard';
 import {Timing} from '../../kit/series/Captions';
 import {BaneScene, ChildWindow, HomeScene, LampScene, NailsMacro, ProfileScene, T, WallScene} from './scenes/Memory';
 import {CardScene, HandsScene, LastScene, MudScene, P, PhoneScene, ProofScene, RoomScene, WakeScene} from './scenes/Present';
 
-/** The Watch — Part I. Werewolf series, episode 1. 63.5 s. */
-export const META = {id: 'TheWatch01', durationSec: 63.5, audio: 'audio/the-watch-01/mix.wav'};
+/** The Watch — Part I. Werewolf series, episode 1. Length follows the narration (beats.json). */
+export const META = {id: 'TheWatch01', durationSec: beats.durationSec, audio: 'audio/the-watch-01/mix.wav'};
 
 // shot list (mirrors shots.json): every cut lands on a phrase start from timing.json
 const sceneAt = (t: number) => {

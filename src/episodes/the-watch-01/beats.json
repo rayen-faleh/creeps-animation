@@ -1,0 +1,40 @@
+{
+ "T": {
+  "hook": 0.0,
+  "profile": 4.373,
+  "l03": [
+   6.532,
+   8.575
+  ],
+  "mock": 8.975,
+  "nails": 10.657,
+  "bane": 12.617,
+  "home": 14.767,
+  "window": 18.009,
+  "glare": 21.621,
+  "lamp": 22.804
+ },
+ "P": {
+  "card": 25.139,
+  "room": 28.7,
+  "black": 35.403,
+  "mud": 37.106,
+  "phone": 40.147,
+  "msgs": [
+   41.931,
+   45.096,
+   46.821
+  ],
+  "hands": 49.102,
+  "proof": 54.214,
+  "out": 55.852,
+  "turn": 56.902,
+  "cut": 58.902,
+  "wake": 35.603,
+  "buzz": 40.297,
+  "lampOff": 57.302,
+  "torchOn": 57.622
+ },
+ "durationSec": 63.5,
+ "source": "timing.json (kokoro bm_lewis per-line synthesis; times measured from decoded samples)"
+}

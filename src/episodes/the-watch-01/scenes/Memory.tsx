@@ -8,20 +8,10 @@ import {Hand, POSES, STYLES, lerpPose, wristFor} from '../../../kit/art/Hand';
 import {WindowWall, WIN, SILL_Y} from '../../../kit/sets/WindowWall';
 import {DoorWall, DOOR} from '../../../kit/sets/DoorWall';
 import {easeIn, easeInOut, easeOut, lin, mix, noise1, prog, track} from '../../../kit/util';
+import beats from '../beats.json';
 
-/** Shot boundaries (global seconds, phrase starts from timing.json). Shared with Main.tsx and cues.py. */
-export const T = {
-  hook: 0,
-  profile: 4.37,
-  mock: 8.97,
-  nails: 10.66,
-  bane: 12.62,
-  home: 14.77,
-  window: 18.01,
-  glare: 21.62, // torch beam lands on our window
-  lamp: 22.8,
-  jump: 25.14,
-};
+/** Shot boundaries (global seconds), derived from timing.json by beats.py. Shared with Main.tsx and cues.py. */
+export const T = beats.T;
 
 /** Silver nails along the inside sill (same positions in the childhood and present-day room). */
 export const NAIL_XS = [212, 268, 324, 380, 436, 492, 548, 604, 660, 716, 772, 828, 884];
@@ -35,14 +25,15 @@ export const WallScene: React.FC<{t: number; mock?: boolean}> = ({t, mock}) => {
   const t0 = mock ? T.mock : T.hook;
   const lt = t - t0;
   // the dare: Danny's hand swings in from the left, points, prods twice
-  const enter = mock ? 1 : prog(t, 0.7, 1.3, easeOut);
-  const prod = mock ? 0 : Math.max(prog(t, 2.0, 2.15, easeOut) - prog(t, 2.15, 2.4), prog(t, 2.55, 2.7, easeOut) - prog(t, 2.7, 2.95));
+  const h = T.profile / 4.37; // hook actions were authored for a 4.37 s hook
+  const enter = mock ? 1 : prog(t, 0.7 * h, 1.3 * h, easeOut);
+  const prod = mock ? 0 : Math.max(prog(t, 2.0 * h, 2.15 * h, easeOut) - prog(t, 2.15 * h, 2.4 * h), prog(t, 2.55 * h, 2.7 * h, easeOut) - prog(t, 2.7 * h, 2.95 * h));
   // mock: the hand curls into claws and swipes, "rawr"
   const clawK = mock ? prog(t, T.mock + 0.15, T.mock + 0.45, easeOut) : 0;
   const swipe = mock ? Math.sin((t - T.mock) * 9) * 18 * prog(t, T.mock + 0.4, T.mock + 0.6) : 0;
   const dPose = mock ? lerpPose(POSES.point, POSES.claw, clawK) : POSES.point;
   // our own hands grip the coping; the right one tightens when Mick looks over
-  const grip = prog(t, 2.9, 3.4);
+  const grip = prog(t, 2.9 * h, 3.4 * h);
   const mickTurn = mock ? prog(t, T.mock + 0.6, T.mock + 1.5) : 0;
   const zoom = mock ? 1.18 + lt * 0.02 : 1.0 + lt * 0.022;
   return (
@@ -72,12 +63,12 @@ export const WallScene: React.FC<{t: number; mock?: boolean}> = ({t, mock}) => {
 };
 
 /* S02: Mick in profile at dusk: "A wolf took it. On this street." */
-const L03 = [6.53, 8.57];
+const L03 = T.l03;
 export const ProfileScene: React.FC<{t: number}> = ({t}) => {
   const lt = t - T.profile;
   const speaking = t >= L03[0] && t < L03[1];
   const jaw = speaking ? Math.max(0, Math.sin(t * 15) * 0.6 + noise1(t * 11, 4) * 0.5) : 0;
-  const turn = prog(t, 5.9, 6.5) * 0.6; // he turns toward the kids before answering
+  const turn = prog(t, L03[0] - 0.63, L03[0] - 0.03) * 0.6; // he turns toward the kids before answering
   return (
     <AbsoluteFill>
       <AbsoluteFill style={{filter: 'blur(9px)'}}>
@@ -136,8 +127,8 @@ export const HomeScene: React.FC<{t: number}> = ({t}) => {
   const lt = t - T.home;
   const lampOn = lin(t, T.home + 0.5, T.home + 0.9) * (t < T.home + 0.75 ? (Math.sin(t * 60) > 0 ? 1 : 0.2) : 1);
   const point = prog(t, T.home + 0.9, T.home + 1.4, easeOut);
-  const hop = prog(t, T.home + 2.3, T.home + 2.6, easeIn);
-  const turn = prog(t, T.home + 2.55, T.home + 3.24, easeIn);
+  const hop = prog(t, T.window - 0.94, T.window - 0.64, easeIn);
+  const turn = prog(t, T.window - 0.69, T.window, easeIn);
   return (
     <Camera t={t} zoom={1.55 + lt * 0.02 - hop * 0.05} x={turn * -520} y={-70 + hop * 90} rot={turn * -4} shake={4} seed={61}>
       <Stage>
@@ -146,7 +137,7 @@ export const HomeScene: React.FC<{t: number}> = ({t}) => {
           t={t}
           light="dusk"
           y={-40}
-          moon={[700, mix(900, 790, lin(t, T.home, T.home + 3.2))]}
+          moon={[700, mix(900, 790, lin(t, T.home, T.window))]}
           moonR={52}
           lamp={lampOn}
           windowsLit={0.55}
@@ -174,9 +165,9 @@ export const ChildWindow: React.FC<{t: number}> = ({t}) => {
   // beam target in Watcher local units: left terrace -> right terrace -> straight at us
   const ang = track(t, [
     [T.window + 0.35, 200],
-    [T.window + 1.9, 235],
-    [T.window + 2.4, 235],
-    [T.window + 3.3, 305],
+    [mix(T.window + 0.35, T.glare - 0.1, 0.48), 235],
+    [mix(T.window + 0.35, T.glare - 0.1, 0.63), 235],
+    [mix(T.window + 0.35, T.glare - 0.1, 0.9), 305],
     [T.glare - 0.1, 300],
     [T.glare + 0.25, 270],
   ]);

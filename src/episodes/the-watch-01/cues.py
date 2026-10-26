@@ -1,11 +1,14 @@
 """The Watch, Part I: score and effects cues. Times = global seconds, shared with scenes (T in Memory.tsx, P in Present.tsx)."""
+import json, os
 import numpy as np
 from sound_lib import SR, boom, breath, chime, click, creak, lp, bp, heartbeat, reverb, scratch, sting, whoosh, _rng
 
-DUR = 63.5
-NAILS, BANE, HOME, WINDOW, GLARE, LAMP, JUMP = 10.66, 12.62, 14.77, 18.01, 21.62, 22.8, 25.14
-ROOM, BLACK, WAKE, MUD, PHONE, BUZZ, MSGS = 28.7, 35.4, 35.6, 37.1, 40.15, 40.3, [41.93, 45.1, 46.82]
-HANDS, PROOF, OUT, TURN, LAMP_OFF, TORCH_ON, CUT = 49.1, 54.21, 55.85, 56.9, 57.3, 57.62, 58.9
+_B = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'beats.json')))   # from beats.py
+_T, _P = _B['T'], _B['P']
+DUR = _B['durationSec']
+NAILS, BANE, HOME, WINDOW, GLARE, LAMP, JUMP = _T['nails'], _T['bane'], _T['home'], _T['window'], _T['glare'], _T['lamp'], _P['card']
+ROOM, BLACK, WAKE, MUD, PHONE, BUZZ, MSGS = _P['room'], _P['black'], _P['wake'], _P['mud'], _P['phone'], _P['buzz'], _P['msgs']
+HANDS, PROOF, OUT, TURN, LAMP_OFF, TORCH_ON, CUT = _P['hands'], _P['proof'], _P['out'], _P['turn'], _P['lampOff'], _P['torchOn'], _P['cut']
 
 def bell(f=196.0, dur=6.0, gain=0.09):
     """Distant church bell: inharmonic partials, slow decay, a little beating."""
@@ -38,7 +41,7 @@ def cues(S):
     for i in range(8): S.sfx_at(chime(2500 + i * 60), NAILS + 0.3 + i * 0.19)          # fingertip over each silver nail
     S.sfx_at(whoosh(0.5, 1500, 6000, 0.25), BANE + 0.2, 0.4)                             # dry wolfsbane rustle
     for k in range(4): S.sfx_at(click(0.7, 1800), HOME + 0.5 + k * 0.07, 0.4)            # gas lamp catching
-    S.sfx_at(boom(0.6, 70, 0.6), HOME + 2.6, 0.5)                                        # hop off the wall
+    S.sfx_at(boom(0.6, 70, 0.6), WINDOW - 0.68, 0.5)                                    # hop off the wall
     S.sfx_at(click(1.0, 2200), WINDOW + 0.35, 0.8)                                       # Mick's torch on
     S.sfx_at(whoosh(1.6, 300, 1800, 0.4), WINDOW + 0.5); S.sfx_at(whoosh(1.2, 300, 1800, 0.4), WINDOW + 2.4)
     S.tension([(0, 0), (WINDOW + 1, 0), (GLARE, 0.8), (GLARE + 0.05, 0), (LAMP, 0), (JUMP - 0.1, 0.5), (JUMP, 0), (MUD, 0), (PHONE, 0.3), (MSGS[2], 0.9),
