@@ -4,3 +4,4 @@ tts/models/*.onnx
 tts/models/*.bin
 work/*/mix_raw.wav
 __pycache__/
+work/audition/
