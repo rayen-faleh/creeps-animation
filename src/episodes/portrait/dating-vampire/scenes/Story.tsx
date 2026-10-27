@@ -198,10 +198,10 @@ export const Dinner: React.FC<{t: number}> = ({t}) => {
             <ellipse cx={560} cy={580} rx={10} ry={5} fill="#c4161c" />
           </g>
           <KitchenTable y={980}>
-            <Candle x={540} y={1060} t={t} s={0.6} glow={0.9} />
-            {/* his plate, untouched; your plate, half-eaten */}
-            <ellipse cx={540} cy={1010} rx={150} ry={34} fill="#d8d0c4" />
-            <ellipse cx={540} cy={1010} rx={100} ry={22} fill="#c8c0b4" />
+            {/* his plate, untouched; your plate, half-eaten; the candle between you, off to one side */}
+            <ellipse cx={500} cy={1010} rx={150} ry={34} fill="#d8d0c4" />
+            <ellipse cx={500} cy={1010} rx={100} ry={22} fill="#c8c0b4" />
+            <Candle x={760} y={1160} t={t} s={0.6} glow={0.9} />
             <ellipse cx={540} cy={1460} rx={260} ry={60} fill="#d8d0c4" />
             <ellipse cx={540} cy={1460} rx={180} ry={40} fill="#8a3a2a" />
             <Hand id="dn-you" x={820} y={1520} rot={-40} scale={1.0} style={YOU} pose={POSES.relaxed} light={1} />
@@ -347,23 +347,53 @@ export const Pale: React.FC<{t: number}> = ({t}) => {
   );
 };
 
-/* S15: your fingertips come away from your neck with two small red dots */
+/* S15: two small marks: a slow push onto the side of your pale neck */
 export const Marks: React.FC<{t: number}> = ({t}) => {
   const lt = t - B.marks;
-  const down = prog(t, B.marks + 0.4, B.marks + 1.2, easeOut);
+  const push = prog(t, B.marks, B.mirror, easeInOut);
+  const pulse = 0.85 + Math.sin(t * 3) * 0.15;
   return (
     <AbsoluteFill>
-      <Camera t={t} zoom={1.4 + lt * 0.05} y={0} shake={4} seed={1315}>
-        <Stage>
+      <Camera t={t} zoom={mix(1.0, 1.9, push)} x={mix(0, 70, push)} y={mix(-430, 120, push)} shake={2} seed={1315}>
+        <Stage overflow>
           <rect x={-400} y={-600} width={1880} height={2700} fill="#0a0503" />
-          <ellipse cx={540} cy={900} rx={520} ry={520} fill="#ffb45a" opacity={0.1} />
-          <Hand id="mk-you" x={540 + tremble(t, 5, 3)} y={mix(700, 1060, down)} rot={mix(170, 0, down)} scale={1.4} style={{...YOU, skin: '#d0ccc8', shade: '#6a6a70'}} pose={POSES.flat} light={1} />
-          {down > 0.8 && (
-            <g opacity={(down - 0.8) * 5}>
-              <circle cx={520} cy={760} r={7} fill="#8a0f12" />
-              <circle cx={566} cy={752} r={7} fill="#8a0f12" />
+          <defs>
+            <linearGradient id="nk-skin" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stopColor="#7a6a64" />
+              <stop offset="0.45" stopColor="#e2d4ca" />
+              <stop offset="1" stopColor="#a8968c" />
+            </linearGradient>
+          </defs>
+          {/* jaw and ear at the top, the neck running down to the collarbone */}
+          <path d="M120,-200 C200,180 260,520 300,820 C330,1080 300,1360 220,1620 L1000,1620 C960,1380 900,1100 880,860 C860,620 900,360 980,160 L980,-200 Z" fill="url(#nk-skin)" />
+          {/* the cheek and the side of the face above the jaw */}
+          <path d="M60,-900 L1000,-900 L980,160 C520,300 260,140 120,-200 Z" fill="#d8c8be" />
+          <path d="M60,-900 L120,-200" stroke="#7a6a64" strokeOpacity={0.5} strokeWidth={10} />
+          {/* shadow under the jaw */}
+          <path d="M150,-130 C280,190 520,330 980,190 L980,330 C560,450 320,360 200,120 Z" fill="#5a4a44" opacity={0.35} style={{filter: 'blur(12px)'}} />
+          <path d="M120,-200 C260,140 520,300 980,160" stroke="#6a6460" strokeOpacity={0.6} strokeWidth={6} fill="none" />
+          <ellipse cx={820} cy={60} rx={70} ry={110} fill="#d0beb4" />
+          <path d="M770,0 C800,-40 870,-30 880,40 C890,110 840,170 800,160" stroke="#8a827c" strokeWidth={6} fill="none" />
+          {/* a tendon and the shadow under the jaw */}
+          <path d="M420,320 C480,640 560,980 620,1360" stroke="#9a948e" strokeWidth={20} opacity={0.35} fill="none" />
+          <path d="M300,820 C330,1080 300,1360 220,1620" stroke="#ffb45a" strokeOpacity={0.35} strokeWidth={4} fill="none" />
+          {/* dark hair falling behind the ear */}
+          <path d="M980,-900 L980,-200 C940,200 900,500 940,900 L1300,900 L1300,-900 Z" fill="#1a0e0a" />
+          {[0, 1, 2, 3].map((i) => (
+            <path key={i} d={`M${960 - i * 12},-180 C${920 - i * 10},200 ${890 - i * 8},520 ${930 - i * 6},880`} stroke="#3a2418" strokeWidth={4} fill="none" />
+          ))}
+          {/* the cardigan collar */}
+          <path d="M180,1500 C400,1440 760,1440 1020,1520 L1100,2100 L100,2100 Z" fill="#4a2030" />
+          <path d="M180,1500 C400,1440 760,1440 1020,1520" stroke="#ffb45a" strokeOpacity={0.3} strokeWidth={4} fill="none" />
+          {/* the two marks, a faint flush round each */}
+          {[[560, 800], [610, 790]].map(([cx, cy], i) => (
+            <g key={i}>
+              <circle cx={cx} cy={cy} r={20} fill="#c06060" opacity={0.25 * pulse} />
+              <circle cx={cx} cy={cy} r={7} fill="#7a0a10" />
+              <circle cx={cx - 2} cy={cy - 2} r={2} fill="#e8a0a0" opacity={0.6} />
             </g>
-          )}
+          ))}
+          <ellipse cx={300} cy={600} rx={500} ry={700} fill="#ffb45a" opacity={0.06} />
         </Stage>
       </Camera>
     </AbsoluteFill>
