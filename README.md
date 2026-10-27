@@ -153,7 +153,7 @@ reorganised:
 | `TheWatch02` | `src/episodes/portrait/the-watch-02` | 64.4 s | The Watch, Part II: Mick's notebooks, "D. took my arm." |
 | `TheWatch03` | `src/episodes/portrait/the-watch-03` | 59.3 s | The Watch, Part III: the silver nails (Kokoro) |
 | `SurviveVampire` | `src/episodes/portrait/survive-vampire` | 33.5 s | Would You Survive? As a vampire: "And you rent." Reference for the format |
-| `WitchBottle01` | `src/episodes/portrait/witch-bottle-01` | 62.6 s | The Witch Bottle, Part I: Mardle Fen, 1645 (series bible: `series/the-witch-bottle-bible.md`) |
+| `WitchBottle01` | `src/episodes/portrait/witch-bottle-01` | 62.6 s | The Witch Bottle, Part I: Mardle Fen, 1645 (bible: `series/the-witch-bottle-bible.md`; parts and scripts: `series/the-witch-bottle-parts.md`) |
 | `SurviveWerewolf` | `src/episodes/portrait/survive-werewolf` | 33.0 s | Would You Survive? As a werewolf: "Thirty-one miles. Personal best." |
 | `TheQuarterTurn` | `src/episodes/landscape/the-quarter-turn` | 10:13 | Long-form 16:9 vampire story, "NEVER FIX your grandmother's dripping tap" (Kokoro, three voices) |
 | `TheQuarterTurnCh1` | same | 2:22 | Review cut: cold open + Chapter I |

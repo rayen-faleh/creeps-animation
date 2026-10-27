@@ -1,5 +1,7 @@
 # THE WITCH BOTTLE — series bible
 
+Pick-up file with every part, script and open decision: `series/the-witch-bottle-parts.md`.
+
 Four ~60 s parts, 9:16. Mardle Fen (fictional), a fen village in East Anglia, winter 1645, at the height of the
 English witch panic. Each part is built on one real witch test and stands alone: hook fact → one-line recap over the
 bearded jug → the test → a twist inside the test → cliffhanger. Plan: `series/witch-brainstorm.md` (round 2).
