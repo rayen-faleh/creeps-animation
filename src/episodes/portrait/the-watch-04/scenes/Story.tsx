@@ -77,7 +77,7 @@ export const MickMemory: React.FC<{t: number}> = ({t}) => {
   return (
     <Camera t={t} zoom={1.15 + lt * 0.04} y={20} shake={3} seed={1102}>
       <Stage>
-        <MoorStreet id="mm" t={t} light="night" moon={[800, 520]} moonR={50} windowsLit={0.35} atLamp={<Watcher id="mm-w" t={t} torch={1} beamTo={[-260, -60]} />} />
+        <MoorStreet id="mm" t={t} light="night" moon={[800, 520]} moonR={50} windowsLit={0.35} atLamp={<Watcher id="mm-w" t={t} x={-70} s={0.37} torch={1} beamTo={[-700, -160]} rimA={0.9} />} />
       </Stage>
     </Camera>
   );

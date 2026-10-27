@@ -7,6 +7,9 @@
   angled (the barrels show their length, a top rib and bead sight), and lamp light caught in the mist behind her
   makes her silhouette (pinned-up hair, cheek on the stock) read; the running wolf was lost against dark ground (now on
   the skyline against a lighter sky); Danny's wolf in the beam enlarged.
+- Owner review fixes: Danny's mum's body was too big and read as detached from her head: rebuilt with a neck, shoulders
+  about 2.6 heads wide and a narrower torso; the stock no longer crosses her neck (hidden behind the gun from the front).
+  Mick at the lamp was bigger than the houses: now scaled like Part I (s 0.37 at the lamp's depth).
 - Newcomer test: hook states the premise (two werewolves, his mum, a shotgun); one line each for Mick, his death and the
   recap, all before the new story starts at 20 s.
 - Mute test: torch glare + a woman aiming a double-barrel (0 s), Mick under the lamp, the funeral card, eight empty holes,

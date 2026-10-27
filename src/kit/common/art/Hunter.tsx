@@ -10,7 +10,7 @@ const RIM = '#ffb45a';
  * Side-by-side shotgun. Origin at the breech. aim 0 = muzzles straight at the camera (two black holes),
  * 1 = profile, pointing right. glint 0..1 = a silver gleam deep in the barrels. len = barrel length in profile.
  */
-export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; glint?: number; len?: number; lit?: number; flip?: boolean}> = ({
+export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; glint?: number; len?: number; lit?: number; flip?: boolean; stock?: boolean}> = ({
   x,
   y,
   s = 1,
@@ -19,6 +19,7 @@ export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; 
   len = 560,
   lit = 1,
   flip = false,
+  stock = true,
 }) => {
   const th = (Math.min(1, Math.max(0, aim)) * Math.PI) / 2;
   const sn = Math.sin(th), cs = Math.cos(th);
@@ -29,8 +30,8 @@ export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; 
   return (
     <g transform={`translate(${x},${y}) scale(${flip ? -s : s},${s})`}>
       {/* stock (behind the breech, only seen as the gun turns) */}
-      <path d={`M0,-18 L${-300 * sn},${20 + 30 * sn} L${-310 * sn},${80 + 20 * sn} L${-40 * sn},${30} Z`} fill="#2a1a0e" />
-      <path d={`M0,-18 L${-300 * sn},${20 + 30 * sn}`} stroke={RIM} strokeOpacity={0.35 * lit * sn} strokeWidth={3} />
+      {stock && <path d={`M0,-18 L${-300 * sn},${20 + 30 * sn} L${-310 * sn},${80 + 20 * sn} L${-40 * sn},${30} Z`} fill="#2a1a0e" />}
+      {stock && <path d={`M0,-18 L${-300 * sn},${20 + 30 * sn}`} stroke={RIM} strokeOpacity={0.35 * lit * sn} strokeWidth={3} />}
       {/* trigger guard */}
       <path d={`M${-50 * sn},28 q${-30 * sn},40 ${-70 * sn},6`} stroke="#14161a" strokeWidth={6} fill="none" opacity={sn} />
       {/* barrels */}
@@ -63,24 +64,24 @@ export const WomanAiming: React.FC<{x: number; y: number; s?: number; t: number;
   const sway = noise1(t * 0.8, 3) * 4;
   return (
     <g transform={`translate(${x + sway},${y + breathe}) scale(${s})`}>
-      {/* coat and shoulders, the right shoulder high where the stock sits */}
-      <path d="M-330,900 C-320,520 -260,300 -150,240 C-90,210 -40,170 -10,140 L70,150 C130,180 210,220 260,280 C330,360 360,560 360,900 Z" fill="#06070a" />
-      <path d="M-330,900 C-320,520 -260,300 -150,240 C-90,210" stroke={RIM} strokeOpacity={0.35 * lit} strokeWidth={4} fill="none" />
-      <path d="M70,150 C130,180 210,220 260,280" stroke={RIM} strokeOpacity={0.5 * lit} strokeWidth={4} fill="none" />
-      {/* head tilted down onto the stock, a little left of the barrels; hair pinned up */}
-      <g transform="translate(-70,-40) rotate(-12)">
-        <ellipse cx={0} cy={0} rx={92} ry={112} fill="#07080b" />
-        <circle cx={-10} cy={-120} r={46} fill="#07080b" />
-        <path d="M-92,-10 C-90,-80 -40,-118 10,-116 C60,-112 92,-70 92,-10" stroke={RIM} strokeOpacity={0.55 * lit} strokeWidth={5} fill="none" />
-        <path d="M-50,-150 C-30,-170 10,-172 30,-150" stroke={RIM} strokeOpacity={0.45 * lit} strokeWidth={3} fill="none" />
+      {/* neck and shoulders in proportion to the head (shoulders ~2.6 heads wide); the right shoulder takes the stock */}
+      <path d="M-250,900 C-260,600 -250,320 -190,220 C-160,170 -120,140 -104,96 L-104,40 L-36,48 L-30,100 C-10,130 60,150 120,160 C190,176 222,240 228,340 C236,520 226,740 218,900 Z" fill="#06070a" />
+      <path d="M-250,900 C-260,600 -250,320 -190,220 C-160,170 -120,140 -104,96" stroke={RIM} strokeOpacity={0.35 * lit} strokeWidth={4} fill="none" />
+      <path d="M-30,100 C-10,130 60,150 120,160 C190,176 222,240 228,340" stroke={RIM} strokeOpacity={0.5 * lit} strokeWidth={4} fill="none" />
+      {/* head bent down onto the stock, just left of the barrels; hair pinned up in a bun */}
+      <g transform="translate(-74,-40) rotate(-12)">
+        <ellipse cx={0} cy={0} rx={78} ry={96} fill="#07080b" />
+        <circle cx={-8} cy={-104} r={40} fill="#07080b" />
+        <path d="M-78,-10 C-76,-70 -34,-100 8,-98 C52,-96 78,-60 78,-10" stroke={RIM} strokeOpacity={0.55 * lit} strokeWidth={5} fill="none" />
+        <path d="M-42,-130 C-26,-146 8,-148 26,-130" stroke={RIM} strokeOpacity={0.45 * lit} strokeWidth={3} fill="none" />
         {/* one eye catching the torch, sighting down the rib */}
-        <ellipse cx={46} cy={10} rx={10} ry={5} fill="#d8c8b0" opacity={0.7 * lit} />
-        <circle cx={48} cy={10} r={3} fill="#000" />
+        <ellipse cx={40} cy={8} rx={9} ry={4.5} fill="#d8c8b0" opacity={0.7 * lit} />
+        <circle cx={42} cy={8} r={2.6} fill="#000" />
       </g>
       {/* hands: the left under the barrels, the right at the grip */}
       <path d="M-40,40 C-60,70 -40,100 0,96 C40,92 60,70 50,44 Z" fill="#1a1410" />
       <path d="M-40,40 C-60,70 -40,100 0,96" stroke={RIM} strokeOpacity={0.4 * lit} strokeWidth={3} fill="none" />
-      <Shotgun x={-20} y={10} s={1.25} aim={aim} glint={glint} lit={lit} len={520} />
+      <Shotgun x={-20} y={10} s={1.25} aim={aim} glint={glint} lit={lit} len={520} stock={false} />
     </g>
   );
 };
