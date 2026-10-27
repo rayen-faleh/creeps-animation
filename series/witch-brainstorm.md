@@ -87,3 +87,73 @@ closeness ladder is built into the plot, and the final turn is readable with the
   retuned to a modal folk tune.
 - Each part: hook → one-line recap over the jug → new story → cliffhanger, per `.claude/skills/short-form-horror`.
 - Series name ideas: **THE BOTTLE**, *Pins*, *Mardle Fen*, *Witch-Bottle*.
+
+---
+
+## Round 2: Scenario A rebuilt so every part stands alone
+
+Problem: in round 1, Parts II and III only *move the plot* towards the reveal (a search, a trial). A viewer who
+lands on them cold gets no hook, no test, no payoff of their own.
+
+Fix: **each part is built around one real 17th-century witch test**, and each test has its own twist. The series
+becomes *four ways they found a witch in 1645*: every part opens on a fact someone will want to repeat, runs its own
+test, turns it, and ends on a cliffhanger. The overarching story (Gran, Goody Ashe, the child) runs underneath.
+
+| Part | The test (hook fact) | Closeness | Its own twist | Cliffhanger |
+| --- | --- | --- | --- | --- |
+| I · The Bottle | heat a jug of pins: the witch feels them and comes to your door | the town | someone knocks | "*It burns.*" |
+| II · The Needle | a witch's mark doesn't bleed or hurt: the Witch-finder pricks for it | the street | **the needle is a trick** | he catches you holding it |
+| III · The Swimming | throw her in the pond: float, witch; sink, innocent (and drowned) | the house | **she floats because of you** | your palms blister in front of the whole village |
+| IV · The Prayer | a witch can't say the Lord's Prayer all the way through | you | **Gran has done this before** | open: what Gran does at the door |
+
+### Part II · The Needle (rebuilt)
+
+- **Hook (0–3 s):** *"In sixteen forty-five, a witch-finder could prove you were a witch with a needle."* Picture: a
+  gloved hand turning a long brass bodkin in the rushlight.
+- **Recap (one line, over the bearded jug):** *"Last week we boiled a bottle of pins. And our neighbour came knocking,
+  her hand burnt."*
+- **The rule:** the devil marks his witches with a spot that won't bleed and can't feel. Find it, and she hangs.
+- **Ladder:** where's the mark? (they search Goody Ashe in the church; we watch through the door) → he pricks her
+  arm, her neck: she screams, she bleeds → the shoulder: **no blood, no scream** → guilty → the crowd leaves, the
+  needle left on the pew → I pick it up and press it to my own thumb → **the point slides back into the handle.**
+- **Turn:** the test is a trick. Goody Ashe isn't proven anything. So who is the witch?
+- **Cliffhanger:** a gloved hand closes over mine. The Witch-finder, smiling. Whisper: "*Hold out your hand.*"
+- Send-worthy: trick needles with retracting points are a real piece of witch-trial history (to verify and word
+  carefully in research.md before scripting).
+- Stands alone: a newcomer gets a full mystery (is the test real?) and a reveal, even without Part I.
+
+### Part III · The Swimming (rebuilt)
+
+- **Hook:** *"In sixteen forty-five, if they threw you in the pond and you floated, you were a witch. If you sank, you
+  were innocent. And drowned."*
+- **Recap:** *"The Witch-finder caught me with his trick needle. So today, he's made me hold the rope."*
+- **The ritual:** dawn at the millpond, the whole village on the bank; Goody Ashe's right thumb tied to her left toe; the
+  rope in **my** hands. If I let go, she drowns. If she floats, she hangs.
+- **Ladder:** she goes under → bubbles → the crowd counts → I pray: *please let her live* → **she floats** (the
+  expectation subverted: viewers assume an innocent sinks) → the crowd roars "witch!" → my hands are hot. The rope is
+  smoking.
+- **Turn (mute-proof):** I open my hands. **The palms are blistering, in the shape of pins.** She floated because I
+  wanted her to. *I'm* the witch.
+- **Cliffhanger:** the Witch-finder looks from the water to my hands. From the pond, Goody Ashe whispers: "*It's the
+  child.*"
+- Plant for IV: a thread of smoke rising from our chimney-less roof across the fen: someone at home is heating a
+  bottle right now.
+- Stands alone: a complete trial with a reversal (floating condemns her) and a personal twist, all in one location.
+
+### Part IV · The Prayer (light rework, ending open)
+
+- **Hook:** *"In sixteen forty-five, a witch couldn't say the Lord's Prayer. Not all the way through."*
+- **Recap:** *"Yesterday at the pond, my hands burnt in front of the whole village."*
+- **Story:** home, Gran wraps my hands in rag, the way Goody Ashe's were. Back at the hearth: a second bearded jug,
+  still hot. Gran put it there. *"The first bottle, I put her hair in. This one, I put in yours."* She opens her own
+  hands: the same old pin-scars. *"It runs in the family."* Knock: the Witch-finder. "*Say the Lord's Prayer, child.*"
+  I get as far as *deliver us from*…
+- **Ending options (pick one later):** (a) Gran opens her scarred hands to him: "*It was me.*" (b) Gran turns to me:
+  "*Show him your hands.*" (c) Cut on my mouth trying to say *evil*.
+
+### Why the series now holds
+
+- Every part opens on a different real fact (pins, needle, pond, prayer): four distinct hooks, four reasons to send it.
+- Every part has a test, a twist inside the test, and a cliffhanger, so a cold viewer gets a whole story.
+- The overarching mystery escalates in steps a newcomer can catch from one recap line.
+- Closeness still steps inward: town → street (the church) → the pond and your own hands → your hearth.
