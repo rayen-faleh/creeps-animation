@@ -1,0 +1,19 @@
+[
+ {"id": "L01", "text": "In sixteen forty-five, if your baby fell sick, you didn't fetch a doctor.", "pauseAfter": 0.25},
+ {"id": "L02", "text": "You boiled a bottle of pins.", "pauseAfter": 0.8},
+ {"id": "L03", "text": "That winter, I was nine. Six of us in one room. The pig behind a hurdle. Smoke in the rafters.", "pauseAfter": 0.4},
+ {"id": "L04", "text": "Three babies in our lane had died since harvest.", "pauseAfter": 0.5},
+ {"id": "L05", "text": "Then my sister started to cough.", "pauseAfter": 0.8},
+ {"id": "L06", "text": "Gran said it wasn't the cold. It was someone.", "pauseAfter": 0.6},
+ {"id": "L07", "text": "She took down the stone jug with the bearded face.", "pauseAfter": 0.3},
+ {"id": "L08", "text": "Bent pins. Iron nails. A lock of the baby's hair.", "pauseAfter": 0.35},
+ {"id": "L09", "text": "And one long grey hair, from a comb I'd never seen.", "pauseAfter": 0.8},
+ {"id": "L10", "text": "She set it in the embers, and told me the rule.", "pauseAfter": 0.3},
+ {"id": "L11", "text": "Whoever cursed the baby would feel every pin. In her own body.", "pauseAfter": 0.4},
+ {"id": "L12", "text": "And she'd have to come to our door to make it stop.", "pauseAfter": 0.9},
+ {"id": "L13", "text": "We sat up. The fire ticked. The jug began to hiss.", "pauseAfter": 0.5},
+ {"id": "L14", "text": "At midnight, the baby stopped coughing.", "pauseAfter": 0.9},
+ {"id": "L15", "text": "And someone knocked.", "pauseAfter": 1.1},
+ {"id": "L16", "text": "Gran didn't move. She said, open it.", "pauseAfter": 0.5},
+ {"id": "L17", "text": "It burns.", "whisper": true, "voice": "bf_emma", "pauseAfter": 0.3}
+]

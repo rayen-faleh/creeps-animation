@@ -4,7 +4,7 @@ First-person gothic horror shorts for Instagram Reels / YouTube Shorts (9:16, 10
 Remotion + React + TypeScript on the **Gothic POV kit**. Everything you see is code-drawn SVG, everything you hear is
 synthesised, and the narrator is a local TTS model, so there are no stock assets or paid services.
 
-Current series: **THE WATCH**, a werewolf story in five episodes, and **Would You Survive?**, a 30 s second-person format (`series/would-you-survive-format.md`). Shorts live in `src/episodes/portrait/` (THE WATCH, Parts I–III; survive-vampire, survive-werewolf); the 16:9 long-form vampire story *The Quarter Turn* is in `src/episodes/landscape/the-quarter-turn`.
+Current series: **THE WATCH**, a werewolf story in five episodes, and **Would You Survive?**, a 30 s second-person format (`series/would-you-survive-format.md`). Shorts live in `src/episodes/portrait/` (THE WATCH, Parts I–III; survive-vampire, survive-werewolf; THE WITCH BOTTLE, Part I); the 16:9 long-form vampire story *The Quarter Turn* is in `src/episodes/landscape/the-quarter-turn`.
 
 ## Where everything is
 
@@ -41,13 +41,13 @@ creeps-animation/
 │   ├── kit/                    Reusable art and finishing (extend it, never restyle per story)
 │   │   ├── common/             Works in BOTH formats
 │   │   │   ├── art/            Window, Door, Hand (rig + styles incl. wolf), Room, Props, Street, Watcher,
-│   │   │   │                   Charms, Modern, Notebook, Home, Animals: plain SVG components, placed by the scene
+│   │   │   │                   Charms, Modern, Notebook, Home, Animals, Period: plain SVG components, placed by the scene
 │   │   │   ├── series/         StoryFrame (grade, grain, captions, chapter titles, overlay, audio), Captions,
 │   │   │   │                   ChapterTitle, TitleCard, Survive (DayTag, SurviveCard), fonts
 │   │   │   ├── format.tsx      PORTRAIT (1080x1920) / LANDSCAPE (1920x1080): frame size, caption layout, textures
 │   │   │   ├── fx.tsx          Camera (handheld), Stage, Torch, Eyelids, Vignette, Flicker, Grain (format-aware)
 │   │   │   └── theme.ts, util.ts
-│   │   ├── portrait/sets/      9:16 sets: WindowWall, DoorWall, Doorstep
+│   │   ├── portrait/sets/      9:16 sets: WindowWall, DoorWall, Doorstep, Cottage (hearth, plank door), FenLane
 │   │   ├── landscape/sets/     16:9 sets: WindowWallL, DoorWallL (same art, wide layout)
 │   │   └── index.ts            common exports; kit/portrait and kit/landscape export their sets
 │   ├── episodes/
@@ -153,6 +153,7 @@ reorganised:
 | `TheWatch02` | `src/episodes/portrait/the-watch-02` | 64.4 s | The Watch, Part II: Mick's notebooks, "D. took my arm." |
 | `TheWatch03` | `src/episodes/portrait/the-watch-03` | 59.3 s | The Watch, Part III: the silver nails (Kokoro) |
 | `SurviveVampire` | `src/episodes/portrait/survive-vampire` | 33.5 s | Would You Survive? As a vampire: "And you rent." Reference for the format |
+| `WitchBottle01` | `src/episodes/portrait/witch-bottle-01` | 62.6 s | The Witch Bottle, Part I: Mardle Fen, 1645 (series bible: `series/the-witch-bottle-bible.md`) |
 | `SurviveWerewolf` | `src/episodes/portrait/survive-werewolf` | 33.0 s | Would You Survive? As a werewolf: "Thirty-one miles. Personal best." |
 | `TheQuarterTurn` | `src/episodes/landscape/the-quarter-turn` | 10:13 | Long-form 16:9 vampire story, "NEVER FIX your grandmother's dripping tap" (Kokoro, three voices) |
 | `TheQuarterTurnCh1` | same | 2:22 | Review cut: cold open + Chapter I |

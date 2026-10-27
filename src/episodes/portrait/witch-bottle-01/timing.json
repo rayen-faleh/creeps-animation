@@ -1,0 +1,364 @@
+{
+ "unit": "seconds",
+ "total": 59.462,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "In sixteen forty-five, if your baby fell sick, you didn't fetch a doctor.",
+   "start": 0.35,
+   "end": 5.129,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "In sixteen forty-five,",
+     "start": 0.35,
+     "end": 1.965
+    },
+    {
+     "text": "if your baby fell sick,",
+     "start": 1.965,
+     "end": 3.545
+    },
+    {
+     "text": "you didn't fetch a doctor.",
+     "start": 3.545,
+     "end": 5.129
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "You boiled a bottle of pins.",
+   "start": 5.329,
+   "end": 7.086,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You boiled a bottle of pins.",
+     "start": 5.329,
+     "end": 7.086
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "That winter, I was nine. Six of us in one room. The pig behind a hurdle. Smoke in the rafters.",
+   "start": 7.726,
+   "end": 14.218,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "That winter,",
+     "start": 7.726,
+     "end": 9.261
+    },
+    {
+     "text": "I was nine.",
+     "start": 9.261,
+     "end": 10.991
+    },
+    {
+     "text": "Six of us in one room.",
+     "start": 10.991,
+     "end": 12.661
+    },
+    {
+     "text": "The pig behind a hurdle.",
+     "start": 12.661,
+     "end": 13.231
+    },
+    {
+     "text": "Smoke in the rafters.",
+     "start": 13.231,
+     "end": 14.218
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "Three babies in our lane had died since harvest.",
+   "start": 14.538,
+   "end": 17.626,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Three babies in our lane had died since harvest.",
+     "start": 14.538,
+     "end": 17.626
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L05",
+   "text": "Then my sister started to cough.",
+   "start": 18.026,
+   "end": 20.128,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then my sister started to cough.",
+     "start": 18.026,
+     "end": 20.128
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L06",
+   "text": "Gran said it wasn't the cold. It was someone.",
+   "start": 20.768,
+   "end": 23.554,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Gran said it wasn't the cold.",
+     "start": 20.768,
+     "end": 22.573
+    },
+    {
+     "text": "It was someone.",
+     "start": 22.573,
+     "end": 23.554
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "She took down the stone jug with the bearded face.",
+   "start": 24.034,
+   "end": 27.011,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She took down the stone jug with the bearded face.",
+     "start": 24.034,
+     "end": 27.011
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L08",
+   "text": "Bent pins. Iron nails. A lock of the baby's hair.",
+   "start": 27.251,
+   "end": 31.023,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Bent pins.",
+     "start": 27.251,
+     "end": 28.201
+    },
+    {
+     "text": "Iron nails.",
+     "start": 28.201,
+     "end": 29.321
+    },
+    {
+     "text": "A lock of the baby's hair.",
+     "start": 29.321,
+     "end": 31.023
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "And one long grey hair, from a comb I'd never seen.",
+   "start": 31.303,
+   "end": 34.616,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And one long grey hair,",
+     "start": 31.303,
+     "end": 32.938
+    },
+    {
+     "text": "from a comb I'd never seen.",
+     "start": 32.938,
+     "end": 34.616
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "She set it in the embers, and told me the rule.",
+   "start": 35.256,
+   "end": 38.021,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She set it in the embers,",
+     "start": 35.256,
+     "end": 36.751
+    },
+    {
+     "text": "and told me the rule.",
+     "start": 36.751,
+     "end": 38.021
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "Whoever cursed the baby would feel every pin. In her own body.",
+   "start": 38.261,
+   "end": 42.201,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Whoever cursed the baby would feel every pin.",
+     "start": 38.261,
+     "end": 40.971
+    },
+    {
+     "text": "In her own body.",
+     "start": 40.971,
+     "end": 42.201
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "And she'd have to come to our door to make it stop.",
+   "start": 42.521,
+   "end": 45.243,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And she'd have to come to our door to make it stop.",
+     "start": 42.521,
+     "end": 45.243
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L13",
+   "text": "We sat up. The fire ticked. The jug began to hiss.",
+   "start": 45.963,
+   "end": 49.538,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "We sat up.",
+     "start": 45.963,
+     "end": 46.678
+    },
+    {
+     "text": "The fire ticked.",
+     "start": 46.678,
+     "end": 47.873
+    },
+    {
+     "text": "The jug began to hiss.",
+     "start": 47.873,
+     "end": 49.538
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "At midnight, the baby stopped coughing.",
+   "start": 49.938,
+   "end": 52.261,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "At midnight,",
+     "start": 49.938,
+     "end": 50.758
+    },
+    {
+     "text": "the baby stopped coughing.",
+     "start": 50.758,
+     "end": 52.261
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L15",
+   "text": "And someone knocked.",
+   "start": 52.981,
+   "end": 54.278,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And someone knocked.",
+     "start": 52.981,
+     "end": 54.278
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "Gran didn't move. She said, open it.",
+   "start": 55.158,
+   "end": 57.717,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Gran didn't move.",
+     "start": 55.158,
+     "end": 56.378
+    },
+    {
+     "text": "She said,",
+     "start": 56.378,
+     "end": 57.093
+    },
+    {
+     "text": "open it.",
+     "start": 57.093,
+     "end": 57.717
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L17",
+   "text": "It burns.",
+   "start": 58.117,
+   "end": 59.222,
+   "whisper": true,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "It burns.",
+     "start": 58.117,
+     "end": 59.222
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}
