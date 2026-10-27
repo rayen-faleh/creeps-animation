@@ -1,0 +1,22 @@
+[
+ {"id": "L01", "text": "She pulled the trigger on her own son.", "pauseAfter": 0.25},
+ {"id": "L02", "text": "Both barrels. Silver.", "pauseAfter": 0.3},
+ {"id": "L03", "text": "Nothing happened.", "pauseAfter": 0.9},
+ {"id": "L04", "text": "I'm a werewolf. So's her son, Danny. My best mate.", "pauseAfter": 0.3},
+ {"id": "L05", "text": "Since his uncle Mick died, she's kept the watch on our street.", "pauseAfter": 0.6},
+ {"id": "L06", "text": "Danny ran for the moor. She didn't go after him.", "pauseAfter": 0.4},
+ {"id": "L07", "text": "She broke the gun open.", "pauseAfter": 0.3},
+ {"id": "L08", "text": "Both barrels were empty.", "pauseAfter": 0.5},
+ {"id": "L09", "text": "She'd never loaded it. Not once.", "pauseAfter": 0.8},
+ {"id": "L10", "text": "Then she gave me a page from Mick's notebook.", "pauseAfter": 0.3},
+ {"id": "L11", "text": "August, two thousand and six. His left hand, shaking.", "pauseAfter": 0.35},
+ {"id": "L12", "text": "D. bit the boy. Got him off. Cost me the arm.", "pauseAfter": 0.8},
+ {"id": "L13", "text": "I was the boy. I was eight.", "pauseAfter": 0.9},
+ {"id": "L14", "text": "Mick didn't lose his arm to a wolf.", "pauseAfter": 0.25},
+ {"id": "L15", "text": "He lost it pulling one off me.", "pauseAfter": 1.1},
+ {"id": "L16", "text": "By dawn, my hands were mine again.", "pauseAfter": 0.4},
+ {"id": "L17", "text": "But Danny never came home.", "pauseAfter": 0.5},
+ {"id": "L18", "text": "From my window, I saw him at the edge of the moor.", "pauseAfter": 0.3},
+ {"id": "L19", "text": "Two eyes. And beside them, a smaller pair.", "pauseAfter": 0.5},
+ {"id": "L20", "text": "Come out.", "whisper": true, "pauseAfter": 0.3}
+]

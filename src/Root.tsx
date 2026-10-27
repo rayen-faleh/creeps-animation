@@ -11,6 +11,7 @@ import * as TheWatch01 from './episodes/portrait/the-watch-01/Main';
 import * as TheWatch02 from './episodes/portrait/the-watch-02/Main';
 import * as TheWatch03 from './episodes/portrait/the-watch-03/Main';
 import * as TheWatch04 from './episodes/portrait/the-watch-04/Main';
+import * as TheWatch05 from './episodes/portrait/the-watch-05/Main';
 import * as SurviveVampire from './episodes/portrait/survive-vampire/Main';
 import * as SurviveWerewolf from './episodes/portrait/survive-werewolf/Main';
 import * as WitchBottle01 from './episodes/portrait/witch-bottle-01/Main';
@@ -18,7 +19,7 @@ import * as WitchBottle01 from './episodes/portrait/witch-bottle-01/Main';
 /* Every story registers here: {META: {id, durationSec, format?}, Episode}. Add one line per new story.
    format defaults to portrait (1080x1920); long-form stories pass LANDSCAPE (1920x1080). */
 type Story = {META: {id: string; durationSec: number; format?: {W: number; H: number}}; Episode: React.FC};
-const STORIES: Story[] = [TheCount01, Template, Catalog, TheWatch01, TheWatch02, TheWatch03, TheWatch04, CatalogLandscape, TheQuarterTurn, TheQuarterTurnCh1, SurviveVampire, SurviveWerewolf, WitchBottle01];
+const STORIES: Story[] = [TheCount01, Template, Catalog, TheWatch01, TheWatch02, TheWatch03, TheWatch04, TheWatch05, CatalogLandscape, TheQuarterTurn, TheQuarterTurnCh1, SurviveVampire, SurviveWerewolf, WitchBottle01];
 
 export const RemotionRoot: React.FC = () => (
   <>

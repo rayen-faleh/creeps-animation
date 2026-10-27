@@ -10,7 +10,7 @@ const RIM = '#ffb45a';
  * Side-by-side shotgun. Origin at the breech. aim 0 = muzzles straight at the camera (two black holes),
  * 1 = profile, pointing right. glint 0..1 = a silver gleam deep in the barrels. len = barrel length in profile.
  */
-export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; glint?: number; len?: number; lit?: number; flip?: boolean; stock?: boolean}> = ({
+export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; glint?: number; len?: number; lit?: number; flip?: boolean; stock?: boolean; open?: number}> = ({
   x,
   y,
   s = 1,
@@ -20,6 +20,7 @@ export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; 
   lit = 1,
   flip = false,
   stock = true,
+  open = 0,
 }) => {
   const th = (Math.min(1, Math.max(0, aim)) * Math.PI) / 2;
   const sn = Math.sin(th), cs = Math.cos(th);
@@ -34,6 +35,15 @@ export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; 
       {stock && <path d={`M0,-18 L${-300 * sn},${20 + 30 * sn}`} stroke={RIM} strokeOpacity={0.35 * lit * sn} strokeWidth={3} />}
       {/* trigger guard */}
       <path d={`M${-50 * sn},28 q${-30 * sn},40 ${-70 * sn},6`} stroke="#14161a" strokeWidth={6} fill="none" opacity={sn} />
+      {/* broken open: the breech face with its two chambers, seen as the barrels drop */}
+      {open > 0.02 && (
+        <g>
+          <rect x={-8} y={-40} width={22} height={74} rx={4} fill="#3a3f48" />
+          <circle cx={4} cy={-14} r={10} fill="#000" stroke="#c8d3e3" strokeOpacity={0.6 * lit} strokeWidth={2} />
+          <circle cx={4} cy={14} r={10} fill="#000" stroke="#c8d3e3" strokeOpacity={0.6 * lit} strokeWidth={2} />
+        </g>
+      )}
+      <g transform={`rotate(${open * 38},20,24)`}>
       {/* barrels */}
       <path d={`M0,-30 L${mx},${-r * 0.9} L${mx},${r * 0.9} L0,30 Z`} fill="#16181d" />
       <path d={`M0,-30 L${mx},${-r * 0.9}`} stroke="#c8d3e3" strokeOpacity={(0.35 + 0.4 * sn) * lit} strokeWidth={4} />
@@ -51,6 +61,7 @@ export const Shotgun: React.FC<{x: number; y: number; s?: number; aim?: number; 
         </g>
       ))}
       {cs > 0.3 && <path d={`M${-off * 0.4},${-r} L${off * 0.4},${-r}`} stroke="#16181d" strokeWidth={10} opacity={cs} />}
+      </g>
     </g>
   );
 };
@@ -87,24 +98,29 @@ export const WomanAiming: React.FC<{x: number; y: number; s?: number; t: number;
 };
 
 /** The same woman in profile, facing right, the gun shouldered and pointing right. Origin at the breech. */
-export const WomanProfileAim: React.FC<{x: number; y: number; s?: number; t: number; lit?: number; finger?: number}> = ({x, y, s = 1, t, lit = 1}) => {
+export const WomanProfileAim: React.FC<{x: number; y: number; s?: number; t: number; lit?: number; finger?: number; lowered?: number; open?: number}> = ({x, y, s = 1, t, lit = 1, lowered = 0, open = 0}) => {
   const breathe = Math.sin(t * 2.2) * 3;
   return (
     <g transform={`translate(${x},${y + breathe}) scale(${s})`}>
       {/* shoulders and coat */}
       <path d="M-420,900 C-430,560 -360,320 -220,240 C-160,206 -120,170 -110,120 L-40,120 C-30,170 10,210 60,230 C120,260 170,320 190,420 C210,560 200,760 190,900 Z" fill="#06070a" />
       <path d="M-40,120 C-30,170 10,210 60,230 C120,260 170,320 190,420" stroke={RIM} strokeOpacity={0.5 * lit} strokeWidth={4} fill="none" />
+      {/* neck joining head to shoulders */}
+      <path d="M-104,16 L-22,16 L-30,150 L-118,150 Z" fill="#07080b" />
+      <path d="M-22,16 L-30,150" stroke={RIM} strokeOpacity={0.4 * lit} strokeWidth={3} />
       {/* head in profile, cheek to the stock, hair pinned up at the back */}
-      <g transform="translate(-60,-10)">
+      <g transform={`translate(-60,-10) rotate(${lowered * 16},0,40)`}>
         <path d="M-40,40 C-44,-20 -50,-60 -46,-100 C-40,-160 -10,-186 30,-184 C66,-182 86,-156 90,-120 L96,-98 L92,-86 L104,-64 L92,-58 C96,-46 92,-38 88,-34 C90,-24 84,-12 74,-6 C60,0 40,10 34,40 Z" fill="#07080b" />
         <circle cx={-44} cy={-150} r={34} fill="#07080b" />
         <path d="M30,-184 C66,-182 86,-156 90,-120 L96,-98 L92,-86 L104,-64 L92,-58 C96,-46 92,-38 88,-34 C90,-24 84,-12 74,-6" stroke={RIM} strokeOpacity={0.7 * lit} strokeWidth={4} fill="none" />
         <circle cx={70} cy={-104} r={4} fill="#d8c8b0" opacity={0.8 * lit} />
       </g>
-      <Shotgun x={40} y={60} s={1} aim={1} lit={lit} />
-      {/* her forward hand under the barrels */}
-      <path d="M200,60 C190,96 230,110 260,96 C280,84 276,62 262,58 Z" fill="#1a1410" />
-      <path d="M200,60 C190,96 230,110 260,96" stroke={RIM} strokeOpacity={0.4 * lit} strokeWidth={3} fill="none" />
+      <g transform={`translate(${lowered * 60},${lowered * 220}) rotate(${lowered * 52},40,60)`}>
+        <Shotgun x={40} y={60} s={1} aim={1} lit={lit} open={open} />
+        {/* her forward hand under the barrels */}
+        <path d="M200,60 C190,96 230,110 260,96 C280,84 276,62 262,58 Z" fill="#1a1410" />
+        <path d="M200,60 C190,96 230,110 260,96" stroke={RIM} strokeOpacity={0.4 * lit} strokeWidth={3} fill="none" />
+      </g>
     </g>
   );
 };

@@ -1,0 +1,412 @@
+{
+ "unit": "seconds",
+ "total": 55.332,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "She pulled the trigger on her own son.",
+   "start": 0.35,
+   "end": 2.614,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She pulled the trigger on her own son.",
+     "start": 0.35,
+     "end": 2.614
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L02",
+   "text": "Both barrels. Silver.",
+   "start": 2.814,
+   "end": 4.479,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Both barrels.",
+     "start": 2.814,
+     "end": 3.794
+    },
+    {
+     "text": "Silver.",
+     "start": 3.794,
+     "end": 4.478
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "Nothing happened.",
+   "start": 4.719,
+   "end": 5.917,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Nothing happened.",
+     "start": 4.719,
+     "end": 5.917
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L04",
+   "text": "I'm a werewolf. So's her son, Danny. My best mate.",
+   "start": 6.637,
+   "end": 10.327,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I'm a werewolf.",
+     "start": 6.637,
+     "end": 7.637
+    },
+    {
+     "text": "So's her son,",
+     "start": 7.637,
+     "end": 9.112
+    },
+    {
+     "text": "Danny.",
+     "start": 9.112,
+     "end": 9.832
+    },
+    {
+     "text": "My best mate.",
+     "start": 9.832,
+     "end": 10.328
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "Since his uncle Mick died, she's kept the watch on our street.",
+   "start": 10.567,
+   "end": 14.145,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Since his uncle Mick died,",
+     "start": 10.567,
+     "end": 12.182
+    },
+    {
+     "text": "she's kept the watch on our street.",
+     "start": 12.182,
+     "end": 14.145
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "Danny ran for the moor. She didn't go after him.",
+   "start": 14.625,
+   "end": 17.537,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Danny ran for the moor.",
+     "start": 14.625,
+     "end": 16.055
+    },
+    {
+     "text": "She didn't go after him.",
+     "start": 16.055,
+     "end": 17.537
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "She broke the gun open.",
+   "start": 17.857,
+   "end": 19.444,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She broke the gun open.",
+     "start": 17.857,
+     "end": 19.444
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L08",
+   "text": "Both barrels were empty.",
+   "start": 19.684,
+   "end": 21.419,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Both barrels were empty.",
+     "start": 19.684,
+     "end": 21.419
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L09",
+   "text": "She'd never loaded it. Not once.",
+   "start": 21.819,
+   "end": 24.01,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She'd never loaded it.",
+     "start": 21.819,
+     "end": 23.134
+    },
+    {
+     "text": "Not once.",
+     "start": 23.134,
+     "end": 24.01
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "Then she gave me a page from Mick's notebook.",
+   "start": 24.65,
+   "end": 27.201,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then she gave me a page from Mick's notebook.",
+     "start": 24.65,
+     "end": 27.201
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L11",
+   "text": "August, two thousand and six. His left hand, shaking.",
+   "start": 27.441,
+   "end": 31.23,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "August,",
+     "start": 27.441,
+     "end": 27.936
+    },
+    {
+     "text": "two thousand and six.",
+     "start": 27.936,
+     "end": 29.326
+    },
+    {
+     "text": "His left hand,",
+     "start": 29.326,
+     "end": 30.546
+    },
+    {
+     "text": "shaking.",
+     "start": 30.546,
+     "end": 31.23
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "D. bit the boy. Got him off. Cost me the arm.",
+   "start": 31.51,
+   "end": 34.524,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "D. bit the boy.",
+     "start": 31.51,
+     "end": 32.56
+    },
+    {
+     "text": "Got him off.",
+     "start": 32.56,
+     "end": 33.31
+    },
+    {
+     "text": "Cost me the arm.",
+     "start": 33.31,
+     "end": 34.524
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "L13",
+   "text": "I was the boy. I was eight.",
+   "start": 35.164,
+   "end": 37.051,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I was the boy.",
+     "start": 35.164,
+     "end": 36.134
+    },
+    {
+     "text": "I was eight.",
+     "start": 36.134,
+     "end": 37.051
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "Mick didn't lose his arm to a wolf.",
+   "start": 37.771,
+   "end": 39.967,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Mick didn't lose his arm to a wolf.",
+     "start": 37.771,
+     "end": 39.967
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "He lost it pulling one off me.",
+   "start": 40.167,
+   "end": 41.979,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He lost it pulling one off me.",
+     "start": 40.167,
+     "end": 41.979
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "By dawn, my hands were mine again.",
+   "start": 42.859,
+   "end": 45.144,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "By dawn,",
+     "start": 42.859,
+     "end": 43.524
+    },
+    {
+     "text": "my hands were mine again.",
+     "start": 43.524,
+     "end": 45.145
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L17",
+   "text": "But Danny never came home.",
+   "start": 45.464,
+   "end": 47.256,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "But Danny never came home.",
+     "start": 45.464,
+     "end": 47.256
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L18",
+   "text": "From my window, I saw him at the edge of the moor.",
+   "start": 47.656,
+   "end": 50.671,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "From my window,",
+     "start": 47.656,
+     "end": 48.716
+    },
+    {
+     "text": "I saw him at the edge of the moor.",
+     "start": 48.716,
+     "end": 50.67
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L19",
+   "text": "Two eyes. And beside them, a smaller pair.",
+   "start": 50.911,
+   "end": 53.855,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Two eyes.",
+     "start": 50.911,
+     "end": 51.696
+    },
+    {
+     "text": "And beside them,",
+     "start": 51.696,
+     "end": 52.726
+    },
+    {
+     "text": "a smaller pair.",
+     "start": 52.726,
+     "end": 53.855
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L20",
+   "text": "Come out.",
+   "start": 54.255,
+   "end": 55.092,
+   "whisper": true,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Come out.",
+     "start": 54.255,
+     "end": 55.092
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

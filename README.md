@@ -4,7 +4,7 @@ First-person gothic horror shorts for Instagram Reels / YouTube Shorts (9:16, 10
 Remotion + React + TypeScript on the **Gothic POV kit**. Everything you see is code-drawn SVG, everything you hear is
 synthesised, and the narrator is a local TTS model, so there are no stock assets or paid services.
 
-Current series: **THE WATCH**, a werewolf story in five episodes, and **Would You Survive?**, a 30 s second-person format (`series/would-you-survive-format.md`). Shorts live in `src/episodes/portrait/` (THE WATCH, Parts I–IV; survive-vampire, survive-werewolf; THE WITCH BOTTLE, Part I); the 16:9 long-form vampire story *The Quarter Turn* is in `src/episodes/landscape/the-quarter-turn`.
+Current series: **THE WATCH**, a werewolf story in five episodes, and **Would You Survive?**, a 30 s second-person format (`series/would-you-survive-format.md`). Shorts live in `src/episodes/portrait/` (THE WATCH, Parts I–V; survive-vampire, survive-werewolf; THE WITCH BOTTLE, Part I); the 16:9 long-form vampire story *The Quarter Turn* is in `src/episodes/landscape/the-quarter-turn`.
 
 ## Where everything is
 
@@ -153,6 +153,7 @@ reorganised:
 | `TheWatch02` | `src/episodes/portrait/the-watch-02` | 64.4 s | The Watch, Part II: Mick's notebooks, "D. took my arm." |
 | `TheWatch03` | `src/episodes/portrait/the-watch-03` | 59.3 s | The Watch, Part III: the silver nails (Kokoro) |
 | `TheWatch04` | `src/episodes/portrait/the-watch-04` | 58.3 s | The Watch, Part IV: Danny's mum keeps the watch, and turns the gun on her son |
+| `TheWatch05` | `src/episodes/portrait/the-watch-05` | 58.7 s | The Watch, Part V: the empty gun, Mick's page, "he lost it pulling one off me" |
 | `SurviveVampire` | `src/episodes/portrait/survive-vampire` | 33.5 s | Would You Survive? As a vampire: "And you rent." Reference for the format |
 | `WitchBottle01` | `src/episodes/portrait/witch-bottle-01` | 62.6 s | The Witch Bottle, Part I: Mardle Fen, 1645 (bible: `series/the-witch-bottle-bible.md`; parts and scripts: `series/the-witch-bottle-parts.md`) |
 | `SurviveWerewolf` | `src/episodes/portrait/survive-werewolf` | 33.0 s | Would You Survive? As a werewolf: "Thirty-one miles. Personal best." |
