@@ -95,3 +95,64 @@ export const SurviveCard: React.FC<{t: number; t0: number; title?: string; subti
     </AbsoluteFill>
   );
 };
+
+export type Stamp = {t: number; time: string}; // t: global second the clock tag changes to `time`
+
+/** Upper-left clock tag ("02:47") for night-shift stories; changes on each stamp, a red rule underneath. */
+export const ClockTag: React.FC<{t: number; stamps: Stamp[]; until: number; label?: string}> = ({t, stamps, until, label = 'NIGHT SHIFT'}) => {
+  const {W, H} = useFormat();
+  const st = [...stamps].reverse().find((x) => t >= x.t);
+  if (!st || t >= until) return null;
+  const a = prog(t, stamps[0].t + 0.05, stamps[0].t + 0.4) * (1 - lin(t, until - 0.25, until));
+  const land = prog(t, st.t + 0.02, st.t + 0.3);
+  const pad = Math.round(Math.min(W, H) * 0.075);
+  return (
+    <AbsoluteFill style={{padding: `${pad * 1.4}px ${pad * 1.1}px`, alignItems: 'flex-start', justifyContent: 'flex-start'}}>
+      <div style={{opacity: a, textShadow: '0 0 16px rgba(0,0,0,0.95)'}}>
+        <div style={{fontFamily: theme.fonts.caption, fontWeight: 600, fontSize: Math.round(H * 0.018), letterSpacing: 9, color: '#8a8478'}}>{label}</div>
+        <div style={{fontFamily: 'Courier New, monospace', fontWeight: 700, fontSize: Math.round(H * 0.04), color: '#ece4d2', opacity: land, transform: `translateY(${(1 - land) * -12}px)`}}>{st.time}</div>
+        <div style={{width: 90 * land, height: 2, background: theme.blood, marginTop: 4}} />
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/**
+ * Poll end card for interactive series: the question (blackletter), the series and part, two lettered options, and a
+ * prompt to vote in the comments. Timings follow SurviveCard (question from t0 + 1.0 s).
+ */
+export const PollCard: React.FC<{t: number; t0: number; question?: string; series: string; a: string; b: string; prompt?: string}> = ({
+  t,
+  t0,
+  question = 'What Do You Do?',
+  series,
+  a,
+  b,
+  prompt = 'COMMENT A OR B',
+}) => {
+  const q = prog(t, t0 + 1.0, t0 + 2.0);
+  const sub = prog(t, t0 + 1.5, t0 + 2.1);
+  const oa = prog(t, t0 + 2.2, t0 + 2.7);
+  const ob = prog(t, t0 + 2.7, t0 + 3.2);
+  const pr = prog(t, t0 + 3.3, t0 + 3.9);
+  const flick = 0.85 + noise1(t * 14, 9) * 0.15;
+  const opt = (letter: string, text: string, p: number) => (
+    <div style={{display: 'flex', alignItems: 'center', gap: 28, opacity: p, transform: `translateX(${(1 - p) * -20}px)`, marginTop: 34, textAlign: 'left'}}>
+      <div style={{width: 92, height: 92, borderRadius: 46, border: `3px solid ${theme.blood}`, display: 'flex', alignItems: 'center', justifyContent: 'center', fontFamily: theme.fonts.caption, fontWeight: 600, fontSize: 58, color: '#ece4d2', flexShrink: 0}}>{letter}</div>
+      <div style={{fontFamily: theme.fonts.caption, fontWeight: 600, fontSize: 56, color: '#ece4d2', lineHeight: 1.1}}>{text}</div>
+    </div>
+  );
+  return (
+    <AbsoluteFill style={{background: '#000', alignItems: 'center', justifyContent: 'center'}}>
+      <div style={{marginTop: -120, maxWidth: 900, textAlign: 'center'}}>
+        <div style={{fontFamily: theme.fonts.title, fontSize: 140, lineHeight: 1.02, color: theme.blood, opacity: q * flick, textShadow: `0 0 40px rgba(196,22,28,${0.35 * q})`, transform: `scale(${1.06 - q * 0.06})`}}>{question}</div>
+        <div style={{fontFamily: theme.fonts.caption, fontSize: 40, letterSpacing: 14, color: '#8a8478', opacity: sub, marginTop: 16}}>{series}</div>
+        <div style={{marginTop: 50, display: 'inline-block'}}>
+          {opt('A', a, oa)}
+          {opt('B', b, ob)}
+        </div>
+        <div style={{fontFamily: theme.fonts.caption, fontWeight: 600, fontSize: 36, letterSpacing: 9, color: '#8a8478', opacity: pr, marginTop: 60}}>{prompt}</div>
+      </div>
+    </AbsoluteFill>
+  );
+};

@@ -4,6 +4,12 @@ Working title is the pun: the night shift is "the graveyard shift". A multi-part
 hint of comedy. You work nights alone at a petrol station; a strange customer comes in; you black out; you wake up
 turning. Every part ends on a **decision the viewers vote on**, and the next part follows the majority.
 
+## Status
+- **Part 1** made: `src/episodes/portrait/graveyard-shift-01` (composition `GraveyardShift01`). Next: post it, pin the
+  A/B comment, then produce the winning Part 2 branch below.
+- Kit added: `kit/portrait/sets/PetrolStation.tsx` (ShopDoors, Forecourt, Counter, Receipt, OldCoin, CoffeeMachine),
+  `ClockTag` and `PollCard` in `kit/common/series/Survive.tsx`.
+
 ## Why this works (from our research)
 - **Hook for vampire fans in the first 3 s, readable on mute**: the automatic doors don't open for him (sensors
   can't "see" him, like mirrors), and he knocks on the glass to ask if he can come in. Every vampire fan gets it before

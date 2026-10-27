@@ -1,0 +1,343 @@
+{
+ "unit": "seconds",
+ "total": 60.619,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Working nights at a petrol station, you learn to spot the weird ones.",
+   "start": 0.35,
+   "end": 4.475,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Working nights at a petrol station,",
+     "start": 0.35,
+     "end": 2.4
+    },
+    {
+     "text": "you learn to spot the weird ones.",
+     "start": 2.4,
+     "end": 4.475
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "This one stood outside the automatic doors. They wouldn't open for him.",
+   "start": 4.715,
+   "end": 8.991,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "This one stood outside the automatic doors.",
+     "start": 4.715,
+     "end": 7.455
+    },
+    {
+     "text": "They wouldn't open for him.",
+     "start": 7.455,
+     "end": 8.992
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "So he knocked on the glass and asked if he could come in.",
+   "start": 9.231,
+   "end": 12.353,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "So he knocked on the glass and asked if he could come in.",
+     "start": 9.231,
+     "end": 12.353
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L04",
+   "text": "You said yes. Obviously. It's a shop.",
+   "start": 12.673,
+   "end": 15.315,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You said yes.",
+     "start": 12.673,
+     "end": 13.563
+    },
+    {
+     "text": "Obviously.",
+     "start": 13.563,
+     "end": 14.428
+    },
+    {
+     "text": "It's a shop.",
+     "start": 14.428,
+     "end": 15.315
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "He bought a bag of rice. Paid in coins from seventeen ninety.",
+   "start": 15.715,
+   "end": 19.76,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He bought a bag of rice.",
+     "start": 15.715,
+     "end": 17.305
+    },
+    {
+     "text": "Paid in coins from seventeen ninety.",
+     "start": 17.305,
+     "end": 19.759
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "And on the CCTV screen, you were serving nobody.",
+   "start": 20.08,
+   "end": 23.501,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And on the CCTV screen,",
+     "start": 20.08,
+     "end": 22.035
+    },
+    {
+     "text": "you were serving nobody.",
+     "start": 22.035,
+     "end": 23.501
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "He leaned over the counter and said, you look tired.",
+   "start": 24.141,
+   "end": 27.409,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He leaned over the counter and said,",
+     "start": 24.141,
+     "end": 26.316
+    },
+    {
+     "text": "you look tired.",
+     "start": 26.316,
+     "end": 27.409
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "Then nothing.",
+   "start": 27.649,
+   "end": 28.521,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then nothing.",
+     "start": 27.649,
+     "end": 28.521
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L09",
+   "text": "You wake up on the floor at three thirty-three. The till's full. Nothing's missing.",
+   "start": 29.321,
+   "end": 34.149,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You wake up on the floor at three thirty-three.",
+     "start": 29.321,
+     "end": 31.646
+    },
+    {
+     "text": "The till's full.",
+     "start": 31.646,
+     "end": 32.896
+    },
+    {
+     "text": "Nothing's missing.",
+     "start": 32.896,
+     "end": 34.149
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "Except the rice is everywhere. And you're counting it.",
+   "start": 34.389,
+   "end": 37.646,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Except the rice is everywhere.",
+     "start": 34.389,
+     "end": 36.369
+    },
+    {
+     "text": "And you're counting it.",
+     "start": 36.369,
+     "end": 37.646
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "You decide you dozed off. You finish the shift.",
+   "start": 38.046,
+   "end": 41.131,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You decide you dozed off.",
+     "start": 38.046,
+     "end": 39.746
+    },
+    {
+     "text": "You finish the shift.",
+     "start": 39.746,
+     "end": 41.131
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "By five, coffee smells like burning hair.",
+   "start": 41.531,
+   "end": 44.4,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "By five,",
+     "start": 41.531,
+     "end": 42.221
+    },
+    {
+     "text": "coffee smells like burning hair.",
+     "start": 42.221,
+     "end": 44.4
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "And you can hear the heartbeat of the man at pump four.",
+   "start": 44.64,
+   "end": 47.691,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And you can hear the heartbeat of the man at pump four.",
+     "start": 44.64,
+     "end": 47.691
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L14",
+   "text": "At ten to six, the sky goes grey. The back of your hand starts to smoke.",
+   "start": 48.251,
+   "end": 53.115,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "At ten to six,",
+     "start": 48.251,
+     "end": 49.261
+    },
+    {
+     "text": "the sky goes grey.",
+     "start": 49.261,
+     "end": 50.766
+    },
+    {
+     "text": "The back of your hand starts to smoke.",
+     "start": 50.766,
+     "end": 53.115
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L15",
+   "text": "Your shift ends at six. Sunrise is six twelve.",
+   "start": 53.515,
+   "end": 57.009,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Your shift ends at six.",
+     "start": 53.515,
+     "end": 55.07
+    },
+    {
+     "text": "Sunrise is six twelve.",
+     "start": 55.07,
+     "end": 57.009
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L16",
+   "text": "And on his receipt, he's left a phone number.",
+   "start": 57.329,
+   "end": 60.219,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And on his receipt,",
+     "start": 57.329,
+     "end": 58.609
+    },
+    {
+     "text": "he's left a phone number.",
+     "start": 58.609,
+     "end": 60.219
+    }
+   ],
+   "phraseSource": "measured-silence"
+  }
+ ]
+}

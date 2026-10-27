@@ -4,3 +4,4 @@ export * from './sets/DoorWall';
 export * from './sets/Doorstep';
 export * from './sets/Cottage';
 export * from './sets/FenLane';
+export * from './sets/PetrolStation';
