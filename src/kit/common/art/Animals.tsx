@@ -5,7 +5,7 @@ import {lerpColor, noise1} from '../util';
  * A dog in profile (lurcher build), facing right, feet on y = 0 at the origin. Profiles read best at phone size.
  * fear 0..1: head drops, hackles rise, tail tucks, lips peel back. light: rim light from the right.
  */
-export const Dog: React.FC<{x: number; y: number; s?: number; t: number; fear?: number; flip?: boolean; light?: number; warm?: number; run?: number}> = ({
+export const Dog: React.FC<{x: number; y: number; s?: number; t: number; fear?: number; flip?: boolean; light?: number; warm?: number; run?: number; wolf?: boolean}> = ({
   x,
   y,
   s = 1,
@@ -15,6 +15,7 @@ export const Dog: React.FC<{x: number; y: number; s?: number; t: number; fear?: 
   light = 1,
   warm = 0,
   run = 0,
+  wolf = false,
 }) => {
   const rim = lerpColor('#9fb4cf', '#ffb45a', warm);
   const head = fear * 26; // head lowers
@@ -50,6 +51,17 @@ export const Dog: React.FC<{x: number; y: number; s?: number; t: number; fear?: 
       <path d={`M-190,-140 L${-180 - legH},0 L${-152 - legH},0 L-150,-140 Z M70,-120 L${76 - legF},0 L${104 - legF},0 L104,-120 Z`} fill="#141820" />
       <path d={tail} stroke="#07080c" strokeWidth={20} strokeLinecap="round" fill="none" />
       <path d={body} fill="#07080c" />
+      {wolf && (
+        <g>
+          {/* a wolf: heavy ruff round the neck and shoulders, a thick brush of a tail */}
+          <path d={`M150,${h(-292)} C110,${h(-250)} 96,-200 70,-150 C40,-170 20,-210 30,-262 C60,-286 110,${h(-306)} 150,${h(-292)} Z`} fill="#07080c" />
+          {Array.from({length: 9}, (_, i) => (
+            <path key={i} d={`M${136 - i * 12},${h(-286 + i * 14)} l${-26 - (i % 3) * 6},${10 + (i % 2) * 8}`} stroke="#07080c" strokeWidth={9} strokeLinecap="round" />
+          ))}
+          <path d={`M150,${h(-292)} C110,${h(-250)} 96,-200 70,-150`} stroke={rim} strokeOpacity={0.35 * light} strokeWidth={3} fill="none" />
+          <path d={tail} stroke="#07080c" strokeWidth={46} strokeLinecap="round" fill="none" />
+        </g>
+      )}
       <path d={ridge} fill="#07080c" />
       {/* rim light: back, head and ear, chest, front leg */}
       <path d={fear > 0.2 ? ridge : back} stroke={rim} strokeOpacity={0.45 * light} strokeWidth={3} fill="none" strokeLinejoin="round" />

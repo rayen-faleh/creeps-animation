@@ -1,0 +1,386 @@
+{
+ "unit": "seconds",
+ "total": 55.503,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "I'm a werewolf. So's my best mate.",
+   "start": 0.35,
+   "end": 2.816,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I'm a werewolf.",
+     "start": 0.35,
+     "end": 1.385
+    },
+    {
+     "text": "So's my best mate.",
+     "start": 1.385,
+     "end": 2.816
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "And his mum's just pointed a shotgun at us.",
+   "start": 3.016,
+   "end": 5.674,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And his mum's just pointed a shotgun at us.",
+     "start": 3.016,
+     "end": 5.674
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "For twenty years, his uncle Mick sat under the lamp at the end of our road. Watching for wolves.",
+   "start": 6.234,
+   "end": 12.129,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "For twenty years,",
+     "start": 6.234,
+     "end": 7.349
+    },
+    {
+     "text": "his uncle Mick sat under the lamp at the end of our road.",
+     "start": 7.349,
+     "end": 10.599
+    },
+    {
+     "text": "Watching for wolves.",
+     "start": 10.599,
+     "end": 12.129
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "Mick died this spring.",
+   "start": 12.369,
+   "end": 13.812,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Mick died this spring.",
+     "start": 12.369,
+     "end": 13.812
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L05",
+   "text": "And last full moon, Danny pulled the silver out of Mick's windowsill. So we could get out.",
+   "start": 14.092,
+   "end": 19.671,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And last full moon,",
+     "start": 14.092,
+     "end": 15.402
+    },
+    {
+     "text": "Danny pulled the silver out of Mick's windowsill.",
+     "start": 15.402,
+     "end": 18.337
+    },
+    {
+     "text": "So we could get out.",
+     "start": 18.337,
+     "end": 19.671
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "So tonight, we ran.",
+   "start": 20.231,
+   "end": 21.757,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "So tonight,",
+     "start": 20.231,
+     "end": 21.071
+    },
+    {
+     "text": "we ran.",
+     "start": 21.071,
+     "end": 21.757
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "Miles of moor, going by under my hands.",
+   "start": 21.997,
+   "end": 24.883,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Miles of moor,",
+     "start": 21.997,
+     "end": 23.077
+    },
+    {
+     "text": "going by under my hands.",
+     "start": 23.077,
+     "end": 24.883
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "Coming back down Moor End, a torch clicked on.",
+   "start": 25.363,
+   "end": 28.356,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Coming back down Moor End,",
+     "start": 25.363,
+     "end": 26.953
+    },
+    {
+     "text": "a torch clicked on.",
+     "start": 26.953,
+     "end": 28.356
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "Under Mick's lamp. Where nobody should be.",
+   "start": 28.636,
+   "end": 31.326,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Under Mick's lamp.",
+     "start": 28.636,
+     "end": 29.741
+    },
+    {
+     "text": "Where nobody should be.",
+     "start": 29.741,
+     "end": 31.326
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "Someone had been keeping his watch.",
+   "start": 31.726,
+   "end": 33.752,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Someone had been keeping his watch.",
+     "start": 31.726,
+     "end": 33.752
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L11",
+   "text": "Danny's mum.",
+   "start": 34.152,
+   "end": 35.118,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Danny's mum.",
+     "start": 34.152,
+     "end": 35.118
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L12",
+   "text": "Mick's old shotgun. Both barrels. Silver.",
+   "start": 35.918,
+   "end": 38.764,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Mick's old shotgun.",
+     "start": 35.918,
+     "end": 37.108
+    },
+    {
+     "text": "Both barrels.",
+     "start": 37.108,
+     "end": 38.163
+    },
+    {
+     "text": "Silver.",
+     "start": 38.163,
+     "end": 38.764
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "She said, I've watched you since you were eight, love.",
+   "start": 39.244,
+   "end": 42.074,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She said,",
+     "start": 39.244,
+     "end": 39.804
+    },
+    {
+     "text": "I've watched you since you were eight,",
+     "start": 39.804,
+     "end": 41.384
+    },
+    {
+     "text": "love.",
+     "start": 41.384,
+     "end": 42.074
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "Then she turned the gun.",
+   "start": 42.394,
+   "end": 43.755,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then she turned the gun.",
+     "start": 42.394,
+     "end": 43.755
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "Away from me.",
+   "start": 43.995,
+   "end": 45.042,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Away from me.",
+     "start": 43.995,
+     "end": 45.042
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "Onto Danny.",
+   "start": 45.362,
+   "end": 46.31,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Onto Danny.",
+     "start": 45.362,
+     "end": 46.31
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L17",
+   "text": "She said, it runs in our family. Not yours.",
+   "start": 47.11,
+   "end": 50.108,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She said, it runs in our family.",
+     "start": 47.11,
+     "end": 49.08
+    },
+    {
+     "text": "Not yours.",
+     "start": 49.08,
+     "end": 50.107
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "L18",
+   "text": "Danny's claws came up. Her finger tightened.",
+   "start": 50.508,
+   "end": 53.568,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Danny's claws came up.",
+     "start": 50.508,
+     "end": 52.083
+    },
+    {
+     "text": "Her finger tightened.",
+     "start": 52.083,
+     "end": 53.568
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L19",
+   "text": "Go home, love.",
+   "start": 53.808,
+   "end": 55.263,
+   "whisper": true,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "Go home, love.",
+     "start": 53.808,
+     "end": 55.263
+    }
+   ],
+   "phraseSource": "whole-line(fallback)"
+  }
+ ]
+}

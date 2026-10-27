@@ -16,6 +16,7 @@ export * from './common/art/Notebook';
 export * from './common/art/Home';
 export * from './common/art/Animals';
 export * from './common/art/Period';
+export * from './common/art/Hunter';
 export * from './common/series/Captions';
 export * from './common/series/TitleCard';
 export * from './common/series/StoryFrame';

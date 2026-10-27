@@ -1,0 +1,30 @@
+{
+ "B": {
+  "hook": 0.0,
+  "mick": 6.234,
+  "died": 12.369,
+  "recap": 14.092,
+  "pulled": 15.402,
+  "out": 18.337,
+  "ran": 20.231,
+  "miles": 21.997,
+  "street": 25.363,
+  "click": 26.953,
+  "lamp": 28.636,
+  "someone": 31.726,
+  "mum": 34.152,
+  "gun": 35.918,
+  "barrels": 37.108,
+  "silver": 38.163,
+  "said": 39.244,
+  "turned": 42.394,
+  "away": 43.995,
+  "danny": 45.362,
+  "family": 47.11,
+  "claws": 50.508,
+  "finger": 52.083,
+  "cut": 53.688
+ },
+ "durationSec": 58.29,
+ "source": "timing.json (kokoro bm_lewis per-line synthesis; times measured from decoded samples)"
+}

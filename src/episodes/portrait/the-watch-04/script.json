@@ -1,0 +1,21 @@
+[
+ {"id": "L01", "text": "I'm a werewolf. So's my best mate.", "pauseAfter": 0.25},
+ {"id": "L02", "text": "And his mum's just pointed a shotgun at us.", "pauseAfter": 0.7},
+ {"id": "L03", "text": "For twenty years, his uncle Mick sat under the lamp at the end of our road. Watching for wolves.", "pauseAfter": 0.3},
+ {"id": "L04", "text": "Mick died this spring.", "pauseAfter": 0.35},
+ {"id": "L05", "text": "And last full moon, Danny pulled the silver out of Mick's windowsill. So we could get out.", "pauseAfter": 0.7},
+ {"id": "L06", "text": "So tonight, we ran.", "pauseAfter": 0.3},
+ {"id": "L07", "text": "Miles of moor, going by under my hands.", "pauseAfter": 0.6},
+ {"id": "L08", "text": "Coming back down Moor End, a torch clicked on.", "pauseAfter": 0.35},
+ {"id": "L09", "text": "Under Mick's lamp. Where nobody should be.", "pauseAfter": 0.5},
+ {"id": "L10", "text": "Someone had been keeping his watch.", "pauseAfter": 0.5},
+ {"id": "L11", "text": "Danny's mum.", "pauseAfter": 1.0},
+ {"id": "L12", "text": "Mick's old shotgun. Both barrels. Silver.", "pauseAfter": 0.6},
+ {"id": "L13", "text": "She said, I've watched you since you were eight, love.", "pauseAfter": 0.4},
+ {"id": "L14", "text": "Then she turned the gun.", "pauseAfter": 0.3},
+ {"id": "L15", "text": "Away from me.", "pauseAfter": 0.4},
+ {"id": "L16", "text": "Onto Danny.", "pauseAfter": 1.0},
+ {"id": "L17", "text": "She said, it runs in our family. Not yours.", "pauseAfter": 0.5},
+ {"id": "L18", "text": "Danny's claws came up. Her finger tightened.", "pauseAfter": 0.3},
+ {"id": "L19", "text": "Go home, love.", "whisper": true, "voice": "bf_emma", "pauseAfter": 0.3}
+]
