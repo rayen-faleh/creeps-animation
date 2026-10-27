@@ -1,0 +1,415 @@
+{
+ "unit": "seconds",
+ "total": 70.505,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Have you ever thought about dating a vampire?",
+   "start": 0.35,
+   "end": 3.041,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Have you ever thought about dating a vampire?",
+     "start": 0.35,
+     "end": 3.041
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L02",
+   "text": "Hollywood says cheekbones and a velvet coat.",
+   "start": 3.281,
+   "end": 6.193,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Hollywood says cheekbones and a velvet coat.",
+     "start": 3.281,
+     "end": 6.193
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "Folklore says a swollen corpse, red in the face, who died last Tuesday.",
+   "start": 6.393,
+   "end": 11.182,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Folklore says a swollen corpse,",
+     "start": 6.393,
+     "end": 8.363
+    },
+    {
+     "text": "red in the face,",
+     "start": 8.363,
+     "end": 9.518
+    },
+    {
+     "text": "who died last Tuesday.",
+     "start": 9.518,
+     "end": 11.182
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "Let's say you date one anyway.",
+   "start": 11.662,
+   "end": 13.66,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Let's say you date one anyway.",
+     "start": 11.662,
+     "end": 13.66
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L05",
+   "text": "Day one. He won't come in until you invite him. So old-fashioned.",
+   "start": 14.14,
+   "end": 18.037,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day one.",
+     "start": 14.14,
+     "end": 14.75
+    },
+    {
+     "text": "He won't come in until you invite him.",
+     "start": 14.75,
+     "end": 16.58
+    },
+    {
+     "text": "So old-fashioned.",
+     "start": 16.58,
+     "end": 18.038
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "The invitation doesn't expire. He's in your kitchen at four a.m.",
+   "start": 18.277,
+   "end": 22.781,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The invitation doesn't expire.",
+     "start": 18.277,
+     "end": 20.147
+    },
+    {
+     "text": "He's in your kitchen at four a.m.",
+     "start": 20.147,
+     "end": 22.781
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "Day two. Every couple photo is just you, and a floating rose.",
+   "start": 23.261,
+   "end": 27.556,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day two.",
+     "start": 23.261,
+     "end": 23.981
+    },
+    {
+     "text": "Every couple photo is just you,",
+     "start": 23.981,
+     "end": 26.026
+    },
+    {
+     "text": "and a floating rose.",
+     "start": 26.026,
+     "end": 27.556
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "Day three. He doesn't eat. He watches you eat. Mostly your neck.",
+   "start": 28.036,
+   "end": 32.083,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day three.",
+     "start": 28.036,
+     "end": 28.746
+    },
+    {
+     "text": "He doesn't eat.",
+     "start": 28.746,
+     "end": 29.681
+    },
+    {
+     "text": "He watches you eat.",
+     "start": 29.681,
+     "end": 30.916
+    },
+    {
+     "text": "Mostly your neck.",
+     "start": 30.916,
+     "end": 32.083
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "Day four. You drop a bag of rice.",
+   "start": 32.563,
+   "end": 34.874,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day four.",
+     "start": 32.563,
+     "end": 33.283
+    },
+    {
+     "text": "You drop a bag of rice.",
+     "start": 33.283,
+     "end": 34.874
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "He has to count every grain. At nine thousand, he lost his place.",
+   "start": 35.074,
+   "end": 39.653,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He has to count every grain.",
+     "start": 35.074,
+     "end": 37.129
+    },
+    {
+     "text": "At nine thousand,",
+     "start": 37.129,
+     "end": 38.539
+    },
+    {
+     "text": "he lost his place.",
+     "start": 38.539,
+     "end": 39.653
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "Day five. He stays over. He's brought a crate of his own soil.",
+   "start": 40.133,
+   "end": 44.339,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day five.",
+     "start": 40.133,
+     "end": 40.953
+    },
+    {
+     "text": "He stays over.",
+     "start": 40.953,
+     "end": 42.143
+    },
+    {
+     "text": "He's brought a crate of his own soil.",
+     "start": 42.143,
+     "end": 44.338
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "Day six. No picnics. In the book, Dracula went out at noon.",
+   "start": 44.819,
+   "end": 49.169,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day six.",
+     "start": 44.819,
+     "end": 45.519
+    },
+    {
+     "text": "No picnics.",
+     "start": 45.519,
+     "end": 46.624
+    },
+    {
+     "text": "In the book,",
+     "start": 46.624,
+     "end": 47.489
+    },
+    {
+     "text": "Dracula went out at noon.",
+     "start": 47.489,
+     "end": 49.169
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "A film in nineteen twenty-two changed the rules. Now the curtains are taped shut.",
+   "start": 49.369,
+   "end": 55.074,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "A film in nineteen twenty-two changed the rules.",
+     "start": 49.369,
+     "end": 52.764
+    },
+    {
+     "text": "Now the curtains are taped shut.",
+     "start": 52.764,
+     "end": 55.074
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "Day seven. Your anniversary. He says you look pale.",
+   "start": 55.634,
+   "end": 59.015,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Day seven.",
+     "start": 55.634,
+     "end": 56.379
+    },
+    {
+     "text": "Your anniversary.",
+     "start": 56.379,
+     "end": 57.629
+    },
+    {
+     "text": "He says you look pale.",
+     "start": 57.629,
+     "end": 59.014
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L15",
+   "text": "You do. And there are two small marks on your neck.",
+   "start": 59.255,
+   "end": 62.026,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You do.",
+     "start": 59.255,
+     "end": 59.86
+    },
+    {
+     "text": "And there are two small marks on your neck.",
+     "start": 59.86,
+     "end": 62.027
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L16",
+   "text": "You check the mirror.",
+   "start": 62.426,
+   "end": 63.571,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You check the mirror.",
+     "start": 62.426,
+     "end": 63.571
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L17",
+   "text": "It shows the bathroom. And a rose, floating where your hand should be.",
+   "start": 63.891,
+   "end": 68.148,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It shows the bathroom.",
+     "start": 63.891,
+     "end": 65.211
+    },
+    {
+     "text": "And a rose,",
+     "start": 65.211,
+     "end": 66.286
+    },
+    {
+     "text": "floating where your hand should be.",
+     "start": 66.286,
+     "end": 68.148
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L18",
+   "text": "Happy one week.",
+   "start": 68.868,
+   "end": 70.265,
+   "whisper": true,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Happy one week.",
+     "start": 68.868,
+     "end": 70.265
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

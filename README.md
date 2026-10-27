@@ -41,7 +41,7 @@ creeps-animation/
 │   ├── kit/                    Reusable art and finishing (extend it, never restyle per story)
 │   │   ├── common/             Works in BOTH formats
 │   │   │   ├── art/            Window, Door, Hand (rig + styles incl. wolf), Room, Props, Street, Watcher,
-│   │   │   │                   Charms, Modern, Notebook, Home, Animals, Period, Hunter: plain SVG components, placed by the scene
+│   │   │   │                   Charms, Modern, Notebook, Home, Animals, Period, Hunter, Vampires: plain SVG components, placed by the scene
 │   │   │   ├── series/         StoryFrame (grade, grain, captions, chapter titles, overlay, audio), Captions,
 │   │   │   │                   ChapterTitle, TitleCard, Survive (DayTag, SurviveCard), fonts
 │   │   │   ├── format.tsx      PORTRAIT (1080x1920) / LANDSCAPE (1920x1080): frame size, caption layout, textures
@@ -154,6 +154,7 @@ reorganised:
 | `TheWatch03` | `src/episodes/portrait/the-watch-03` | 59.3 s | The Watch, Part III: the silver nails (Kokoro) |
 | `TheWatch04` | `src/episodes/portrait/the-watch-04` | 58.3 s | The Watch, Part IV: Danny's mum keeps the watch, and turns the gun on her son |
 | `TheWatch05` | `src/episodes/portrait/the-watch-05` | 58.7 s | The Watch, Part V: the empty gun, Mick's page, "he lost it pulling one off me" |
+| `DatingVampire` | `src/episodes/portrait/dating-vampire` | 74 s | Horror-comedy: a week dating a vampire, Hollywood vs folklore |
 | `SurviveVampire` | `src/episodes/portrait/survive-vampire` | 33.5 s | Would You Survive? As a vampire: "And you rent." Reference for the format |
 | `WitchBottle01` | `src/episodes/portrait/witch-bottle-01` | 62.6 s | The Witch Bottle, Part I: Mardle Fen, 1645 (bible: `series/the-witch-bottle-bible.md`; parts and scripts: `series/the-witch-bottle-parts.md`) |
 | `SurviveWerewolf` | `src/episodes/portrait/survive-werewolf` | 33.0 s | Would You Survive? As a werewolf: "Thirty-one miles. Personal best." |

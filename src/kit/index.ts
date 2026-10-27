@@ -17,6 +17,7 @@ export * from './common/art/Home';
 export * from './common/art/Animals';
 export * from './common/art/Period';
 export * from './common/art/Hunter';
+export * from './common/art/Vampires';
 export * from './common/series/Captions';
 export * from './common/series/TitleCard';
 export * from './common/series/StoryFrame';

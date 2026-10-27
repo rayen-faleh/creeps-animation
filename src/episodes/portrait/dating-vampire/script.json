@@ -1,0 +1,93 @@
+[
+ {
+  "id": "L01",
+  "text": "Have you ever thought about dating a vampire?",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L02",
+  "text": "Hollywood says cheekbones and a velvet coat.",
+  "pauseAfter": 0.25
+ },
+ {
+  "id": "L03",
+  "text": "Folklore says a swollen corpse, red in the face, who died last Tuesday.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L04",
+  "text": "Let's say you date one anyway.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L05",
+  "text": "Day one. He won't come in until you invite him. So old-fashioned.",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L06",
+  "text": "The invitation doesn't expire. He's in your kitchen at four a.m.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L07",
+  "text": "Day two. Every couple photo is just you, and a floating rose.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L08",
+  "text": "Day three. He doesn't eat. He watches you eat. Mostly your neck.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L09",
+  "text": "Day four. You drop a bag of rice.",
+  "pauseAfter": 0.25
+ },
+ {
+  "id": "L10",
+  "text": "He has to count every grain. At nine thousand, he lost his place.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L11",
+  "text": "Day five. He stays over. He's brought a crate of his own soil.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L12",
+  "text": "Day six. No picnics. In the book, Dracula went out at noon.",
+  "pauseAfter": 0.25
+ },
+ {
+  "id": "L13",
+  "text": "A film in nineteen twenty-two changed the rules. Now the curtains are taped shut.",
+  "pauseAfter": 0.7
+ },
+ {
+  "id": "L14",
+  "text": "Day seven. Your anniversary. He says you look pale.",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L15",
+  "text": "You do. And there are two small marks on your neck.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L16",
+  "text": "You check the mirror.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L17",
+  "text": "It shows the bathroom. And a rose, floating where your hand should be.",
+  "pauseAfter": 0.9
+ },
+ {
+  "id": "L18",
+  "text": "Happy one week.",
+  "whisper": true,
+  "pauseAfter": 0.3
+ }
+]
