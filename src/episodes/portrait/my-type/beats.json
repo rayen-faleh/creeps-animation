@@ -39,9 +39,9 @@
   "once": 59.406,
   "each": 61.26,
   "hers": 63.043,
-  "cut": 65.071,
+  "cut": 66.503,
   "whisper": 65.421
  },
- "durationSec": 71.27,
+ "durationSec": 72.7,
  "source": "timing.json (kokoro bm_lewis per-line synthesis; times measured from decoded samples)"
 }

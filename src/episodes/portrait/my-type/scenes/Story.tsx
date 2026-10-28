@@ -6,6 +6,7 @@ import {Phone} from '../../../../kit/common/art/Modern';
 import {FitnessWatch, WatchText} from '../../../../kit/common/art/Home';
 import {BlackEnvelope, Boots, CallingCard, CouncilTable, Eyes, OldTelly, VoteStone, WineGlass, tablePt} from '../../../../kit/common/art/Council';
 import {easeIn, easeInOut, easeOut, mix, noise1, prog, track} from '../../../../kit/common/util';
+import {Her, HerEyes, HerMouth} from '../../../../kit/common/puppet/Her';
 import beats from '../beats.json';
 
 /** Shot boundaries and sync points (global seconds), derived from timing.json by beats.py. */
@@ -16,9 +17,15 @@ const ME: HandStyle = {...STYLES.adult, sleeve: '#16181e', cuff: '#22252c'};
 const ME_DEAD: HandStyle = {...lerpStyle(STYLES.adult, STYLES.vamp, 0.6), sleeve: '#16181e', cuff: '#22252c'};
 const ME_ARM: HandStyle = {...ME, forearm: 300};
 const ME_DEAD_ARM: HandStyle = {...ME_DEAD, forearm: 300};
-const HER: HandStyle = {...STYLES.vamp, sleeve: '#050507', cuff: '#2a2630', nailLen: 6, nail: '#3a0a12'};
+// matched to the rigged puppet: pale bluish skin, red nails, black lace sleeve
+const HER: HandStyle = {...STYLES.vamp, skin: '#e4e6ee', shade: '#8a94a8', rim: '#9fb4cf', sleeve: '#0a0a0e', cuff: '#16161c', nailLen: 6, nail: '#9a0c1c'};
 const ELDER: HandStyle = {...lerpStyle(STYLES.gran, STYLES.vamp, 0.7), sleeve: '#0a0809', cuff: '#16121a', nailLen: 12};
 const KID: HandStyle = {...STYLES.child, sleeve: '#3a2a4a', cuff: '#4a3a5a'};
+
+/** Her idle life: a slow head bob and a blink every few seconds (seeded so each shot differs). */
+const bob = (t: number, seed: number, amp = 1.6) => noise1(t * 0.55, seed) * amp;
+const blinking = (t: number, seed: number) => ((t + seed * 1.37) % 3.9) < 0.13;
+const herEyes = (t: number, seed: number, open: HerEyes = 'open'): HerEyes => (blinking(t, seed) ? 'closed' : open);
 
 const bg = (fill: string) => <rect x={-600} y={-800} width={2280} height={3200} fill={fill} />;
 
@@ -203,7 +210,7 @@ export const Bar: React.FC<{t: number}> = ({t}) => {
   const push = prog(t, B.drinking - 0.2, B.door, easeInOut);
   return (
     <AbsoluteFill>
-      <Camera t={t} zoom={1.1 + lt * 0.02 + push * 0.4} x={mix(0, 120, push)} y={mix(0, -40, push)} shake={3} seed={1705}>
+      <Camera t={t} zoom={1.1 + lt * 0.02 + push * 0.35} x={mix(60, -120, push)} y={mix(-40, 40, push)} shake={3} seed={1705}>
         <Stage overflow>
           {bg('#0a0610')}
           {/* back bar: shelves of bottles in purple light */}
@@ -216,13 +223,13 @@ export const Bar: React.FC<{t: number}> = ({t}) => {
               ))}
             </g>
           ))}
+          {/* her, behind the bar, facing the glass she won't touch */}
+          <Her x={700} y={1790} s={1.02} t={t} headTilt={bob(t, 3)} eyes={herEyes(t, 3)} look={t > B.drinking ? 4 : 0} mouth="closed" brows="neutral" />
           {/* the bar top */}
           <path d="M-400,1000 L1480,1000 L1480,2200 L-400,2200 Z" fill="#140a08" />
           <path d="M-400,1000 L1480,1000" stroke="#ffb45a" strokeOpacity={0.3} strokeWidth={5} />
           <ellipse cx={600} cy={1180} rx={500} ry={120} fill="#7a3aff" opacity={0.08} />
-          <WineGlass x={720} y={1220} s={1.1} fill={0.85} warm={0} lipstick={false} />
-          <Hand id="br-h" x={250} y={1230} rot={78} scale={1.05} style={HER} pose={POSES.relaxed} light={1} />
-          <Lace {...(() => { const [lx, ly] = armPoint(250, 1230, 78, 1.05, 78); return {x: lx, y: ly}; })()} rot={78 + 90} s={1.05} />
+          <WineGlass x={360} y={1220} s={1.1} fill={0.85} warm={0} lipstick={false} />
         </Stage>
       </Camera>
     </AbsoluteFill>
@@ -232,10 +239,9 @@ export const Bar: React.FC<{t: number}> = ({t}) => {
 /* S06: my doorstep from inside: her boots stop exactly at the mat. She waits to be asked */
 export const Door: React.FC<{t: number}> = ({t}) => {
   const lt = t - B.door;
-  const step = Math.max(0, Math.sin(prog(t, B.invite + 0.2, B.invite + 1.0) * Math.PI)) * 0.6;
   return (
     <AbsoluteFill>
-      <Camera t={t} zoom={1.05 + lt * 0.025} y={260} shake={3} seed={1706}>
+      <Camera t={t} zoom={1.0 + lt * 0.025} y={120} shake={3} seed={1706}>
         <Stage overflow>
           {bg('#05070b')}
           {/* night outside, through the open door */}
@@ -243,17 +249,10 @@ export const Door: React.FC<{t: number}> = ({t}) => {
           <ellipse cx={780} cy={420} rx={300} ry={300} fill="#ffcf8a" opacity={0.08} />
           <circle cx={780} cy={420} r={16} fill="#ffe2b0" opacity={0.8} />
           <rect x={774} y={436} width={12} height={760} fill="#0a0c10" />
-          {/* her legs and the lace hem above the boots */}
-          <path d="M392,620 L476,620 L470,1080 L410,1080 Z" fill="#9aa0b0" />
-          <path d="M604,620 L688,620 L670,1080 L610,1080 Z" fill="#9aa0b0" />
-          <path d="M476,620 L470,1080 M688,620 L670,1080" stroke="#c8d3e3" strokeOpacity={0.5} strokeWidth={3} />
-          <path d="M330,600 L750,600 L760,700 L320,700 Z" fill="#050507" />
-          {Array.from({length: 20}, (_, i) => <circle key={i} cx={330 + i * 22} cy={700} r={12} fill="none" stroke="#3a3440" strokeWidth={4} />)}
-          <rect x={160} y={200} width={760} height={420} fill="#070b14" />
           <path d="M160,200 L160,1500 M920,200 L920,1500" stroke="#2a1a10" strokeWidth={60} />
           {/* the doorstep outside */}
           <path d="M160,1350 L920,1350 L920,1500 L160,1500 Z" fill="#1a1e26" />
-          <Boots x={540} y={1440} s={0.85} step={step} lit={1.6} />
+          <Her x={560} y={1450} s={0.74} t={t} headTilt={bob(t, 5) + (t > B.flirting ? 3 : 0)} eyes={herEyes(t, 5, t > B.flirting ? 'half' : 'open')} look={3} mouth={t > B.invite + 0.4 ? 'smile' : 'closed'} brows={t > B.flirting ? 'raised' : 'neutral'} />
           {/* my warm hall floor and the mat */}
           <path d="M-400,1500 L1480,1500 L1480,2200 L-400,2200 Z" fill="#3a2414" />
           <ellipse cx={540} cy={1900} rx={700} ry={400} fill={WARM} opacity={0.12} />
@@ -329,18 +328,17 @@ export const Wine: React.FC<{t: number}> = ({t}) => {
   );
 };
 
-/* S08: she said sorry: her eyes in the dark, pupils going wide; then black */
+/* S08: she said sorry: her face in the dark, pupils wide, mouth turned down; then her eyes drop */
 export const Sorry: React.FC<{t: number}> = ({t}) => {
   const lt = t - B.sorry;
-  const wide = prog(t, B.sorry + 0.2, B.alot, easeInOut);
-  const blink = Math.max(0, 1 - Math.abs(t - (B.alot + 0.5)) / 0.12);
+  const eyes: HerEyes = t < B.alot ? 'wide' : herEyes(t, 8, 'half');
   return (
     <AbsoluteFill>
-      <Camera t={t} zoom={1.0 + lt * 0.05} shake={3} seed={1709}>
-        <Stage>
+      <Camera t={t} zoom={1.0 + lt * 0.04} shake={3} seed={1709}>
+        <Stage overflow>
           {bg('#030305')}
-          <ellipse cx={540} cy={820} rx={500} ry={260} fill="#9fb4cf" opacity={0.05} />
-          <Eyes x={540} y={820} s={9} gap={52} pupil={mix(3, 9, wide)} blink={blink} glow="#e4e6ee" />
+          <ellipse cx={540} cy={760} rx={600} ry={700} fill="#ffb45a" opacity={0.07} />
+          <Her x={700} y={3720} s={2.45} t={t} headTilt={bob(t, 8) - 2} eyes={eyes} look={2} mouth="sad" brows={t < B.alot ? 'raised' : 'neutral'} />
         </Stage>
       </Camera>
     </AbsoluteFill>
@@ -516,29 +514,6 @@ export const StoryShot: React.FC<{t: number}> = ({t}) => {
   );
 };
 
-/** Her pale hands folded at the far end of the table, the lace cuffs. */
-const HerHands: React.FC<{s: number; x: number; y: number; t: number; open?: number}> = ({s, x, y, t, open = 0}) => (
-  <g>
-    <Hand id="hh-l" x={x - 90 * s} y={y + 130 * s} rot={70} scale={s} style={HER} pose={lerpPose(POSES.relaxed, POSES.flat, open)} light={1} />
-    <Hand id="hh-r" x={x + 90 * s} y={y + 130 * s} rot={-70} scale={s} style={HER} pose={POSES.relaxed} light={1} mirror />
-  </g>
-);
-
-/** Her, at the far end: long black hair, head bowed, a sliver of pale face; no eyes for me. */
-const HerFigure: React.FC<{x: number; y: number}> = ({x, y}) => (
-  <g transform={`translate(${x},${y}) scale(${1 / 4.2})`}>
-    <ellipse cx={0} cy={-500} rx={420} ry={420} fill="#ffb45a" opacity={0.07} />
-    <path d="M-230,40 C-220,-260 -160,-420 -100,-460 L100,-460 C160,-420 220,-260 230,40 Z" fill="#050507" />
-    {Array.from({length: 12}, (_, i) => <circle key={i} cx={-130 + i * 24} cy={-440} r={13} fill="none" stroke="#3a3440" strokeWidth={5} />)}
-    <rect x={-30} y={-540} width={60} height={90} fill="#c8ccd8" />
-    <ellipse cx={0} cy={-610} rx={84} ry={104} fill="#d8dce6" transform="rotate(8,0,-610)" />
-    <path d="M-110,-560 C-130,-760 -40,-790 0,-790 C60,-790 140,-760 110,-560 L120,-380 L60,-400 L66,-600 C40,-680 -40,-680 -66,-600 L-60,-400 L-120,-380 Z" fill="#0a0a0e" />
-    <path d="M-66,-600 C-40,-680 40,-680 66,-600 C40,-650 -40,-650 -66,-600 Z" fill="#0a0a0e" />
-    <path d="M-20,-560 C-8,-566 8,-566 20,-560" stroke="#9a0c1c" strokeWidth={10} strokeLinecap="round" />
-    <path d="M-110,-560 C-130,-760 -40,-790 0,-790" stroke="#ffb45a" strokeOpacity={0.25} strokeWidth={8} fill="none" />
-  </g>
-);
-
 /* S14: she's at the far end; she hasn't looked at me once. The camera travels down the table to her */
 export const FarEnd: React.FC<{t: number}> = ({t}) => {
   const k = prog(t, B.far, B.each - 0.1, easeInOut);
@@ -547,7 +522,7 @@ export const FarEnd: React.FC<{t: number}> = ({t}) => {
     <AbsoluteFill>
       <Camera t={t} zoom={mix(1.1, 3.2, k)} x={0} y={mix(0, fy - 960 - 40, k)} shake={3} seed={1716}>
         <Stage overflow>
-          <CouncilTable t={t} depths={[2.6, 1.9]} far={<HerFigure x={fx} y={fy} />} atFar={<HerHands s={0.3} x={fx} y={fy - 40} t={t} />} />
+          <CouncilTable t={t} depths={[2.6, 1.9]} far={<Her x={fx + 18} y={fy + 236} s={0.31} t={t} headTilt={bob(t, 11) - 4} eyes={herEyes(t, 11, 'half')} look={-3} mouth="closed" brows="neutral" />} />
         </Stage>
       </Camera>
     </AbsoluteFill>
@@ -555,7 +530,27 @@ export const FarEnd: React.FC<{t: number}> = ({t}) => {
 };
 
 /* S15-16: three votes each, stones dropping onto the cloth; then her hand over the last two. Hard cut */
+/** The last beat: her face. Eyes lowered, then they come up to me, and she whispers it. */
+const HerLast: React.FC<{t: number}> = ({t}) => {
+  const lt = t - (B.hers + 1.0);
+  const up = t > B.hers + 1.45;
+  const w = t - B.whisper;
+  const mouth: HerMouth = w < 0 ? 'closed' : w < 0.28 ? 'oh' : w < 0.6 ? 'ah' : 'sad';
+  return (
+    <AbsoluteFill>
+      <Camera t={t} zoom={1.05 + lt * 0.05} shake={3} seed={1718}>
+        <Stage overflow>
+          {bg('#050304')}
+          <ellipse cx={540} cy={760} rx={600} ry={700} fill={WARM} opacity={0.08} />
+          <Her x={700} y={3720} s={2.45} t={t} headTilt={bob(t, 13) + (up ? 0 : -3)} eyes={up ? herEyes(t, 13, 'open') : 'half'} look={up ? 5 : -3} mouth={mouth} brows={up ? 'raised' : 'neutral'} />
+        </Stage>
+      </Camera>
+    </AbsoluteFill>
+  );
+};
+
 export const Votes: React.FC<{t: number}> = ({t}) => {
+  if (t >= B.hers + 1.0) return <HerLast t={t} />;
   const lt = t - B.each;
   const drops = [0, 1, 2, 3, 4, 5].map((i) => B.each + 0.15 + i * 0.22);
   const hers = t >= B.hers;

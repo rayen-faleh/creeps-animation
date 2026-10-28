@@ -15,7 +15,7 @@ def main():
     s = lambda i: L[i]['start']
     e = lambda i: L[i]['end']
     ph = lambda i, k: L[i]['phrases'][k]['start']
-    cut = round(e('L20') + 0.45, 3)
+    cut = round(e('L21') + 0.35, 3)  # she whispers it on screen, then the poll
     B = {
         'hook': 0.0,
         'live': ph('L01', 1),

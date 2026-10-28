@@ -30,3 +30,17 @@
   and the contact sheet, not at full speed.
 - Still rough: the figures are drawn in the existing SVG style. Image-generated cut-out characters are being tested
   separately.
+
+## Revision 2: the rigged character
+- She now appears as the image-generated cut-out puppet (`src/kit/common/puppet/Her.tsx`). On the owner's direction she
+  only has facial expressions and a slight head bob; the arm rig is not used, because the swapped hand read as
+  disconnected in the test.
+  - Bar: she sits behind the counter, facing the full glass, and her eyes slide to us on "Not drinking".
+  - Doorstep: she waits outside the frame, smiles on the invite, and gives a sly half-lidded look on "flirting".
+  - "She said sorry": a close-up of her face with wide eyes and a sad mouth, then lowered eyes.
+  - Far end of the table: she sits with her eyes down and her head bowed slightly.
+  - "The last one is hers": her hand hovers over the stones, then her face lifts its eyes to us and whispers "Sorry."
+    on screen (lip-synced by hand) before the poll. The cut moved to after the whisper (beats.py).
+- Her remaining SVG hands (the glass in the selfie shot, the hand over the stones) were recoloured to match the puppet.
+- Known: in the face close-ups the hair rim reads as doubled at the top left. This comes from the generated art's
+  paper-cut offset rim, and the small head bob makes it slightly more visible.
