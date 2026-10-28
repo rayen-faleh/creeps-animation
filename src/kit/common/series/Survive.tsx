@@ -13,7 +13,7 @@ export type Day = {t: number; n: number}; // t: global second the day's first sh
  * Upper-left day counter ("DAY 2  of 7") that changes on each new day and fades out at `until`.
  * The number lands with a small drop; a short blood rule underlines it.
  */
-export const DayTag: React.FC<{t: number; days: Day[]; of?: number; until: number}> = ({t, days, of = 7, until}) => {
+export const DayTag: React.FC<{t: number; days: Day[]; of?: number; until: number; label?: string}> = ({t, days, of = 7, until, label = 'DAY'}) => {
   const {W, H} = useFormat();
   const d = [...days].reverse().find((x) => t >= x.t);
   if (!d || t >= until) return null;
@@ -25,7 +25,7 @@ export const DayTag: React.FC<{t: number; days: Day[]; of?: number; until: numbe
     <AbsoluteFill style={{padding: `${pad * 1.4}px ${pad * 1.1}px`, alignItems: 'flex-start', justifyContent: 'flex-start'}}>
       <div style={{opacity: a, textShadow: '0 0 16px rgba(0,0,0,0.95)'}}>
         <div style={{display: 'flex', alignItems: 'baseline', gap: 18}}>
-          <span style={{fontFamily: theme.fonts.caption, fontWeight: 600, fontSize: Math.round(H * 0.026), letterSpacing: 10, color: '#8a8478'}}>DAY</span>
+          <span style={{fontFamily: theme.fonts.caption, fontWeight: 600, fontSize: Math.round(H * 0.026), letterSpacing: 10, color: '#8a8478'}}>{label}</span>
           <span
             style={{
               fontFamily: theme.fonts.caption,

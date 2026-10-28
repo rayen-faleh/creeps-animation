@@ -1,0 +1,226 @@
+{
+ "unit": "seconds",
+ "total": 39.842,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "You could be friends with a vampire and never notice. Start with the small things.",
+   "start": 0.35,
+   "end": 5.465,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You could be friends with a vampire and never notice.",
+     "start": 0.35,
+     "end": 3.555
+    },
+    {
+     "text": "Start with the small things.",
+     "start": 3.555,
+     "end": 5.465
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "S1",
+   "text": "Sign one. They always offer to take the group photo.",
+   "start": 5.865,
+   "end": 9.147,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Sign one.",
+     "start": 5.865,
+     "end": 6.83
+    },
+    {
+     "text": "They always offer to take the group photo.",
+     "start": 6.83,
+     "end": 9.147
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "S2",
+   "text": "Sign two. At your door, they wait until you say come in. Every single time.",
+   "start": 9.507,
+   "end": 14.625,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Sign two.",
+     "start": 9.507,
+     "end": 10.417
+    },
+    {
+     "text": "At your door, they wait until you say come in.",
+     "start": 10.417,
+     "end": 13.142
+    },
+    {
+     "text": "Every single time.",
+     "start": 13.142,
+     "end": 14.625
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "S3",
+   "text": "Sign three. The garlic bread arrives. They suddenly need the loo.",
+   "start": 14.985,
+   "end": 19.305,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Sign three.",
+     "start": 14.985,
+     "end": 15.975
+    },
+    {
+     "text": "The garlic bread arrives.",
+     "start": 15.975,
+     "end": 17.73
+    },
+    {
+     "text": "They suddenly need the loo.",
+     "start": 17.73,
+     "end": 19.305
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "S4",
+   "text": "Sign four. They tidy the sugar sachets. Then they count them. Twice.",
+   "start": 19.665,
+   "end": 24.241,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Sign four.",
+     "start": 19.665,
+     "end": 20.525
+    },
+    {
+     "text": "They tidy the sugar sachets.",
+     "start": 20.525,
+     "end": 22.365
+    },
+    {
+     "text": "Then they count them.",
+     "start": 22.365,
+     "end": 23.535
+    },
+    {
+     "text": "Twice.",
+     "start": 23.535,
+     "end": 24.241
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "S5",
+   "text": "Sign five. Cold hands. Bad circulation, they say. For eleven years.",
+   "start": 24.601,
+   "end": 29.804,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Sign five.",
+     "start": 24.601,
+     "end": 25.511
+    },
+    {
+     "text": "Cold hands.",
+     "start": 25.511,
+     "end": 26.701
+    },
+    {
+     "text": "Bad circulation, they say.",
+     "start": 26.701,
+     "end": 28.551
+    },
+    {
+     "text": "For eleven years.",
+     "start": 28.551,
+     "end": 29.804
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "S6",
+   "text": "Sign six. You've never been to their place. Not once.",
+   "start": 30.164,
+   "end": 33.72,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Sign six.",
+     "start": 30.164,
+     "end": 31.239
+    },
+    {
+     "text": "You've never been to their place.",
+     "start": 31.239,
+     "end": 32.909
+    },
+    {
+     "text": "Not once.",
+     "start": 32.909,
+     "end": 33.72
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "S7",
+   "text": "And sign seven. They're the one who sent you this video.",
+   "start": 34.28,
+   "end": 37.822,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And sign seven.",
+     "start": 34.28,
+     "end": 35.67
+    },
+    {
+     "text": "They're the one who sent you this video.",
+     "start": 35.67,
+     "end": 37.821
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "W",
+   "text": "Can I come in?",
+   "start": 38.302,
+   "end": 39.602,
+   "whisper": true,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Can I come in?",
+     "start": 38.302,
+     "end": 39.602
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

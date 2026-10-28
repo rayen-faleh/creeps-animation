@@ -154,6 +154,7 @@ reorganised:
 | `TheWatch03` | `src/episodes/portrait/the-watch-03` | 59.3 s | The Watch, Part III: the silver nails (Kokoro) |
 | `TheWatch04` | `src/episodes/portrait/the-watch-04` | 58.3 s | The Watch, Part IV: Danny's mum keeps the watch, and turns the gun on her son |
 | `TheWatch05` | `src/episodes/portrait/the-watch-05` | 58.7 s | The Watch, Part V: the empty gun, Mick's page, "he lost it pulling one off me" |
+| `FriendVampire` | `src/episodes/portrait/friend-vampire` | 43 s | Seven signs your friend is a vampire, with a meta twist |
 | `GraveyardShift01` | `src/episodes/portrait/graveyard-shift-01` | 67 s | Graveyard Shift, Part 1: the customer; ends on a viewer poll |
 | `DatingVampire` | `src/episodes/portrait/dating-vampire` | 74 s | Horror-comedy: a week dating a vampire, Hollywood vs folklore |
 | `SurviveVampire` | `src/episodes/portrait/survive-vampire` | 33.5 s | Would You Survive? As a vampire: "And you rent." Reference for the format |

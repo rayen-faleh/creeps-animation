@@ -1,0 +1,28 @@
+{
+ "B": {
+  "hook": 0.0,
+  "small": 3.555,
+  "s1": 5.865,
+  "s1b": 6.83,
+  "s2": 9.507,
+  "s2b": 10.417,
+  "s3": 14.985,
+  "s3b": 15.975,
+  "s4": 19.665,
+  "s4b": 20.525,
+  "s5": 24.601,
+  "s5b": 25.511,
+  "s6": 30.164,
+  "s6b": 31.239,
+  "s7": 34.28,
+  "s7b": 35.67,
+  "every": 13.142,
+  "loo": 17.73,
+  "twice": 23.535,
+  "eleven": 28.551,
+  "once": 32.909,
+  "cut": 38.182
+ },
+ "durationSec": 43.18,
+ "source": "timing.json (kokoro bm_lewis per-line synthesis; times measured from decoded samples)"
+}

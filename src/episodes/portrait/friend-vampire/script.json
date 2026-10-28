@@ -1,0 +1,11 @@
+[
+ {"id": "L01", "text": "You could be friends with a vampire and never notice. Start with the small things.", "pauseAfter": 0.5},
+ {"id": "S1", "text": "Sign one. They always offer to take the group photo.", "pauseAfter": 0.45},
+ {"id": "S2", "text": "Sign two. At your door, they wait until you say come in. Every single time.", "pauseAfter": 0.45},
+ {"id": "S3", "text": "Sign three. The garlic bread arrives. They suddenly need the loo.", "pauseAfter": 0.45},
+ {"id": "S4", "text": "Sign four. They tidy the sugar sachets. Then they count them. Twice.", "pauseAfter": 0.45},
+ {"id": "S5", "text": "Sign five. Cold hands. Bad circulation, they say. For eleven years.", "pauseAfter": 0.45},
+ {"id": "S6", "text": "Sign six. You've never been to their place. Not once.", "pauseAfter": 0.7},
+ {"id": "S7", "text": "And sign seven. They're the one who sent you this video.", "pauseAfter": 0.6},
+ {"id": "W", "text": "Can I come in?", "whisper": true, "pauseAfter": 0.3}
+]
