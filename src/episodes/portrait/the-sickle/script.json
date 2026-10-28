@@ -1,0 +1,20 @@
+[
+ {"id": "L01", "text": "I never believed in vampires.", "pauseAfter": 0.3},
+ {"id": "L02", "text": "But my grandmother did.", "pauseAfter": 0.6},
+ {"id": "L03", "text": "She slept with a sickle across her throat. Every night.", "pauseAfter": 0.4},
+ {"id": "L04", "text": "And a little iron padlock, locked round her big toe.", "pauseAfter": 0.5},
+ {"id": "L05", "text": "When I asked why, she said, so I stay where I'm put.", "pauseAfter": 0.9},
+ {"id": "L06", "text": "She made me promise. When she died, both would go in the coffin with her.", "pauseAfter": 0.8},
+ {"id": "L07", "text": "I'm thirty now. We buried her last week.", "pauseAfter": 0.4},
+ {"id": "L08", "text": "The undertaker wouldn't do it. And vampires aren't real. So I didn't push.", "pauseAfter": 0.4},
+ {"id": "L09", "text": "They're in my kitchen drawer.", "pauseAfter": 0.7},
+ {"id": "L10", "text": "Last night, the drawer was open.", "pauseAfter": 0.3},
+ {"id": "L11", "text": "The padlock was gone.", "pauseAfter": 0.9},
+ {"id": "L12", "text": "There was soil on the floor. Wet. Bare footprints.", "pauseAfter": 0.4},
+ {"id": "L13", "text": "They went up the stairs.", "pauseAfter": 0.3},
+ {"id": "L14", "text": "To my room.", "pauseAfter": 0.9},
+ {"id": "L15", "text": "That sickle was never keeping anything away from her.", "pauseAfter": 0.3},
+ {"id": "L16", "text": "It was keeping her in the ground.", "pauseAfter": 1.1},
+ {"id": "L17", "text": "Then something cold closed round my big toe.", "pauseAfter": 0.5},
+ {"id": "L18", "text": "So you stay where you're put.", "whisper": true, "voice": "bf_emma", "pauseAfter": 0.3}
+]

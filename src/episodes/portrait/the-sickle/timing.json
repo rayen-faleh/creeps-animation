@@ -1,0 +1,355 @@
+{
+ "unit": "seconds",
+ "total": 54.06,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "I never believed in vampires.",
+   "start": 0.35,
+   "end": 2.483,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I never believed in vampires.",
+     "start": 0.35,
+     "end": 2.483
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L02",
+   "text": "But my grandmother did.",
+   "start": 2.723,
+   "end": 4.288,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "But my grandmother did.",
+     "start": 2.723,
+     "end": 4.288
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "She slept with a sickle across her throat. Every night.",
+   "start": 4.769,
+   "end": 8.062,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She slept with a sickle across her throat.",
+     "start": 4.769,
+     "end": 7.059
+    },
+    {
+     "text": "Every night.",
+     "start": 7.059,
+     "end": 8.062
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "And a little iron padlock, locked round her big toe.",
+   "start": 8.382,
+   "end": 11.613,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And a little iron padlock,",
+     "start": 8.382,
+     "end": 9.872
+    },
+    {
+     "text": "locked round her big toe.",
+     "start": 9.872,
+     "end": 11.613
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "When I asked why, she said, so I stay where I'm put.",
+   "start": 12.013,
+   "end": 15.439,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "When I asked why,",
+     "start": 12.013,
+     "end": 13.188
+    },
+    {
+     "text": "she said,",
+     "start": 13.188,
+     "end": 13.878
+    },
+    {
+     "text": "so I stay where I'm put.",
+     "start": 13.878,
+     "end": 15.438
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "She made me promise. When she died, both would go in the coffin with her.",
+   "start": 16.159,
+   "end": 20.462,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She made me promise.",
+     "start": 16.159,
+     "end": 17.419
+    },
+    {
+     "text": "When she died,",
+     "start": 17.419,
+     "end": 18.539
+    },
+    {
+     "text": "both would go in the coffin with her.",
+     "start": 18.539,
+     "end": 20.463
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "I'm thirty now. We buried her last week.",
+   "start": 21.102,
+   "end": 23.779,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I'm thirty now.",
+     "start": 21.102,
+     "end": 22.282
+    },
+    {
+     "text": "We buried her last week.",
+     "start": 22.282,
+     "end": 23.778
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "The undertaker wouldn't do it. And vampires aren't real. So I didn't push.",
+   "start": 24.099,
+   "end": 28.771,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The undertaker wouldn't do it.",
+     "start": 24.099,
+     "end": 25.824
+    },
+    {
+     "text": "And vampires aren't real.",
+     "start": 25.824,
+     "end": 27.529
+    },
+    {
+     "text": "So I didn't push.",
+     "start": 27.529,
+     "end": 28.771
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "They're in my kitchen drawer.",
+   "start": 29.091,
+   "end": 30.691,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "They're in my kitchen drawer.",
+     "start": 29.091,
+     "end": 30.691
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L10",
+   "text": "Last night, the drawer was open.",
+   "start": 31.251,
+   "end": 33.233,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Last night,",
+     "start": 31.251,
+     "end": 31.971
+    },
+    {
+     "text": "the drawer was open.",
+     "start": 31.971,
+     "end": 33.233
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "The padlock was gone.",
+   "start": 33.472,
+   "end": 34.987,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The padlock was gone.",
+     "start": 33.472,
+     "end": 34.987
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L12",
+   "text": "There was soil on the floor. Wet. Bare footprints.",
+   "start": 35.707,
+   "end": 38.951,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "There was soil on the floor.",
+     "start": 35.707,
+     "end": 37.152
+    },
+    {
+     "text": "Wet.",
+     "start": 37.152,
+     "end": 37.827
+    },
+    {
+     "text": "Bare footprints.",
+     "start": 37.827,
+     "end": 38.951
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "They went up the stairs.",
+   "start": 39.271,
+   "end": 40.593,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "They went up the stairs.",
+     "start": 39.271,
+     "end": 40.593
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L14",
+   "text": "To my room.",
+   "start": 40.833,
+   "end": 41.828,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "To my room.",
+     "start": 40.833,
+     "end": 41.828
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "That sickle was never keeping anything away from her.",
+   "start": 42.548,
+   "end": 45.738,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "That sickle was never keeping anything away from her.",
+     "start": 42.548,
+     "end": 45.738
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "It was keeping her in the ground.",
+   "start": 45.978,
+   "end": 47.813,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It was keeping her in the ground.",
+     "start": 45.978,
+     "end": 47.813
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L17",
+   "text": "Then something cold closed round my big toe.",
+   "start": 48.693,
+   "end": 51.617,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then something cold closed round my big toe.",
+     "start": 48.693,
+     "end": 51.617
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L18",
+   "text": "So you stay where you're put.",
+   "start": 52.017,
+   "end": 53.82,
+   "whisper": true,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "So you stay where you're put.",
+     "start": 52.017,
+     "end": 53.82
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}
