@@ -78,3 +78,33 @@ Turn*.
 1. A, B or C (or A's objects with B's self-twist)?
 2. Narrator: `bm_lewis` (THE COUNT's voice) as usual; Gran's whisper in `bf_emma`?
 3. Title: **The Sickle**, or tie it to the hit: **The Count**-style one-word blackletter title either way.
+
+---
+
+## Round 2: A · "The Sickle" with THE COUNT's hook shape (owner's direction)
+
+Opens like the hit: a statement about vampires, then the elder who believed. The skeptic beat echoes THE COUNT's
+"Vampires aren't real. So tonight, I swept the rice away."
+
+| # | Line | Picture |
+| --- | --- | --- |
+| L01 | I never believed in vampires. | Mute-proof hook: candlelight on an old woman's pillow, a sickle lying across her throat, her chest rising and falling. |
+| L02 | But my grandmother did. | Push in on her sleeping profile. |
+| L03 | She slept with a sickle across her throat. Every night. | Her hand settles the blade like a necklace. |
+| L04 | And a little iron padlock, locked round her big toe. | Tilt down the bed: the padlock on a bare toe, the key on her bedside table. |
+| L05 | When I asked why, she said, so I stay where I'm put. | Gran's profile, a finger to her lips. |
+| L06 | She made me promise. When she died, both would go in the coffin with her. | My child's hand in hers; the sickle's shadow on the wall. |
+| L07 | I'm thirty now. We buried her last week. | Dip: a coffin lid closing; cold grade. |
+| L08 | The undertaker wouldn't do it. And vampires aren't real. So I didn't push. | The sickle and padlock wrapped in a tea towel, handed back. |
+| L09 | They're in my kitchen drawer. | The drawer sliding shut on them. |
+| L10 | Last night, the drawer was open. | Moonlit kitchen; the drawer pulled out. |
+| L11 | The padlock was gone. | The sickle, and an empty dent in the towel. Red word: `gone.` |
+| L12 | There was soil on the floor. Wet. Bare footprints. | Continuous move begins along the prints... |
+| L13 | They went up the stairs. | ...up the staircase... |
+| L14 | To my room. | ...to your bedroom door, ajar. |
+| L15 | That sickle was never keeping anything away from her. | Inside: your bed, moonlight. |
+| L16 | It was keeping her in the ground. | Hold. Red word: `ground.` |
+| L17 | Then something cold closed round my big toe. | The padlock snaps shut on your toe at the duvet's edge. |
+| L18 | *So you stay where you're put.* (whisper, Gran, `bf_emma`) | A grey hand withdraws under the bed. Hard cut. Title: **THE SICKLE**. |
+
+About 150 words: roughly 62 s before the title.
