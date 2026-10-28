@@ -1,0 +1,438 @@
+{
+ "unit": "seconds",
+ "total": 66.393,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Tonight, seven vampires vote on whether I get to live.",
+   "start": 0.35,
+   "end": 4.049,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Tonight,",
+     "start": 0.35,
+     "end": 2.545
+    },
+    {
+     "text": "seven vampires vote on whether I get to live.",
+     "start": 2.545,
+     "end": 4.049
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "And honestly? Hollywood started it.",
+   "start": 4.369,
+   "end": 6.786,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And honestly?",
+     "start": 4.369,
+     "end": 5.349
+    },
+    {
+     "text": "Hollywood started it.",
+     "start": 5.349,
+     "end": 6.786
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "In every vampire film, she was the hottest one there.",
+   "start": 7.266,
+   "end": 10.594,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "In every vampire film,",
+     "start": 7.266,
+     "end": 8.891
+    },
+    {
+     "text": "she was the hottest one there.",
+     "start": 8.891,
+     "end": 10.594
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "So that became my type. Pale. Black lace. Hates mornings.",
+   "start": 10.834,
+   "end": 14.914,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "So that became my type.",
+     "start": 10.834,
+     "end": 12.274
+    },
+    {
+     "text": "Pale.",
+     "start": 12.274,
+     "end": 13.029
+    },
+    {
+     "text": "Black lace.",
+     "start": 13.029,
+     "end": 13.859
+    },
+    {
+     "text": "Hates mornings.",
+     "start": 13.859,
+     "end": 14.914
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "Eight years of goth nights. Nothing.",
+   "start": 15.314,
+   "end": 17.724,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Eight years of goth nights.",
+     "start": 15.314,
+     "end": 17.019
+    },
+    {
+     "text": "Nothing.",
+     "start": 17.019,
+     "end": 17.723
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "Then, three weeks ago, there she was. Not drinking.",
+   "start": 18.123,
+   "end": 21.157,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then, three weeks ago, there she was.",
+     "start": 18.123,
+     "end": 20.173
+    },
+    {
+     "text": "Not drinking.",
+     "start": 20.173,
+     "end": 21.156
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "L07",
+   "text": "At my door, she asked me to invite her in.",
+   "start": 21.557,
+   "end": 24.349,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "At my door,",
+     "start": 21.557,
+     "end": 22.462
+    },
+    {
+     "text": "she asked me to invite her in.",
+     "start": 22.462,
+     "end": 24.349
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "I thought that was flirting.",
+   "start": 24.588,
+   "end": 26.215,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I thought that was flirting.",
+     "start": 24.588,
+     "end": 26.215
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L09",
+   "text": "I opened the wine. The glass broke in my hand.",
+   "start": 26.695,
+   "end": 29.767,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I opened the wine.",
+     "start": 26.695,
+     "end": 27.91
+    },
+    {
+     "text": "The glass broke in my hand.",
+     "start": 27.91,
+     "end": 29.767
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "She said sorry. She said it a lot.",
+   "start": 30.087,
+   "end": 32.243,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She said sorry.",
+     "start": 30.087,
+     "end": 31.062
+    },
+    {
+     "text": "She said it a lot.",
+     "start": 31.062,
+     "end": 32.244
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "I woke at sunset. My watch couldn't find a pulse.",
+   "start": 32.883,
+   "end": 36.169,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I woke at sunset.",
+     "start": 32.883,
+     "end": 34.273
+    },
+    {
+     "text": "My watch couldn't find a pulse.",
+     "start": 34.273,
+     "end": 36.168
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "Under the door, a black envelope. Made without permission. Present yourself.",
+   "start": 36.649,
+   "end": 41.614,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Under the door,",
+     "start": 36.649,
+     "end": 38.774
+    },
+    {
+     "text": "a black envelope.",
+     "start": 38.774,
+     "end": 39.699
+    },
+    {
+     "text": "Made without permission.",
+     "start": 39.699,
+     "end": 40.434
+    },
+    {
+     "text": "Present yourself.",
+     "start": 40.434,
+     "end": 41.615
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "They have rules. No turning anyone without a vote.",
+   "start": 42.014,
+   "end": 45.383,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "They have rules.",
+     "start": 42.014,
+     "end": 43.239
+    },
+    {
+     "text": "No turning anyone without a vote.",
+     "start": 43.239,
+     "end": 45.383
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "And no one finds out.",
+   "start": 45.623,
+   "end": 47.308,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And no one finds out.",
+     "start": 45.623,
+     "end": 47.308
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "Then the eldest slid my phone across the table.",
+   "start": 47.708,
+   "end": 50.694,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then the eldest slid my phone across the table.",
+     "start": 47.708,
+     "end": 50.694
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "My story from that night. Two glasses. Nobody next to me.",
+   "start": 50.934,
+   "end": 54.879,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "My story from that night.",
+     "start": 50.934,
+     "end": 52.459
+    },
+    {
+     "text": "Two glasses.",
+     "start": 52.459,
+     "end": 53.644
+    },
+    {
+     "text": "Nobody next to me.",
+     "start": 53.644,
+     "end": 54.88
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L17",
+   "text": "Three hundred people watched it.",
+   "start": 55.599,
+   "end": 57.571,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Three hundred people watched it.",
+     "start": 55.599,
+     "end": 57.571
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L18",
+   "text": "She's at the far end. She hasn't looked at me once.",
+   "start": 58.131,
+   "end": 60.94,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She's at the far end.",
+     "start": 58.131,
+     "end": 59.406
+    },
+    {
+     "text": "She hasn't looked at me once.",
+     "start": 59.406,
+     "end": 60.94
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L19",
+   "text": "It's three votes each.",
+   "start": 61.26,
+   "end": 62.723,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It's three votes each.",
+     "start": 61.26,
+     "end": 62.723
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L20",
+   "text": "The last one is hers.",
+   "start": 63.043,
+   "end": 64.621,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The last one is hers.",
+     "start": 63.043,
+     "end": 64.621
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L21",
+   "text": "Sorry.",
+   "start": 65.421,
+   "end": 66.153,
+   "whisper": true,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "Sorry.",
+     "start": 65.421,
+     "end": 66.153
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

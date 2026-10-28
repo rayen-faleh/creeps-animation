@@ -1,0 +1,109 @@
+[
+ {
+  "id": "L01",
+  "text": "Tonight, seven vampires vote on whether I get to live.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L02",
+  "text": "And honestly? Hollywood started it.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L03",
+  "text": "In every vampire film, she was the hottest one there.",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L04",
+  "text": "So that became my type. Pale. Black lace. Hates mornings.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L05",
+  "text": "Eight years of goth nights. Nothing.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L06",
+  "text": "Then, three weeks ago, there she was. Not drinking.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L07",
+  "text": "At my door, she asked me to invite her in.",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L08",
+  "text": "I thought that was flirting.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L09",
+  "text": "I opened the wine. The glass broke in my hand.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L10",
+  "text": "She said sorry. She said it a lot.",
+  "pauseAfter": 0.8
+ },
+ {
+  "id": "L11",
+  "text": "I woke at sunset. My watch couldn't find a pulse.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L12",
+  "text": "Under the door, a black envelope. Made without permission. Present yourself.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L13",
+  "text": "They have rules. No turning anyone without a vote.",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L14",
+  "text": "And no one finds out.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L15",
+  "text": "Then the eldest slid my phone across the table.",
+  "pauseAfter": 0.3
+ },
+ {
+  "id": "L16",
+  "text": "My story from that night. Two glasses. Nobody next to me.",
+  "pauseAfter": 0.9
+ },
+ {
+  "id": "L17",
+  "text": "Three hundred people watched it.",
+  "pauseAfter": 0.7
+ },
+ {
+  "id": "L18",
+  "text": "She's at the far end. She hasn't looked at me once.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L19",
+  "text": "It's three votes each.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L20",
+  "text": "The last one is hers.",
+  "pauseAfter": 1.0
+ },
+ {
+  "id": "L21",
+  "text": "Sorry.",
+  "whisper": true,
+  "voice": "bf_emma",
+  "pauseAfter": 0.3
+ }
+]

@@ -28,3 +28,4 @@ export * from './common/series/fonts';
 export * from './common/art/Kitchen';
 export * from './common/art/Cottage';
 export * from './common/art/Interior';
+export * from './common/art/Council';
