@@ -1,0 +1,23 @@
+{
+ "unit": "seconds",
+ "total": 2.297,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Aren't you going to invite me in?",
+   "start": 0.35,
+   "end": 2.057,
+   "whisper": false,
+   "voice": "bf_emma",
+   "phrases": [
+    {
+     "text": "Aren't you going to invite me in?",
+     "start": 0.35,
+     "end": 2.057
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}
