@@ -1,0 +1,32 @@
+{
+  "media": "rabenfels-part-two-cloves.mp4",
+  "metadata": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1",
+        "duration": "65.000000",
+        "nb_frames": "1950"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "65.000000",
+        "nb_frames": "3048"
+      }
+    ],
+    "format": {
+      "duration": "65.000000",
+      "size": "15943262"
+    }
+  },
+  "audioByteIdenticalToApprovedVersion": true,
+  "audioAdtsSha256": "891acf3b9c8524ab275af4d783c475adb48162ca3c178858c056c207bc3ef50d",
+  "audioMeasurementSource": "Unchanged approved AAC stream: -15.7 LUFS integrated, -1.6 dBTP",
+  "fullDecode": "pass"
+}

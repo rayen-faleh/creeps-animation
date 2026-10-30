@@ -1,0 +1,217 @@
+{
+ "unit": "seconds",
+ "total": 26.379,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Your friend stopped knocking.",
+   "start": 0.35,
+   "end": 2.001,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Your friend stopped knocking.",
+     "start": 0.35,
+     "end": 2.001
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L02",
+   "text": "That's your fault.",
+   "start": 2.241,
+   "end": 3.457,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "That's your fault.",
+     "start": 2.241,
+     "end": 3.457
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "Remember their first visit?",
+   "start": 3.697,
+   "end": 5.374,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Remember their first visit?",
+     "start": 3.697,
+     "end": 5.374
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L04",
+   "text": "They waited at your open door.",
+   "start": 5.614,
+   "end": 7.651,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "They waited at your open door.",
+     "start": 5.614,
+     "end": 7.651
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L05",
+   "text": "You said, come in. Anytime.",
+   "start": 7.891,
+   "end": 9.856,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "You said, come in. Anytime.",
+     "start": 7.891,
+     "end": 9.856
+    }
+   ],
+   "phraseSource": "whole-line(fallback)"
+  },
+  {
+   "id": "L06",
+   "text": "Now they do.",
+   "start": 10.096,
+   "end": 11.073,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Now they do.",
+     "start": 10.096,
+     "end": 11.073
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L07",
+   "text": "Tonight, you woke with a hand around your wrist.",
+   "start": 11.313,
+   "end": 14.098,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Tonight,",
+     "start": 11.313,
+     "end": 11.843
+    },
+    {
+     "text": "you woke with a hand around your wrist.",
+     "start": 11.843,
+     "end": 14.097
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "Your friend's voice, inches from your ear.",
+   "start": 14.338,
+   "end": 16.977,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Your friend's voice,",
+     "start": 14.338,
+     "end": 15.493
+    },
+    {
+     "text": "inches from your ear.",
+     "start": 15.493,
+     "end": 16.977
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "You said anytime.",
+   "start": 17.217,
+   "end": 18.795,
+   "whisper": true,
+   "phrases": [
+    {
+     "text": "You said anytime.",
+     "start": 17.217,
+     "end": 18.795
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L10",
+   "text": "You switched on the lamp.",
+   "start": 19.035,
+   "end": 20.601,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "You switched on the lamp.",
+     "start": 19.035,
+     "end": 20.601
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L11",
+   "text": "In the mirror, you could see your wrist.",
+   "start": 20.841,
+   "end": 22.878,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "In the mirror,",
+     "start": 20.841,
+     "end": 21.551
+    },
+    {
+     "text": "you could see your wrist.",
+     "start": 21.551,
+     "end": 22.878
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "But not the hand around it.",
+   "start": 23.118,
+   "end": 24.76,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "But not the hand around it.",
+     "start": 23.118,
+     "end": 24.76
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L13",
+   "text": "Then it pulled.",
+   "start": 25.0,
+   "end": 26.139,
+   "whisper": true,
+   "phrases": [
+    {
+     "text": "Then it pulled.",
+     "start": 25.0,
+     "end": 26.139
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "S01",
+    "name": "scent",
+    "startSec": 0,
+    "endSec": 6.8,
+    "narration": [
+      "L00",
+      "L01",
+      "L02"
+    ],
+    "setting": "Market square, overhead corpse detail",
+    "purposefulAction": "Speak the winning decision while lifting the collar, then reveal the familiar scent",
+    "contactsAndRisks": "Contact hand/collar; covered face",
+    "acting": "Initial gloved pinch to lifted collar",
+    "camera": "Slow push; hook and winner credit",
+    "transition": "4.8s warm memory dip",
+    "qaSeconds": [
+      0.9,
+      2.8,
+      5.8
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S02",
+    "name": "supplier",
+    "startSec": 6.8,
+    "endSec": 10.5,
+    "narration": [
+      "L03"
+    ],
+    "setting": "Otto's shop, memory",
+    "purposefulAction": "Cup and cloves explain recognised scent",
+    "contactsAndRisks": "Arm and cup move as a single contact pair",
+    "acting": "Supplier offers familiar covered cup",
+    "camera": "Medium framing, warm candle memory",
+    "transition": "Hard cold return",
+    "qaSeconds": [
+      8.8
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S03",
+    "name": "recruit",
+    "startSec": 10.5,
+    "endSec": 17.8,
+    "narration": [
+      "L04",
+      "L05"
+    ],
+    "setting": "Square, night",
+    "purposefulAction": "Safwan raises lantern; Elias covers mouth",
+    "contactsAndRisks": "Held lantern follows wrist; hand withdraws",
+    "acting": "Raise, settle, cover, lower",
+    "camera": "Medium profile then foreground hand",
+    "transition": "Evidence insert",
+    "qaSeconds": [
+      12.6,
+      15.5
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S04",
+    "name": "evidence",
+    "startSec": 17.8,
+    "endSec": 22.15,
+    "narration": [
+      "L06"
+    ],
+    "setting": "Body's hand",
+    "purposefulAction": "Safwan pinches and lifts black wool",
+    "contactsAndRisks": "Thread remains at nail until pickup; fingertip anchor",
+    "acting": "Approach-contact-lift",
+    "camera": "Close insert, hand action above captions",
+    "transition": "Cut on locked shop line",
+    "qaSeconds": [
+      18.5,
+      20
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S05",
+    "name": "shop",
+    "startSec": 22.15,
+    "endSec": 24.2,
+    "narration": [
+      "L07"
+    ],
+    "setting": "Butcher's shuttered door",
+    "purposefulAction": "Handle resists two short tugs",
+    "contactsAndRisks": "Static locked door and grounded wrist",
+    "acting": "Reach-contact-tug-release",
+    "camera": "Close first-person grip",
+    "transition": "Move to known tavern nearby",
+    "qaSeconds": [
+      23.1
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S06",
+    "name": "street",
+    "startSec": 24.2,
+    "endSec": 27.35,
+    "narration": [
+      "L08"
+    ],
+    "setting": "Established town plate",
+    "purposefulAction": "Approach tavern, Safwan accompanies",
+    "contactsAndRisks": "No airborne magic scent trail",
+    "acting": "Camera approach with quiet steps",
+    "camera": "Wide town geography; warm windows",
+    "transition": "Interior cut",
+    "qaSeconds": [
+      25.8
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S07",
+    "name": "coat",
+    "startSec": 27.35,
+    "endSec": 35,
+    "narration": [
+      "L09",
+      "L10",
+      "L11",
+      "L12"
+    ],
+    "setting": "Broken Bell counter",
+    "purposefulAction": "Marta wrings torn black coat, stops, looks upstairs",
+    "contactsAndRisks": "Two-handed cloth contact; basin stays put",
+    "acting": "Wring-stop-eye/head turn",
+    "camera": "Medium framing; coat and glance clear above caption band",
+    "transition": "Motivated glance toward landing",
+    "qaSeconds": [
+      28.3,
+      32.2
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S08",
+    "name": "proof",
+    "startSec": 35,
+    "endSec": 41.1,
+    "narration": [
+      "L13",
+      "L14"
+    ],
+    "setting": "Public stair landing and wall mirror",
+    "purposefulAction": "Witness descends; one continuous glance includes empty reflection",
+    "contactsAndRisks": "Shared geometric stair mesh in direct and reflected views; field contains hypothetical human witness, so vampire absence is meaningful; stair foot plants checked",
+    "acting": "First step-second step-settle",
+    "camera": "Zoom widens to simultaneous real/reflected stairs",
+    "transition": "Hard cut closer when targeting Safwan",
+    "qaSeconds": [
+      35,
+      35.22,
+      35.5,
+      35.85,
+      36.15,
+      36.75,
+      37.7,
+      38.2,
+      38.7,
+      39.8
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S09",
+    "name": "demand",
+    "startSec": 41.1,
+    "endSec": 47.8,
+    "narration": [
+      "L15",
+      "L16",
+      "L17"
+    ],
+    "setting": "Same confrontation",
+    "purposefulAction": "Witness looks at recruit and makes quiet demand",
+    "contactsAndRisks": "Safwan human reflection retained; all vampires omitted",
+    "acting": "Clear regular stranger speech, modest pitch/pace change and mostly dry short-room reverb",
+    "camera": "Tighter villain framing; whisper secret",
+    "transition": "Cut to recruit's reaction",
+    "qaSeconds": [
+      42.2,
+      43.7,
+      46.2
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S10",
+    "name": "reaction",
+    "startSec": 47.8,
+    "endSec": 51.6,
+    "narration": [
+      "L18",
+      "L19"
+    ],
+    "setting": "Same room",
+    "purposefulAction": "Safwan turns toward Elias, asks what secret",
+    "contactsAndRisks": "Approved screen-left eye grows as screen-right eye recedes; ear overlap fixed; mirror sees matching rear head and clothing driven by same pose",
+    "acting": "Eyes/head lead; mouth opens; worried brow",
+    "camera": "Recruit close shot with witness at edge",
+    "transition": "Cut wide for approach",
+    "qaSeconds": [
+      48.0,
+      48.5,
+      48.9,
+      49.8,
+      50.3,
+      50.9
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S11",
+    "name": "danger",
+    "startSec": 51.6,
+    "endSec": 61.7,
+    "narration": [
+      "L20",
+      "L21",
+      "L22"
+    ],
+    "setting": "Same landing",
+    "purposefulAction": "Stranger extends articulated claw; Elias starts raising gloved hand",
+    "contactsAndRisks": "Visible air gap at peak; no grab/injury/rescue; feet stay planted",
+    "acting": "Anticipation-extension-hold; incomplete intervention",
+    "camera": "Wider two-person danger frame; prompt over held action",
+    "transition": "Hard black before outcome",
+    "qaSeconds": [
+      51.6,
+      52.0,
+      52.5,
+      53.0,
+      53.4,
+      53.8,
+      54.9,
+      57.0,
+      59.7
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  },
+  {
+    "id": "S12",
+    "name": "title",
+    "startSec": 61.7,
+    "endSec": 65.0,
+    "narration": [],
+    "setting": "Black",
+    "purposefulAction": "Silence then blackletter title",
+    "contactsAndRisks": "No accidental picture gap; intentional black",
+    "acting": "Title boom 61.2s",
+    "camera": "Inherited Rabenfels / Part II \u00b7 Cloves",
+    "transition": "End",
+    "qaSeconds": [
+      62.0,
+      64.0
+    ],
+    "captionBand": "y1330\u20131560; reserve bottom360; key faces/actions above",
+    "assetSource": "assets.json"
+  }
+]

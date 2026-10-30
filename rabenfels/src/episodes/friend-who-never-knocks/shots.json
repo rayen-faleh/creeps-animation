@@ -1,0 +1,153 @@
+[
+  {
+    "id": "S01",
+    "start": 0,
+    "end": 3.25,
+    "voice": "L01",
+    "setting": "cold bedroom door",
+    "action": "Door already moves from frame zero; iron ring stays still. Quiet opening creak.",
+    "camera": "slow push",
+    "purpose": "Immediate everyday habit becomes a warning",
+    "qa": [
+      0.8,
+      2.3
+    ]
+  },
+  {
+    "id": "S02",
+    "start": 3.25,
+    "end": 5.35,
+    "voice": "L02",
+    "setting": "same doorway, warm memory",
+    "action": "Door open; visitor shoes wait beyond the sill",
+    "camera": "motived glance down begins at 4.7",
+    "purpose": "Plant clue: visitor refuses to cross an open threshold",
+    "qa": [
+      4,
+      5.2
+    ]
+  },
+  {
+    "id": "S03",
+    "start": 5.35,
+    "end": 8.85,
+    "voice": "L03",
+    "setting": "threshold close view",
+    "action": "Shoes stay planted outside; two tones of light distinguish inside from outside",
+    "camera": "slow low push",
+    "purpose": "Make the invitation rule visually comprehensible",
+    "qa": [
+      6.5,
+      8.2
+    ]
+  },
+  {
+    "id": "S04",
+    "start": 8.85,
+    "end": 12.9,
+    "voice": "L04-L05",
+    "setting": "warm threshold",
+    "action": "Narrator hand opens then curls inward in invitation; door opens farther and shoes take two small steps",
+    "camera": "continuous low POV",
+    "purpose": "Innocent gesture establishes permanent permission",
+    "qa": [
+      9.9,
+      10.7,
+      11.5,
+      12.2
+    ]
+  },
+  {
+    "id": "S05",
+    "start": 12.9,
+    "end": 15.2,
+    "voice": "L06",
+    "setting": "cold door",
+    "action": "Door opens without a knock or narrator hand; 0.25-second black before waking",
+    "camera": "quiet forward drift",
+    "purpose": "Callback with changed meaning",
+    "qa": [
+      13.8,
+      15.0
+    ]
+  },
+  {
+    "id": "S06",
+    "start": 15.2,
+    "end": 22.1,
+    "voice": "L07-L08",
+    "setting": "bedroom, mirror left and lamp right",
+    "action": "Eyelids open; narrator arm lifts but captor grasp remains fixed; whispered invitation returns",
+    "camera": "subjective waking and restrained roll",
+    "purpose": "Show physical vulnerability before supernatural proof",
+    "qa": [
+      15.6,
+      16.8,
+      18.4,
+      19.7
+    ]
+  },
+  {
+    "id": "S07",
+    "start": 22.1,
+    "end": 25.1,
+    "voice": "L09-L10",
+    "setting": "same bedroom",
+    "action": "Free hand approaches pull-chain, touches and pulls; lamp on; held wrist resists and fingers tense",
+    "camera": "stays toward lamp",
+    "contact": "wristFor locks index to chain; held wrist shares anchor with captor",
+    "purpose": "Visible attempt to regain control fails",
+    "qa": [
+      22.8,
+      23.1,
+      23.5,
+      24.5
+    ]
+  },
+  {
+    "id": "S08",
+    "start": 25.1,
+    "end": 31.5,
+    "voice": "L11-L12",
+    "setting": "same bedroom, mirror",
+    "action": "One continuous glance left shows the identical articulated arm reflected without captor; hold on Alone",
+    "camera": "pan x800 to x0 over 1.55 seconds; no mirror dissolve",
+    "purpose": "Clear sound-off proof of vampire",
+    "qa": [
+      25.4,
+      26.9,
+      28.8,
+      30.4
+    ]
+  },
+  {
+    "id": "S09",
+    "start": 31.5,
+    "end": 33.15,
+    "voice": "L13 begins32.2",
+    "setting": "grip macro",
+    "action": "Four fingers curl farther across forearm; narrator claw pose and recoil remain contact-locked; cut before outcome",
+    "camera": "close framing plus .09 push",
+    "purpose": "Proof becomes immediate physical threat",
+    "qa": [
+      31.6,
+      32.2,
+      32.6,
+      33.1
+    ]
+  },
+  {
+    "id": "S10",
+    "start": 33.15,
+    "end": 37,
+    "voice": "L13 continues across black",
+    "setting": "black/title",
+    "action": "Voice-only black hold, title Come In after one second, soft synthesized boom",
+    "purpose": "Cliffhanger and short fixed-style end card",
+    "qa": [
+      33.5,
+      34.5,
+      36
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+import React from 'react';
+import timing from './timing.json';
+import E from './events.json';
+import {StoryFrame,Grade,dipAround} from '../../kit/series/StoryFrame';
+import {Timing} from '../../kit/series/Captions';
+import {TitleCard} from '../../kit/series/TitleCard';
+import * as S from './scenes/Story';
+export const META={id:'Rabenfels01',durationSec:E.duration,audio:'episodes/rabenfels-01/mix.wav'};
+const sceneAt=(t:number)=>t<E.town?<S.Commission t={t}/>:t<E.clerk?<S.Town t={t}/>:t<E.rent?<S.Clerk t={t}/>:t<E.marta?<S.Rent t={t}/>:t<E.friend?<S.Tavern t={t}/>:t<E.repair?<S.Friend t={t}/>:t<E.blood?<S.Repair t={t}/>:t<E.morning?<S.Blood t={t}/>:t<E.forge?<S.Morning t={t}/>:t<E.witness?<S.Hunt t={t}/>:t<E.watch?<S.Witness t={t}/>:t<E.choice?<S.Watch t={t}/>:t<E.cut?<S.Choice t={t}/>:<TitleCard t={t} t0={E.cut} title="Rabenfels" subtitle="NIGHT ONE"/>;
+const gradeAt=(t:number):Grade=>t>=E.cut?'none':t>=E.repair&&t<E.blood?'warm':'cold';
+export const Episode:React.FC=()=> <StoryFrame sceneAt={sceneAt} gradeAt={gradeAt} dipAt={t=>dipAround(t,E.repair,.12)+dipAround(t,E.blood,.12)+dipAround(t,E.morning,.16)+dipAround(t,E.forge,.16)} timing={timing as Timing} redWords={['vampire.','mirror.','drained','never','decides.']} audio={META.audio}/>;

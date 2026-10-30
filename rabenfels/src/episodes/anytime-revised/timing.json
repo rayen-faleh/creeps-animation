@@ -1,0 +1,217 @@
+{
+  "unit": "seconds",
+  "total": 32.2,
+  "provenance": "Kokoro ONNX 0.6.1 bm_lewis en-gb, model v1.0; decoded take durations and detected internal silences; authored inter-line pauses; no speech time stretching",
+  "lines": [
+    {
+      "id": "L01",
+      "text": "Your friend stopped knocking.",
+      "start": 0.18,
+      "end": 1.831,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "Your friend stopped knocking.",
+          "start": 0.18,
+          "end": 1.831
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L02",
+      "text": "That's your fault.",
+      "start": 2.05,
+      "end": 3.266,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "That's your fault.",
+          "start": 2.05,
+          "end": 3.266
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L03",
+      "text": "Remember their first visit?",
+      "start": 3.55,
+      "end": 5.227,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "Remember their first visit?",
+          "start": 3.55,
+          "end": 5.227
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L04",
+      "text": "They waited at your open door.",
+      "start": 5.45,
+      "end": 7.487,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "They waited at your open door.",
+          "start": 5.45,
+          "end": 7.487
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L05",
+      "text": "You said, come in. Anytime.",
+      "start": 7.85,
+      "end": 9.815,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "You said, come in. Anytime.",
+          "start": 7.85,
+          "end": 9.815
+        }
+      ],
+      "phraseSource": "whole-line(fallback)"
+    },
+    {
+      "id": "L06",
+      "text": "Now they do.",
+      "start": 10.25,
+      "end": 11.227,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "Now they do.",
+          "start": 10.25,
+          "end": 11.227
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L07",
+      "text": "Tonight, you woke with a hand around your wrist.",
+      "start": 11.65,
+      "end": 14.434,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "Tonight,",
+          "start": 11.65,
+          "end": 12.18
+        },
+        {
+          "text": "you woke with a hand around your wrist.",
+          "start": 12.18,
+          "end": 14.434
+        }
+      ],
+      "phraseSource": "measured-silence"
+    },
+    {
+      "id": "L08",
+      "text": "Your friend's voice, inches from your ear.",
+      "start": 14.85,
+      "end": 17.489,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "Your friend's voice,",
+          "start": 14.85,
+          "end": 16.005
+        },
+        {
+          "text": "inches from your ear.",
+          "start": 16.005,
+          "end": 17.489
+        }
+      ],
+      "phraseSource": "measured-silence"
+    },
+    {
+      "id": "L09",
+      "text": "You said anytime.",
+      "start": 17.85,
+      "end": 19.428,
+      "whisper": true,
+      "phrases": [
+        {
+          "text": "You said anytime.",
+          "start": 17.85,
+          "end": 19.428
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L10",
+      "text": "You switched on the lamp.",
+      "start": 20,
+      "end": 21.566,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "You switched on the lamp.",
+          "start": 20.0,
+          "end": 21.566
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L11",
+      "text": "In the mirror, you could see your wrist.",
+      "start": 22.4,
+      "end": 24.437,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "In the mirror,",
+          "start": 22.4,
+          "end": 23.11
+        },
+        {
+          "text": "you could see your wrist.",
+          "start": 23.11,
+          "end": 24.437
+        }
+      ],
+      "phraseSource": "measured-silence"
+    },
+    {
+      "id": "L12",
+      "text": "But not the hand around it.",
+      "start": 25,
+      "end": 26.643,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "But not the hand around it.",
+          "start": 25.0,
+          "end": 26.642
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L13",
+      "text": "Then it pulled.",
+      "start": 28.1,
+      "end": 29.238,
+      "whisper": true,
+      "phrases": [
+        {
+          "text": "Then it pulled.",
+          "start": 28.1,
+          "end": 29.239
+        }
+      ],
+      "phraseSource": "whole-line"
+    }
+  ]
+}

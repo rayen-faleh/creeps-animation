@@ -1,0 +1,26 @@
+[
+  {
+    "path": "src/kit/",
+    "source": "user-provided gothic-pov-kit.zip",
+    "use": "unchanged original SVG art, sets, effects, caption and title components"
+  },
+  {
+    "path": "public/fonts/",
+    "source": "user kit; Cormorant Garamond and UnifrakturCook",
+    "license": "SIL Open Font License 1.1 per supplied README"
+  },
+  {
+    "path": "public/tex/",
+    "source": "user kit generated grain textures"
+  },
+  {
+    "path": "work/the-fourth-knock/line_*.wav",
+    "source": "fresh local Kokoro ONNX 0.6.1 synthesis",
+    "voice": "bm_lewis",
+    "model": "v1.0; Apache-2.0 per model distribution"
+  },
+  {
+    "path": "public/episodes/the-fourth-knock/mix.wav",
+    "source": "local narration plus supplied code-synthesized score and effects"
+  }
+]

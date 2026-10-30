@@ -1,0 +1,77 @@
+{
+ "unit": "seconds",
+ "total": 10.194,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Mother said, never answer three knocks.",
+   "start": 0.35,
+   "end": 3.037,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Mother said,",
+     "start": 0.35,
+     "end": 1.185
+    },
+    {
+     "text": "never answer three knocks.",
+     "start": 1.185,
+     "end": 3.037
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "Tonight, I nearly did.",
+   "start": 3.557,
+   "end": 5.073,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Tonight,",
+     "start": 3.557,
+     "end": 4.107
+    },
+    {
+     "text": "I nearly did.",
+     "start": 4.107,
+     "end": 5.073
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "The fourth came from behind me.",
+   "start": 5.393,
+   "end": 7.281,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "The fourth came from behind me.",
+     "start": 5.393,
+     "end": 7.281
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L04",
+   "text": "Don't turn around.",
+   "start": 8.161,
+   "end": 9.554,
+   "whisper": true,
+   "phrases": [
+    {
+     "text": "Don't turn around.",
+     "start": 8.161,
+     "end": 9.554
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

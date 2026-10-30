@@ -1,0 +1,1 @@
+This is a fictional example adapted from the user-supplied The Knock template. It uses the provided midnight-knocking motif, without claiming a factual or historically specific folklore account. No changing real-world claims or external media are used.

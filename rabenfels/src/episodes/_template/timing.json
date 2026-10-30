@@ -1,0 +1,117 @@
+{
+ "unit": "seconds",
+ "total": 16.388,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Every night at midnight, something knocks on my bedroom door.",
+   "start": 0.35,
+   "end": 3.923,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Every night at midnight,",
+     "start": 0.35,
+     "end": 1.665
+    },
+    {
+     "text": "something knocks on my bedroom door.",
+     "start": 1.665,
+     "end": 3.923
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "Three times. Never more.",
+   "start": 4.163,
+   "end": 6.017,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Three times.",
+     "start": 4.163,
+     "end": 5.183
+    },
+    {
+     "text": "Never more.",
+     "start": 5.183,
+     "end": 6.018
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "Mother always said, never answer it.",
+   "start": 6.417,
+   "end": 8.898,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Mother always said,",
+     "start": 6.417,
+     "end": 7.677
+    },
+    {
+     "text": "never answer it.",
+     "start": 7.677,
+     "end": 8.898
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "Tonight, it knocked four times.",
+   "start": 9.378,
+   "end": 11.267,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Tonight,",
+     "start": 9.378,
+     "end": 9.843
+    },
+    {
+     "text": "it knocked four times.",
+     "start": 9.843,
+     "end": 11.267
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "The fourth came from behind me.",
+   "start": 11.747,
+   "end": 13.636,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "The fourth came from behind me.",
+     "start": 11.747,
+     "end": 13.636
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L06",
+   "text": "Don't turn around.",
+   "start": 14.355,
+   "end": 15.748,
+   "whisper": true,
+   "phrases": [
+    {
+     "text": "Don't turn around.",
+     "start": 14.355,
+     "end": 15.748
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

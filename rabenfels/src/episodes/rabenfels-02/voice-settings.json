@@ -1,0 +1,47 @@
+{
+  "engine": "Kokoro ONNX 0.6.1",
+  "voice": "bm_lewis",
+  "language": "en-gb",
+  "model": "v1.0",
+  "stranger": {
+    "speed": 0.94,
+    "pitchSemitones": -0.8,
+    "presenceEqDb": 1.5,
+    "shortRoomWet": 0.14,
+    "noiseWhisper": false,
+    "speechLevelTargetRelativeDb": 0.8278537031645016,
+    "compression": {
+      "threshold": 0.2,
+      "ratio": 2,
+      "attackMs": 5,
+      "releaseMs": 65
+    }
+  },
+  "takes": [
+    {
+      "id": "L00",
+      "text": "You decided to smell the body.",
+      "duration": 2.0984166666666666,
+      "activeRms": 0.12300364003213202,
+      "peak": 0.8,
+      "character": false
+    },
+    {
+      "id": "L16",
+      "text": "Give me the boy, Elias.",
+      "duration": 1.647875,
+      "activeRms": 0.12905382284881384,
+      "peak": 0.6597830193197413,
+      "character": true
+    },
+    {
+      "id": "L17",
+      "text": "And I'll keep your secret.",
+      "duration": 1.704875,
+      "activeRms": 0.11526735384916456,
+      "peak": 0.8898786931375435,
+      "character": true
+    }
+  ],
+  "normalTargetActiveRms": 0.1173216571352853
+}

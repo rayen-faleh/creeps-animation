@@ -1,0 +1,1 @@
+Historical and literary grounding, with qualifications and source URLs, is preserved in series-bible.md. This render adds no factual claims. Rabenfels and its residents are invented; 1732 anchors the historical atmosphere, and animal-blood strength trade-offs are a creative series rule.

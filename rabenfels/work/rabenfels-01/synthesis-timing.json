@@ -1,0 +1,347 @@
+{
+ "unit": "seconds",
+ "total": 50.006,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "You're a vampire.",
+   "start": 0.35,
+   "end": 1.481,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "You're a vampire.",
+     "start": 0.35,
+     "end": 1.481
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L02",
+   "text": "Your neighbours have asked you to hunt one.",
+   "start": 1.737,
+   "end": 3.846,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Your neighbours have asked you to hunt one.",
+     "start": 1.737,
+     "end": 3.846
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "Rabenfels. Seventeen thirty-two.",
+   "start": 4.102,
+   "end": 6.619,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Rabenfels.",
+     "start": 4.102,
+     "end": 5.017
+    },
+    {
+     "text": "Seventeen thirty-two.",
+     "start": 5.017,
+     "end": 6.618
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "They know you as Elias, the clerk.",
+   "start": 6.875,
+   "end": 9.117,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "They know you as Elias,",
+     "start": 6.875,
+     "end": 8.34
+    },
+    {
+     "text": "the clerk.",
+     "start": 8.34,
+     "end": 9.118
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "You write their letters after dark.",
+   "start": 9.373,
+   "end": 11.538,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "You write their letters after dark.",
+     "start": 9.373,
+     "end": 11.538
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L06",
+   "text": "Pay your rent on time.",
+   "start": 11.794,
+   "end": 13.305,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Pay your rent on time.",
+     "start": 11.794,
+     "end": 13.305
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L07",
+   "text": "At the tavern, Marta saves your usual seat.",
+   "start": 13.561,
+   "end": 16.467,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "At the tavern,",
+     "start": 13.561,
+     "end": 14.441
+    },
+    {
+     "text": "Marta saves your usual seat.",
+     "start": 14.441,
+     "end": 16.466
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "Its back faces the mirror.",
+   "start": 16.723,
+   "end": 18.419,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Its back faces the mirror.",
+     "start": 16.723,
+     "end": 18.419
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L09",
+   "text": "Matthias, the blacksmith, calls you a friend.",
+   "start": 18.674,
+   "end": 21.493,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Matthias,",
+     "start": 18.674,
+     "end": 19.459
+    },
+    {
+     "text": "the blacksmith,",
+     "start": 19.459,
+     "end": 20.289
+    },
+    {
+     "text": "calls you a friend.",
+     "start": 20.289,
+     "end": 21.493
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "He fixed your door before the winter.",
+   "start": 21.749,
+   "end": 23.88,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "He fixed your door before the winter.",
+     "start": 21.749,
+     "end": 23.88
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L11",
+   "text": "You buy sheep's blood from the butcher.",
+   "start": 24.136,
+   "end": 26.223,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "You buy sheep's blood from the butcher.",
+     "start": 24.136,
+     "end": 26.223
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L12",
+   "text": "Enough to keep your neighbours safe.",
+   "start": 26.479,
+   "end": 28.586,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Enough to keep your neighbours safe.",
+     "start": 26.479,
+     "end": 28.586
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L13",
+   "text": "Until this morning.",
+   "start": 28.842,
+   "end": 30.177,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Until this morning.",
+     "start": 28.842,
+     "end": 30.177
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L14",
+   "text": "A man was found drained in the square.",
+   "start": 30.433,
+   "end": 32.791,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "A man was found drained in the square.",
+     "start": 30.433,
+     "end": 32.791
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "You never fed on him.",
+   "start": 33.047,
+   "end": 34.615,
+   "whisper": true,
+   "phrases": [
+    {
+     "text": "You never fed on him.",
+     "start": 33.047,
+     "end": 34.615
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "Now Matthias is sharpening the hunters' blades.",
+   "start": 34.871,
+   "end": 37.964,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Now Matthias is sharpening the hunters' blades.",
+     "start": 34.871,
+     "end": 37.964
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L17",
+   "text": "And Marta has hidden a witness upstairs.",
+   "start": 38.22,
+   "end": 40.921,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "And Marta has hidden a witness upstairs.",
+     "start": 38.22,
+     "end": 40.921
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L18",
+   "text": "The watch expects an answer before dawn.",
+   "start": 41.177,
+   "end": 43.783,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "The watch expects an answer before dawn.",
+     "start": 41.177,
+     "end": 43.783
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L19",
+   "text": "What's your first move?",
+   "start": 44.039,
+   "end": 45.558,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "What's your first move?",
+     "start": 44.039,
+     "end": 45.558
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L20",
+   "text": "Top comment decides.",
+   "start": 45.814,
+   "end": 47.478,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Top comment decides.",
+     "start": 45.814,
+     "end": 47.478
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L21",
+   "text": "Its author joins the town.",
+   "start": 47.734,
+   "end": 49.75,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Its author joins the town.",
+     "start": 47.734,
+     "end": 49.75
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

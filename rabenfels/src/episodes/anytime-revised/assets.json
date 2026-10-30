@@ -1,0 +1,13 @@
+{
+  "source": "User-supplied gothic-pov-kit and prior editable project",
+  "new_art": [
+    "src/kit/art/ClaspedWrist.tsx"
+  ],
+  "extensions": [
+    "Mirror.ageSpots optional boolean, default true; old renders unchanged"
+  ],
+  "voice": "Kokoro ONNX 0.6.1 / bm_lewis / en-gb / model v1.0 / .97 normal, .86 whisper",
+  "audio": "All effects/score synthesized locally by existing sound_lib.py",
+  "fonts": "Existing bundled Cormorant Garamond and UnifrakturCook",
+  "limitations": "Code-drawn stylized SVG, not live action; no subjective listening available"
+}

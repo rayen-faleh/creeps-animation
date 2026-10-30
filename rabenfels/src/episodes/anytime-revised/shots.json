@@ -1,0 +1,74 @@
+[
+  {
+    "id": "hook",
+    "start": 0,
+    "end": 3.55,
+    "purpose": "Cold oak door opens without a knock; close push; culpability hook."
+  },
+  {
+    "id": "memory",
+    "start": 3.55,
+    "end": 5.45,
+    "purpose": "Warm first visit; feet planted outside."
+  },
+  {
+    "id": "threshold",
+    "start": 5.45,
+    "end": 7.85,
+    "purpose": "Look down to the open threshold; feet wait."
+  },
+  {
+    "id": "invitation",
+    "start": 7.85,
+    "end": 10.25,
+    "purpose": "Hand beckons, then first foot steps over the sill on permission."
+  },
+  {
+    "id": "intrusion",
+    "start": 10.25,
+    "end": 11.65,
+    "purpose": "Match motif in cold present; door opens; short black hold."
+  },
+  {
+    "id": "wake",
+    "start": 11.65,
+    "end": 14.85,
+    "purpose": "Eyelids reveal wrist already trapped; recognisable lamp/window geography."
+  },
+  {
+    "id": "voice",
+    "start": 14.85,
+    "end": 20,
+    "purpose": "Slow physical lean and reactive curl; whispered invitation echo."
+  },
+  {
+    "id": "lamp",
+    "start": 20,
+    "end": 21.85,
+    "purpose": "Free hand approaches and pulls chain; light switches on at contact."
+  },
+  {
+    "id": "mirror",
+    "start": 21.85,
+    "end": 25,
+    "purpose": "Continuous glance left to enlarged mirror; exact shared held-arm pose, captor omitted."
+  },
+  {
+    "id": "proof",
+    "start": 25,
+    "end": 27.3,
+    "purpose": "Quiet hold on impossible reflection; one-line explanation."
+  },
+  {
+    "id": "pull",
+    "start": 27.3,
+    "end": 29.03,
+    "purpose": "Grip close-up; tighten anticipation then accelerated tug with camera recoil."
+  },
+  {
+    "id": "black-title",
+    "start": 29.03,
+    "end": 32.2,
+    "purpose": "Hard black, whisper tail, delayed Anytime title."
+  }
+]

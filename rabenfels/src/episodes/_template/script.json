@@ -1,0 +1,8 @@
+[
+  {"id": "L01", "text": "Every night at midnight, something knocks on my bedroom door.", "pauseAfter": 0.3},
+  {"id": "L02", "text": "Three times. Never more.", "pauseAfter": 0.5},
+  {"id": "L03", "text": "Mother always said, never answer it.", "pauseAfter": 0.6},
+  {"id": "L04", "text": "Tonight, it knocked four times.", "pauseAfter": 0.6},
+  {"id": "L05", "text": "The fourth came from behind me.", "pauseAfter": 0.9},
+  {"id": "L06", "text": "Don't turn around.", "whisper": true, "pauseAfter": 0.8}
+]

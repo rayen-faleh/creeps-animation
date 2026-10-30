@@ -1,0 +1,38 @@
+{
+  "visualRoute": "Slightly darker, weathered flat cozy Gothic plates, guided by actual prior film frames, with separately animated humans/hands/props",
+  "generatedImages": [
+    {
+      "path": "public/episodes/rabenfels-01/art/town-night.png",
+      "source": "Built-in image_gen refinement of cozy plate, using actual Anytime frames at 6.5 s and 25.6 s as style references",
+      "license": "Generated for this user/project",
+      "promptFile": "src/episodes/rabenfels-01/final-background-prompts.json",
+      "limitations": "Illustrated fictional setting, not historical photographic evidence"
+    },
+    {
+      "path": "public/episodes/rabenfels-01/art/town-dawn.png",
+      "source": "Built-in image_gen lighting edit of final weathered night plate",
+      "license": "Generated for this user/project",
+      "promptFile": "src/episodes/rabenfels-01/final-background-prompts.json",
+      "limitations": "Same camera/geometry with diffuse morning lighting"
+    }
+  ],
+  "codeArt": [
+    "src/kit/art/Townsfolk.tsx",
+    "src/kit/sets/RabenfelsTown.tsx",
+    "src/episodes/rabenfels-01/scenes/Story.tsx"
+  ],
+  "upstream": "User-supplied Gothic POV kit and prior updated editable project; existing fonts/art/notices retained",
+  "sound": "Original local synthesis using scripts/sound_lib.py; no externally sourced recordings",
+  "voice": "Kokoro ONNX 0.6.1 / model v1.0 / bm_lewis / en-gb, .97 normal, .86 on reveal",
+  "rejected": "Realistic background attempts are excluded from the final render and editable archive.",
+  "styleReferences": [
+    {
+      "path": "public/episodes/rabenfels-01/reference/anytime-door.png",
+      "source": "Actual prior finished Anytime video, 6.5 s; requested by user as style reference"
+    },
+    {
+      "path": "public/episodes/rabenfels-01/reference/anytime-mirror.png",
+      "source": "Actual prior finished Anytime video, 25.6 s; requested by user as style reference"
+    }
+  ]
+}

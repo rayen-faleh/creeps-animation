@@ -1,0 +1,11 @@
+import React from 'react';
+import timing from './timing.json';
+import E from './events.json';
+import {StoryFrame, Grade, dipAround} from '../../kit/series/StoryFrame';
+import {TitleCard} from '../../kit/series/TitleCard';
+import {Timing} from '../../kit/series/Captions';
+import {RememberedRule,DoorApproach,WindowReveal} from './scenes/Story';
+export const META={id:'FourthKnock',durationSec:15,audio:'episodes/the-fourth-knock/mix.wav'};
+const sceneAt=(t:number)=>t<E.memoryEnd?<RememberedRule t={t}/>:t<E.turn?<DoorApproach t={t}/>:t<E.cut?<WindowReveal t={t}/>:<TitleCard t={t} t0={E.cut} title="The Fourth Knock" subtitle="A GOTHIC POV PREVIEW"/>;
+const gradeAt=(t:number):Grade=>t<E.memoryEnd?'warm':t<E.cut?'cold':'none';
+export const Episode:React.FC=()=> <StoryFrame sceneAt={sceneAt} gradeAt={gradeAt} dipAt={t=>dipAround(t,E.memoryEnd,.12)} timing={timing as Timing} redWords={['behind']} audio={META.audio}/>;

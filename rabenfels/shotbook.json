@@ -1,0 +1,78 @@
+[
+  {
+    "id": "S01",
+    "start": 0,
+    "end": 3.05,
+    "narration": "L01",
+    "purpose": "Warm remembered warning; child hand opens into a stop gesture before a closed oak door.",
+    "camera": "slow push, shake 3",
+    "poses": [
+      "relaxed",
+      "palm out",
+      "hold"
+    ],
+    "qa": [
+      0.6,
+      1.8,
+      2.9
+    ]
+  },
+  {
+    "id": "S02",
+    "start": 3.05,
+    "end": 7.55,
+    "narration": "L02",
+    "purpose": "Cold present. Three door jolts. Adult hand approaches the ring pull, fingers extend, index settles in contact.",
+    "camera": "continuous push and rightward focus on ring",
+    "contact": "wristFor locks index to (708,994) at 6.65 s",
+    "qa": [
+      3.15,
+      3.55,
+      3.95,
+      5.8,
+      6.65,
+      7.4
+    ]
+  },
+  {
+    "id": "S03",
+    "start": 7.55,
+    "end": 8.05,
+    "purpose": "Fourth knock; freeze and recoil into fist before a motivated glance behind.",
+    "camera": "same door view, fear shake",
+    "qa": [
+      7.55,
+      7.65,
+      7.75
+    ]
+  },
+  {
+    "id": "S04",
+    "start": 8.05,
+    "end": 11.65,
+    "narration": "L03",
+    "purpose": "Whip glance reveals grey clawed hand beyond leaded gothic glass. Fingers slowly curl; casement starts to open.",
+    "camera": "0.32 s whip settling into steady push",
+    "qa": [
+      8.05,
+      8.2,
+      8.4,
+      9.2,
+      10.7,
+      11.6
+    ]
+  },
+  {
+    "id": "S05",
+    "start": 11.65,
+    "end": 15,
+    "narration": "L04 whispered",
+    "purpose": "Hard cut to black with voice alone. Blood-red blackletter title appears after a one-second hold.",
+    "qa": [
+      11.65,
+      12.2,
+      13.2,
+      14.5
+    ]
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "commission",
+    "start": 0,
+    "end": 4.4,
+    "purpose": "Close POV hand accepts wax-sealed commission; claw contact identifies vampire.",
+    "qa": [
+      0.3,
+      2.2,
+      4.3
+    ]
+  },
+  {
+    "id": "town",
+    "start": 4.4,
+    "end": 7.6,
+    "purpose": "Eye-level view introduces church, forge and tavern geography.",
+    "qa": [
+      4.7,
+      6.0,
+      7.5
+    ]
+  },
+  {
+    "id": "clerk",
+    "start": 7.6,
+    "end": 10.25,
+    "purpose": "Candlelit records establish occupation.",
+    "qa": [
+      7.9,
+      8.93,
+      10.15
+    ]
+  },
+  {
+    "id": "writing",
+    "start": 10.25,
+    "end": 12.85,
+    "purpose": "Closer quill stroke with shared tip/hand anchors.",
+    "qa": [
+      10.55,
+      11.55,
+      12.75
+    ]
+  },
+  {
+    "id": "rent",
+    "start": 12.85,
+    "end": 15.1,
+    "purpose": "Coins placed on counter, then gloved hand withdraws.",
+    "qa": [
+      13.15,
+      13.97,
+      15.0
+    ]
+  },
+  {
+    "id": "marta",
+    "start": 15.1,
+    "end": 18.6,
+    "purpose": "Resident approaches, places cup, releases and withdraws her hand.",
+    "qa": [
+      15.4,
+      16.85,
+      18.5
+    ]
+  },
+  {
+    "id": "mirror",
+    "start": 18.6,
+    "end": 22.2,
+    "purpose": "Continuous glance shows chair and held cup in mirror, no narrator.",
+    "qa": [
+      18.9,
+      20.4,
+      22.1
+    ]
+  },
+  {
+    "id": "friend",
+    "start": 22.2,
+    "end": 25.55,
+    "purpose": "Matthias nods and greets; narrator returns gesture.",
+    "qa": [
+      22.5,
+      23.88,
+      25.45
+    ]
+  },
+  {
+    "id": "repair",
+    "start": 25.55,
+    "end": 28.6,
+    "purpose": "Warm memory, hammer lifts and taps latch.",
+    "qa": [
+      25.85,
+      27.08,
+      28.5
+    ]
+  },
+  {
+    "id": "purchase",
+    "start": 28.6,
+    "end": 31.15,
+    "purpose": "Coin payment at butcher; container and human owner make feeding concrete.",
+    "qa": [
+      28.9,
+      29.88,
+      31.05
+    ]
+  },
+  {
+    "id": "cup",
+    "start": 31.15,
+    "end": 34.1,
+    "purpose": "Covered animal-blood cup lifts into gloved grasp.",
+    "qa": [
+      31.45,
+      32.62,
+      34.0
+    ]
+  },
+  {
+    "id": "body",
+    "start": 34.1,
+    "end": 39.1,
+    "purpose": "Same town in diffuse morning light, shrouded figure and watch seen from shade.",
+    "qa": [
+      34.4,
+      36.6,
+      39.0
+    ]
+  },
+  {
+    "id": "denial",
+    "start": 39.1,
+    "end": 42.1,
+    "purpose": "Hand freezes at shaded doorway; quiet isolated line.",
+    "qa": [
+      39.4,
+      40.6,
+      42.0
+    ]
+  },
+  {
+    "id": "blades",
+    "start": 42.1,
+    "end": 45.7,
+    "purpose": "Grinding wheel rotates under contacting blade with local sparks.",
+    "qa": [
+      42.4,
+      43.9,
+      45.6
+    ]
+  },
+  {
+    "id": "witness",
+    "start": 45.7,
+    "end": 49.2,
+    "purpose": "Marta closes upper door and signals toward witness.",
+    "qa": [
+      46.0,
+      47.45,
+      49.1
+    ]
+  },
+  {
+    "id": "watch",
+    "start": 49.2,
+    "end": 52.5,
+    "purpose": "Captain holds commission in square; investigation deadline.",
+    "qa": [
+      49.5,
+      50.85,
+      52.4
+    ]
+  },
+  {
+    "id": "choice",
+    "start": 52.5,
+    "end": 58.95,
+    "purpose": "Hand begins to point between the forge and tavern, then hesitates.",
+    "qa": [
+      52.8,
+      55.73,
+      58.85
+    ]
+  },
+  {
+    "id": "title",
+    "start": 58.95,
+    "end": 62.5,
+    "purpose": "Hard black then delayed Rabenfels / Night One title.",
+    "qa": [
+      59.25,
+      60.73,
+      62.4
+    ]
+  }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "id": "L01",
+    "text": "You're a vampire.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L02",
+    "text": "Your neighbours have asked you to hunt one.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L03",
+    "text": "Rabenfels. Seventeen thirty-two.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L04",
+    "text": "They know you as Elias, the clerk.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L05",
+    "text": "You write their letters after dark.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L06",
+    "text": "Pay your rent on time.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L07",
+    "text": "At the tavern, Marta saves your usual seat.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L08",
+    "text": "Its back faces the mirror.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L09",
+    "text": "Matthias, the blacksmith, calls you a friend.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L10",
+    "text": "He fixed your door before the winter.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L11",
+    "text": "You buy sheep's blood from the butcher.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L12",
+    "text": "Enough to keep your neighbours safe.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L13",
+    "text": "Until this morning.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L14",
+    "text": "A man was found drained in the square.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L15",
+    "text": "You never fed on him.",
+    "pauseAfter": 0.32,
+    "whisper": true
+  },
+  {
+    "id": "L16",
+    "text": "Now Matthias is sharpening the hunters' blades.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L17",
+    "text": "And Marta has hidden a witness upstairs.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L18",
+    "text": "The watch expects an answer before dawn.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L19",
+    "text": "What's your first move?",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L20",
+    "text": "Top comment decides.",
+    "pauseAfter": 0.32
+  },
+  {
+    "id": "L21",
+    "text": "Its author joins the town.",
+    "pauseAfter": 0.32
+  }
+]

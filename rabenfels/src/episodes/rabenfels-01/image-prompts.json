@@ -1,0 +1,20 @@
+{
+  "tool": "Built-in image_gen",
+  "night": {
+    "prompt": "Use case: style-transfer edit. Image 1 is the TOWN LAYOUT target, but its realistic rendering is explicitly REJECTED. Image 2 is our EXISTING ANIMATION frame and the authoritative STYLE reference: match its flat shapes, broad simple fills, clean dark outlines and very simple two-tone shading. Redraw the whole town background in that animation style. It must feel COZY BUT GOTHIC: a welcoming lived-in little Transylvanian town with a pointed Gothic church on the hill, steep gabled half-timber houses, a small forge at lower left, a tavern at lower right with an unlettered simple brass-bell sign, and a clear cobbled square in the lower half. Retain the recognisable layout and camera from Image 1, but simplify every building into a few large readable shapes. Warmer ochre and cream plaster, muted teal and slate roofs, warm amber candle windows, cold navy sky, soft lavender distant hills. No grand realistic castle complex: a modest simplified church and low town wall. Flat smooth vector/cel illustration, crisp hard dark outlines like the character frame, ONLY two shadow values per material. No painterly rendering, NO photographic lighting, NO surface texture, NO realistic clouds, NO individual brick detail, NO wet reflections, NO tiny intricate architectural lines. The moon is a plain pale disc; clouds are broad simple soft-edged silhouettes. Paving consists of large simple geometric stones with sparse joints. Warm local lights are flat softly edged colour pools, not realistic radiance. Keep the lower middle quiet and dark enough for cream subtitles and separately animated characters. Empty environment: no people, characters, animals, corpses or silhouettes, no text, lettering or watermark. Portrait 9:16 composition. Aim for a cozy illustrated animation set, not a realistic concept painting.",
+    "output": "public/episodes/rabenfels-01/art/town-night.png",
+    "source": "exec-6cd3f3c2-703b-4410-b8f4-0084731f64b6.png",
+    "references": [
+      "Superseded town geometry plate",
+      "Actual Marta animation frame, authoritative flat style"
+    ]
+  },
+  "dawn": {
+    "output": "public/episodes/rabenfels-01/art/town-dawn.png",
+    "source": "exec-d097501e-21dd-4cdf-a9a4-94a692245d67.png",
+    "references": [
+      "Final flat cozy Gothic night plate"
+    ]
+  },
+  "rejected": "The earlier realistic night/dawn plates were rejected by the user and are not used in the final render or included in the editable archive."
+}

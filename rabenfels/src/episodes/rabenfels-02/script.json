@@ -1,0 +1,119 @@
+[
+  {
+    "id": "L00",
+    "text": "You decided to smell the body.",
+    "pauseAfter": 0.25
+  },
+  {
+    "id": "L01",
+    "text": "The corpse smells like your blood supplier.",
+    "pauseAfter": 0.65
+  },
+  {
+    "id": "L02",
+    "text": "Cloves.",
+    "pauseAfter": 0.8
+  },
+  {
+    "id": "L03",
+    "text": "Otto uses them to hide the blood he sells you.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L04",
+    "text": "Safwan, the watch's new recruit, raises his lantern.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L05",
+    "text": "You cover your mouth before he sees your teeth.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L06",
+    "text": "He finds black wool beneath the dead man's fingernails.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L07",
+    "text": "Otto's shop is locked.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L08",
+    "text": "But at the tavern, you catch the scent again.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L09",
+    "text": "Marta is washing a black coat.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L10",
+    "text": "Whose is that?",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L11",
+    "text": "She glances upstairs.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L12",
+    "text": "The witness's.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L13",
+    "text": "A man steps onto the stairs.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L14",
+    "text": "In the mirror, the stairs are empty.",
+    "pauseAfter": 1.25
+  },
+  {
+    "id": "L15",
+    "text": "He looks at Safwan.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L16",
+    "text": "Give me the boy, Elias.",
+    "pauseAfter": 0.35,
+    "voiceStyle": "stranger"
+  },
+  {
+    "id": "L17",
+    "text": "And I'll keep your secret.",
+    "pauseAfter": 0.35,
+    "voiceStyle": "stranger"
+  },
+  {
+    "id": "L18",
+    "text": "Safwan turns to you.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L19",
+    "text": "What secret?",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L20",
+    "text": "The stranger reaches for him.",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L21",
+    "text": "How do you save Safwan without exposing yourself?",
+    "pauseAfter": 0.35
+  },
+  {
+    "id": "L22",
+    "text": "Top comment chooses your next move.",
+    "pauseAfter": 0.35
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "tool": "Built-in image_gen",
+  "night": {
+    "prompt": "Use case: style-transfer / precise-object edit. Image 1 is the current town background to refine. Images 2 and 3 are frames extracted from our previous finished animation Anytime, supplied ONLY as references for its darker subdued palette, restrained lighting, linework and Gothic material treatment. Do not copy their hands, people, props, captions or composition. Make a SUBTLE refinement of image 1, not a redesign: retain the same cozy inhabited town, precise architecture, church, roofs, well, tavern bell, forge, camera and empty square. The user likes this new style but says it is a little too cartoonish and asks for just a tad darker and more rugged. Match the restrained flat 2D Gothic illustration finish in the reference frames. Slightly darken and desaturate the slate-blue, ochre and plaster colours. Use warm amber windows and forge light sparingly, so the town remains cozy. Age the buildings with a few chipped plaster edges, uneven oak beams, visibly worn door planks, slightly irregular stone corners and a few missing/uneven roof-slate edges. Keep these as clear simple drawn shapes, NOT realistic high-frequency texture. Make clouds a little less bubbly and the architecture a little less perfectly neat. Add subtle hand-drawn irregularity and simple shadow planes; keep silhouettes readable. No photorealism, no painterly detail, no glossy paving, no heavy grunge overlay, no exaggerated crooked haunted houses, no collapsed ruins, no new buildings. Preserve all major shapes, focal layout and the plain open foreground. No people, creatures, text, lettering or captions. Portrait 9:16. The goal is the current flat cozy Gothic town, gently darkened and weathered to sit beside the previous animation frames.",
+    "output": "public/episodes/rabenfels-01/art/town-night.png",
+    "source": "exec-bc5aed43-2712-4cc0-b751-27da07207284.png",
+    "references": [
+      "Previous cozy town plate as layout target",
+      "public/episodes/rabenfels-01/reference/anytime-door.png (actual Anytime video, 6.5 s)",
+      "public/episodes/rabenfels-01/reference/anytime-mirror.png (actual Anytime video, 25.6 s)"
+    ]
+  },
+  "dawn": {
+    "output": "public/episodes/rabenfels-01/art/town-dawn.png",
+    "source": "exec-599ae79d-ed2a-41ee-b094-6de3e27d1a67.png"
+  },
+  "direction": "User requested a tad darker and more rugged, using previous video frames; retain flat animated cozy Gothic design.",
+  "superseded": "Realistic and cleaner cozy background attempts excluded from final project media."
+}

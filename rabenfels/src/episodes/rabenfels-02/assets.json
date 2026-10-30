@@ -1,0 +1,77 @@
+{
+  "episode": "rabenfels-02",
+  "visuals": [
+    {
+      "path": "public/episodes/rabenfels-01/art/town-night.png",
+      "source": "Final Rabenfels Part I project; generated weathered town plate",
+      "library_file_id": "libfile_71da34533c3c8191878040ee3a2483b8",
+      "permission": "User-authorised original generated asset",
+      "use": "Market square and Broken Bell approach",
+      "notes": "Reused approved darker, rugged/cozy plate; no new raster generation"
+    },
+    {
+      "path": "src/kit/art/Townsfolk.tsx",
+      "source": "Original supplied Part I editable project",
+      "use": "Marta and Otto; preserved identities"
+    },
+    {
+      "path": "src/kit/art/ClovesCharacters.tsx",
+      "source": "Original code-drawn SVG art created for this episode",
+      "use": "Safwan and unnamed witness; new reusable kit component",
+      "notes": "Human resident invented for winning commenter; not a portrait"
+    },
+    {
+      "path": "src/kit/art/ClovesProps.tsx",
+      "source": "Original code-drawn SVG props",
+      "use": "Cloves, candle lantern, black wool coat, wash basin"
+    },
+    {
+      "path": "src/kit/sets/TavernLanding.tsx",
+      "source": "Original extension of existing Broken Bell set language",
+      "use": "Shared actual and reflected staircase geometry; mirror omits vampires"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/scenes/Investigation.tsx",
+      "source": "Original episode-local SVG scene art",
+      "use": "Shrouded body, cobbled square detail, closed butcher shop",
+      "notes": "No face/wound/gore; physical scent and wool evidence"
+    },
+    {
+      "path": "src/kit/art/Hand.tsx",
+      "source": "User-supplied kit",
+      "use": "Narrator and detail hand acting"
+    },
+    {
+      "path": "public/fonts",
+      "source": "Preserved original kit fonts and licensing",
+      "use": "Serif captions, blackletter title"
+    },
+    {
+      "path": "src/kit/art/ClovesBackFigure.tsx",
+      "source": "Original rear-view SVG art, approved in mirror preview",
+      "use": "Human reflection with shared head/wrist/lantern pose"
+    },
+    {
+      "path": "src/kit/sets/PlanarReflection.ts",
+      "source": "Original planar mirror geometry/projection math",
+      "use": "World-space point/vector reflection, clipping and exact projective illustration placement",
+      "reference": "https://threejs.org/docs/pages/Reflector.html"
+    },
+    {
+      "path": "src/kit/sets/ProjectedMirror.tsx",
+      "source": "Original 2.5D mirror pass, approved in preview",
+      "use": "Projected frame, room surfaces and shared stair treads/posts; vampires omitted; human rear view selected"
+    }
+  ],
+  "audio": {
+    "narration": "Kokoro ONNX 0.6.1 bm_lewis en-gb v1.0; narrator .97. Stranger regular voice .94, pitch -.8 semitones, mild EQ/compression and short mostly dry room reflections; no whisper-noise processing. See voice-settings.json.",
+    "sound": "Original synthesised sound_lib.py; no stock music or external samples"
+  },
+  "comment": {
+    "handle": "@stvry.safwan",
+    "text": "smell the body to find a similar scent",
+    "source": "User-supplied screenshot and designated winner",
+    "selection": "User designated; no independent social-media vote verification",
+    "presentation": "Recreated exact quote as typography, no need to include unrelated UI"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "duration": 37,
+  "memory": 3.25,
+  "openDoor": 5.35,
+  "beckon": 8.85,
+  "invitation": 10.0,
+  "enter": 10.5,
+  "coldEntry": 12.9,
+  "blackWake": 14.95,
+  "wake": 15.2,
+  "voice": 19.2,
+  "lampReach": 22.1,
+  "lampContact": 23.1,
+  "lampOn": 23.4,
+  "held": 24.1,
+  "glance": 25.1,
+  "mirror": 26.3,
+  "alone": 30.0,
+  "tighten": 31.5,
+  "lastLine": 32.2,
+  "cut": 33.15,
+  "title": 34.15
+}

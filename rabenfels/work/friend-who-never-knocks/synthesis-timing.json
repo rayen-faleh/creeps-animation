@@ -1,0 +1,227 @@
+{
+ "unit": "seconds",
+ "total": 30.034,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "If your friend never knocks, check the mirror.",
+   "start": 0.35,
+   "end": 2.825,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "If your friend never knocks,",
+     "start": 0.35,
+     "end": 1.86
+    },
+    {
+     "text": "check the mirror.",
+     "start": 1.86,
+     "end": 2.825
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "Remember their first visit?",
+   "start": 3.145,
+   "end": 4.822,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Remember their first visit?",
+     "start": 3.145,
+     "end": 4.822
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "They waited outside, even though the door was open.",
+   "start": 5.078,
+   "end": 8.247,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "They waited outside,",
+     "start": 5.078,
+     "end": 6.448
+    },
+    {
+     "text": "even though the door was open.",
+     "start": 6.448,
+     "end": 8.247
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "You laughed.",
+   "start": 8.447,
+   "end": 9.268,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "You laughed.",
+     "start": 8.447,
+     "end": 9.268
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L05",
+   "text": "Just come in. You don't have to ask.",
+   "start": 9.428,
+   "end": 11.643,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Just come in.",
+     "start": 9.428,
+     "end": 10.378
+    },
+    {
+     "text": "You don't have to ask.",
+     "start": 10.378,
+     "end": 11.642
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "They never asked again.",
+   "start": 11.963,
+   "end": 13.48,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "They never asked again.",
+     "start": 11.963,
+     "end": 13.48
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L07",
+   "text": "Last night, you woke with their hand around your wrist.",
+   "start": 14.12,
+   "end": 17.235,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Last night,",
+     "start": 14.12,
+     "end": 14.845
+    },
+    {
+     "text": "you woke with their hand around your wrist.",
+     "start": 14.845,
+     "end": 17.235
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "You said I could come in.",
+   "start": 17.675,
+   "end": 19.521,
+   "whisper": true,
+   "phrases": [
+    {
+     "text": "You said I could come in.",
+     "start": 17.675,
+     "end": 19.521
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L09",
+   "text": "You reached for the lamp.",
+   "start": 20.081,
+   "end": 21.5,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "You reached for the lamp.",
+     "start": 20.081,
+     "end": 21.5
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L10",
+   "text": "They held on.",
+   "start": 21.7,
+   "end": 22.652,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "They held on.",
+     "start": 21.7,
+     "end": 22.652
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L11",
+   "text": "In the mirror, your arm was hanging in mid-air.",
+   "start": 23.212,
+   "end": 25.77,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "In the mirror,",
+     "start": 23.212,
+     "end": 23.882
+    },
+    {
+     "text": "your arm was hanging in mid-air.",
+     "start": 23.882,
+     "end": 25.77
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "Alone.",
+   "start": 26.09,
+   "end": 26.834,
+   "whisper": false,
+   "phrases": [
+    {
+     "text": "Alone.",
+     "start": 26.09,
+     "end": 26.834
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L13",
+   "text": "Then their fingers tightened.",
+   "start": 27.714,
+   "end": 29.754,
+   "whisper": true,
+   "phrases": [
+    {
+     "text": "Then their fingers tightened.",
+     "start": 27.714,
+     "end": 29.754
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

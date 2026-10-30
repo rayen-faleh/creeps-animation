@@ -1,0 +1,77 @@
+{
+  "unit": "seconds",
+  "total": 15,
+  "provenance": "Kokoro ONNX 0.6.1 bm_lewis en-gb, speed 0.97 / whisper 0.86; measured decoded take durations, authored silence between takes; punctuation phrases from detected internal silence",
+  "lines": [
+    {
+      "id": "L01",
+      "text": "Mother said, never answer three knocks.",
+      "start": 0.35,
+      "end": 3.037,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "Mother said,",
+          "start": 0.35,
+          "end": 1.185
+        },
+        {
+          "text": "never answer three knocks.",
+          "start": 1.185,
+          "end": 3.037
+        }
+      ],
+      "phraseSource": "measured-silence"
+    },
+    {
+      "id": "L02",
+      "text": "Tonight, I nearly did.",
+      "start": 4.5,
+      "end": 6.016,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "Tonight,",
+          "start": 4.5,
+          "end": 5.05
+        },
+        {
+          "text": "I nearly did.",
+          "start": 5.05,
+          "end": 6.016
+        }
+      ],
+      "phraseSource": "measured-silence"
+    },
+    {
+      "id": "L03",
+      "text": "The fourth came from behind me.",
+      "start": 7.9,
+      "end": 9.788,
+      "whisper": false,
+      "phrases": [
+        {
+          "text": "The fourth came from behind me.",
+          "start": 7.9,
+          "end": 9.788
+        }
+      ],
+      "phraseSource": "whole-line"
+    },
+    {
+      "id": "L04",
+      "text": "Don't turn around.",
+      "start": 11.8,
+      "end": 13.192,
+      "whisper": true,
+      "phrases": [
+        {
+          "text": "Don't turn around.",
+          "start": 11.8,
+          "end": 13.193
+        }
+      ],
+      "phraseSource": "whole-line"
+    }
+  ]
+}

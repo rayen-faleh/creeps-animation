@@ -1,0 +1,1436 @@
+{
+  "edition": "Rabenfels complete source-only",
+  "source_archive": "rabenfels-part-two-project-and-kit.zip",
+  "source_version": 2,
+  "compression": "ZIP DEFLATE level 9 (lossless)",
+  "removed_media_count": 122,
+  "removed_media_uncompressed_bytes": 81022810,
+  "removed_media": [
+    {
+      "path": "gothic-pov-kit/public/episodes/_template/mix.wav",
+      "size_bytes": 3552078
+    },
+    {
+      "path": "gothic-pov-kit/public/episodes/anytime-revised/mix.wav",
+      "size_bytes": 6182478
+    },
+    {
+      "path": "gothic-pov-kit/public/episodes/friend-who-never-knocks/mix.wav",
+      "size_bytes": 7104078
+    },
+    {
+      "path": "gothic-pov-kit/public/episodes/rabenfels-01/mix.wav",
+      "size_bytes": 12000078
+    },
+    {
+      "path": "gothic-pov-kit/public/episodes/rabenfels-02/mix.wav",
+      "size_bytes": 12480078
+    },
+    {
+      "path": "gothic-pov-kit/public/episodes/the-count-01/mix.wav",
+      "size_bytes": 12288078
+    },
+    {
+      "path": "gothic-pov-kit/public/episodes/the-fourth-knock/mix.wav",
+      "size_bytes": 2880078
+    },
+    {
+      "path": "gothic-pov-kit/work/_template/line_L01.wav",
+      "size_bytes": 171540
+    },
+    {
+      "path": "gothic-pov-kit/work/_template/line_L02.wav",
+      "size_bytes": 89066
+    },
+    {
+      "path": "gothic-pov-kit/work/_template/line_L03.wav",
+      "size_bytes": 119112
+    },
+    {
+      "path": "gothic-pov-kit/work/_template/line_L04.wav",
+      "size_bytes": 90732
+    },
+    {
+      "path": "gothic-pov-kit/work/_template/line_L05.wav",
+      "size_bytes": 90674
+    },
+    {
+      "path": "gothic-pov-kit/work/_template/line_L06.wav",
+      "size_bytes": 66882
+    },
+    {
+      "path": "gothic-pov-kit/work/_template/narration.wav",
+      "size_bytes": 786666
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L01.wav",
+      "size_bytes": 79306
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L02.wav",
+      "size_bytes": 58412
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L03.wav",
+      "size_bytes": 80526
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L04.wav",
+      "size_bytes": 97822
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L05.wav",
+      "size_bytes": 94384
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L06.wav",
+      "size_bytes": 46940
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L07.wav",
+      "size_bytes": 133692
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L08.wav",
+      "size_bytes": 126738
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L09.wav",
+      "size_bytes": 75768
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L10.wav",
+      "size_bytes": 75206
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L11.wav",
+      "size_bytes": 97812
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L12.wav",
+      "size_bytes": 78892
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/line_L13.wav",
+      "size_bytes": 54684
+    },
+    {
+      "path": "gothic-pov-kit/work/anytime-revised/narration.wav",
+      "size_bytes": 1545644
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L01.wav",
+      "size_bytes": 118844
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L02.wav",
+      "size_bytes": 80526
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L03.wav",
+      "size_bytes": 152168
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L04.wav",
+      "size_bytes": 39472
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L05.wav",
+      "size_bytes": 106336
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L06.wav",
+      "size_bytes": 72884
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L07.wav",
+      "size_bytes": 149548
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L08.wav",
+      "size_bytes": 88672
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L09.wav",
+      "size_bytes": 68142
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L10.wav",
+      "size_bytes": 45752
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L11.wav",
+      "size_bytes": 122810
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L12.wav",
+      "size_bytes": 35784
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/line_L13.wav",
+      "size_bytes": 97944
+    },
+    {
+      "path": "gothic-pov-kit/work/friend-who-never-knocks/narration.wav",
+      "size_bytes": 1776044
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L01.wav",
+      "size_bytes": 54340
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L02.wav",
+      "size_bytes": 101288
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L03.wav",
+      "size_bytes": 120818
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L04.wav",
+      "size_bytes": 107696
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L05.wav",
+      "size_bytes": 103928
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L06.wav",
+      "size_bytes": 72616
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L07.wav",
+      "size_bytes": 139504
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L08.wav",
+      "size_bytes": 81434
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L09.wav",
+      "size_bytes": 135334
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L10.wav",
+      "size_bytes": 102308
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L11.wav",
+      "size_bytes": 100254
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L12.wav",
+      "size_bytes": 101146
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L13.wav",
+      "size_bytes": 64158
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L14.wav",
+      "size_bytes": 113214
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L15.wav",
+      "size_bytes": 75296
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L16.wav",
+      "size_bytes": 148512
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L17.wav",
+      "size_bytes": 129682
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L18.wav",
+      "size_bytes": 125148
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L19.wav",
+      "size_bytes": 72958
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L20.wav",
+      "size_bytes": 79916
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/line_L21.wav",
+      "size_bytes": 96794
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-01/narration.wav",
+      "size_bytes": 3000044
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/dry_L00.wav",
+      "size_bytes": 100768
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/dry_L16.wav",
+      "size_bytes": 79488
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/dry_L17.wav",
+      "size_bytes": 81568
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L00.wav",
+      "size_bytes": 100768
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L01.wav",
+      "size_bytes": 121584
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L02.wav",
+      "size_bytes": 35558
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L03.wav",
+      "size_bytes": 153252
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L04.wav",
+      "size_bytes": 174450
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L05.wav",
+      "size_bytes": 132026
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L06.wav",
+      "size_bytes": 175032
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L07.wav",
+      "size_bytes": 78424
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L08.wav",
+      "size_bytes": 125882
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L09.wav",
+      "size_bytes": 99784
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L10.wav",
+      "size_bytes": 51326
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L11.wav",
+      "size_bytes": 75318
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L12.wav",
+      "size_bytes": 47142
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L13.wav",
+      "size_bytes": 89098
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L14.wav",
+      "size_bytes": 100370
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L15.wav",
+      "size_bytes": 58874
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L16.wav",
+      "size_bytes": 79142
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L17.wav",
+      "size_bytes": 81878
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L18.wav",
+      "size_bytes": 65084
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L19.wav",
+      "size_bytes": 52650
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L20.wav",
+      "size_bytes": 100396
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L21.wav",
+      "size_bytes": 149498
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/line_L22.wav",
+      "size_bytes": 114732
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/narration.wav",
+      "size_bytes": 3120044
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/pitched_L16.wav",
+      "size_bytes": 79176
+    },
+    {
+      "path": "gothic-pov-kit/work/rabenfels-02/pitched_L17.wav",
+      "size_bytes": 81912
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L01.wav",
+      "size_bytes": 128126
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L02.wav",
+      "size_bytes": 153232
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L03.wav",
+      "size_bytes": 201270
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L04.wav",
+      "size_bytes": 93016
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L05.wav",
+      "size_bytes": 199724
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L06.wav",
+      "size_bytes": 90054
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L07.wav",
+      "size_bytes": 188452
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L08.wav",
+      "size_bytes": 111004
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L09.wav",
+      "size_bytes": 72252
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L10.wav",
+      "size_bytes": 161916
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L11.wav",
+      "size_bytes": 87010
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L12.wav",
+      "size_bytes": 54538
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L13.wav",
+      "size_bytes": 179048
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L14.wav",
+      "size_bytes": 82988
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L15.wav",
+      "size_bytes": 102692
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L16.wav",
+      "size_bytes": 122924
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L17.wav",
+      "size_bytes": 40178
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L18.wav",
+      "size_bytes": 122624
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L19.wav",
+      "size_bytes": 74176
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L20.wav",
+      "size_bytes": 68174
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L21.wav",
+      "size_bytes": 56778
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L22.wav",
+      "size_bytes": 88108
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/line_L23.wav",
+      "size_bytes": 33302
+    },
+    {
+      "path": "gothic-pov-kit/work/the-count-01/narration.wav",
+      "size_bytes": 2997812
+    },
+    {
+      "path": "gothic-pov-kit/work/the-fourth-knock/line_L01.wav",
+      "size_bytes": 129020
+    },
+    {
+      "path": "gothic-pov-kit/work/the-fourth-knock/line_L02.wav",
+      "size_bytes": 72810
+    },
+    {
+      "path": "gothic-pov-kit/work/the-fourth-knock/line_L03.wav",
+      "size_bytes": 90674
+    },
+    {
+      "path": "gothic-pov-kit/work/the-fourth-knock/line_L04.wav",
+      "size_bytes": 66882
+    },
+    {
+      "path": "gothic-pov-kit/work/the-fourth-knock/narration.wav",
+      "size_bytes": 720044
+    }
+  ],
+  "original_nonmedia_files_preserved": 184,
+  "files": [
+    {
+      "path": "ANYTIME-README.md",
+      "size_bytes": 1872,
+      "sha256": "09ad9d05cf3e8908d2b4e060adc9206bc27e1847518c6c268d2c763dcb12743b"
+    },
+    {
+      "path": "FRIEND-README.md",
+      "size_bytes": 2650,
+      "sha256": "6c26bbc22798dc4b8657afb5a72df174995a76429ad86a6f0b5e57de41f88934"
+    },
+    {
+      "path": "PREVIEW-README.md",
+      "size_bytes": 1932,
+      "sha256": "13f6340e865cfffd09acadbb8907c37ba84d437f2a0b2dc93052dcc156ca27c6"
+    },
+    {
+      "path": "RABENFELS-PART-II-README.md",
+      "size_bytes": 3375,
+      "sha256": "bff870a8c3f3153bf31fdc964b72ceccfa064593a76fa17bec85e83d331dbb0a"
+    },
+    {
+      "path": "RABENFELS-README.md",
+      "size_bytes": 3315,
+      "sha256": "41dabf689d9d587142781278fa147401e1229102ad63cfc1b7a460b5f3aeaa66"
+    },
+    {
+      "path": "RABENFELS-SOURCE-ONLY.md",
+      "size_bytes": 6348,
+      "sha256": "cf7b19b82f1fdb0f2becf15e5c9809d29b46d0e8e507aa00130dfae1db632e26"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3139,
+      "sha256": "331c83a5051a8da13122693fb0baeff4d2ef083287b5e0ac1bac4aa8516cdfe2"
+    },
+    {
+      "path": "assets-preview.json",
+      "size_bytes": 762,
+      "sha256": "d5c4b29fc6f14b0837dfec36c37ad5d34891e49cf63fcc7c7f9b4f011d00d6a4"
+    },
+    {
+      "path": "assets.json",
+      "size_bytes": 769,
+      "sha256": "9199cbb597fc1529228d71d1846531819dc1bf257db38711a0a39d39b3d1d89a"
+    },
+    {
+      "path": "brief.md",
+      "size_bytes": 1271,
+      "sha256": "e3e17b0f22104f65d96d2fd2f77d39fa68113d994c7cdb817a13fbfe81a312bd"
+    },
+    {
+      "path": "docs/SKILL.md",
+      "size_bytes": 147177,
+      "sha256": "7b12db67375daa747852afd59f4b3a86efed0ae38a6f4f2f9a796454bd491452"
+    },
+    {
+      "path": "docs/anytime-kit-update.md",
+      "size_bytes": 622,
+      "sha256": "ff0bb9acc331498e5e54e13a0d45e40b41b81374543c4454292abcaffaff1988"
+    },
+    {
+      "path": "docs/cloves-kit-update.md",
+      "size_bytes": 1227,
+      "sha256": "91c449472d4ce5ef438f41c0728b929127d1db4e97e3cc46768628eead3c8d21"
+    },
+    {
+      "path": "docs/friend-kit-update.md",
+      "size_bytes": 907,
+      "sha256": "d00c31c2148944b36025bd0c1b3adbc159e442d754774faf34b992e179c75961"
+    },
+    {
+      "path": "docs/kit-catalog.png",
+      "size_bytes": 2697872,
+      "sha256": "94671af4158fdd86a6922e26ecca66c4dd14e3c61ee7cfcd6c1951236ddc1d90"
+    },
+    {
+      "path": "docs/planar-mirror-method.md",
+      "size_bytes": 3400,
+      "sha256": "28e3457904baf6401a60dec867afee4d7799ab0e33ff441af3d4082b4c4d9e60"
+    },
+    {
+      "path": "docs/rabenfels-kit-update.md",
+      "size_bytes": 918,
+      "sha256": "1210b1daedda824bd01ccf7e843be728e7f812a9acd9100c2eb424803205d59c"
+    },
+    {
+      "path": "package-lock.json",
+      "size_bytes": 157037,
+      "sha256": "cfb19113b25e995c88cecb5120682d7206d7bf251c1cd5dcd379a3585684e7fe"
+    },
+    {
+      "path": "package.json",
+      "size_bytes": 671,
+      "sha256": "5d0f22d019dab5213f35da5f4cc774bf7e2381852356e44d51f72afbe9ecea43"
+    },
+    {
+      "path": "public/episodes/rabenfels-01/art/town-dawn.png",
+      "size_bytes": 1939490,
+      "sha256": "b131239d9f56ebe362fc3994824fc62760977f510abdf8fd12fc767259ffadcd"
+    },
+    {
+      "path": "public/episodes/rabenfels-01/art/town-night.png",
+      "size_bytes": 1771727,
+      "sha256": "e0c219a8c805464e0805c978c3733e804894bb925c20987b9572014c0a3af72e"
+    },
+    {
+      "path": "public/episodes/rabenfels-01/reference/anytime-door.png",
+      "size_bytes": 336939,
+      "sha256": "5c6809ded9851efb458d1409eb93d4118ade383e4a4d57666aa039035bb50137"
+    },
+    {
+      "path": "public/episodes/rabenfels-01/reference/anytime-mirror.png",
+      "size_bytes": 747615,
+      "sha256": "fb275e8e74fa0a742697e0b7b72b1766efdd3eb0cc69aafafece9d3505d6fdea"
+    },
+    {
+      "path": "public/fonts/cormorant-garamond-latin-600-italic.woff2",
+      "size_bytes": 23784,
+      "sha256": "0b6719b25266b8f7f0b48e84eb8094db8d243c5b089a5fa48d350bc93f57127b"
+    },
+    {
+      "path": "public/fonts/cormorant-garamond-latin-600-normal.woff2",
+      "size_bytes": 23396,
+      "sha256": "ae062b6d5ae308e7edf61b28b07b9984bbb6e961b1f34d9b2c2f4389c33f21ea"
+    },
+    {
+      "path": "public/fonts/unifrakturcook-latin-700-normal.woff2",
+      "size_bytes": 17280,
+      "sha256": "3304757748716ececd1b87999cb92d61ff5332aefbe8331d5155bbb68218e588"
+    },
+    {
+      "path": "public/tex/grain0.png",
+      "size_bytes": 758632,
+      "sha256": "3f6b2db631bf0b0ef5bfbb9eefd9c50cd204b4db217d35423d4aaba2f5294bb5"
+    },
+    {
+      "path": "public/tex/grain1.png",
+      "size_bytes": 758157,
+      "sha256": "12a4b1dd38a8a77f6c027edf799d392d321b134c9a68874904663b35fd834904"
+    },
+    {
+      "path": "public/tex/grain2.png",
+      "size_bytes": 758346,
+      "sha256": "d4aad766aa3d253b089e9aac2d65b812af1e91290c9c892202318699ceb74b15"
+    },
+    {
+      "path": "public/tex/grain3.png",
+      "size_bytes": 758514,
+      "sha256": "8af339ab38d26b6c203f55612706cd894329521619f839f1cdda112c1f71b4e4"
+    },
+    {
+      "path": "public/tex/grain4.png",
+      "size_bytes": 758559,
+      "sha256": "2faf0e6cf11006712d489227e491364e467cc766f2af31c9d45275e3be592da3"
+    },
+    {
+      "path": "public/tex/grain5.png",
+      "size_bytes": 758312,
+      "sha256": "475bf79884c74f5db355ad180451d244f1ca69c48ffd0a85dca6dacee456663d"
+    },
+    {
+      "path": "public/tex/grain6.png",
+      "size_bytes": 758462,
+      "sha256": "69f9e4cbf388ad8ad01dd0aacd4345e4e90264f843f38d6a5cd35fbe0ad31bd7"
+    },
+    {
+      "path": "public/tex/grain7.png",
+      "size_bytes": 758626,
+      "sha256": "f912ede37d018c364f7a4b7f296fa50f6e197021965ce59c543398e36510643b"
+    },
+    {
+      "path": "remotion.config.ts",
+      "size_bytes": 381,
+      "sha256": "00eb7cd55b867e2806bb026494bd605ba5e05380e349abdfc094f18dc22ec3ae"
+    },
+    {
+      "path": "requirements-preview.txt",
+      "size_bytes": 64,
+      "sha256": "fc26d3e31b1d851d48126a9e6dc685d4d4fcc361f4cc80bc442e916d1748ca1e"
+    },
+    {
+      "path": "research.md",
+      "size_bytes": 253,
+      "sha256": "a5d57d66b71af52fffd3586957c987b6480c8358de36c62b8d092deec4315b93"
+    },
+    {
+      "path": "scripts/assemble_anytime.py",
+      "size_bytes": 2105,
+      "sha256": "91f05c137372a21b2be062b06fd424dc2e289f5e495ca273892ea259e5157737"
+    },
+    {
+      "path": "scripts/assemble_cloves.py",
+      "size_bytes": 2382,
+      "sha256": "6e7e680a48a2222c81d30e3fb1e598a959ec921f262011b3c247648a3f38a517"
+    },
+    {
+      "path": "scripts/assemble_friend.py",
+      "size_bytes": 1980,
+      "sha256": "726a755337711c1bdedbf7e70d9d5236caa45e80a42ee23fa0592afad61c9499"
+    },
+    {
+      "path": "scripts/assemble_preview.py",
+      "size_bytes": 1534,
+      "sha256": "4698a105a69633fc74947ab7c23e8f099282ca0211aebe1d36429db17823d151"
+    },
+    {
+      "path": "scripts/assemble_rabenfels.py",
+      "size_bytes": 1920,
+      "sha256": "69ce0f6c28f3dfa8b226317b1de97216180c6c198fd4664c72fcfad929012400"
+    },
+    {
+      "path": "scripts/build_audio.py",
+      "size_bytes": 2433,
+      "sha256": "bbf94f52f54bf8003f001007a1ad6dff5c5221f738e9ef8a000005ad61613260"
+    },
+    {
+      "path": "scripts/catalog.sh",
+      "size_bytes": 602,
+      "sha256": "d956e611d61389c4f11172f2bc4737a89998ed3d13847c620f0c3d7f29bf7f86"
+    },
+    {
+      "path": "scripts/contact.sh",
+      "size_bytes": 343,
+      "sha256": "59ad46709f6456814148f728400940248123fb159ee08933556213ebf864cf98"
+    },
+    {
+      "path": "scripts/make_grain.py",
+      "size_bytes": 856,
+      "sha256": "7b0e716f06834e704b16a3faa9be63eb625b2bcdaf6d290dbe54ef26da30ee14"
+    },
+    {
+      "path": "scripts/narrate.py",
+      "size_bytes": 4401,
+      "sha256": "d367f2b508056679bb4b9b7e4d29469b51e4b6b798f4780f682b31b0b5727466"
+    },
+    {
+      "path": "scripts/revise_cloves_voice.py",
+      "size_bytes": 2442,
+      "sha256": "22c31c08080c46602da6d9da82d966767881e57fb8d32fc52047090bba6c66b7"
+    },
+    {
+      "path": "scripts/sound_lib.py",
+      "size_bytes": 10043,
+      "sha256": "297be427201670e3280f8e7739caf071a256f60d654be1f12221d8ad6568bfee"
+    },
+    {
+      "path": "scripts/stills.mjs",
+      "size_bytes": 1336,
+      "sha256": "5a8b281032684911c5dfd19df4c3182bc7f3a9a0b7a8bcf9dce79fb0aea3dbd4"
+    },
+    {
+      "path": "shotbook.json",
+      "size_bytes": 1658,
+      "sha256": "8c56e470b7f3b0f0c551f7aad732e86f421e2eaa28923c7983a0ac43cc2018c5"
+    },
+    {
+      "path": "src/Root.tsx",
+      "size_bytes": 1063,
+      "sha256": "cb5cc7d85e51c2a5fc68e8376d732a4c0e11bf13879157a31f25c333c013b43e"
+    },
+    {
+      "path": "src/catalog/Catalog.tsx",
+      "size_bytes": 11895,
+      "sha256": "e0c01387b229b78480a5ad37ad07d6e4c1ef42c901a1595711128d53de46a4b9"
+    },
+    {
+      "path": "src/episodes/_template/Main.tsx",
+      "size_bytes": 1743,
+      "sha256": "e2bdd415268efabc453f14ac80c060ee076123d7c1518ce640092dacfeef51b5"
+    },
+    {
+      "path": "src/episodes/_template/brief.md",
+      "size_bytes": 841,
+      "sha256": "510304361ed820f51b5933ea79a2b36abfae4f82e95f1d9b475f0224f528dee3"
+    },
+    {
+      "path": "src/episodes/_template/cues.py",
+      "size_bytes": 1288,
+      "sha256": "5e7a6478179a5837fdeb7a81cafa27aa20d5bc803a98528441c9273096edfc4c"
+    },
+    {
+      "path": "src/episodes/_template/scenes/Story.tsx",
+      "size_bytes": 4543,
+      "sha256": "b6967cb659944cb7c1cac8699bfbb271ee40d3cfffaddf6a758d270df9fd15e2"
+    },
+    {
+      "path": "src/episodes/_template/script.json",
+      "size_bytes": 509,
+      "sha256": "6884929a30c440c239316dca37854c6f2e82c0a487250d88730391a531b19b5d"
+    },
+    {
+      "path": "src/episodes/_template/shots.json",
+      "size_bytes": 919,
+      "sha256": "b99a4ae77407d322303a5c2a9b462d1255cd657790e624b83cb3af5980a1f7b2"
+    },
+    {
+      "path": "src/episodes/_template/the-knock.srt",
+      "size_bytes": 537,
+      "sha256": "680c3a5f98d166145c1b37665176f413fe7c5a87f3f739b90baccf77a4695527"
+    },
+    {
+      "path": "src/episodes/_template/timing.json",
+      "size_bytes": 2164,
+      "sha256": "598588d669803019d18d5923e4afb257d643022a9ff58bfd305378c4772410ae"
+    },
+    {
+      "path": "src/episodes/anytime-revised/Main.tsx",
+      "size_bytes": 1176,
+      "sha256": "3a0e276fd2c7d3896a737c52ba6d493b1c4f283843c9c6d7a3d01d3269d609aa"
+    },
+    {
+      "path": "src/episodes/anytime-revised/anytime.srt",
+      "size_bytes": 904,
+      "sha256": "2eef420007100121830ae2822575741975294f6ee19e666d485f224f0883083a"
+    },
+    {
+      "path": "src/episodes/anytime-revised/assets.json",
+      "size_bytes": 559,
+      "sha256": "ab48d56d5e77deccf045e9510c2ad94982b5e4868f8bd45e30653ae0967836d9"
+    },
+    {
+      "path": "src/episodes/anytime-revised/brief.md",
+      "size_bytes": 2145,
+      "sha256": "f76f179249facf6b05d2d74afd347612597d8db5c3d02945b3a85b6b205828ed"
+    },
+    {
+      "path": "src/episodes/anytime-revised/cues.py",
+      "size_bytes": 1507,
+      "sha256": "c179b5a2d570623f46aa91783a5a6a7171494407d5da97bbf5d37fbefa44cae6"
+    },
+    {
+      "path": "src/episodes/anytime-revised/events.json",
+      "size_bytes": 413,
+      "sha256": "ac7ed57db5a195d4a6478dc1b8713745445d171ee2301fc4efdbb0a0cf9d4eb8"
+    },
+    {
+      "path": "src/episodes/anytime-revised/post-caption.txt",
+      "size_bytes": 84,
+      "sha256": "92212dcd18d03c4ee38c5eb4b595553b6fc620451d690219a69b980aff951475"
+    },
+    {
+      "path": "src/episodes/anytime-revised/qa.md",
+      "size_bytes": 2989,
+      "sha256": "10173db892b304f0fec82f4acfb6ba733d8ec1a925d110bebf8a0632081a70b8"
+    },
+    {
+      "path": "src/episodes/anytime-revised/research.md",
+      "size_bytes": 981,
+      "sha256": "6222f933a4974b5d927b07ed79cc09cb2027213a30b6eaff36d6b4885fff443c"
+    },
+    {
+      "path": "src/episodes/anytime-revised/revision-notes.md",
+      "size_bytes": 1472,
+      "sha256": "f776372d52db8b6fbe291cafc5b6ad9af666286e9970035509b3682046fd8f4e"
+    },
+    {
+      "path": "src/episodes/anytime-revised/scenes/Story.tsx",
+      "size_bytes": 8432,
+      "sha256": "fd2b2c685f2efaacb1bd6956333b2e85f0651efe34ae66a3eaf33fa6fe03204b"
+    },
+    {
+      "path": "src/episodes/anytime-revised/script.json",
+      "size_bytes": 1233,
+      "sha256": "c320047cf94783a1325ba6762cd9cf7a98065bbe92195090d8154df0faef518c"
+    },
+    {
+      "path": "src/episodes/anytime-revised/script.md",
+      "size_bytes": 415,
+      "sha256": "3b4144cbaf832f1f25c18ed229083281ce2204b88827bfbedae293d3c67683a9"
+    },
+    {
+      "path": "src/episodes/anytime-revised/shots.json",
+      "size_bytes": 1744,
+      "sha256": "d505753362ebc03a86b0d105cb3cc7aa2b727bd5b33f21e9942f155909524b15"
+    },
+    {
+      "path": "src/episodes/anytime-revised/timing.json",
+      "size_bytes": 4750,
+      "sha256": "72b3d5a76a7f884f46ad978f375ffb6ee6cbd939355329cf3eba1492ad3e855d"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/Main.tsx",
+      "size_bytes": 1191,
+      "sha256": "c036ee9a796e52295b1393dc69e1354e1d0dd739b38343ace197e3809a943690"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/assets.json",
+      "size_bytes": 950,
+      "sha256": "aec9fa256aa9c03d78b616ff7b80fe942ab65253edfce1f8451ce143789c5098"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/brief.md",
+      "size_bytes": 1969,
+      "sha256": "20d1e3bfa838da0856bcfd30355185d05757d568ca0644c2224f72f7e575c2a1"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/cues.py",
+      "size_bytes": 1613,
+      "sha256": "34e48a9d4321e528280d70207b9918df6ae2d2577b86469e4cac204d5f53c2ff"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/events.json",
+      "size_bytes": 395,
+      "sha256": "ac063821a9b87883dbee56d67ad667c265731fa857f877bf9b2ffbdf9fec4afb"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/friend-who-never-knocks.srt",
+      "size_bytes": 1010,
+      "sha256": "5f16b061e8ee011de2833c6e90180481f4e623353187697f116c0f510d1e9205"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/post-caption.txt",
+      "size_bytes": 49,
+      "sha256": "e1f3ab2dede8408b6ec524b0ce5c267379548f5c7c6069dda75f3673724b354a"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/qa.md",
+      "size_bytes": 4635,
+      "sha256": "849eaca0e5e8fe8a17904fa6b7ff79b44b52369b38e6edbd29e2ad1afdaabb35"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/research.md",
+      "size_bytes": 981,
+      "sha256": "6222f933a4974b5d927b07ed79cc09cb2027213a30b6eaff36d6b4885fff443c"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/scenes/Story.tsx",
+      "size_bytes": 7373,
+      "sha256": "2728de39b2b4d90b10e3299c5dddff7d1ad7b7adf1d1ea4cfbf24f8cf753c576"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/script.json",
+      "size_bytes": 1276,
+      "sha256": "e5cc690a1ad81b5760bf67ce14ca3ba05f670e173dd2866454c2f46cc3c8fa7c"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/script.md",
+      "size_bytes": 451,
+      "sha256": "67552bbe5c9262ca28833eed35bc7326e5185df008c6360f139edba349d1db9e"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/shots.json",
+      "size_bytes": 3894,
+      "sha256": "2889f47b52d096850c273e3abff75d2ce3e86e29394b16bf4238b7e235528a75"
+    },
+    {
+      "path": "src/episodes/friend-who-never-knocks/timing.json",
+      "size_bytes": 5024,
+      "sha256": "b93121e71c287aa362e9cfcb95f13dc1f93c7191a2f3131e872f983d3591f988"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/Main.tsx",
+      "size_bytes": 1260,
+      "sha256": "d3d0c4007e35f12155b8f9682fa52ba58fa14ebb563611d692e4808b050c8c8a"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/assets.json",
+      "size_bytes": 1931,
+      "sha256": "982f164233800bacb0e6a6ad03b7c1d53aa0744083ad7aafba89406650ea9bc0"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/brief.md",
+      "size_bytes": 2474,
+      "sha256": "c5ff415ba58791c87ebe29984285a47399c4f18eefb4c63dd33655c8563f51e2"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/cues.py",
+      "size_bytes": 2217,
+      "sha256": "7e24e0c18606e6aca1461793aa4b20bea3d8a5ab13d07e017e02673ab510631a"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/events.json",
+      "size_bytes": 418,
+      "sha256": "a0b8cad7c1db9344b4a05af9e153ee456a5c85a1e0d040f1c391f4f8e94b5016"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/final-background-prompts.json",
+      "size_bytes": 2575,
+      "sha256": "304e3510c6de192ea15af31517118f6fed35312d0dc00c4b09a2ca54760c1427"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/image-prompts.json",
+      "size_bytes": 2512,
+      "sha256": "65244450b4e9587849ece802504e904bcd2edf765ffb9030e37c6f3016b70e28"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/post-caption.txt",
+      "size_bytes": 384,
+      "sha256": "5f3abd75ec45e32146a9c691aaba559d524cf27d38b52f099a920756a124a890"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/qa.md",
+      "size_bytes": 3824,
+      "sha256": "8aba721c1754c761d052d8296907845523120b848dad9dc79862d564096bb839"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/rabenfels-night-one.srt",
+      "size_bytes": 1578,
+      "sha256": "083a5fdf98bb6bb74373f7e941cf61842bec5eee2d6e58901666ea6e760accae"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/research.md",
+      "size_bytes": 288,
+      "sha256": "b26686e3dcc6a026086e8d193683a79097dca3c3f60c99f14a633e57060d5e2c"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/scenes/Story.tsx",
+      "size_bytes": 17297,
+      "sha256": "31a8eab1eb6326086ffe4d860fc1697ae22d1153b0beeb748acef2f00ef980bb"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/script.json",
+      "size_bytes": 2071,
+      "sha256": "afc979de8420e8732d4297fe75247c197585588b2335d9a25e6df2668bba0261"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/script.md",
+      "size_bytes": 724,
+      "sha256": "a88db6c74f5f6b2b365c454e96629c1e47c1c2213492d8638bcad960a61b3f4b"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/series-bible.md",
+      "size_bytes": 15714,
+      "sha256": "766d7c9a541ffdeb52e3ac402142debcd9dcafc8b87f5422c58615a33ae266a9"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/series-ledger.json",
+      "size_bytes": 737,
+      "sha256": "dcfd10bd5264fa4999d267f3d1e10f97bad7f1dc6e4f6aad7fcdcf0a1d673d69"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/shots.json",
+      "size_bytes": 3526,
+      "sha256": "8dd91a673e689036d5d21725a7dfe9751c6544edd73d17ece99210e0d4c0e919"
+    },
+    {
+      "path": "src/episodes/rabenfels-01/timing.json",
+      "size_bytes": 7734,
+      "sha256": "b0aa5d01ed2c760fd9998bc06eb72f7dcc29026635f5992bc3d030ea553c71cb"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/Main.tsx",
+      "size_bytes": 1324,
+      "sha256": "2cbb2db88f0d39c799f1cdefcacebc429709addd89d78c4c659912e5bb72c55c"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/approved-script-and-notes.md",
+      "size_bytes": 9125,
+      "sha256": "695b577108579c54093a8829f2a7d6cf1535873ed7df71dd49c1780b7a35f78a"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/assets.json",
+      "size_bytes": 3341,
+      "sha256": "ec4ba3a7c536a5b89f19e6e0d8101b022c48f8ee685e7b23993d967037a93809"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/brief.md",
+      "size_bytes": 3404,
+      "sha256": "d4d6620c6ca550c9793ff3c989e9233ab9eedcf3a41f18a7230cd62a12d1acb6"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/cues.py",
+      "size_bytes": 1903,
+      "sha256": "cc9e918859808ff3ed10bb5bc10a6b1409bbdc3f59fc25a8145eada72f3082a0"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/events.json",
+      "size_bytes": 458,
+      "sha256": "94dbf5aa4ecd77ed6ed4c4c9d6353e039cf81fa105b84cfd4ebbdd9fac22218f"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/final-verification.json",
+      "size_bytes": 824,
+      "sha256": "fa40aab18d6403084a77a10441b9595ba09aed14a1385a152b5a037f4d2ac368"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/post-caption.txt",
+      "size_bytes": 503,
+      "sha256": "f4ba8083855f6194a7769978634ffaa1db087ee4cd0fb4aa69636ce48945196d"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/qa-before-approved-mirror.md",
+      "size_bytes": 4175,
+      "sha256": "983dddace9ff2fecae14613eee82635a0892334b58515eec3a952da4f3428345"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/qa-initial-render.md",
+      "size_bytes": 3838,
+      "sha256": "e3e5574819c1a2cbdfd43c3cf320d8e424dd80c08deffd89228a55f872109200"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/qa.md",
+      "size_bytes": 3557,
+      "sha256": "2983893ee867727f02f0d9cd4ee9060c78c220167370e641f5b6355dcd1f15fa"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/rabenfels-part-two.srt",
+      "size_bytes": 1668,
+      "sha256": "0439e569f8c83b996df97d5691e7dcc4020ffb3a46969d6157254c661607fab7"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/research.md",
+      "size_bytes": 462,
+      "sha256": "0425508129458414f09144b930d51d5b6b49ff1dafa33124e71bc3a33824ca2f"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/scenes/Confrontation.tsx",
+      "size_bytes": 3577,
+      "sha256": "2543b3df89b0679d65342d7b8fe633bfd2142e6d788258c3f7a756564abfe9af"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/scenes/Investigation.tsx",
+      "size_bytes": 10205,
+      "sha256": "0b0e1829f0800a7b3c2a8e3255bb80f5d8947832b6e660f1e4309c8d20885048"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/script.json",
+      "size_bytes": 2260,
+      "sha256": "af637fd6514c744cb95200130ab2e6c4d035e686d561d22424bc37afa6ccc05d"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/script.md",
+      "size_bytes": 748,
+      "sha256": "f1fa36ffba6bfcb5b93ee8496086f36a654200d332a48ce232a02afa245040dc"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/series-bible.md",
+      "size_bytes": 16020,
+      "sha256": "608138f1221b3f970e0d5e1844fcbf2b079cbefe2fe8837d0cbeda70aee8dae4"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/series-ledger.json",
+      "size_bytes": 2456,
+      "sha256": "044c92267967577b75af6fba548f0c1d359877b1d8b89b3321c7f9b1edcc1631"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/shots.json",
+      "size_bytes": 8142,
+      "sha256": "c5f3a7b445f8283f90bd74f2a98b0e073a3e64263c30b0f8f11f44ba7c041f72"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/timing.json",
+      "size_bytes": 8463,
+      "sha256": "3f83abe957e9b2376274b5bd08b4de6012b57ae9328bb5d6281d191f81382ce8"
+    },
+    {
+      "path": "src/episodes/rabenfels-02/voice-settings.json",
+      "size_bytes": 1081,
+      "sha256": "015cd7b7531c9644c7abfcec3a52f1fe4d72621b9ee9442f7d22b6058cf0b845"
+    },
+    {
+      "path": "src/episodes/the-count-01/Main.tsx",
+      "size_bytes": 2211,
+      "sha256": "e820c689e970c83631ee9cc96312a0dc45675bfa3441d753e85fa1cdf2d3154e"
+    },
+    {
+      "path": "src/episodes/the-count-01/assets.json",
+      "size_bytes": 881,
+      "sha256": "8e4086c56b68a096631bc5fdb5257e950d299ea6170a71cf6d69fac8bbc3c251"
+    },
+    {
+      "path": "src/episodes/the-count-01/brief.md",
+      "size_bytes": 2606,
+      "sha256": "53153043eb091cd86e848b9a5f699b673221f80fbaa599009303ffecdd9ed156"
+    },
+    {
+      "path": "src/episodes/the-count-01/cues.py",
+      "size_bytes": 3308,
+      "sha256": "fbdbfa01ebf53e89d835b79497265695d434f05851629020ef638a448a44169a"
+    },
+    {
+      "path": "src/episodes/the-count-01/qa.md",
+      "size_bytes": 1361,
+      "sha256": "c7eb61a6090e5d81f7f1ae7371fd39cb027ee1eafe66f322b9c8a6d617e30714"
+    },
+    {
+      "path": "src/episodes/the-count-01/scenes/Adult.tsx",
+      "size_bytes": 9032,
+      "sha256": "dc6e44bb85593a718096647d08ff1acde68ab356eebdfefb437874e933bd2707"
+    },
+    {
+      "path": "src/episodes/the-count-01/scenes/Childhood.tsx",
+      "size_bytes": 6885,
+      "sha256": "e4c358cf3f01c4e68ebb0833da4965b2179e7100c5bb62ab94be4221684b5dc8"
+    },
+    {
+      "path": "src/episodes/the-count-01/scenes/Floor.tsx",
+      "size_bytes": 7021,
+      "sha256": "58535dd2f2eea12081a7c64816136dc3c92c56f1688d5ea3661ff9eda52e22d7"
+    },
+    {
+      "path": "src/episodes/the-count-01/scenes/Reveal.tsx",
+      "size_bytes": 9497,
+      "sha256": "54167eb2da15713ecce0d28ab1b2c4993a4920a2d02e4b48d18153c99186efc5"
+    },
+    {
+      "path": "src/episodes/the-count-01/script.json",
+      "size_bytes": 1925,
+      "sha256": "a5e4de73d2bd86da5d8edd920cc1fcaba9e4c104bc0c38e72c60af79be70c2d8"
+    },
+    {
+      "path": "src/episodes/the-count-01/shots.json",
+      "size_bytes": 2593,
+      "sha256": "c27af46f64dbfb7f487691811795c2aab38036ea2a27e31485eb565a644eb993"
+    },
+    {
+      "path": "src/episodes/the-count-01/the-count-01.srt",
+      "size_bytes": 2116,
+      "sha256": "78225e1d877b1c76407457f8304ce1050bb8c8a317827d25ca8d137b193cb9aa"
+    },
+    {
+      "path": "src/episodes/the-count-01/timing.json",
+      "size_bytes": 7983,
+      "sha256": "08d0481c9a96639407e0f591913b3045e1b6098df5ca3523c8793b4927b71d63"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/Main.tsx",
+      "size_bytes": 922,
+      "sha256": "6571b2c0054a013b7f66553694127186ebc1efa01bc5be1bb2a819bc6173cf0d"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/brief.md",
+      "size_bytes": 1271,
+      "sha256": "e3e17b0f22104f65d96d2fd2f77d39fa68113d994c7cdb817a13fbfe81a312bd"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/cues.py",
+      "size_bytes": 1034,
+      "sha256": "399d5979ac24dc78b338afa77ac3104f6cf2d8f71c011e82e0ce6482422fb88b"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/events.json",
+      "size_bytes": 149,
+      "sha256": "b38c5fe68fe6627ef08c770324d7a6e6a90087de960b7c4075f5a9f3371777f2"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/qa.md",
+      "size_bytes": 2554,
+      "sha256": "09bf9e1a1ac9294c02659d60201569f221e290efbdcfab5efc7f4d76b89db502"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/scenes/Story.tsx",
+      "size_bytes": 2632,
+      "sha256": "d939533e5875b73c93d6ad06acae9695109262d50761d3e5d85d666012eb545d"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/script.json",
+      "size_bytes": 390,
+      "sha256": "5807721ad2f4cde3887bf1fff07bef0c5ab8dd4ae1073b9e0969d068af2b0e1c"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/shots.json",
+      "size_bytes": 1658,
+      "sha256": "8c56e470b7f3b0f0c551f7aad732e86f421e2eaa28923c7983a0ac43cc2018c5"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/the-fourth-knock.srt",
+      "size_bytes": 311,
+      "sha256": "de3323605041d33904fb8cc3be7723c1357331e33c9f14130af29a6875b0a389"
+    },
+    {
+      "path": "src/episodes/the-fourth-knock/timing.json",
+      "size_bytes": 1732,
+      "sha256": "bb64fb2418ce144bad848c6bfe24d05826d3d3d507244e602d4d6deac75c70a4"
+    },
+    {
+      "path": "src/index.ts",
+      "size_bytes": 104,
+      "sha256": "f9bc4e836a064aca9c58a681e1dc779b62a4d82894450e8e15d5cdd05840e36e"
+    },
+    {
+      "path": "src/kit/art/ClaspedWrist.tsx",
+      "size_bytes": 3068,
+      "sha256": "5d5d1bb6f215cdf09b9b925a11f7aa4d3e667acb35681806b26e504157a7d12c"
+    },
+    {
+      "path": "src/kit/art/ClovesBackFigure.tsx",
+      "size_bytes": 3149,
+      "sha256": "f3132fcd29bb3c5fb56d5a2e7fecb07edd504fd92182652a755efdd3e24345ad"
+    },
+    {
+      "path": "src/kit/art/ClovesCharacters.tsx",
+      "size_bytes": 7525,
+      "sha256": "6b5c2092bc179a3f004c8aca4a27d93f27e6a05c4ff59808f8a6cb40e5cd0de1"
+    },
+    {
+      "path": "src/kit/art/ClovesProps.tsx",
+      "size_bytes": 2553,
+      "sha256": "ae28ae2871adc23212542c905fe53e6d6a42e34e14200c038b9eee4b167ce280"
+    },
+    {
+      "path": "src/kit/art/Door.tsx",
+      "size_bytes": 6923,
+      "sha256": "d17230531cf013658cce21ae7aec47d80d920c57f6931ec7fc18f7878d3993ba"
+    },
+    {
+      "path": "src/kit/art/FriendProps.tsx",
+      "size_bytes": 6001,
+      "sha256": "163999b3afd2577e640222c8620d7b5de20478db15506dcf53f3da845403ee3b"
+    },
+    {
+      "path": "src/kit/art/Hand.tsx",
+      "size_bytes": 13370,
+      "sha256": "743ff1d109d2ce4420fb55399d5ab117e3f5fba30cda15b136c264e16f21e7f1"
+    },
+    {
+      "path": "src/kit/art/Props.tsx",
+      "size_bytes": 21732,
+      "sha256": "50eacccd8c1c401bfccda274ad3d38949b8030f9014f804d0b77ce563b1bc282"
+    },
+    {
+      "path": "src/kit/art/Room.tsx",
+      "size_bytes": 8819,
+      "sha256": "08a13a12e54357b55ea720c42ec05b8195e9323580d0baaa76ac3495835e7a12"
+    },
+    {
+      "path": "src/kit/art/Townsfolk.tsx",
+      "size_bytes": 7348,
+      "sha256": "07ac868a00a1ba11fe1803044d3c21771f1be4c3a2ff573a85ad37f0d70a0694"
+    },
+    {
+      "path": "src/kit/art/Window.tsx",
+      "size_bytes": 13040,
+      "sha256": "c8cc25657ebda030390756b7b27a1f5e74c9e5b81af66096f1f63345ca36806f"
+    },
+    {
+      "path": "src/kit/fx.tsx",
+      "size_bytes": 4239,
+      "sha256": "aa6ec312efa4b5979023e4429ffefa848bc42889ae121f5e999a449dfa6a9e94"
+    },
+    {
+      "path": "src/kit/index.ts",
+      "size_bytes": 1099,
+      "sha256": "794fc091a0545d109070be351a24856d2e7a125c64d019d303a831f2fb4c126b"
+    },
+    {
+      "path": "src/kit/series/Captions.tsx",
+      "size_bytes": 2421,
+      "sha256": "1a3f0a1efe5823e2ac4af10fe2ce7ffa2210c03cab1a77331ba579515220b6c0"
+    },
+    {
+      "path": "src/kit/series/StoryFrame.tsx",
+      "size_bytes": 2169,
+      "sha256": "c1cded4875f3d890f09aee62618f097ea0b03ab6a450041aa2b6cc76bb9091dd"
+    },
+    {
+      "path": "src/kit/series/TitleCard.tsx",
+      "size_bytes": 1500,
+      "sha256": "35629f53340b4d2e85ef387f4cc9c9d3adfdac523fc4124ee77ad828ea906f7e"
+    },
+    {
+      "path": "src/kit/series/fonts.ts",
+      "size_bytes": 1084,
+      "sha256": "a678ca014366faa13cea20dafbe5cc407b59a6db7530c8b7c4159771e16e656b"
+    },
+    {
+      "path": "src/kit/sets/DoorWall.tsx",
+      "size_bytes": 1956,
+      "sha256": "ed7d891ab9d9e8411d6eb1015ba8bcc6fa92759e99d98b307e91c6a6123a548b"
+    },
+    {
+      "path": "src/kit/sets/PlanarReflection.ts",
+      "size_bytes": 3060,
+      "sha256": "c921cd6bee3f121488d56b5eced368aab443c6a1ed5e25eea7f7c8ffe0b48920"
+    },
+    {
+      "path": "src/kit/sets/ProjectedMirror.tsx",
+      "size_bytes": 5681,
+      "sha256": "9ec687c5f99c1155e576213aae8433c5b184c311a78844ab19b443ad480ef525"
+    },
+    {
+      "path": "src/kit/sets/RabenfelsTown.tsx",
+      "size_bytes": 4106,
+      "sha256": "f7675a1d91263acc7687e5f301921fc5903b1d8aa267d1764f1bf8571b370b78"
+    },
+    {
+      "path": "src/kit/sets/TavernLanding.tsx",
+      "size_bytes": 3764,
+      "sha256": "f71a892763f33de840ad7f77208737992ddf7ec947067703b4cd49268180ec49"
+    },
+    {
+      "path": "src/kit/sets/WindowWall.tsx",
+      "size_bytes": 3212,
+      "sha256": "e674b5e5263b0d5c6736d95ee9c888cafb93225e37f3dfba4a2371917cddc9dd"
+    },
+    {
+      "path": "src/kit/theme.ts",
+      "size_bytes": 786,
+      "sha256": "5e9953994e4d517c0a19652ecb95d47eaec27a483d691f5f1f2ae690297d34eb"
+    },
+    {
+      "path": "src/kit/util.ts",
+      "size_bytes": 2428,
+      "sha256": "14aabd01fbaa2b267cba23c9db52bbcfe65a741aa30c109e0c88b0bfa3e2e90f"
+    },
+    {
+      "path": "story/rabenfels-part-two-script.md",
+      "size_bytes": 9125,
+      "sha256": "695b577108579c54093a8829f2a7d6cf1535873ed7df71dd49c1780b7a35f78a"
+    },
+    {
+      "path": "story/rabenfels-series-bible-and-pilot.md",
+      "size_bytes": 16020,
+      "sha256": "608138f1221b3f970e0d5e1844fcbf2b079cbefe2fe8837d0cbeda70aee8dae4"
+    },
+    {
+      "path": "tsconfig.json",
+      "size_bytes": 219,
+      "sha256": "d7ee9c6f924d020bea1d05b3fa04096618b7bf1b739ac8cb76f00a7c6886fc24"
+    },
+    {
+      "path": "work/anytime-revised/synthesis-timing.json",
+      "size_bytes": 3966,
+      "sha256": "3aa695c255343c295b99e2b48f3aaffd73be6e335f08c838b066f7a2f8343f22"
+    },
+    {
+      "path": "work/friend-who-never-knocks/synthesis-timing.json",
+      "size_bytes": 4170,
+      "sha256": "871c8e265bca11a47eaca070131f807c9485294e578155caadaf4cd87a7401a0"
+    },
+    {
+      "path": "work/rabenfels-01/synthesis-timing.json",
+      "size_bytes": 6535,
+      "sha256": "13dd67a128cf2b7db4ba9864b99724422e7edd2037357bbae20712f33da22ed7"
+    },
+    {
+      "path": "work/rabenfels-02/synthesis-timing.json",
+      "size_bytes": 8463,
+      "sha256": "3f83abe957e9b2376274b5bd08b4de6012b57ae9328bb5d6281d191f81382ce8"
+    },
+    {
+      "path": "work/the-fourth-knock/synthesis-timing.json",
+      "size_bytes": 1386,
+      "sha256": "bfe9cb7a6aac04c4a04f842dffe65cc549be09849e8b1fbaee6abc900fe60e54"
+    }
+  ]
+}

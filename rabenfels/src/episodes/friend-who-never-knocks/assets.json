@@ -1,0 +1,30 @@
+[
+  {
+    "path": "src/kit",
+    "source": "user supplied gothic-pov-kit.zip",
+    "use": "existing art and fixed series style"
+  },
+  {
+    "path": "src/kit/art/FriendProps.tsx",
+    "source": "new original deterministic SVG artwork",
+    "use": "threshold shoes, bedside lamp, contact-locked held arm, optional captor"
+  },
+  {
+    "path": "src/catalog/Catalog.tsx",
+    "source": "existing catalog extended by one original panel"
+  },
+  {
+    "path": "public/fonts",
+    "source": "user kit; Cormorant Garamond and UnifrakturCook",
+    "license": "SIL Open Font License 1.1 per supplied README"
+  },
+  {
+    "path": "work/friend-who-never-knocks/line_*.wav",
+    "source": "new local Kokoro ONNX 0.6.1 bm_lewis v1.0 model synthesis",
+    "license": "Kokoro Apache-2.0 per model distribution"
+  },
+  {
+    "path": "public/episodes/friend-who-never-knocks/mix.wav",
+    "source": "fresh speech plus original code-synthesised score and effects"
+  }
+]

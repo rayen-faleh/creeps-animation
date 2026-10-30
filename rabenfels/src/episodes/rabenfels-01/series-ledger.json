@@ -1,0 +1,25 @@
+{
+  "town": "Rabenfels",
+  "year": 1732,
+  "episode": 1,
+  "player": "Elias Voss",
+  "cover": "Town clerk; rents above the Broken Bell",
+  "hunger": "Sustained on animal blood, limited strength",
+  "suspectedBy": [],
+  "knownDead": [
+    "Unidentified man found drained in the square"
+  ],
+  "relationships": {
+    "Marta": "Welcoming landlady; holds an upstairs witness",
+    "Matthias": "Friend; repaired door before winter; now equips the hunt",
+    "Otto": "Discreet animal-blood supplier",
+    "Grete": "Trusts Elias with investigation"
+  },
+  "winningComment": null,
+  "viewerResidents": [],
+  "unresolved": [
+    "Who killed the man?",
+    "What did the upstairs witness see?",
+    "What action will Elias take before dawn?"
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "town": "Rabenfels",
+  "year": 1732,
+  "episode": 2,
+  "player": "Elias Voss",
+  "cover": "Town clerk; rents above the Broken Bell",
+  "hunger": "Sustained on animal blood, limited strength",
+  "suspectedBy": [
+    "Unnamed witness knows Elias has a secret; extent unresolved"
+  ],
+  "knownDead": [
+    "Unidentified man found drained in the square"
+  ],
+  "relationships": {
+    "Marta": "Washing witness coat; knowledge and motive unresolved",
+    "Matthias": "Friend; repaired door before winter; now equips the hunt",
+    "Otto": "Clove scent associated with blood supply; shop locked, whereabouts unknown",
+    "Grete": "Trusts Elias with investigation",
+    "Safwan": "New recruit helping Elias; now in danger",
+    "UnnamedWitness": "Another vampire; demands Safwan and threatens Elias with exposure"
+  },
+  "winningComment": {
+    "handle": "@stvry.safwan",
+    "text": "smell the body to find a similar scent",
+    "selectionAuthority": "User-designated screenshot winner",
+    "actionPerformed": "Elias smells the body, checks familiar supplier and matches scent at tavern"
+  },
+  "viewerResidents": [
+    {
+      "name": "Safwan",
+      "author": "@stvry.safwan",
+      "role": "Human watch recruit",
+      "alive": true,
+      "knowledge": [
+        "Wool evidence",
+        "Marta says coat belongs to witness",
+        "Stranger hints Elias has a secret"
+      ],
+      "doesNotKnow": [
+        "Elias is a vampire"
+      ],
+      "currentPosition": "Beside Elias in Broken Bell public room, targeted by stranger"
+    }
+  ],
+  "unresolved": [
+    "Who killed the man?",
+    "Where is Otto?",
+    "What does Marta know?",
+    "What does the witness know about Elias, and why does he want Safwan?",
+    "What will Elias do before the stranger makes contact?"
+  ],
+  "episodeTitle": "Cloves",
+  "storyTime": "Same night as Part I, before dawn",
+  "productionStatus": "Rendered sequel; not published",
+  "clues": [
+    "Clove scent on corpse collar and witness coat",
+    "Black wool beneath victim fingernails",
+    "Marta identifies coat as witness's",
+    "Witness has no mirror reflection"
+  ],
+  "cliffhanger": {
+    "contactMade": false,
+    "injuryOrDeath": false,
+    "EliasExposed": false,
+    "privateRoomEntered": false,
+    "nextWinnerSelected": false
+  },
+  "seriesOpening": "You decided to <winning action>.",
+  "productionRevision": "User-approved eye perspective and rear-view geometric mirror integrated into full episode"
+}
