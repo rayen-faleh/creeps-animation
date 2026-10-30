@@ -1,42 +1,42 @@
 You decided to smell the body.
 
-The corpse smells like your blood supplier.
+Under the blood, something familiar.
 
 Cloves.
 
-Otto uses them to hide the blood he sells you.
+Otto the butcher packs them into every cup of blood he sells you.
 
-Safwan, the watch's new recruit, raises his lantern.
+Safwan, the watch's new recruit, brings his lantern closer.
 
-You cover your mouth before he sees your teeth.
+Light hits the blood on the collar. Your teeth slide out.
 
-He finds black wool beneath the dead man's fingernails.
+You turn away before he sees.
 
-Otto's shop is locked.
+He finds black wool under the dead man's nails.
 
-But at the tavern, you catch the scent again.
+He fought someone.
 
-Marta is washing a black coat.
+Otto's shop is locked. No light. No Otto.
 
-Whose is that?
+But at the Broken Bell, the cloves again.
 
-She glances upstairs.
+Marta is scrubbing a black wool coat. One cuff is torn.
 
-The witness's.
+Whose coat?
 
-A man steps onto the stairs.
+She looks upstairs. The witness's.
+
+Otto has another customer.
+
+A man comes down the stairs.
 
 In the mirror, the stairs are empty.
 
-He looks at Safwan.
+He looks at Safwan. At the wool in his hand.
 
-Give me the boy, Elias.
+Give me the boy, Elias. And I'll keep your secret.
 
-And I'll keep your secret.
-
-Safwan turns to you.
-
-What secret?
+Safwan turns to you. What secret?
 
 The stranger reaches for him.
 

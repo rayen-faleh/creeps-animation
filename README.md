@@ -157,6 +157,8 @@ reorganised:
 | `FriendVampire` | `src/episodes/portrait/friend-vampire` | 43 s | Seven signs your friend is a vampire, with a meta twist |
 | `TheSickle` | `src/episodes/portrait/the-sickle` | 56 s | Gran's sickle and padlock (the Pień burial); a standalone in the vein of The Count |
 | `MyType01` | `src/episodes/portrait/my-type` | 71 s | Hollywood gave him a type; a vampire council votes on his life (poll ending) |
+| `Rabenfels01` | `src/episodes/portrait/rabenfels-01` | 62 s | Rabenfels, Night One (imported; audio to regenerate) |
+| `Rabenfels02` | `src/episodes/portrait/rabenfels-02` | 69 s | Rabenfels, Part II: Cloves (revised v2) |
 | `GraveyardShift01` | `src/episodes/portrait/graveyard-shift-01` | 67 s | Graveyard Shift, Part 1: the customer; ends on a viewer poll |
 | `DatingVampire` | `src/episodes/portrait/dating-vampire` | 74 s | Horror-comedy: a week dating a vampire, Hollywood vs folklore |
 | `SurviveVampire` | `src/episodes/portrait/survive-vampire` | 33.5 s | Would You Survive? As a vampire: "And you rent." Reference for the format |

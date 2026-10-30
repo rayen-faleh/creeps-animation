@@ -1,15 +1,15 @@
 import React from 'react';
 import {AbsoluteFill} from 'remotion';
-import {Camera,Stage} from '../../../kit/fx';
-import {Floor,Wall} from '../../../kit/art/Room';
-import {Candle} from '../../../kit/art/Props';
-import {Hand,POSES,STYLES,lerpPose,wristFor} from '../../../kit/art/Hand';
-import {Resident,ClayCup} from '../../../kit/art/Townsfolk';
-import {ClovesFigure} from '../../../kit/art/ClovesCharacters';
-import {Cloves,WatchLantern,BlackCoat,WashBasin} from '../../../kit/art/ClovesProps';
-import {TownStreet,PointedWindow} from '../../../kit/sets/RabenfelsTown';
-import {mix,prog,track,noise1,easeOut} from '../../../kit/util';
-import {theme} from '../../../kit/theme';
+import {Camera,Stage} from '../../../../kit/rabenfels/fx';
+import {Floor,Wall} from '../../../../kit/rabenfels/art/Room';
+import {Candle} from '../../../../kit/rabenfels/art/Props';
+import {Hand,POSES,STYLES,lerpPose,wristFor} from '../../../../kit/rabenfels/art/Hand';
+import {Resident,ClayCup} from '../../../../kit/rabenfels/art/Townsfolk';
+import {ClovesFigure} from '../../../../kit/rabenfels/art/ClovesCharacters';
+import {Cloves,WatchLantern,BlackCoat,WashBasin} from '../../../../kit/rabenfels/art/ClovesProps';
+import {TownStreet,PointedWindow} from '../../../../kit/rabenfels/sets/RabenfelsTown';
+import {mix,prog,track,noise1,easeOut} from '../../../../kit/rabenfels/util';
+import {theme} from '../../../../kit/rabenfels/theme';
 import E from '../events.json';
 
 export const GLOVE={...STYLES.adult,skin:'#353a40',shade:'#171e28',rim:'#adbbcc',nail:'#484b51',nailLen:0,cuff:'#252c36'};

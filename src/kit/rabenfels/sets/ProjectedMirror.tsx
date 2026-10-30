@@ -79,7 +79,11 @@ export const ProjectedMirror:React.FC<{id:string;t:number;pose?:MirrorPose}>=({i
   <path d={glass} fill="#111b27" stroke="#211b13" strokeWidth={9}/>
   <g clipPath={`url(#${id}-clip)`}>
    <path d={glass} fill="#1c2835"/>{layers.map(l=>l.node)}
-   <path d={glass} fill="#b9cfdf" opacity={.035}/>
+   {/* the room's candlelight in the glass: warmer and brighter, so the empty stairs read at phone size */}
+   <defs><linearGradient id={`${id}-candle`} x1="1" x2="0"><stop stopColor="#ffb45a" stopOpacity={.22}/><stop offset="1" stopColor="#ffb45a" stopOpacity={.04}/></linearGradient></defs>
+   <path d={glass} fill={`url(#${id}-candle)`}/>
+   <path d={glass} fill="#e8dcc4" opacity={.035}/>
+   <path d={glass} fill="#b9cfdf" opacity={.03}/>
   </g>
  </g>;
 };

@@ -4,7 +4,7 @@
   "episode": 2,
   "player": "Elias Voss",
   "cover": "Town clerk; rents above the Broken Bell",
-  "hunger": "Sustained on animal blood, limited strength",
+  "hunger": "Sustained on animal blood, limited strength; the sight of wet blood in lantern light made his fangs drop in front of Safwan (he turned away in time)",
   "suspectedBy": [
     "Unnamed witness knows Elias has a secret; extent unresolved"
   ],
@@ -14,10 +14,10 @@
   "relationships": {
     "Marta": "Washing witness coat; knowledge and motive unresolved",
     "Matthias": "Friend; repaired door before winter; now equips the hunt",
-    "Otto": "Clove scent associated with blood supply; shop locked, whereabouts unknown",
+    "Otto": "Clove scent ties his blood cups to the corpse and the witness's coat; shop chained and dark, whereabouts unknown; he has at least one other customer (a pale, long-nailed hand), the witness",
     "Grete": "Trusts Elias with investigation",
     "Safwan": "New recruit helping Elias; now in danger",
-    "UnnamedWitness": "Another vampire; demands Safwan and threatens Elias with exposure"
+    "UnnamedWitness": "Another vampire (no reflection); Otto's other customer; his black wool coat has a torn cuff and cloves in its pocket; demands Safwan, who holds the wool, and threatens Elias with exposure"
   },
   "winningComment": {
     "handle": "@stvry.safwan",
@@ -32,8 +32,8 @@
       "role": "Human watch recruit",
       "alive": true,
       "knowledge": [
-        "Wool evidence",
-        "Marta says coat belongs to witness",
+        "Wool evidence (he is holding it)",
+        "Marta says the coat belongs to the witness",
         "Stranger hints Elias has a secret"
       ],
       "doesNotKnow": [
@@ -51,12 +51,14 @@
   ],
   "episodeTitle": "Cloves",
   "storyTime": "Same night as Part I, before dawn",
-  "productionStatus": "Rendered sequel; not published",
+  "productionStatus": "Revised sequel (v2) rendered; not published",
   "clues": [
-    "Clove scent on corpse collar and witness coat",
-    "Black wool beneath victim fingernails",
-    "Marta identifies coat as witness's",
-    "Witness has no mirror reflection"
+    "Clove scent under the blood on the corpse's collar; Otto packs cloves into the blood cups he sells Elias",
+    "Black wool beneath the victim's fingernails: he fought someone",
+    "The witness's black wool coat has a torn cuff; cloves float out of its pocket in Marta's basin",
+    "Otto has another customer (memory: two covered cups, one for Elias, one for a pale long-nailed hand)",
+    "The witness has no mirror reflection",
+    "The witness looks at the wool in Safwan's hand before demanding him"
   ],
   "cliffhanger": {
     "contactMade": false,
@@ -66,5 +68,5 @@
     "nextWinnerSelected": false
   },
   "seriesOpening": "You decided to <winning action>.",
-  "productionRevision": "User-approved eye perspective and rear-view geometric mirror integrated into full episode"
+  "productionRevision": "Revised Part II (v2): story beats added (fangs motivated by lantern on blood; 'He fought someone'; torn cuff and cloves in the coat pocket; 'Otto has another customer'; the stranger eyes the wool), new opening and inserts, mirror reveal reframed (push to the glass, then a two-shot). Built in the main repo with the house sound."
 }

@@ -1,13 +1,13 @@
 import React from 'react';
 import timing from './timing.json';
 import E from './events.json';
-import {StoryFrame,Grade,dipAround} from '../../kit/series/StoryFrame';
-import {TitleCard} from '../../kit/series/TitleCard';
-import {Timing} from '../../kit/series/Captions';
+import {StoryFrame,Grade,dipAround} from '../../../kit/rabenfels/series/StoryFrame';
+import {TitleCard} from '../../../kit/rabenfels/series/TitleCard';
+import {Timing} from '../../../kit/rabenfels/series/Captions';
 import {Supplier,Recruit,Street,Washing} from './scenes/Investigation';
 import {SquareWide,CollarClose,ClovesInsert,LanternTeeth,Evidence,ButcherShop,CuffInsert,TwoCups} from './scenes/Revised';
 import {Confrontation} from './scenes/Confrontation';
-export const META={id:'Rabenfels02',durationSec:E.duration,audio:'episodes/rabenfels-02/mix.wav'};
+export const META={id:'Rabenfels02',durationSec:E.duration,audio:'audio/rabenfels-02/mix.wav'};
 const sceneAt=(t:number)=>{
  if(t<E.scent)return <SquareWide t={t}/>; // the square, the body under linen
  if(t<E.cloves)return <CollarClose t={t}/>; // you lift the collar

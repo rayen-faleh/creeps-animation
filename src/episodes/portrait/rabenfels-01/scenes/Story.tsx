@@ -1,13 +1,13 @@
 import React from 'react';
 import {AbsoluteFill} from 'remotion';
-import {Camera,Stage} from '../../../kit/fx';
-import {Wall,Floor} from '../../../kit/art/Room';
-import {Candle,Mirror} from '../../../kit/art/Props';
-import {Hand,POSES,STYLES,lerpPose,wristFor} from '../../../kit/art/Hand';
-import {Resident,ClayCup,Coin} from '../../../kit/art/Townsfolk';
-import {TownStreet,PointedWindow} from '../../../kit/sets/RabenfelsTown';
-import {prog,mix,track,noise1,easeOut,easeIn} from '../../../kit/util';
-import {theme} from '../../../kit/theme';
+import {Camera,Stage} from '../../../../kit/rabenfels/fx';
+import {Wall,Floor} from '../../../../kit/rabenfels/art/Room';
+import {Candle,Mirror} from '../../../../kit/rabenfels/art/Props';
+import {Hand,POSES,STYLES,lerpPose,wristFor} from '../../../../kit/rabenfels/art/Hand';
+import {Resident,ClayCup,Coin} from '../../../../kit/rabenfels/art/Townsfolk';
+import {TownStreet,PointedWindow} from '../../../../kit/rabenfels/sets/RabenfelsTown';
+import {prog,mix,track,noise1,easeOut,easeIn} from '../../../../kit/rabenfels/util';
+import {theme} from '../../../../kit/rabenfels/theme';
 import E from '../events.json';
 
 const GLOVE={...STYLES.adult,skin:'#32363b',shade:'#151b22',rim:'#9fb4cf',nail:'#3c4149',nailLen:0,cuff:'#242b35'};

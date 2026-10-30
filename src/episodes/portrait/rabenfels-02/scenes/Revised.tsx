@@ -1,14 +1,14 @@
 import React from 'react';
 import {AbsoluteFill} from 'remotion';
-import {Camera, Stage} from '../../../kit/fx';
-import {Hand, HandStyle, POSES, STYLES, lerpPose} from '../../../kit/art/Hand';
-import {Resident, ClayCup} from '../../../kit/art/Townsfolk';
-import {ClovesFigure} from '../../../kit/art/ClovesCharacters';
-import {Cloves, WatchLantern} from '../../../kit/art/ClovesProps';
-import {TownStreet} from '../../../kit/sets/RabenfelsTown';
-import {Wall} from '../../../kit/art/Room';
-import {mix, prog, noise1, rng, easeOut, easeInOut} from '../../../kit/util';
-import {theme} from '../../../kit/theme';
+import {Camera, Stage} from '../../../../kit/rabenfels/fx';
+import {Hand, HandStyle, POSES, STYLES, lerpPose} from '../../../../kit/rabenfels/art/Hand';
+import {Resident, ClayCup} from '../../../../kit/rabenfels/art/Townsfolk';
+import {ClovesFigure} from '../../../../kit/rabenfels/art/ClovesCharacters';
+import {Cloves, WatchLantern} from '../../../../kit/rabenfels/art/ClovesProps';
+import {TownStreet} from '../../../../kit/rabenfels/sets/RabenfelsTown';
+import {Wall} from '../../../../kit/rabenfels/art/Room';
+import {mix, prog, noise1, rng, easeOut, easeInOut} from '../../../../kit/rabenfels/util';
+import {theme} from '../../../../kit/rabenfels/theme';
 import {GLOVE} from './Investigation';
 import E from '../events.json';
 
@@ -160,7 +160,10 @@ const BodyInSquare: React.FC = () => (
   <g>
     <ellipse cx={540} cy={1192} rx={190} ry={22} fill="#05080c" opacity={0.7} />
     <path d="M360,1180 C380,1150 430,1140 480,1146 L640,1150 C680,1150 700,1162 702,1180 L700,1196 L362,1196 Z" fill="#3a2c22" />
-    <path d="M330,1170 C330,1145 352,1136 372,1140 C392,1144 398,1170 390,1190 L336,1192 Z" fill="#c9c4b8" />
+    {/* the linen over his face: a small draped square, corners on the stones */}
+    <path d="M316,1170 C314,1152 330,1138 350,1136 C370,1134 392,1142 398,1160 C404,1178 392,1196 372,1199 C352,1202 322,1192 316,1170 Z" fill="#c9c4b8" />
+    <path d="M330,1146 C346,1158 360,1176 366,1198 M352,1137 C356,1150 368,1160 396,1166" stroke="#8c867a" strokeWidth={2.5} fill="none" opacity={0.6} />
+    <ellipse cx={356} cy={1162} rx={10} ry={6} fill="#ebe6dc" opacity={0.8} />
     <path d="M700,1166 L736,1160 L742,1180 L702,1190 Z M700,1182 L740,1186 L738,1200 L700,1198 Z" fill="#0c0c10" />
     <path d="M520,1196 C530,1210 552,1212 560,1204" stroke="#b9b6ad" strokeWidth={9} strokeLinecap="round" fill="none" />
     <path d="M420,1190 C460,1200 500,1202 520,1196" stroke="#3a060c" strokeWidth={10} opacity={0.8} fill="none" />
@@ -172,7 +175,7 @@ export const SquareWide: React.FC<{t: number}> = ({t}) => {
   const k = prog(t, 0, E.scent, easeInOut);
   return (
     <AbsoluteFill>
-      <Camera t={t} zoom={mix(1.02, 2.6, k)} x={mix(0, 0, k)} y={mix(-40, 225, k)} shake={3} seed={601}>
+      <Camera t={t} zoom={mix(1.02, 2.4, k)} x={mix(0, -20, k)} y={mix(-40, 225, k)} shake={3} seed={601}>
         <Stage>
           <TownStreet id="square-wide" t={t} />
           <BodyInSquare />

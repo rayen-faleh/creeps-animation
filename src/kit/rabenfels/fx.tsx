@@ -83,8 +83,9 @@ export const Eyelids: React.FC<{open: number}> = ({open}) => {
 };
 
 /** Full-frame 1080x1920 SVG stage; scenes draw in these world units. Set h for taller worlds (camera tilts). */
-export const Stage: React.FC<{children: React.ReactNode; h?: number}> = ({children, h = H}) => (
-  <svg width={W} height={h} viewBox={`0 0 ${W} ${h}`} style={{position: 'absolute', left: 0, top: 0}}>
+// overflow: draw world content outside the frame too, for pans and zooms that look past its edge
+export const Stage: React.FC<{children: React.ReactNode; h?: number; overflow?: boolean}> = ({children, h = H, overflow = false}) => (
+  <svg width={W} height={h} viewBox={`0 0 ${W} ${h}`} style={{position: 'absolute', left: 0, top: 0, overflow: overflow ? 'visible' : 'hidden'}}>
     {children}
   </svg>
 );

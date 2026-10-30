@@ -1,54 +1,80 @@
-"""Part II (revised): synthesised soundtrack on the shared picture clock (events.json).
-Cold square and street, warm memories of Otto's counter, a heartbeat for the fangs, chain and shutter at the
-locked shop, water at the basin, then the tavern: the mirror sting, a thinned bed under the demand, and the reach."""
-import json
-from pathlib import Path
-from sound_lib import boom, click, creak, whoosh, breath, chime, sting, scratch
-E = json.loads(Path(__file__).with_name('events.json').read_text()); DUR = E['duration']
+"""Rabenfels Part II (revised): score and effects on the shared picture clock (events.json), in the house sound.
+Cold square and street; Otto's warm counter with a music box, twice; a heartbeat when the fangs come; chain and
+shutter at the locked shop; water at the basin; then the tavern: the mirror sting, a thinned bed under the
+stranger's demand, and a quickening heartbeat into the reach. Silence at the cut; the title boom."""
+import json, os
+import numpy as np
+from sound_lib import SR, boom, breath, chime, click, creak, whoosh, sting, scratch, knock, lp, bp, _rng
+
+E = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'events.json')))
+DUR = E['duration']
+
+def rattle(n=6, gain=0.5):
+    """A padlock chain yanked against the door."""
+    out = np.zeros(int(0.15 * n * SR) + SR // 2)
+    for i in range(n):
+        c = click(gain * (1 - i * 0.1), 1700 + (i % 3) * 400); o = int(i * 0.13 * SR)
+        out[o:o + len(c)] += c[:len(out) - o]
+    return out
+
+def slosh(dur=0.8, gain=0.18):
+    """Wet cloth worked in a basin."""
+    n = int(dur * SR); t = np.arange(n) / SR
+    return bp(_rng.standard_normal(n), 300, 2200) * np.sin(np.pi * t / dur) ** 2 * (0.6 + 0.4 * np.sin(2 * np.pi * 5 * t)) * gain
+
+def steps(t0, count, gap, S, gain=0.35):
+    for i in range(count): S.sfx_at(lp(knock(1.0), 400), t0 + i * gap, gain)
 
 def cues(S):
     cut = E['cut']
-    S.drone([(0, .2), (E['memory'], .03), (E['recruit'], .16), (E['cover'], .3), (E['turnaway'] + .5, .18), (E['door'], .22),
-             (E['coat'], .14), (E['customer'], .05), (E['stairs'], .32), (E['mirror'] - .03, .5), (E['mirror'], .05),
-             (E['target'], .2), (E['secret'], .08), (E['turn'], .16), (E['reach'], .38), (E['question'], .5), (cut, 0), (DUR, 0)])
-    S.wind([(0, .28), (E['memory'], 0), (E['recruit'], .22), (E['street'], .3), (E['coat'], .015), (cut, 0), (DUR, 0)], gain=.13)
-    S.room_tone(E['memory'], E['recruit'], gain=.018)
-    S.room_tone(E['coat'], E['customer'], gain=.015)
-    S.room_tone(E['customer'], E['stairs'], gain=.018)
-    S.room_tone(E['stairs'], cut, gain=.015)
-    # warm memories: a few notes of a music box under Otto's counter, both times
-    S.music_box(E['memory'], [(0, 12), (1.1, 15), (2.1, 19), (3.2, 17)], stop=E['recruit'], gain=.035)
-    S.music_box(E['customer'], [(0, 12), (0.9, 11), (1.8, 8)], stop=E['stairs'], gain=.04)
-    S.tension([(0, 0), (E['cover'], .12), (E['turnaway'], .2), (E['evidence'], 0), (E['stairs'], .15), (E['mirror'] - .1, .3), (E['mirror'], 0),
-               (E['turn'], .1), (E['reach'], .25), (E['question'], .34), (cut, 0)], gain=.018)
-    # the square
-    S.sfx_at(whoosh(.6, 160, 700), .2, .05)
-    S.sfx_at(scratch(.2, .05), E['scent'] + .7)                      # cloth of the collar
-    S.sfx_at(breath(.65, .03), E['familiar'] - .2)                   # you breathe in
-    S.sfx_at(chime(2400, .5, .03), E['cloves'] + .05)
-    S.sfx_at(click(.4, 1200), E['memory'] + 1.1, .18)                 # the cup set down
-    S.sfx_at(creak(.45, .02), E['recruit'] + .4)
-    S.sfx_at(chime(1800, .6, .02), E['light'] + .3)                   # lantern swings in
-    S.heartbeat_run(E['cover'] - .2, E['turnaway'] + .4, period=.85, shrink=.9, fastest=.55, gain=.25)
-    S.sfx_at(boom(1.4, 52), E['cover'] + .05, .14)
-    S.sfx_at(whoosh(.35, 200, 1600), E['turnaway'], .08)              # you turn away
-    S.sfx_at(whoosh(.3, 200, 700), E['evidence'] + 1.2, .03)          # the thread drawn out
-    S.sfx_at(boom(1.2, 60), E['fought'] + .1, .08)
-    # the locked shop: the chain, the shutter
-    for i in range(6): S.sfx_at(click(.35, 1500 + i * 120), E['door'] + .65 + i * .13, .12)
-    S.sfx_at(creak(.9, .05), E['nootto'] + .05)
-    for dt in [.3, 1.1, 2.0]: S.sfx_at(boom(.16, 115), E['street'] + dt, .055)   # footsteps
-    # the basin
-    for dt in [.2, 1.0, 1.8]: S.sfx_at(whoosh(.6, 150, 600), E['coat'] + dt, .03)
-    for i in range(4): S.sfx_at(chime(2900 - i * 150, .3, .012), E['torn'] + .6 + i * .28)   # cloves touch the water
-    S.sfx_at(boom(1.6, 48), E['customer'] + .1, .12)
-    # the stairs and the mirror
-    for dt in [.8, 1.75]: S.sfx_at(creak(.35, .032), E['stairs'] + dt)
-    S.sfx_at(boom(1.8, 48), E['mirror'] + .9, .16)
-    S.sfx_at(sting(1.3, .007), E['mirror'] + .9)
-    S.silence(E['mirror'] + 1.85, E['target'] - .2)
-    S.silence(E['demand'] - .05, E['turn'] - .05)
-    S.sfx_at(creak(.45, .025), E['reach'] + .25)
-    S.heartbeat_run(E['reach'], cut, period=1.1, shrink=.93, fastest=.62, gain=.20)
-    S.silence(cut, E['title'] - .015)
-    S.sfx_at(boom(2.2, 40), E['title'], .12)
+    S.drone([(0, 0.45), (E['memory'] - 0.05, 0.5), (E['memory'], 0), (E['recruit'], 0), (E['recruit'] + 0.4, 0.4),
+             (E['cover'], 0.6), (E['evidence'], 0.45), (E['door'], 0.5), (E['coat'], 0.25), (E['customer'], 0),
+             (E['stairs'], 0), (E['stairs'] + 0.3, 0.6), (E['mirror'] + 0.9, 0.85), (E['target'], 0.4), (E['demand'], 0.2),
+             (E['turn'], 0.5), (E['reach'], 0.75), (cut - 0.02, 1.0), (cut, 0), (DUR, 0)])
+    S.wind([(0, 0.3), (E['memory'], 0.3), (E['memory'] + 0.01, 0), (E['recruit'], 0), (E['recruit'] + 0.3, 0.3),
+            (E['coat'], 0.3), (E['coat'] + 0.01, 0), (DUR, 0)])
+    S.tension([(0, 0), (E['light'], 0), (E['cover'], 0.7), (E['turnaway'] + 0.3, 0), (E['stairs'], 0), (E['mirror'] - 0.05, 0.8),
+               (E['mirror'], 0), (E['reach'], 0.4), (cut - 0.05, 1.0), (cut, 0), (DUR, 0)])
+    # the square: the decision, the collar, the scent
+    S.sfx_at(boom(2.6, 40), 0.05, 0.55)
+    S.sfx_at(scratch(0.22, 0.12), E['scent'] + 0.75)
+    S.sfx_at(breath(0.9, 0.1), E['familiar'] - 0.3)
+    S.sfx_at(boom(2.2, 46), E['cloves'] + 0.02, 0.6); S.sfx_at(chime(2600, 0.6, 0.05), E['cloves'] + 0.05)
+    # memory: Otto's counter, warm
+    S.room_tone(E['memory'], E['recruit'])
+    S.music_box(E['memory'] + 0.1, [(0, 12), (0.45, 15), (0.9, 19), (1.35, 17), (1.8, 15), (2.7, 12), (3.15, 10)],
+                bass=[(0, -9), (2.7, -14)], stop=E['recruit'], gain=0.14)
+    S.sfx_at(click(0.8, 1100), E['memory'] + 1.15, 0.5)               # the covered cup set down
+    for i in range(4): S.sfx_at(chime(3000 + i * 180, 0.25, 0.02), E['memory'] + 1.6 + i * 0.12)   # cloves on the lid
+    # Safwan, the lantern, the fangs
+    S.sfx_at(creak(0.6, 0.06), E['recruit'] + 0.4)                     # lantern handle
+    S.sfx_at(whoosh(0.5, 300, 2400, 0.3), E['light'] + 0.1, 0.4)
+    S.heartbeat_run(E['cover'] - 0.2, E['turnaway'] + 0.6, period=0.8, shrink=0.88, fastest=0.5, gain=0.7)
+    S.sfx_at(boom(2.0, 50), E['cover'] + 0.05, 0.55); S.sfx_at(sting(), E['cover'] + 0.05)
+    S.sfx_at(whoosh(0.4, 200, 3000, 0.6), E['turnaway'], 0.6)           # you turn away
+    # the wool, the fight
+    S.sfx_at(scratch(0.3, 0.1), E['evidence'] + 1.1)
+    S.sfx_at(boom(1.8, 52), E['fought'] + 0.05, 0.45)
+    # Otto's shop: the chain, the dark window, the shutter
+    S.sfx_at(rattle(7, 0.55), E['door'] + 0.6)
+    S.sfx_at(creak(1.2, 0.08), E['nootto'] + 0.05)
+    steps(E['street'] + 0.2, 4, 0.55, S)
+    # the Broken Bell: water, cloves on the water
+    S.room_tone(E['coat'], E['customer'])
+    for dt in (0.1, 0.9, 1.7): S.sfx_at(slosh(0.8, 0.2), E['coat'] + dt)
+    for i in range(5): S.sfx_at(chime(2800 - i * 160, 0.35, 0.025), E['torn'] + 0.6 + i * 0.22)
+    S.sfx_at(breath(0.7, 0.07), E['glance'] + 0.2)
+    # memory: two cups
+    S.room_tone(E['customer'], E['stairs'])
+    S.music_box(E['customer'] + 0.05, [(0, 12), (0.45, 15), (0.9, 19), (1.35, 18)], bass=[(0, -10)], stop=E['stairs'], gain=0.14)
+    S.sfx_at(boom(2.2, 44), E['customer'] + 1.0, 0.5)
+    # the stairs, the mirror, the demand
+    S.room_tone(E['stairs'], cut)
+    for dt in (0.6, 1.5): S.sfx_at(creak(0.5, 0.07), E['stairs'] + dt)
+    S.sfx_at(boom(3.0, 36), E['mirror'] + 0.85, 0.9); S.sfx_at(sting(), E['mirror'] + 0.85)
+    S.silence(E['mirror'] + 2.0, E['target'] - 0.2)
+    S.sfx_at(boom(1.6, 58), E['demand'] - 0.05, 0.35)
+    S.sfx_at(creak(0.6, 0.06), E['reach'] + 0.25)
+    S.heartbeat_run(E['reach'], cut, period=1.0, shrink=0.92, fastest=0.55, gain=0.7)
+    S.silence(cut, E['title'] - 0.02)
+    S.sfx_at(boom(2.6, 40), E['title'], 0.8)
