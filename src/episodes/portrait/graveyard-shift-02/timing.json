@@ -1,0 +1,315 @@
+{
+ "unit": "seconds",
+ "total": 53.316,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "You chose to call him. He picked up on the first ring.",
+   "start": 0.35,
+   "end": 3.475,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You chose to call him.",
+     "start": 0.35,
+     "end": 1.65
+    },
+    {
+     "text": "He picked up on the first ring.",
+     "start": 1.65,
+     "end": 3.475
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "Last night, a customer paid in coins from seventeen ninety. By dawn, your hand was smoking.",
+   "start": 3.875,
+   "end": 10.177,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Last night,",
+     "start": 3.875,
+     "end": 4.525
+    },
+    {
+     "text": "a customer paid in coins from seventeen ninety.",
+     "start": 4.525,
+     "end": 7.53
+    },
+    {
+     "text": "By dawn,",
+     "start": 7.53,
+     "end": 8.58
+    },
+    {
+     "text": "your hand was smoking.",
+     "start": 8.58,
+     "end": 10.177
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "He said your name. Your badge just says trainee.",
+   "start": 10.577,
+   "end": 13.453,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He said your name.",
+     "start": 10.577,
+     "end": 11.607
+    },
+    {
+     "text": "Your badge just says trainee.",
+     "start": 11.607,
+     "end": 13.453
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "Sunrise is in fourteen minutes. He sounds bored.",
+   "start": 13.933,
+   "end": 17.072,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Sunrise is in fourteen minutes.",
+     "start": 13.933,
+     "end": 15.918
+    },
+    {
+     "text": "He sounds bored.",
+     "start": 15.918,
+     "end": 17.072
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "He said, the stockroom has no windows. Stay in the shadows.",
+   "start": 17.472,
+   "end": 21.315,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He said,",
+     "start": 17.472,
+     "end": 18.017
+    },
+    {
+     "text": "the stockroom has no windows.",
+     "start": 18.017,
+     "end": 19.872
+    },
+    {
+     "text": "Stay in the shadows.",
+     "start": 19.872,
+     "end": 21.315
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "The sun is already crawling across the floor. Aisle by aisle.",
+   "start": 21.635,
+   "end": 25.576,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The sun is already crawling across the floor.",
+     "start": 21.635,
+     "end": 24.14
+    },
+    {
+     "text": "Aisle by aisle.",
+     "start": 24.14,
+     "end": 25.576
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "Then a van pulls in. Dave, the day manager. Twenty minutes early.",
+   "start": 26.056,
+   "end": 30.68,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then a van pulls in.",
+     "start": 26.056,
+     "end": 26.831
+    },
+    {
+     "text": "Dave,",
+     "start": 26.831,
+     "end": 27.646
+    },
+    {
+     "text": "the day manager.",
+     "start": 27.646,
+     "end": 29.436
+    },
+    {
+     "text": "Twenty minutes early.",
+     "start": 29.436,
+     "end": 30.68
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "He's banging on the glass. He wants to come in.",
+   "start": 31.08,
+   "end": 33.789,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He's banging on the glass.",
+     "start": 31.08,
+     "end": 32.65
+    },
+    {
+     "text": "He wants to come in.",
+     "start": 32.65,
+     "end": 33.789
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "And from the stockroom, you can hear his heartbeat.",
+   "start": 34.109,
+   "end": 36.955,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And from the stockroom,",
+     "start": 34.109,
+     "end": 35.304
+    },
+    {
+     "text": "you can hear his heartbeat.",
+     "start": 35.304,
+     "end": 36.955
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "Through the phone, he says, I can teach you everything. Every rule. For a price.",
+   "start": 37.595,
+   "end": 42.424,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Through the phone,",
+     "start": 37.595,
+     "end": 38.79
+    },
+    {
+     "text": "he says, I can teach you everything.",
+     "start": 38.79,
+     "end": 40.29
+    },
+    {
+     "text": "Every rule.",
+     "start": 40.29,
+     "end": 41.395
+    },
+    {
+     "text": "For a price.",
+     "start": 41.395,
+     "end": 42.424
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "L11",
+   "text": "Invite me into your home.",
+   "start": 42.744,
+   "end": 44.698,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Invite me into your home.",
+     "start": 42.744,
+     "end": 44.698
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L12",
+   "text": "Then you hear his voice twice. On the phone. And behind you.",
+   "start": 45.418,
+   "end": 49.302,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then you hear his voice twice.",
+     "start": 45.418,
+     "end": 47.158
+    },
+    {
+     "text": "On the phone.",
+     "start": 47.158,
+     "end": 48.268
+    },
+    {
+     "text": "And behind you.",
+     "start": 48.268,
+     "end": 49.302
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "You invited him in last night. It doesn't expire.",
+   "start": 49.702,
+   "end": 52.996,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You invited him in last night.",
+     "start": 49.702,
+     "end": 51.677
+    },
+    {
+     "text": "It doesn't expire.",
+     "start": 51.677,
+     "end": 52.996
+    }
+   ],
+   "phraseSource": "measured-silence"
+  }
+ ]
+}

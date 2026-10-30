@@ -82,7 +82,11 @@ stockroom has no windows). He knows your name and your shift pattern. He offers 
 
 ---
 
-## Part 2 · The Call (viewers chose B: call him). Brainstorm, round 1
+## Part 2 · The Call (viewers chose B: call him). Made: `src/episodes/portrait/graveyard-shift-02` (`GraveyardShift02`)
+
+Final poll: **A** Invite him home · **B** Hang up. Let Dave in. You're starving. R.'s line is the narrator's voice reworked (pitched down, phone band, echo).
+
+### Round 1 brainstorm
 
 **Engine:** a 14-minute countdown to sunrise (clock tag 05:58 → 06:10), with the caller on the line the whole time.
 Tension comes from four directions:

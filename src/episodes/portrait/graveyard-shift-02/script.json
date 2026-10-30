@@ -1,0 +1,15 @@
+[
+ {"id": "L01", "text": "You chose to call him. He picked up on the first ring.", "pauseAfter": 0.5},
+ {"id": "L02", "text": "Last night, a customer paid in coins from seventeen ninety. By dawn, your hand was smoking.", "pauseAfter": 0.5},
+ {"id": "L03", "text": "He said your name. Your badge just says trainee.", "pauseAfter": 0.6},
+ {"id": "L04", "text": "Sunrise is in fourteen minutes. He sounds bored.", "pauseAfter": 0.5},
+ {"id": "L05", "text": "He said, the stockroom has no windows. Stay in the shadows.", "pauseAfter": 0.4},
+ {"id": "L06", "text": "The sun is already crawling across the floor. Aisle by aisle.", "pauseAfter": 0.6},
+ {"id": "L07", "text": "Then a van pulls in. Dave, the day manager. Twenty minutes early.", "pauseAfter": 0.5},
+ {"id": "L08", "text": "He's banging on the glass. He wants to come in.", "pauseAfter": 0.4},
+ {"id": "L09", "text": "And from the stockroom, you can hear his heartbeat.", "pauseAfter": 0.8},
+ {"id": "L10", "text": "Through the phone, he says, I can teach you everything. Every rule. For a price.", "pauseAfter": 0.4},
+ {"id": "L11", "text": "Invite me into your home.", "speed": 0.86, "pauseAfter": 0.9},
+ {"id": "L12", "text": "Then you hear his voice twice. On the phone. And behind you.", "pauseAfter": 0.5},
+ {"id": "L13", "text": "You invited him in last night. It doesn't expire.", "pauseAfter": 0.4}
+]
