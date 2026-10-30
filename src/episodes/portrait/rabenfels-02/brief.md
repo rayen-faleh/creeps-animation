@@ -22,6 +22,10 @@
   - Mirror reveal: push in on the man, cross to the glass and hold on the empty reflected stairs, then a two-shot of
     him and his missing reflection. The reflection is warmer and brighter. The approved planar-reflection geometry is
     unchanged.
+  - The demand opens on Safwan, the mirror and the stranger together, then pushes in on the stranger.
+  - The reach drifts toward the glass, where Safwan's reflection stands alone and nothing reaches for him, while the
+    real pale hand does.
+  - Your hand rises between them, clear of the captions.
 - Red words: `Cloves.` · `customer.` · `empty.` · `secret.`
 - Code: `scenes/Revised.tsx` holds the new shots. `scenes/Investigation.tsx` and `scenes/Confrontation.tsx` are reused.
   `events.py` derives `events.json` from `timing.json`. `cues.py` uses the house `sound/sound_lib.py`.
