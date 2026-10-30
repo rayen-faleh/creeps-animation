@@ -1,0 +1,6 @@
+node_modules
+voice
+out/
+work/*/line_*.wav
+work/*/narration*.wav
+.venv

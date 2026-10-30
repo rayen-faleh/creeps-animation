@@ -1,0 +1,440 @@
+{
+ "unit": "seconds",
+ "total": 65.889,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L00",
+   "text": "You decided to smell the body.",
+   "start": 0.35,
+   "end": 2.446,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You decided to smell the body.",
+     "start": 0.35,
+     "end": 2.446
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L01",
+   "text": "Under the blood, something familiar.",
+   "start": 2.686,
+   "end": 4.865,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Under the blood,",
+     "start": 2.686,
+     "end": 3.676
+    },
+    {
+     "text": "something familiar.",
+     "start": 3.676,
+     "end": 4.865
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "Cloves.",
+   "start": 5.185,
+   "end": 5.925,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Cloves.",
+     "start": 5.185,
+     "end": 5.925
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "Otto the butcher packs them into every cup of blood he sells you.",
+   "start": 6.565,
+   "end": 10.471,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Otto the butcher packs them into every cup of blood he sells you.",
+     "start": 6.565,
+     "end": 10.471
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L04",
+   "text": "Safwan, the watch's new recruit, brings his lantern closer.",
+   "start": 10.791,
+   "end": 14.664,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Safwan,",
+     "start": 10.791,
+     "end": 11.426
+    },
+    {
+     "text": "the watch's new recruit,",
+     "start": 11.426,
+     "end": 12.816
+    },
+    {
+     "text": "brings his lantern closer.",
+     "start": 12.816,
+     "end": 14.664
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "Light hits the blood on the collar. Your teeth slide out.",
+   "start": 14.904,
+   "end": 18.34,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Light hits the blood on the collar.",
+     "start": 14.904,
+     "end": 16.714
+    },
+    {
+     "text": "Your teeth slide out.",
+     "start": 16.714,
+     "end": 18.34
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "You turn away before he sees.",
+   "start": 18.66,
+   "end": 20.442,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You turn away before he sees.",
+     "start": 18.66,
+     "end": 20.442
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L07",
+   "text": "He finds black wool under the dead man's nails.",
+   "start": 20.842,
+   "end": 23.933,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He finds black wool under the dead man's nails.",
+     "start": 20.842,
+     "end": 23.933
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L08",
+   "text": "He fought someone.",
+   "start": 24.173,
+   "end": 25.254,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He fought someone.",
+     "start": 24.173,
+     "end": 25.254
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L09",
+   "text": "Otto's shop is locked. No light. No Otto.",
+   "start": 25.734,
+   "end": 28.75,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Otto's shop is locked.",
+     "start": 25.734,
+     "end": 27.099
+    },
+    {
+     "text": "No light.",
+     "start": 27.099,
+     "end": 27.934
+    },
+    {
+     "text": "No Otto.",
+     "start": 27.934,
+     "end": 28.749
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "But at the Broken Bell, the cloves again.",
+   "start": 29.15,
+   "end": 31.79,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "But at the Broken Bell,",
+     "start": 29.15,
+     "end": 30.46
+    },
+    {
+     "text": "the cloves again.",
+     "start": 30.46,
+     "end": 31.791
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "Marta is scrubbing a black wool coat. One cuff is torn.",
+   "start": 32.11,
+   "end": 35.971,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Marta is scrubbing a black wool coat.",
+     "start": 32.11,
+     "end": 34.335
+    },
+    {
+     "text": "One cuff is torn.",
+     "start": 34.335,
+     "end": 35.97
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "Whose coat?",
+   "start": 36.291,
+   "end": 37.235,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Whose coat?",
+     "start": 36.291,
+     "end": 37.235
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L13",
+   "text": "She looks upstairs. The witness's.",
+   "start": 37.475,
+   "end": 39.685,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She looks upstairs.",
+     "start": 37.475,
+     "end": 38.68
+    },
+    {
+     "text": "The witness's.",
+     "start": 38.68,
+     "end": 39.684
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "Otto has another customer.",
+   "start": 40.165,
+   "end": 42.071,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Otto has another customer.",
+     "start": 40.165,
+     "end": 42.071
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "A man comes down the stairs.",
+   "start": 42.791,
+   "end": 44.584,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "A man comes down the stairs.",
+     "start": 42.791,
+     "end": 44.584
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "In the mirror, the stairs are empty.",
+   "start": 44.904,
+   "end": 46.994,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "In the mirror,",
+     "start": 44.904,
+     "end": 45.609
+    },
+    {
+     "text": "the stairs are empty.",
+     "start": 45.609,
+     "end": 46.994
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L17",
+   "text": "He looks at Safwan. At the wool in his hand.",
+   "start": 47.794,
+   "end": 50.599,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He looks at Safwan.",
+     "start": 47.794,
+     "end": 49.029
+    },
+    {
+     "text": "At the wool in his hand.",
+     "start": 49.029,
+     "end": 50.599
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L18",
+   "text": "Give me the boy, Elias. And I'll keep your secret.",
+   "start": 50.919,
+   "end": 54.26,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Give me the boy, Elias.",
+     "start": 50.919,
+     "end": 52.619
+    },
+    {
+     "text": "And I'll keep your secret.",
+     "start": 52.619,
+     "end": 54.26
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "L19",
+   "text": "Safwan turns to you. What secret?",
+   "start": 54.66,
+   "end": 57.015,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Safwan turns to you.",
+     "start": 54.66,
+     "end": 55.995
+    },
+    {
+     "text": "What secret?",
+     "start": 55.995,
+     "end": 57.016
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L20",
+   "text": "The stranger reaches for him.",
+   "start": 57.335,
+   "end": 59.426,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The stranger reaches for him.",
+     "start": 57.335,
+     "end": 59.426
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L21",
+   "text": "How do you save Safwan without exposing yourself?",
+   "start": 59.906,
+   "end": 63.02,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "How do you save Safwan without exposing yourself?",
+     "start": 59.906,
+     "end": 63.02
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L22",
+   "text": "Top comment chooses your next move.",
+   "start": 63.26,
+   "end": 65.649,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Top comment chooses your next move.",
+     "start": 63.26,
+     "end": 65.649
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}
