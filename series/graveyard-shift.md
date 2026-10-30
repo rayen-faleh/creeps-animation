@@ -79,3 +79,77 @@ stockroom has no windows). He knows your name and your shift pattern. He offers 
   forecourt and pumps), receipt prop, coins, rice (`Grain`, `pileOf10`), dawn light.
 - Voice: `bm_lewis` deadpan, as in the vampire comedy reel. R. never speaks aloud except, optionally, the whisper.
 - Length: aim 60 s for Part 1; trim from the comedy beats first, never from the clues.
+
+---
+
+## Part 2 · The Call (viewers chose B: call him). Brainstorm, round 1
+
+**Engine:** a 14-minute countdown to sunrise (clock tag 05:58 → 06:10), with the caller on the line the whole time.
+Tension comes from four directions:
+- the sun creeping across the floor
+- the day manager arriving early
+- your new hunger
+- the caller himself
+
+**Inversion of Part 1:** last time a stranger stood at the glass asking to come in. Now it's a human, Dave, and *you*
+are the danger.
+
+**Callback twist:** you invited R. into the shop in Part 1 ("You said yes. Obviously. It's a shop.") and the
+invitation never expires. He's been inside the whole time.
+
+### Draft script (~140 words, ~58 s + poll card)
+
+| # | Line | Picture |
+| --- | --- | --- |
+| L01 | You chose to call him. He picked up on the first ring. | Mute-readable hook: your smoking hand holding the phone, screen showing "R." connected at 00:01. |
+| L02 | Last night, a customer paid in coins from seventeen ninety. By dawn, your hand was smoking. | One-line recap: the 1790 coins on the counter, then grey light on your hand. |
+| L03 | He said your name. Your badge just says trainee. | Your name badge reading TRAINEE. Laugh line. |
+| L04 | Sunrise is in fourteen minutes. He sounds bored. | Clock tag 05:58. The sky going pale over the forecourt. |
+| L05 | He said, the stockroom has no windows. Stay in the shadows. | The STAFF ONLY door at the back of the shop. |
+| L06 | The sun is already crawling across the floor. Aisle by aisle. | Set piece: sunlight slats move over the tiles; you crawl along the shadow of the shelves; a fingertip strays into a beam and smokes. |
+| L07 | Then a van pulls in. Dave, the day manager. Twenty minutes early. | Headlights through the glass doors, a silhouette climbing out. |
+| L08 | He's banging on the glass. He wants to come in. | Dave's palm on the glass, backlit by the dawn. Inversion of Part 1. |
+| L09 | And from the stockroom, you can hear his heartbeat. | The stockroom door ajar on a blade of light; the sound shifts to Dave's heartbeat. Red word: `heartbeat.` |
+| L10 | Through the phone, he says, I can teach you everything. Every rule. For a price. | Darkness, the phone's glow on your hand. |
+| L11 | *Invite me into your home.* (R., phone-filtered) | The call timer ticks. |
+| L12 | Then you hear his voice twice. On the phone. And behind you. | The phone glow catches two eyes in the dark behind the crates. Red word: `twice.` |
+| L13 | You invited him in last night. It doesn't expire. | Freeze on the eyes. Hard cut. |
+| — | Poll card: **WHAT DO YOU DO?** · **A** Invite him home · **B** Hang up and let Dave in · "Comment A or B" | |
+
+**Ladder of open loops:**
+
+| Line | Open question |
+| --- | --- |
+| L01 | Will he help? |
+| L03 | How does he know me? |
+| L04 | Can I make it in time? |
+| L06 | Will I burn? |
+| L07 | Who's that? |
+| L09 | Will I attack him? |
+| L10 | What's the price? |
+| L12 | Where is he? |
+| L13 | What do I do? |
+
+**Both options cost something.** A gets you the rules and a mentor, but a vampire gets the key to your home. B keeps
+your home safe, but you have no rules and you're shut in with a human whose heartbeat you can hear.
+
+**For first-time viewers:**
+- The hook works on its own: anyone understands calling the stranger who did this to you.
+- L02 is the recap.
+- The countdown makes stakes obvious within seconds.
+- The poll names a concrete action, not a mood.
+
+**Comedy beats:** "Your badge just says trainee." · "He sounds bored." · Dave being twenty minutes early, which is the
+real horror of retail.
+
+**Plants kept in reserve:** R.'s old staff badge ("R. · NIGHT MANAGER", 1974). One glint of it as the eyes appear
+behind the crates.
+
+**New art:**
+- phone call screen
+- name badge
+- shop floor with moving sunlight slats and aisle shadows
+- the van and Dave's silhouette at the glass
+- the stockroom: crates, a blade of light under the door, eyes in the dark
+
+**Reuse:** `PetrolStation` (ShopDoors, Counter, OldCoin), `ClockTag`, `PollCard`.
