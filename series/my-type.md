@@ -157,3 +157,26 @@ About 140 words, roughly 58 s plus the poll card.
 
 **Voice:** `bm_lewis`, first person (as in Part 1). The DM is read by the narrator. Optionally, her "Sorry." can be
 heard once at a door (`bf_emma`, as in Part 1's whisper) so its absence at the end lands.
+
+### Round 2: open on the bite (owner's note)
+
+The first line is now the catchiest one. The vote recap follows it, and the deadline lands in the third line.
+
+| # | Line | Picture |
+| --- | --- | --- |
+| L01 | Three weeks ago, a girl I met at a goth night bit me. | Hook: her at the bar (rig), the full glass; her eyes slide to us. |
+| L02 | Last night, the council voted on my life. She voted to spare me. | Her hand sets down the white stone (callback to the Part 1 poll). |
+| L03 | On one condition. By sunrise, the selfie I posted that night never happened. | The eldest's grey hand on the table; clock tag 00:40. |
+| L04 | She wasn't in it. Three hundred and twelve people saw it. | The story screen: two glasses, nobody next to him, "Seen by 312". |
+| L05 | They handed me a list. Every viewer. In fountain pen. | Close on the list in copperplate. |
+| L06 | Number one, my mum. She'd liked it. | "1. Mum ♥". |
+| L07 | She taught me on the walk home. Eye contact. Slowly. Forget. | Her close-up: eyes wide, then red. |
+| L08 | First try, the pizza guy forgot his own name. | Doorstep, pizza box, a dazed delivery cap. |
+| L09 | By four a.m., two hundred people had forgotten a photo of two glasses. | Montage of doors; the list ticked off; 04:02. |
+| L10 | And at every door, she said sorry. | Her sad face at a door. |
+| L11 | Then I got to number three hundred and twelve. | The last line of the list. |
+| L12 | No name. No photo. The account was made the night I was bitten. | A blank profile, "Joined 3 weeks ago". |
+| L13 | They'd screenshotted my story. And sent one message. | The DM: the screenshot, typing dots. |
+| L14 | I know what she is. Do you? | Red word: `she`. |
+| L15 | She read it over my shoulder. And stopped apologising. | Her face goes still, eyes red. Hard cut. |
+| — | Poll: **A** Reply to them · **B** Hand it to the council | |
