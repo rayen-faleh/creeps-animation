@@ -92,3 +92,68 @@ The ladder runs from a question to the next:
   - phone story screen (existing Phone `screen` prop)
 - **Reuse:** `Doorstep`, `FitnessWatch`, `STYLES.vamp` hands, `PollCard`.
 - **Safety:** the cut palm is a small cut only, with no gore. The bite stays off screen (implied by the fade at L10).
+
+---
+
+## Part 2 (viewers chose A: she votes SPARE). Draft script, round 1
+
+**Engine:** a deadline and a list. He's spared on one condition: by sunrise the story never happened, and all 312
+viewers must forget it.
+
+**Comedy:**
+- the list, handwritten in fountain pen
+- his mum is number one
+- his first glamour makes the pizza guy forget his own name
+
+**Horror:** the last name on the list isn't a person he knows. They screenshotted the story, and they know something
+about *her*.
+
+**Thread from Part 1:** "She said sorry. She said it a lot." It pays off when she stops apologising.
+
+| # | Line | Picture |
+| --- | --- | --- |
+| L01 | She voted to spare me. Now I have until sunrise to make three hundred people forget. | Hook: her hand sets down the white stone (callback to the Part 1 poll); clock tag 00:40. |
+| L02 | Three weeks ago, a girl I met at a goth night bit me. | Recap: the bar, her, the full glass (the rigged character). |
+| L03 | I posted a selfie that night. She wasn't in it. Three hundred and twelve people saw it. | The story screen: two glasses, nobody next to him, "Seen by 312". |
+| L04 | The council's terms: by sunrise, that story never happened. | The eldest's grey hand pushes a scroll across the table. |
+| L05 | They handed me a list. Every viewer. In fountain pen. | Close on the list: Instagram handles in copperplate. Laugh beat. |
+| L06 | Number one, my mum. She'd liked it. | The top line: "1. Mum ♥". Laugh beat. |
+| L07 | She taught me on the walk home. Eye contact. Slowly. Forget. | The rigged character, close: eyes wide, then glowing red, mouth shaping "forget". |
+| L08 | First try, the pizza guy forgot his own name. | A doorstep, a pizza box, a dazed delivery cap; a name badge with a question mark. Laugh beat. |
+| L09 | By four a.m., two hundred people had forgotten a photo of two glasses. | Montage: doors, porches, a ticked-off list; clock tag 04:02. |
+| L10 | And at every door, she said sorry. | Her face at a doorway, sad mouth (rig). |
+| L11 | Then I got to number three hundred and twelve. | The bottom of the list, one line left. Tension drone in. |
+| L12 | No name. No photo. The account was made the night I was bitten. | Phone: a blank profile, "Joined 3 weeks ago". |
+| L13 | They'd screenshotted my story. And sent one message. | The DM thread: the screenshot, then typing dots. |
+| L14 | I know what she is. Do you? | The message lands. Red word: `she`. |
+| L15 | She read it over my shoulder. And stopped apologising. | Mute-readable turn: her face (rig) goes from sad to perfectly still; eyes half closed, then red. Hard cut. |
+| — | Poll card: **WHAT DO YOU DO?** · **A** Reply to them · **B** Hand it to the council · "Comment A or B" | |
+
+About 140 words, roughly 58 s plus the poll card.
+
+### Ladder of open questions
+
+| Line | Open question |
+| --- | --- |
+| L01 | Can he do it by sunrise? |
+| L04 | What happens if he fails? |
+| L05 | Who's on the list? |
+| L07 | Can he even do this? |
+| L09 | Will he make it? |
+| L11 | Who's the last one? |
+| L12 | Who made an account that night? |
+| L14 | What *is* she? |
+| L15 | Why did she stop apologising? |
+
+**For first-time viewers:**
+- The hook gives the premise (spared, a sunrise deadline, 300 people to make forget) without needing Part 1.
+- L02 and L03 are the recap.
+- The final message makes everyone ask the same question.
+
+**Poll stakes:**
+- **A, reply:** he goes behind the council's back with a stranger who knows more than he does.
+- **B, hand it to the council:** that probably gets the sender killed, and maybe puts *her* on trial. That's why she
+  stopped apologising.
+
+**Voice:** `bm_lewis`, first person (as in Part 1). The DM is read by the narrator. Optionally, her "Sorry." can be
+heard once at a door (`bf_emma`, as in Part 1's whisper) so its absence at the end lands.
