@@ -17,7 +17,11 @@ export const ClovesFigure:React.FC<{id:string;t:number;kind:FigureKind;x:number;
  const recedingCx=-42+turn*17;
  const noseOut=v?1-turn:Math.max(0,Math.min(1,1-turn/.35));
  const noseIn=v?turn:Math.max(0,Math.min(1,(turn-.22)/.18));
- const noseX=mix(-60,-10,Math.max(0,Math.min(1,(turn-.22)/.78)));
+ // A rotating face (head centre -4, radius 44): yaw runs from -90 deg (profile) to 0 (front). Each feature's screen
+ // x and its foreshortening come from that one angle, so the eyes keep a consistent spacing through the turn.
+ const yaw=(turn-1)*Math.PI/2,HX=-4,HR=44.3,EA=0.494;
+ const faceEyes=[EA,-EA].map(a=>({x:HX+HR*Math.sin(a+yaw),k:Math.max(.3,Math.cos(a+yaw)),vis:Math.cos(a+yaw)}));
+ const noseX=HX+HR*Math.sin(yaw)*0.9-6;
  const arm=(a:V,b:V,front:boolean)=>{const e=elbow(a,b,142,148,front?-1:1);return <g><path d={`M${a} L${e} L${b}`} fill="none" stroke="#0b0e13" strokeWidth={69} strokeLinecap="round" strokeLinejoin="round"/><path d={`M${a} L${e} L${b}`} fill="none" stroke={cloth} strokeWidth={59} strokeLinecap="round" strokeLinejoin="round"/><path d={`M${a[0]-10},${a[1]-8} L${e[0]-10},${e[1]-7} L${b[0]-9},${b[1]-8}`} fill="none" stroke={edge} strokeOpacity={.28} strokeWidth={4}/><path d={`M${b[0]-27},${b[1]-17} l52,0 l0,20 l-52,0Z`} fill={v?'#312232':'#847252'}/><g transform={`translate(${b})`} opacity={v&&front&&claw>0?0:1}><path d="M-23,-12 Q-30,-35 -18,-42 Q-6,-44 -4,-23 L20,-27 Q37,-25 35,-7 L22,12 L-7,14 Q-28,9 -23,-12Z" fill={skin} stroke={shade} strokeWidth={3}/><path d="M-5,-15 L26,-15 M-7,-5 L25,-5 M-9,5 L18,5" stroke={shade} strokeWidth={2}/>{v&&<path d="M27,-20 l12,-8 l-4,15 M29,-7 l12,-6 l-7,14" fill="#10141b"/>}</g>{v&&front&&claw>0&&<Hand id={`${id}-claw`} x={b[0]} y={b[1]} rot={-82} scale={.48} style={STYLES.creature} pose={lerpPose(POSES.claw,POSES.reach,claw*.6)} showSleeve={false} light={.9}/>}</g>;};
  const leg=(a:V,b:V,k:number)=>{const n=elbow(a,b,155,155,k);return <g><path d={`M${a} L${n} L${b}`} fill="none" stroke="#10151d" strokeWidth={69} strokeLinecap="round"/><path d={`M${a} L${n} L${b}`} fill="none" stroke={v?'#22212b':'#242b31'} strokeWidth={58} strokeLinecap="round"/><path d={`M${b[0]-32},${b[1]-39} L${b[0]+29},${b[1]-38} L${b[0]+30},${b[1]+9} L${b[0]-72},${b[1]+10} Q${b[0]-90},${b[1]-6} ${b[0]-34},${b[1]-13}Z`} fill="#0b0e14" stroke="#73777b" strokeOpacity={.28} strokeWidth={3}/></g>;};
  return <g id={id} transform={`translate(${x},${y}) scale(${mirror?-s:s},${s})`}>
@@ -36,12 +40,18 @@ export const ClovesFigure:React.FC<{id:string;t:number;kind:FigureKind;x:number;
     <path d="M27,-494 Q57,-462 32,-413 L11,-372 Q40,-387 51,-424 Q62,-463 42,-495Z" fill={shade} opacity={.75}/>
     {/* Ears stay on the side plane and are painted before all eyes. */}
     <g transform={`translate(${v?0:turn*26},0)`}><ellipse cx={31} cy={-430} rx={12} ry={22} fill={skin} stroke={shade} strokeWidth={3}/><path d="M34,-443 Q20,-433 33,-418" stroke={shade} strokeWidth={3} fill="none"/></g>
+    {v?<>
     <g transform={`translate(${recedingCx},-432) scale(${recedingX},${recedingY}) translate(${-recedingCx},432)`}>
-    <path d={`M${-55+turn*12},${-444-alarm*8} Q${-42+turn*13},${-454-alarm*10} ${-26+turn*12},${-445-alarm*3}`} stroke={v?'#282b35':'#392e29'} strokeWidth={v?5:6} fill="none"/>
+    <path d={`M${-55+turn*12},${-444-alarm*8} Q${-42+turn*13},${-454-alarm*10} ${-26+turn*12},${-445-alarm*3}`} stroke="#282b35" strokeWidth={5} fill="none"/>
     <path d={`M${-57+turn*17},-432 Q${-42+turn*17},${-423-blink*7} ${-26+turn*17},-432 Q${-42+turn*17},${-442+blink*10} ${-57+turn*17},-432Z`} fill="#161c24"/>
-    <circle cx={-43+turn*18} cy={-432} r={(v?4:3.6)*(1-blink)} fill={v?'#a88f89':'#c2c9bc'}/>
+    <circle cx={-43+turn*18} cy={-432} r={4*(1-blink)} fill="#a88f89"/>
     </g>
-    {turn>.3&&<g opacity={Math.min(1,(turn-.3)/.12)}><g transform={`translate(16,-433) scale(${nearerX},${nearerY}) translate(-16,433)`}><path d="M7,-433 Q17,-442 25,-433 Q17,-426 7,-433Z" fill="#24252a"/><path d="M7,-445 Q17,-452 26,-445" stroke="#392e29" strokeWidth={4} fill="none"/><circle cx={17} cy={-433} r={3} fill="#c4cabc"/></g></g>}
+    {turn>.35&&<g opacity={(turn-.35)/.65}><g transform={`translate(16,-433) scale(${nearerX},${nearerY}) translate(-16,433)`}><path d="M7,-433 Q17,-442 25,-433 Q17,-426 7,-433Z" fill="#24252a"/><path d="M7,-445 Q17,-452 26,-445" stroke="#392e29" strokeWidth={4} fill="none"/><circle cx={17} cy={-433} r={3} fill="#c4cabc"/></g></g>}
+    </>:faceEyes.map((e,i)=>e.vis<=0?null:<g key={i} opacity={Math.min(1,e.vis*4)} transform={`translate(${e.x},-432) scale(${e.k},1)`}>
+     <path d={`M-15,${-12-alarm*8} Q0,${-21-alarm*10} 16,${-13-alarm*3}`} stroke="#392e29" strokeWidth={6} fill="none"/>
+     <path d={`M-15,0 Q0,${9-blink*7} 15,0 Q0,${-10+blink*10} -15,0Z`} fill="#161c24"/>
+     <circle cx={1} cy={0} r={3.6*(1-blink)} fill="#c2c9bc"/>
+    </g>)}
     {!v&&mouth>.3?<ellipse cx={mix(-65,-5,turn)} cy={-382} rx={8} ry={5+mouth*5} fill="#261b1c" stroke="#775449" strokeWidth={2}/>:<path d={`M${mix(-79,-23,turn)},-383 Q${mix(-67,-7,turn)},${!v&&alarm>.5?-389:-380-mouth*8} ${mix(-54,12,turn)},-383`} fill={mouth>0?'#1d151a':'none'} stroke={v?'#4f303a':'#50352e'} strokeWidth={3}/>}
     {noseIn>0&&<path d={`M${noseX+6},-424 Q${noseX-2},-410 ${noseX-6},-398 Q${noseX+2},-393 ${noseX+10},-396`} fill="none" stroke={shade} strokeWidth={3} opacity={noseIn}/>}{(v||turn<.35)&&<path d={`M${-53+turn*30},-407 L${-24+turn*30},-397`} stroke={shade} strokeWidth={3} opacity={v?.5:.5*(1-turn/.35)}/>}
     {v?<><path d="M-69,-478 Q-69,-534 -10,-540 Q50,-538 62,-492 L55,-428 L32,-413 L28,-481 Q1,-503 -31,-491 L-60,-454Z" fill="#141821"/><path d="M-55,-505 Q-20,-527 18,-510" stroke="#626a76" strokeOpacity={.35} strokeWidth={5}/></>:<><path d="M-69,-474 Q-84,-516 -42,-534 Q4,-555 47,-524 Q72,-509 60,-470 L36,-443 L30,-480 L-9,-489 L-52,-465Z" fill="#2c2521"/>{[-46,-20,8,32].map((n,i)=><path key={i} d={`M${n-12},${-507-i%2*10} q-6,-22 16,-23 q22,2 14,21`} stroke="#5c4838" strokeWidth={4} strokeOpacity={.55} fill="none"/>)}<path d="M-73,-491 L60,-491 L50,-516 Q-4,-538 -62,-514Z" fill="#263440" stroke="#7e8279" strokeOpacity={.35} strokeWidth={3}/><path d="M-52,-516 L47,-516" stroke="#8f7d54" strokeWidth={6}/></>}
