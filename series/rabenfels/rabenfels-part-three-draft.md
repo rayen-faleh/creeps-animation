@@ -87,3 +87,65 @@ mirror turning on Elias. It's mute-readable: in the glass, Safwan's hand grips n
 - **Opening:** reuse the Part II tavern landing for continuity.
 - **Exterior:** the street plate at night, with the watch's lanterns.
 - **Voices:** `bm_lewis` throughout. The stranger keeps the Part II treatment (−0.8 semitones, 0.94 speed, short room).
+
+
+---
+
+## Round 2: more tension, more events, more curiosity (owner's notes)
+
+Changes from round 1:
+- **Curiosity hook after the credit line:** "It worked. That was the problem." First-time viewers hear the outcome is
+  bad before they know why.
+- **An Otto clue mid-episode:** as the stranger flees, Otto's shop key (on a cleaver-shaped tag) drops from his coat.
+  Why does he have it? This connects Part II's chained shop and raises a new question without answering it.
+- **An eventful, escalating ending:** after the empty grip in the glass, the watch bursts in: Captain Grete, three
+  lanterns. She asks Safwan, "Where is he?" Safwan opens his mouth, and looks at the mirror. Who will he name, the
+  stranger upstairs or you? Three people, one mirror, and lantern light about to hit it.
+
+| # | Line | Picture |
+| --- | --- | --- |
+| L00 | You decided to let Safwan see it for himself. | Hook: the gold mirror, empty reflected stairs, Safwan in the glass; credit card "@stvry.safwan chose again · Safwan's story continues". |
+| L01 | It worked. That was the problem. | Push on the mirror; one low boom. |
+| L02 | You don't answer the stranger. You say, Safwan. Look at the mirror. | The stranger's frozen reach; your gloved hand points at the glass. |
+| L03 | But first, you step back. Out of the glass. | Your hand slides out of the reflected view. |
+| L04 | Safwan looks. Stairs. Railing. Candle. His own face. | Over his shoulder, a pan across the reflection; his front view in the glass. |
+| L05 | No stranger. | Hold on the empty step. Red word: `stranger.` |
+| L06 | His hand finds his whistle. | The brass whistle rises. |
+| L07 | The stranger smiles. *Clever. Now he knows what I am.* | Stranger voice treatment. |
+| L08 | *Let's see how long until he knows what you are.* | He looks straight at us. |
+| L09 | The whistle screams. He backs up the stairs. | Candle flames shiver; he retreats up the treads. |
+| L10 | Something falls from his coat. Otto's shop key. | Mute-readable: a key on a cleaver-shaped tag bounces down the stairs. Red word: `key.` |
+| L11 | His door slams. A room you were never invited into. | The guest-room door at the top; the bolt. |
+| L12 | Safwan grabs your arm. You knew. How did you know? | His hand clamps your sleeve and pulls. |
+| L13 | He's pulled you back in front of the mirror. | The glass again. |
+| L14 | In the glass, his hand is gripping nothing. | His reflected fingers close on empty air. Red word: `nothing.` |
+| L15 | Then the tavern door bursts open. Captain Grete. Three lanterns. | Hard cut: the door flies in, lantern light floods the room and swings toward the mirror. |
+| L16 | She asks Safwan, where is he? | Grete in profile, a hand on her sword. |
+| L17 | Safwan opens his mouth. And looks at the mirror. | Close on Safwan, his eyes sliding to the glass. Hard cut. |
+| L18 | What do you do before he speaks? | The prompt over black, then the title. |
+| L19 | Top comment chooses your next move. | **RABENFELS · PART III** |
+
+About 165 words, roughly 64 s plus the title.
+
+### Ladder of open questions
+
+| Line | Open question |
+| --- | --- |
+| L01 | What went wrong? |
+| L03 | Why step back? |
+| L05 | What will he do? |
+| L08 | Will Safwan work it out? |
+| L10 | Why does he have Otto's key? |
+| L11 | Can you get to him? |
+| L14 | Will Safwan see it? |
+| L16 | Who will he name? |
+| L17 | Will he look at the glass? |
+| L18 | What do I do? |
+
+Each question opens within 3–5 seconds of the last one closing.
+
+### Proposed ledger changes
+
+- The stranger is carrying Otto's shop key; it's now on the tavern stairs.
+- Captain Grete and the watch are inside the Broken Bell.
+- Safwan has been asked where the vampire is and hasn't answered yet.
