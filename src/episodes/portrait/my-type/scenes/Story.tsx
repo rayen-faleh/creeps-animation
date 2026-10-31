@@ -266,7 +266,7 @@ export const Door: React.FC<{t: number}> = ({t}) => {
 };
 
 /** The selfie on my phone: me grinning with a glass, and a second glass in mid-air with lipstick on the rim. */
-const Selfie: React.FC<{t: number; flash?: number}> = ({t, flash = 0}) => (
+export const Selfie: React.FC<{t: number; flash?: number}> = ({t, flash = 0}) => (
   <g>
     <rect x={14} y={14} width={392} height={832} fill="#3a1e10" />
     <ellipse cx={210} cy={360} rx={300} ry={360} fill={WARM} opacity={0.22} />
@@ -479,7 +479,7 @@ export const Slide: React.FC<{t: number}> = ({t}) => {
 };
 
 /** The story view: progress bars, the selfie, and the viewer count. */
-const StoryView: React.FC<{t: number; views: number}> = ({t, views}) => (
+export const StoryView: React.FC<{t: number; views: number}> = ({t, views}) => (
   <g>
     <Selfie t={t} />
     {[0, 1, 2].map((i) => <rect key={i} x={30 + i * 124} y={34} width={112} height={6} rx={3} fill="#fff" opacity={i === 1 ? 0.9 : 0.4} />)}

@@ -95,7 +95,9 @@ The ladder runs from a question to the next:
 
 ---
 
-## Part 2 (viewers chose A: she votes SPARE). Draft script, round 1
+## Part 2 (viewers chose A: she votes SPARE). Made: `src/episodes/portrait/my-type-02` (`MyType02`); her "Sorry." uses `af_nicole`
+
+### Round 1 draft
 
 **Engine:** a deadline and a list. He's spared on one condition: by sunrise the story never happened, and all 312
 viewers must forget it.

@@ -161,6 +161,7 @@ reorganised:
 | `Rabenfels02` | `src/episodes/portrait/rabenfels-02` | 69 s | Rabenfels, Part II: Cloves (revised v2) |
 | `GraveyardShift02` | `src/episodes/portrait/graveyard-shift-02` | 60 s | Graveyard Shift Part 2: you called him; poll ending |
 | `Rabenfels03` | `src/episodes/portrait/rabenfels-03` | 68 s | Rabenfels Part III: Safwan sees the mirror; the mirror turns on Elias |
+| `MyType02` | `src/episodes/portrait/my-type-02` | 66 s | My Type Part 2: spared; the list; number 312 (poll ending) |
 | `GraveyardShift01` | `src/episodes/portrait/graveyard-shift-01` | 67 s | Graveyard Shift, Part 1: the customer; ends on a viewer poll |
 | `DatingVampire` | `src/episodes/portrait/dating-vampire` | 74 s | Horror-comedy: a week dating a vampire, Hollywood vs folklore |
 | `SurviveVampire` | `src/episodes/portrait/survive-vampire` | 33.5 s | Would You Survive? As a vampire: "And you rent." Reference for the format |

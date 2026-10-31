@@ -1,18 +1,84 @@
 [
- {"id": "L01", "text": "Three weeks ago, a girl I met at a goth night bit me.", "pauseAfter": 0.5},
- {"id": "L02", "text": "Last night, the council voted on my life. She voted to spare me.", "pauseAfter": 0.4},
- {"id": "L03", "text": "On one condition. By sunrise, the selfie I posted that night never happened.", "pauseAfter": 0.4},
- {"id": "L04", "text": "She wasn't in it. Three hundred and twelve people saw it.", "pauseAfter": 0.6},
- {"id": "L05", "text": "They handed me a list. Every viewer. In fountain pen.", "pauseAfter": 0.4},
- {"id": "L06", "text": "Number one, my mum. She'd liked it.", "pauseAfter": 0.6},
- {"id": "L07", "text": "She taught me on the walk home. Eye contact. Slowly. Forget.", "pauseAfter": 0.4},
- {"id": "L08", "text": "First try, the pizza guy forgot his own name.", "pauseAfter": 0.6},
- {"id": "L09", "text": "By four a.m., two hundred people had forgotten a photo of two glasses.", "pauseAfter": 0.4},
- {"id": "L10", "text": "And at every door, she said sorry.", "pauseAfter": 0.2},
- {"id": "L10b", "text": "Sorry.", "whisper": true, "voice": "bf_emma", "pauseAfter": 0.6},
- {"id": "L11", "text": "Then I got to number three hundred and twelve.", "pauseAfter": 0.5},
- {"id": "L12", "text": "No name. No photo. The account was made the night I was bitten.", "pauseAfter": 0.4},
- {"id": "L13", "text": "They'd screenshotted my story. And sent one message.", "pauseAfter": 0.5},
- {"id": "L14", "text": "I know what she is. Do you?", "pauseAfter": 0.8},
- {"id": "L15", "text": "She read it over my shoulder. And stopped apologising.", "pauseAfter": 0.4}
+ {
+  "id": "L01",
+  "text": "Three weeks ago, a girl I met at a goth night bit me.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L02",
+  "text": "Last night, the council voted on my life. She voted to spare me.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L03",
+  "text": "On one condition. By sunrise, the selfie I posted that night never happened.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L04",
+  "text": "She wasn't in it. Three hundred and twelve people saw it.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L05",
+  "text": "They handed me a list. Every viewer. In fountain pen.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L06",
+  "text": "Number one, my mum. She'd liked it.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L07",
+  "text": "She taught me on the walk home. Eye contact. Slowly. Forget.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L08",
+  "text": "First try, the pizza guy forgot his own name.",
+  "pauseAfter": 0.6
+ },
+ {
+  "id": "L09",
+  "text": "By four a.m., two hundred people had forgotten a photo of two glasses.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L10",
+  "text": "And at every door, she said sorry.",
+  "pauseAfter": 0.2
+ },
+ {
+  "id": "L10b",
+  "text": "Sorry.",
+  "voice": "af_nicole",
+  "pauseAfter": 0.6,
+  "speed": 0.9
+ },
+ {
+  "id": "L11",
+  "text": "Then I got to number three hundred and twelve.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L12",
+  "text": "No name. No photo. The account was made the night I was bitten.",
+  "pauseAfter": 0.4
+ },
+ {
+  "id": "L13",
+  "text": "They'd screenshotted my story. And sent one message.",
+  "pauseAfter": 0.5
+ },
+ {
+  "id": "L14",
+  "text": "I know what she is. Do you?",
+  "pauseAfter": 0.8
+ },
+ {
+  "id": "L15",
+  "text": "She read it over my shoulder. And stopped apologising.",
+  "pauseAfter": 0.4
+ }
 ]

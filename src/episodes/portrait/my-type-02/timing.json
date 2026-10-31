@@ -1,0 +1,368 @@
+{
+ "unit": "seconds",
+ "total": 60.003,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Three weeks ago, a girl I met at a goth night bit me.",
+   "start": 0.35,
+   "end": 3.625,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Three weeks ago,",
+     "start": 0.35,
+     "end": 1.39
+    },
+    {
+     "text": "a girl I met at a goth night bit me.",
+     "start": 1.39,
+     "end": 3.625
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "Last night, the council voted on my life. She voted to spare me.",
+   "start": 4.025,
+   "end": 8.209,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Last night,",
+     "start": 4.025,
+     "end": 4.695
+    },
+    {
+     "text": "the council voted on my life.",
+     "start": 4.695,
+     "end": 6.625
+    },
+    {
+     "text": "She voted to spare me.",
+     "start": 6.625,
+     "end": 8.209
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "On one condition. By sunrise, the selfie I posted that night never happened.",
+   "start": 8.529,
+   "end": 13.969,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "On one condition.",
+     "start": 8.529,
+     "end": 9.879
+    },
+    {
+     "text": "By sunrise,",
+     "start": 9.879,
+     "end": 11.129
+    },
+    {
+     "text": "the selfie I posted that night never happened.",
+     "start": 11.129,
+     "end": 13.969
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "She wasn't in it. Three hundred and twelve people saw it.",
+   "start": 14.289,
+   "end": 17.429,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She wasn't in it.",
+     "start": 14.289,
+     "end": 15.304
+    },
+    {
+     "text": "Three hundred and twelve people saw it.",
+     "start": 15.304,
+     "end": 17.429
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "They handed me a list. Every viewer. In fountain pen.",
+   "start": 17.909,
+   "end": 21.597,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "They handed me a list.",
+     "start": 17.909,
+     "end": 19.169
+    },
+    {
+     "text": "Every viewer.",
+     "start": 19.169,
+     "end": 20.249
+    },
+    {
+     "text": "In fountain pen.",
+     "start": 20.249,
+     "end": 21.598
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "Number one, my mum. She'd liked it.",
+   "start": 21.917,
+   "end": 24.291,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Number one,",
+     "start": 21.917,
+     "end": 23.282
+    },
+    {
+     "text": "my mum.",
+     "start": 23.282,
+     "end": 23.932
+    },
+    {
+     "text": "She'd liked it.",
+     "start": 23.932,
+     "end": 24.291
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "She taught me on the walk home. Eye contact. Slowly. Forget.",
+   "start": 24.771,
+   "end": 28.921,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She taught me on the walk home.",
+     "start": 24.771,
+     "end": 26.281
+    },
+    {
+     "text": "Eye contact.",
+     "start": 26.281,
+     "end": 27.456
+    },
+    {
+     "text": "Slowly.",
+     "start": 27.456,
+     "end": 28.256
+    },
+    {
+     "text": "Forget.",
+     "start": 28.256,
+     "end": 28.92
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "First try, the pizza guy forgot his own name.",
+   "start": 29.241,
+   "end": 32.399,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "First try,",
+     "start": 29.241,
+     "end": 30.191
+    },
+    {
+     "text": "the pizza guy forgot his own name.",
+     "start": 30.191,
+     "end": 32.399
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "By four a.m., two hundred people had forgotten a photo of two glasses.",
+   "start": 32.879,
+   "end": 38.037,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "By four a.m.,",
+     "start": 32.879,
+     "end": 34.674
+    },
+    {
+     "text": "two hundred people had forgotten a photo of two glasses.",
+     "start": 34.674,
+     "end": 38.037
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10",
+   "text": "And at every door, she said sorry.",
+   "start": 38.357,
+   "end": 40.348,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And at every door,",
+     "start": 38.357,
+     "end": 39.367
+    },
+    {
+     "text": "she said sorry.",
+     "start": 39.367,
+     "end": 40.347
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L10b",
+   "text": "Sorry.",
+   "start": 40.508,
+   "end": 41.352,
+   "whisper": false,
+   "voice": "af_nicole",
+   "phrases": [
+    {
+     "text": "Sorry.",
+     "start": 40.508,
+     "end": 41.352
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L11",
+   "text": "Then I got to number three hundred and twelve.",
+   "start": 41.832,
+   "end": 44.551,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then I got to number three hundred and twelve.",
+     "start": 41.832,
+     "end": 44.551
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L12",
+   "text": "No name. No photo. The account was made the night I was bitten.",
+   "start": 44.951,
+   "end": 49.408,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "No name.",
+     "start": 44.951,
+     "end": 45.671
+    },
+    {
+     "text": "No photo.",
+     "start": 45.671,
+     "end": 46.761
+    },
+    {
+     "text": "The account was made the night I was bitten.",
+     "start": 46.761,
+     "end": 49.409
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "They'd screenshotted my story. And sent one message.",
+   "start": 49.728,
+   "end": 53.108,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "They'd screenshotted my story.",
+     "start": 49.728,
+     "end": 51.598
+    },
+    {
+     "text": "And sent one message.",
+     "start": 51.598,
+     "end": 53.107
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "I know what she is. Do you?",
+   "start": 53.508,
+   "end": 55.327,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I know what she is.",
+     "start": 53.508,
+     "end": 54.693
+    },
+    {
+     "text": "Do you?",
+     "start": 54.693,
+     "end": 55.328
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L15",
+   "text": "She read it over my shoulder. And stopped apologising.",
+   "start": 55.967,
+   "end": 59.683,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She read it over my shoulder.",
+     "start": 55.967,
+     "end": 57.802
+    },
+    {
+     "text": "And stopped apologising.",
+     "start": 57.802,
+     "end": 59.682
+    }
+   ],
+   "phraseSource": "measured-silence"
+  }
+ ]
+}
