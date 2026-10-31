@@ -1,0 +1,23 @@
+[
+ {"id": "L00", "text": "You decided to let Safwan see it for himself.", "pauseAfter": 0.4},
+ {"id": "L01", "text": "It worked. That was the problem.", "pauseAfter": 0.7},
+ {"id": "L02", "text": "You don't answer the stranger. You say, Safwan. Look at the mirror.", "pauseAfter": 0.3},
+ {"id": "L03", "text": "But first, you step back. Out of the glass.", "pauseAfter": 0.5},
+ {"id": "L04", "text": "Safwan looks. Stairs. Railing. Candle. His own face.", "pauseAfter": 0.5},
+ {"id": "L05", "text": "No stranger.", "pauseAfter": 0.8},
+ {"id": "L06", "text": "His hand finds his whistle.", "pauseAfter": 0.3},
+ {"id": "L07", "text": "The stranger smiles.", "pauseAfter": 0.2},
+ {"id": "L08", "text": "Clever. Now he knows what I am.", "speed": 0.94, "pauseAfter": 0.3},
+ {"id": "L09", "text": "Let's see how long until he knows what you are.", "speed": 0.94, "pauseAfter": 0.5},
+ {"id": "L10", "text": "The whistle screams. He backs up the stairs.", "pauseAfter": 0.3},
+ {"id": "L11", "text": "Something falls from his coat. Otto's shop key.", "pauseAfter": 0.6},
+ {"id": "L12", "text": "His door slams. A room you were never invited into.", "pauseAfter": 0.5},
+ {"id": "L13", "text": "Safwan grabs your arm. You knew. How did you know?", "pauseAfter": 0.3},
+ {"id": "L14", "text": "He's pulled you back in front of the mirror.", "pauseAfter": 0.3},
+ {"id": "L15", "text": "In the glass, his hand is gripping nothing.", "pauseAfter": 0.8},
+ {"id": "L16", "text": "Then the tavern door bursts open. Captain Grete. Three lanterns.", "pauseAfter": 0.3},
+ {"id": "L17", "text": "She asks Safwan, where is he?", "pauseAfter": 0.4},
+ {"id": "L18", "text": "Safwan opens his mouth. And looks at the mirror.", "pauseAfter": 0.9},
+ {"id": "L19", "text": "What do you do before he speaks?", "pauseAfter": 0.3},
+ {"id": "L20", "text": "Top comment chooses your next move.", "pauseAfter": 0.3}
+]

@@ -1,0 +1,75 @@
+{
+  "town": "Rabenfels",
+  "year": 1732,
+  "episode": 3,
+  "player": "Elias Voss",
+  "cover": "Town clerk; rents above the Broken Bell",
+  "hunger": "Sustained on animal blood, limited strength; the sight of wet blood in lantern light made his fangs drop in front of Safwan (he turned away in time)",
+  "suspectedBy": [
+    "The stranger knows Elias's secret",
+    "Safwan suspects Elias knew in advance"
+  ],
+  "knownDead": [
+    "Unidentified man found drained in the square"
+  ],
+  "relationships": {
+    "Marta": "Washing witness coat; knowledge and motive unresolved",
+    "Matthias": "Friend; repaired door before winter; now equips the hunt",
+    "Otto": "Clove scent ties his blood cups to the corpse and the witness's coat; shop chained and dark, whereabouts unknown; he has at least one other customer (a pale, long-nailed hand), the witness; the stranger was carrying his shop key",
+    "Grete": "Has entered the Broken Bell with two of the watch and three lanterns; asked Safwan where the vampire is",
+    "Safwan": "New recruit helping Elias; now in danger",
+    "UnnamedWitness": "Vampire; fled to his rented room upstairs (private: Elias has no invitation); dropped Otto's shop key; taunted that Safwan will learn what Elias is"
+  },
+  "winningComment": {
+    "handle": "@stvry.safwan",
+    "text": "Don't answer him. Ask Safwan to look at the mirror. Let him discover the empty reflection himself.",
+    "likes": 6,
+    "note": "Repeat winner: no new resident; Safwan's story advances",
+    "actionPerformed": "Elias ignores the stranger, steps out of the mirror's view and tells Safwan to look; Safwan sees the stairs empty in the glass"
+  },
+  "viewerResidents": [
+    {
+      "name": "Safwan",
+      "author": "@stvry.safwan",
+      "role": "Human watch recruit",
+      "alive": true,
+      "knowledge": [
+        "The stranger has no reflection: he is a vampire",
+        "The stranger said Elias has a secret and that Safwan will work out what Elias is",
+        "Elias knew before he did"
+      ],
+      "doesNotKnow": [
+        "Elias is a vampire (his reflected hand gripped nothing while holding Elias's arm, but he was looking at Elias, not the glass)"
+      ],
+      "currentPosition": "Public room of the Broken Bell, by the mirror, holding Elias's arm; Captain Grete has just asked him where the vampire is"
+    }
+  ],
+  "unresolved": [
+    "Who killed the man?",
+    "Where is Otto, and why did the stranger have his key?",
+    "What does Marta know?",
+    "Who will Safwan name to Grete, and will he look at the glass?"
+  ],
+  "episodeTitle": "Part III",
+  "storyTime": "Same night as Part I, before dawn",
+  "productionStatus": "Rendered; not published",
+  "clues": [
+    "Clove scent under the blood on the corpse's collar; Otto packs cloves into the blood cups he sells Elias",
+    "Black wool beneath the victim's fingernails: he fought someone",
+    "The witness's black wool coat has a torn cuff; cloves float out of its pocket in Marta's basin",
+    "Otto has another customer (memory: two covered cups, one for Elias, one for a pale long-nailed hand)",
+    "The witness has no mirror reflection",
+    "The witness looks at the wool in Safwan's hand before demanding him",
+    "Otto's shop key (cleaver-shaped tag) fell from the stranger's coat onto the tavern stairs",
+    "In the mirror, Safwan's hand grips nothing where he holds Elias's arm"
+  ],
+  "cliffhanger": {
+    "contactMade": false,
+    "EliasExposed": false,
+    "watchPresent": true,
+    "safwanAboutToAnswer": true,
+    "nextWinnerSelected": false
+  },
+  "seriesOpening": "You decided to <winning action>.",
+  "productionRevision": "Revised Part II (v2): story beats added (fangs motivated by lantern on blood; 'He fought someone'; torn cuff and cloves in the coat pocket; 'Otto has another customer'; the stranger eyes the wool), new opening and inserts, mirror reveal reframed (push to the glass, then a two-shot). Built in the main repo with the house sound."
+}

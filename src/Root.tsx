@@ -24,11 +24,12 @@ import * as HerRigTest from './episodes/portrait/her-rig-test/Main';
 import * as Rabenfels01 from './episodes/portrait/rabenfels-01/Main';
 import * as Rabenfels02 from './episodes/portrait/rabenfels-02/Main';
 import * as GraveyardShift02 from './episodes/portrait/graveyard-shift-02/Main';
+import * as Rabenfels03 from './episodes/portrait/rabenfels-03/Main';
 
 /* Every story registers here: {META: {id, durationSec, format?}, Episode}. Add one line per new story.
    format defaults to portrait (1080x1920); long-form stories pass LANDSCAPE (1920x1080). */
 type Story = {META: {id: string; durationSec: number; format?: {W: number; H: number}}; Episode: React.FC};
-const STORIES: Story[] = [TheCount01, Template, Catalog, TheWatch01, TheWatch02, TheWatch03, TheWatch04, TheWatch05, CatalogLandscape, TheQuarterTurn, TheQuarterTurnCh1, SurviveVampire, SurviveWerewolf, WitchBottle01, DatingVampire, GraveyardShift01, FriendVampire, TheSickle, MyType01, HerRigTest, Rabenfels01, Rabenfels02, GraveyardShift02];
+const STORIES: Story[] = [TheCount01, Template, Catalog, TheWatch01, TheWatch02, TheWatch03, TheWatch04, TheWatch05, CatalogLandscape, TheQuarterTurn, TheQuarterTurnCh1, SurviveVampire, SurviveWerewolf, WitchBottle01, DatingVampire, GraveyardShift01, FriendVampire, TheSickle, MyType01, HerRigTest, Rabenfels01, Rabenfels02, GraveyardShift02, Rabenfels03];
 
 export const RemotionRoot: React.FC = () => (
   <>

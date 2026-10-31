@@ -1,0 +1,448 @@
+{
+ "unit": "seconds",
+ "total": 64.137,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L00",
+   "text": "You decided to let Safwan see it for himself.",
+   "start": 0.35,
+   "end": 2.98,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You decided to let Safwan see it for himself.",
+     "start": 0.35,
+     "end": 2.98
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L01",
+   "text": "It worked. That was the problem.",
+   "start": 3.3,
+   "end": 5.402,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It worked.",
+     "start": 3.3,
+     "end": 4.08
+    },
+    {
+     "text": "That was the problem.",
+     "start": 4.08,
+     "end": 5.402
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "You don't answer the stranger. You say, Safwan. Look at the mirror.",
+   "start": 5.962,
+   "end": 10.101,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You don't answer the stranger.",
+     "start": 5.962,
+     "end": 7.592
+    },
+    {
+     "text": "You say,",
+     "start": 7.592,
+     "end": 8.667
+    },
+    {
+     "text": "Safwan.",
+     "start": 8.667,
+     "end": 9.057
+    },
+    {
+     "text": "Look at the mirror.",
+     "start": 9.057,
+     "end": 10.101
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "But first, you step back. Out of the glass.",
+   "start": 10.341,
+   "end": 13.017,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "But first,",
+     "start": 10.341,
+     "end": 10.936
+    },
+    {
+     "text": "you step back.",
+     "start": 10.936,
+     "end": 11.886
+    },
+    {
+     "text": "Out of the glass.",
+     "start": 11.886,
+     "end": 13.016
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "Safwan looks. Stairs. Railing. Candle. His own face.",
+   "start": 13.417,
+   "end": 17.478,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Safwan looks.",
+     "start": 13.417,
+     "end": 14.417
+    },
+    {
+     "text": "Stairs.",
+     "start": 14.417,
+     "end": 15.087
+    },
+    {
+     "text": "Railing.",
+     "start": 15.087,
+     "end": 15.747
+    },
+    {
+     "text": "Candle.",
+     "start": 15.747,
+     "end": 16.397
+    },
+    {
+     "text": "His own face.",
+     "start": 16.397,
+     "end": 17.478
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "No stranger.",
+   "start": 17.878,
+   "end": 18.979,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "No stranger.",
+     "start": 17.878,
+     "end": 18.979
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L06",
+   "text": "His hand finds his whistle.",
+   "start": 19.619,
+   "end": 21.623,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "His hand finds his whistle.",
+     "start": 19.619,
+     "end": 21.623
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L07",
+   "text": "The stranger smiles.",
+   "start": 21.863,
+   "end": 23.455,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The stranger smiles.",
+     "start": 21.863,
+     "end": 23.455
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L08",
+   "text": "Clever. Now he knows what I am.",
+   "start": 23.615,
+   "end": 25.633,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Clever.",
+     "start": 23.615,
+     "end": 24.11
+    },
+    {
+     "text": "Now he knows what I am.",
+     "start": 24.11,
+     "end": 25.633
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "Let's see how long until he knows what you are.",
+   "start": 25.873,
+   "end": 28.738,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Let's see how long until he knows what you are.",
+     "start": 25.873,
+     "end": 28.738
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L10",
+   "text": "The whistle screams. He backs up the stairs.",
+   "start": 29.138,
+   "end": 31.933,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The whistle screams.",
+     "start": 29.138,
+     "end": 30.433
+    },
+    {
+     "text": "He backs up the stairs.",
+     "start": 30.433,
+     "end": 31.933
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "Something falls from his coat. Otto's shop key.",
+   "start": 32.173,
+   "end": 35.377,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Something falls from his coat.",
+     "start": 32.173,
+     "end": 33.818
+    },
+    {
+     "text": "Otto's shop key.",
+     "start": 33.818,
+     "end": 35.377
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "His door slams. A room you were never invited into.",
+   "start": 35.857,
+   "end": 39.336,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "His door slams.",
+     "start": 35.857,
+     "end": 37.207
+    },
+    {
+     "text": "A room you were never invited into.",
+     "start": 37.207,
+     "end": 39.337
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "Safwan grabs your arm. You knew. How did you know?",
+   "start": 39.736,
+   "end": 42.949,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Safwan grabs your arm.",
+     "start": 39.736,
+     "end": 41.291
+    },
+    {
+     "text": "You knew.",
+     "start": 41.291,
+     "end": 41.971
+    },
+    {
+     "text": "How did you know?",
+     "start": 41.971,
+     "end": 42.948
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "He's pulled you back in front of the mirror.",
+   "start": 43.189,
+   "end": 45.391,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He's pulled you back in front of the mirror.",
+     "start": 43.189,
+     "end": 45.391
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "In the glass, his hand is gripping nothing.",
+   "start": 45.631,
+   "end": 48.219,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "In the glass,",
+     "start": 45.631,
+     "end": 46.451
+    },
+    {
+     "text": "his hand is gripping nothing.",
+     "start": 46.451,
+     "end": 48.219
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L16",
+   "text": "Then the tavern door bursts open. Captain Grete. Three lanterns.",
+   "start": 48.859,
+   "end": 53.148,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then the tavern door bursts open.",
+     "start": 48.859,
+     "end": 50.899
+    },
+    {
+     "text": "Captain Grete.",
+     "start": 50.899,
+     "end": 52.009
+    },
+    {
+     "text": "Three lanterns.",
+     "start": 52.009,
+     "end": 53.148
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L17",
+   "text": "She asks Safwan, where is he?",
+   "start": 53.388,
+   "end": 55.395,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She asks Safwan,",
+     "start": 53.388,
+     "end": 54.558
+    },
+    {
+     "text": "where is he?",
+     "start": 54.558,
+     "end": 55.396
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L18",
+   "text": "Safwan opens his mouth. And looks at the mirror.",
+   "start": 55.715,
+   "end": 58.713,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Safwan opens his mouth.",
+     "start": 55.715,
+     "end": 57.44
+    },
+    {
+     "text": "And looks at the mirror.",
+     "start": 57.44,
+     "end": 58.713
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L19",
+   "text": "What do you do before he speaks?",
+   "start": 59.433,
+   "end": 61.268,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "What do you do before he speaks?",
+     "start": 59.433,
+     "end": 61.268
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L20",
+   "text": "Top comment chooses your next move.",
+   "start": 61.508,
+   "end": 63.897,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Top comment chooses your next move.",
+     "start": 61.508,
+     "end": 63.897
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}
