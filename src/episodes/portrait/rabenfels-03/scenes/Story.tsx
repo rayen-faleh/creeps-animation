@@ -453,28 +453,45 @@ export const Asks: React.FC<{t: number}> = ({t}) => (
   </AbsoluteFill>
 );
 
-/* S15: Safwan opens his mouth, and looks at the mirror. Lantern light swings across. Hold for the question; hard cut */
+/* S15: Safwan opens his mouth, and looks at the mirror. Cut on the look (no on-screen head turn): from behind him
+   the glass shows him alone, his hand still closed on nothing; Grete's lantern light sweeps across it. Hard cut */
 export const Mouth: React.FC<{t: number}> = ({t}) => {
   const lt = t - E.mouth;
   const open = prog(t, E.mouth + 0.3, E.mouth + 0.8, easeOut);
-  // The turn: no slow morph through in-between head angles (the face reshapes badly). He holds three-quarter view,
-  // then snaps to profile in a quarter second, with a small camera whip and a motion smear to sell it.
-  const snap0 = E.looksmirror + 0.35;
-  const look = easeOut(Math.min(1, Math.max(0, (t - snap0) / 0.22)));
-  const whip = Math.sin(Math.min(1, Math.max(0, (t - snap0) / 0.3)) * Math.PI);
-  const sweep = prog(t, E.looksmirror, E.question, easeInOut);
-  const fade = prog(t, E.question, E.cut, easeIn);
+  const cutOn = E.looksmirror + 0.3;
+  const fade = prog(t, E.top + 1.2, E.cut, easeIn);
+  if (t < cutOn) {
+    // his eyes start toward the glass: the head leans a fraction, no more
+    const lean = prog(t, E.looksmirror, cutOn, easeIn);
+    return (
+      <AbsoluteFill>
+        <Camera t={t} zoom={2.0 + lt * 0.04} x={-160 - lean * 12} y={-150} shake={2.5} seed={3016}>
+          <Stage overflow>
+            <Wall id="r3-mouth-wall" x={-600} y={-600} w={2400} h={3000} warm={0.25} lit={0.6} />
+            <ClovesFigure id="r3-saf-close" t={t} kind="safwan" x={380} y={1200} s={0.9} hand={[-150, -40]} otherHand={[110, -40]} mirror turn={0.7 - lean * 0.08} alarm={0.7} mouth={open * 0.7} />
+          </Stage>
+        </Camera>
+      </AbsoluteFill>
+    );
+  }
+  const ct = t - cutOn;
+  const hand: V = [300, -330];
+  const [gx, gy] = toGlass([REAL.x + hand[0] * REAL.s, REAL.y + hand[1] * REAL.s]);
+  const push = prog(t, cutOn, E.cut, easeInOut);
+  const sweep = prog(t, cutOn + 0.2, cutOn + 2.6, easeInOut);
   return (
-    <AbsoluteFill style={{filter: whip > 0.05 ? `blur(${whip * 5}px)` : undefined}}>
-      <Camera t={t} zoom={2.0 + lt * 0.04} x={-160 + whip * 40} y={-150} shake={2.5} seed={3016}>
+    <AbsoluteFill>
+      <Camera t={t} zoom={mix(1.25, 1.75, push)} x={mix(0, gx - 540, push * 0.6)} y={mix(-60, gy - 960, push * 0.6)} shake={2 + Math.exp(-ct * 3) * 4} seed={3017}>
         <Stage overflow>
-          <Wall id="r3-mouth-wall" x={-600} y={-600} w={2400} h={3000} warm={0.25} lit={0.6} />
-          <ClovesFigure id="r3-saf-close" t={t} kind="safwan" x={380} y={1200} s={0.9} hand={[-150, -40]} otherHand={[110, -40]} mirror turn={mix(0.7, 0.05, look)} alarm={0.7} mouth={open * 0.7} />
-          {/* lantern light sweeping across his face, towards the glass */}
-          <rect x={mix(-300, 900, sweep)} y={-200} width={260} height={2400} fill="#ffd9a8" opacity={0.1} transform={`skewX(-12)`} />
+          <OverShoulder t={t} hand={hand} otherHand={[110, -40]} grip={1}>
+            {/* Grete's lantern light crossing the glass */}
+            <g clipPath="url(#r3-glass-clip)">
+              <rect x={mix(-200, 1000, sweep)} y={-200} width={240} height={2400} fill="#ffd9a8" opacity={0.16} transform="skewX(-14)" />
+            </g>
+          </OverShoulder>
         </Stage>
       </Camera>
-      <AbsoluteFill style={{background: '#000', opacity: fade * 0.55}} />
+      <AbsoluteFill style={{background: '#000', opacity: fade * 0.6}} />
     </AbsoluteFill>
   );
 };

@@ -7,7 +7,7 @@
 - Shape: the action works ("It worked. That was the problem."). Safwan sees the stairs empty in the glass, blows his
   whistle, and the stranger taunts Elias, retreats into his private room and drops Otto's shop key. Safwan grabs
   Elias and pulls him back into the mirror's view, where the glass shows his hand gripping nothing. Captain Grete
-  bursts in and asks Safwan where the vampire is. He opens his mouth, and looks at the mirror.
+  bursts in and asks Safwan where the vampire is. He opens his mouth, and looks at the mirror (we cut on the look to the glass: him alone, gripping nothing, the lantern light crossing it).
 - Question: "What do you do before he speaks?"
 - Mirror rules: the over-the-shoulder shots show Safwan's back in the room and his front in the glass, both driven by
   the same hand targets. The reflection is scaled by k = d/(d+2m) towards the vanishing point. Elias and the

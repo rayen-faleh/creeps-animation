@@ -3,7 +3,10 @@
 - Stills reviewed at 0.4 scale over two rounds. Fixed after review:
   - The empty grip was low and partly hidden. It now rises as he pulls you round, and the frame holds both his real
     grip and the empty one in the glass.
-  - The final close-up was framed too low. It is now centred on Safwan's face as he turns toward the glass.
+  - The final close-up was framed too low. It is now centred on Safwan's face.
+  - The head turn morphed badly through in-between angles, even as a quick snap. It was replaced with a cut on the
+    look: his eyes start toward the glass, then we cut to behind him. The glass shows him alone, his hand closed on
+    nothing, as Grete's lantern light crosses it.
 - Mute test:
   - the gold mirror with empty stairs
   - your gloved hand pointing at the glass, then sliding out of it
