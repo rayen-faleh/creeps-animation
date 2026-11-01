@@ -17,11 +17,18 @@ export const ClayCup:React.FC<{x:number;y:number;s?:number;lid?:number;blood?:bo
 export const Coin:React.FC<{x:number;y:number;r?:number}>=({x,y,r=14})=><g><ellipse cx={x} cy={y} rx={r} ry={r*.55} fill="#a08b61" stroke="#3a3020" strokeWidth={3}/><ellipse cx={x} cy={y-2} rx={r*.7} ry={r*.3} fill="none" stroke="#d7c69a" strokeOpacity={.6} strokeWidth={2}/></g>;
 
 /** Human residents with original profile art and fixed-length two-bone arm articulation. Coordinates are relative to hips. */
-export const Resident:React.FC<{id:string;t:number;x:number;y:number;s?:number;who:'marta'|'matthias'|'otto'|'grete'|'lida';hand?:V;otherHand?:V;lean?:number;look?:number;cup?:boolean;hammer?:number;blade?:boolean;mirror?:boolean}>=({id,t,x,y,s=1,who,hand=[-210,-120],otherHand=[100,-20],lean=0,look=0,cup=false,hammer=0,blade=false,mirror=false})=>{
+export const Resident:React.FC<{id:string;t:number;x:number;y:number;s?:number;who:'marta'|'matthias'|'otto'|'grete'|'lida';hand?:V;otherHand?:V;lean?:number;look?:number;cup?:boolean;hammer?:number;blade?:boolean;mirror?:boolean;turn?:number}>=({id,t,x,y,s=1,who,hand=[-210,-120],otherHand=[100,-20],lean=0,look=0,cup=false,hammer=0,blade=false,mirror=false,turn=0})=>{
  // lida: the Broken Bell's young serving girl (Part IV resident): Marta's build, a red dress, auburn hair under a cap
  const lida=who==='lida',m=who==='marta'||lida,smith=who==='matthias',grete=who==='grete';
  const cloth=lida?'#5a2228':grete?'#293849':m?'#29332d':smith?'#27272a':'#353739',apron=lida?'#d8ccb0':grete?'#35485a':m?'#a5967b':smith?'#634631':'#8f8877',skin=lida?'#c9a88c':m?'#b99a80':smith?'#ad896e':'#aa907c',shade=lida?'#7a5444':m?'#6f5142':'#674b3e';
  const blink=Math.max(0,1-Math.abs((t%6.8)-.2)/.09),breath=noise1(t*.5,76)*1.4;
+ // Head turn (0 profile .. 1 facing the camera), as for Safwan: one rotating face (centre -8, radius 52). The profile
+ // nose leaves the silhouette by turn .35 and slides across; eyes, brows and mouth take their place and foreshortening
+ // from the same yaw, so their spacing stays consistent through the turn.
+ const yaw=(turn-1)*Math.PI/2,HX=-8,HR=52,EA=.5;
+ const noseOut=Math.max(0,Math.min(1,1-turn/.35)),noseIn=Math.max(0,Math.min(1,(turn-.22)/.18));
+ const noseX=HX+HR*Math.sin(yaw)*.9-4,mouthX=HX+HR*Math.sin(yaw)*.8;
+ const faceEyes=[EA,-EA].map(a=>({x:HX+HR*Math.sin(a+yaw),k:Math.max(.3,Math.cos(a+yaw)),vis:Math.cos(a+yaw)}));
  const arm=(a:V,b:V,front:boolean)=>{const e=joint(a,b);return <g><path d={`M${a} Q${e[0]},${e[1]-8} ${b}`} stroke="#141414" strokeWidth={77} fill="none" strokeLinecap="round"/><path d={`M${a} L${e} L${b}`} stroke={cloth} strokeWidth={66} fill="none" strokeLinecap="round" strokeLinejoin="round"/><path d={`M${a[0]-14},${a[1]-18} L${e[0]-14},${e[1]-15} L${b[0]-10},${b[1]-12}`} stroke="#778077" strokeOpacity={.16} strokeWidth={6} fill="none"/><path d={`M${b[0]-28},${b[1]-20} L${b[0]+20},${b[1]-18} L${b[0]+23},${b[1]+10} L${b[0]-29},${b[1]+10}Z`} fill={m?'#b8ad97':'#473d33'}/><g transform={`translate(${b})`}><path d="M-25,-19 Q-41,-42 -19,-48 Q-10,-47 -4,-25 Q24,-34 35,-16 Q43,1 27,13 L-12,18 Q-31,9 -25,-19Z" fill={skin} stroke={shade} strokeWidth={2}/><path d="M-9,-18 Q2,-10 28,-13 M-8,-7 Q10,1 29,-3 M-9,5 Q8,12 23,7" stroke={shade} strokeWidth={2.5} fill="none"/>{front&&cup&&<ClayCup x={-16} y={-48} s={.57}/>} {front&&hammer!==0&&<g transform={`rotate(${hammer})`}><path d="M0,5 L0,-136" stroke="#705035" strokeWidth={15}/><path d="M-55,-166 L51,-166 L54,-116 L-55,-113Z" fill="#343944" stroke="#89909b" strokeOpacity={.45} strokeWidth={3}/></g>}{front&&blade&&<g transform="rotate(-22)"><path d="M-8,-20 L-13,-217 L0,-254 L13,-217 L8,-20Z" fill="#7a8794" stroke="#c4ccd1" strokeOpacity={.7} strokeWidth={2}/><path d="M-28,-23 L28,-23 M0,-20 L0,24" stroke="#3f3428" strokeWidth={13}/></g>}</g></g>;};
  return <g id={id} transform={`translate(${x},${y}) scale(${mirror?-s:s},${s})`}>
   <ellipse cx={0} cy={320} rx={155} ry={24} fill="#000" opacity={.45}/>
@@ -37,18 +44,21 @@ export const Resident:React.FC<{id:string;t:number;x:number;y:number;s?:number;w
    <path d="M-35,-365 L-31,-316 Q1,-297 34,-325 L31,-390Z" fill={shade}/>
    <g transform={`rotate(${look*5} -3 -405)`}>
     {m&&<ellipse cx={57} cy={-461} rx={36} ry={48} fill={lida?'#6a3a22':'#211c1b'} stroke="#79634e" strokeOpacity={.25} strokeWidth={4}/>}
-    <path d="M44,-512 Q-8,-546 -52,-505 Q-73,-486 -67,-453 L-82,-425 L-102,-409 Q-107,-400 -84,-397 L-80,-380 Q-63,-376 -76,-363 Q-49,-335 -13,-353 Q39,-367 54,-414 Q72,-457 44,-512Z" fill={skin} stroke={shade} strokeWidth={3}/>
-    <path d="M-49,-502 Q-67,-471 -55,-439 L-69,-413 L-50,-405 Q-48,-375 -24,-365" stroke="#dfc1a0" strokeOpacity={.35} strokeWidth={4} fill="none"/>
+    <path d={`M44,-512 Q-8,-546 -52,-505 Q-73,-486 -67,-453 L${mix(-68,-82,noseOut)},-425 L${mix(-68,-102,noseOut)},-409 Q${mix(-68,-107,noseOut)},-400 ${mix(-66,-84,noseOut)},-397 L${mix(-64,-80,noseOut)},-380 Q${mix(-62,-63,noseOut)},-376 ${mix(-60,-76,noseOut)},-363 Q-49,-335 -13,-353 Q39,-367 54,-414 Q72,-457 44,-512Z`} fill={skin} stroke={shade} strokeWidth={3}/>
+    <path d="M-49,-502 Q-67,-471 -55,-439 L-69,-413 L-50,-405 Q-48,-375 -24,-365" stroke="#dfc1a0" strokeOpacity={.35*noseOut} strokeWidth={4} fill="none"/>
     <path d="M25,-493 Q61,-458 32,-404 L11,-376 Q36,-387 49,-419 Q63,-458 44,-491Z" fill={shade} opacity={.7}/>
-    <path d="M-56,-442 Q-42,-450 -29,-441" stroke="#352a27" strokeWidth={5} fill="none"/>
-    <path d={`M-56,-430 Q-42,${-424-blink*6} -30,-430 Q-43,${-439+blink*9} -56,-430Z`} fill="#242326"/>
-    <circle cx={-47+look*2} cy={-431} r={3.3*(1-blink)} fill="#ced3c6"/>
-    <path d="M-82,-383 L-58,-381" stroke="#4b2927" strokeWidth={3.5} strokeLinecap="round"/>
-    <path d="M-44,-404 Q-32,-393 -21,-396" stroke={shade} opacity={.5} strokeWidth={3} fill="none"/>
+    {faceEyes.map((e,i)=>e.vis<=0?null:<g key={i} opacity={Math.min(1,e.vis*4)} transform={`translate(${e.x},-431) scale(${e.k},1)`}>
+     <path d="M-13,-11 Q0,-19 14,-10" stroke="#352a27" strokeWidth={5} fill="none"/>
+     <path d={`M-13,1 Q0,${7-blink*6} 13,1 Q0,${-8+blink*9} -13,1Z`} fill="#242326"/>
+     <circle cx={look*2} cy={0} r={3.3*(1-blink)} fill="#ced3c6"/>
+    </g>)}
+    <path d={`M${mouthX-mix(12,14,turn)},-382 L${mouthX+mix(12,14,turn)},-381`} stroke="#4b2927" strokeWidth={3.5} strokeLinecap="round"/>
+    {noseOut>0&&<path d="M-44,-404 Q-32,-393 -21,-396" stroke={shade} opacity={.5*noseOut} strokeWidth={3} fill="none"/>}
+    {noseIn>0&&<path d={`M${noseX+6},-422 Q${noseX-2},-408 ${noseX-6},-398 Q${noseX+2},-393 ${noseX+10},-396`} fill="none" stroke={shade} strokeWidth={3} opacity={noseIn}/>}
     <path d={m?'M-70,-474 Q-50,-528 1,-527 Q64,-523 64,-452 L37,-426 Q47,-469 24,-484 Q-14,-474 -70,-474Z':'M-69,-477 Q-75,-524 -28,-533 Q39,-546 60,-495 L59,-427 L35,-409 L31,-470 Q-14,-488 -69,-477Z'} fill={lida?'#6a3a22':m?'#29211d':smith?'#35251e':'#62615c'}/>
     {m||grete?<path d="M-64,-488 Q-28,-535 30,-501 L58,-464 Q27,-495 -8,-492Z" fill={grete?'#292b2c':lida?'#e8e0cc':'#b4aa92'}/>:<g><path d="M33,-426 Q25,-382 -28,-373 L-77,-389 Q-89,-358 -62,-340 Q6,-319 40,-378 L54,-424Z" fill={smith?'#453127':'#666158'}/><path d="M-76,-387 Q-40,-397 -12,-383" stroke={smith?'#2c1d18':'#373a3a'} strokeWidth={13} fill="none"/><path d="M-45,-354 Q-14,-350 13,-374" stroke="#b99876" strokeOpacity={.18} strokeWidth={3} fill="none"/></g>}
     {grete&&<g><path d="M-84,-486 Q-34,-512 72,-485 L60,-514 Q5,-537 -59,-518Z" fill="#1a202a" stroke="#718092" strokeOpacity={.35} strokeWidth={3}/><path d="M-68,-509 L-47,-565 L25,-568 L58,-508Z" fill="#293443"/><path d="M-58,-515 L50,-515" stroke="#9b8763" strokeWidth={7}/></g>}
-    <ellipse cx={31} cy={-428} rx={13} ry={23} fill={skin} stroke={shade} strokeWidth={3}/><path d="M33,-441 Q18,-428 34,-416" fill="none" stroke={shade} strokeWidth={3}/>
+    <g transform={`translate(${turn*22},0)`}><ellipse cx={31} cy={-428} rx={13} ry={23} fill={skin} stroke={shade} strokeWidth={3}/><path d="M33,-441 Q18,-428 34,-416" fill="none" stroke={shade} strokeWidth={3}/></g>
    </g>
    {arm([-77,-280],hand,true)}
   </g>

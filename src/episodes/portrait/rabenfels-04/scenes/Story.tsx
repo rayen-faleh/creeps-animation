@@ -341,20 +341,35 @@ export const Whisper: React.FC<{t: number}> = ({t}) => {
   );
 };
 
-/* S16: Lida looks up. At you. Hold through the question; hard cut */
+/* S16: Lida looks up. At you. Seen from the doorway you can't cross: she turns from Otto to face the camera, lit by
+   Grete's lantern on one side and the window's moonlight behind; the push lands on her eyes; the heartbeat pulses red */
 export const LidaLooks: React.FC<{t: number}> = ({t}) => {
   const lt = t - E.looksup;
-  const up = prog(t, E.atyou - 0.3, E.atyou + 0.3, easeOut);
+  const turn = prog(t, E.atyou - 0.35, E.atyou + 0.3, easeInOut);
+  const push = prog(t, E.looksup, E.cut, easeInOut);
   const fade = prog(t, E.top + 1.2, E.cut, easeIn);
+  const beat = t > E.atyou + 0.3 ? Math.max(0, Math.sin((t - E.atyou - 0.3) * Math.PI * 2 / 0.95)) ** 8 : 0;
+  const flick = 0.9 + noise1(t * 7, 2) * 0.1;
   return (
     <AbsoluteFill>
-      <Camera t={t} zoom={2.2 + lt * 0.03} x={-40} y={-75} shake={2} seed={4013}>
+      <Camera t={t} zoom={mix(1.6, 2.5, push)} x={mix(-20, -40, push)} y={mix(-20, -75, push)} rot={mix(-1.5, 0, push)} shake={1.8} seed={4013}>
         <Stage overflow>
-          <Room t={t} lit={0.9}>
-            <Resident id="r4-lida-up" t={t} x={500} y={1250} s={0.85} who="lida" hand={[-170, 90]} otherHand={[110, 60]} lean={mix(1.0, 0.4, up)} look={mix(0.5, -0.9, up)} />
+          <Room t={t} lit={0.6}>
+            {/* moonlight from the window behind her: a cool rim */}
+            <path d="M700,300 L1000,300 L740,1500 L380,1500 Z" fill="#9fb4cf" opacity={0.1} />
+            <Resident id="r4-lida-up" t={t} x={500} y={1250} s={0.85} who="lida" hand={[-170, 90]} otherHand={[110, 60]} lean={mix(0.9, 0.2, turn)} look={mix(0.5, 0, turn)} turn={turn} />
+            {/* Grete's lantern off to the left, warming that side of her face */}
+            <ellipse cx={260} cy={860} rx={380} ry={420} fill={WARM} opacity={0.16 * flick} />
+            <WatchLantern id="r4-lu-lamp" t={t} x={120} y={980} s={0.7} />
           </Room>
+          {/* the doorway you're stuck in: dark frame edges in the foreground */}
+          <rect x={-600} y={-800} width={900} height={3200} fill="#08060a" opacity={0.92} />
+          <rect x={770} y={-800} width={1000} height={3200} fill="#08060a" opacity={0.92} />
+          <path d="M300,-800 V2400 M770,-800 V2400" stroke="#3a2a1c" strokeWidth={18} />
+          <path d="M308,-800 V2400" stroke="#ffb45a" strokeOpacity={0.18} strokeWidth={4} />
         </Stage>
       </Camera>
+      <AbsoluteFill style={{boxShadow: `inset 0 0 ${220 + beat * 140}px rgba(120,10,16,${0.15 + beat * 0.35})`}} />
       <AbsoluteFill style={{background: '#000', opacity: fade * 0.6}} />
     </AbsoluteFill>
   );
