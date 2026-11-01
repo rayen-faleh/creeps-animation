@@ -1,0 +1,406 @@
+{
+ "unit": "seconds",
+ "total": 62.606,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L00",
+   "text": "You decided to point them upstairs.",
+   "start": 0.35,
+   "end": 2.559,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You decided to point them upstairs.",
+     "start": 0.35,
+     "end": 2.559
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L01",
+   "text": "You step back. Out of the glass. And you look at Safwan.",
+   "start": 2.879,
+   "end": 6.283,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You step back.",
+     "start": 2.879,
+     "end": 3.769
+    },
+    {
+     "text": "Out of the glass.",
+     "start": 3.769,
+     "end": 4.929
+    },
+    {
+     "text": "And you look at Safwan.",
+     "start": 4.929,
+     "end": 6.283
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "He closes his mouth.",
+   "start": 6.603,
+   "end": 8.047,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He closes his mouth.",
+     "start": 6.603,
+     "end": 8.047
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L03",
+   "text": "You tell Grete, the man you want is upstairs.",
+   "start": 8.527,
+   "end": 11.364,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You tell Grete,",
+     "start": 8.527,
+     "end": 9.377
+    },
+    {
+     "text": "the man you want is upstairs.",
+     "start": 9.377,
+     "end": 11.364
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "Lida, the serving girl, runs for Marta's keys.",
+   "start": 11.604,
+   "end": 14.804,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Lida,",
+     "start": 11.604,
+     "end": 12.099
+    },
+    {
+     "text": "the serving girl,",
+     "start": 12.099,
+     "end": 13.099
+    },
+    {
+     "text": "runs for Marta's keys.",
+     "start": 13.099,
+     "end": 14.803
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "Three lanterns climb the stairs. Safwan climbs with them. He doesn't look back.",
+   "start": 15.124,
+   "end": 20.292,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Three lanterns climb the stairs.",
+     "start": 15.124,
+     "end": 17.269
+    },
+    {
+     "text": "Safwan climbs with them.",
+     "start": 17.269,
+     "end": 19.109
+    },
+    {
+     "text": "He doesn't look back.",
+     "start": 19.109,
+     "end": 20.292
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "The bolt. The key. The door swings in.",
+   "start": 20.692,
+   "end": 23.465,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The bolt.",
+     "start": 20.692,
+     "end": 21.242
+    },
+    {
+     "text": "The key.",
+     "start": 21.242,
+     "end": 21.927
+    },
+    {
+     "text": "The door swings in.",
+     "start": 21.927,
+     "end": 23.465
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L07",
+   "text": "The stranger is gone. The window is open.",
+   "start": 23.785,
+   "end": 26.714,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The stranger is gone.",
+     "start": 23.785,
+     "end": 25.245
+    },
+    {
+     "text": "The window is open.",
+     "start": 25.245,
+     "end": 26.714
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "But someone is lying on the floor.",
+   "start": 27.034,
+   "end": 29.207,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "But someone is lying on the floor.",
+     "start": 27.034,
+     "end": 29.207
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L09",
+   "text": "Otto. Alive. Barely.",
+   "start": 29.527,
+   "end": 31.341,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Otto. Alive.",
+     "start": 29.527,
+     "end": 30.697
+    },
+    {
+     "text": "Barely.",
+     "start": 30.697,
+     "end": 31.34
+    }
+   ],
+   "phraseSource": "measured-silence(partial)"
+  },
+  {
+   "id": "L10",
+   "text": "Grete waves you in. Clerk. Bring your pen.",
+   "start": 31.981,
+   "end": 34.839,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Grete waves you in.",
+     "start": 31.981,
+     "end": 33.226
+    },
+    {
+     "text": "Clerk.",
+     "start": 33.226,
+     "end": 33.846
+    },
+    {
+     "text": "Bring your pen.",
+     "start": 33.846,
+     "end": 34.84
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "You can't. It's his room. And he never invited you.",
+   "start": 35.159,
+   "end": 38.658,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "You can't.",
+     "start": 35.159,
+     "end": 35.929
+    },
+    {
+     "text": "It's his room.",
+     "start": 35.929,
+     "end": 37.034
+    },
+    {
+     "text": "And he never invited you.",
+     "start": 37.034,
+     "end": 38.658
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L12",
+   "text": "Your foot stops at the doorway like it's hit glass.",
+   "start": 38.898,
+   "end": 41.873,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Your foot stops at the doorway like it's hit glass.",
+     "start": 38.898,
+     "end": 41.873
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L13",
+   "text": "Otto opens his eyes. He sees you in the doorway.",
+   "start": 42.273,
+   "end": 45.523,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Otto opens his eyes.",
+     "start": 42.273,
+     "end": 43.963
+    },
+    {
+     "text": "He sees you in the doorway.",
+     "start": 43.963,
+     "end": 45.523
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "The only man in Rabenfels who knows what you buy from him.",
+   "start": 45.764,
+   "end": 49.495,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "The only man in Rabenfels who knows what you buy from him.",
+     "start": 45.764,
+     "end": 49.495
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L15",
+   "text": "He pulls Lida close and whispers something.",
+   "start": 49.895,
+   "end": 52.545,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "He pulls Lida close and whispers something.",
+     "start": 49.895,
+     "end": 52.545
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "Lida looks up. At you.",
+   "start": 53.025,
+   "end": 54.753,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Lida looks up.",
+     "start": 53.025,
+     "end": 53.98
+    },
+    {
+     "text": "At you.",
+     "start": 53.98,
+     "end": 54.752
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L17",
+   "text": "Grete wants you inside. Lida knows something. What's your next move?",
+   "start": 55.473,
+   "end": 59.737,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Grete wants you inside.",
+     "start": 55.473,
+     "end": 56.988
+    },
+    {
+     "text": "Lida knows something.",
+     "start": 56.988,
+     "end": 58.398
+    },
+    {
+     "text": "What's your next move?",
+     "start": 58.398,
+     "end": 59.737
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L18",
+   "text": "Top comment chooses your next move.",
+   "start": 59.977,
+   "end": 62.366,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Top comment chooses your next move.",
+     "start": 59.977,
+     "end": 62.366
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}

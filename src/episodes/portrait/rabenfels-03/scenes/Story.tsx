@@ -35,7 +35,7 @@ const STRANGER = {x: 760, y: 950, s: 0.78};
 const strangerFeet: [V, V] = [[(717 - 760) / 0.78, (1183 - 950) / 0.78], [(800 - 760) / 0.78, (1129 - 950) / 0.78]];
 const SAF = {x: 365, y: 1190, s: 0.85};
 
-const Landing: React.FC<{t: number; reach?: number; strangerUp?: number; strangerTurn?: number; mouth?: number; whistle?: number; sTurn?: number; alarm?: number; safMouth?: number; foreground?: React.ReactNode; noStranger?: boolean}> = ({
+export const Landing: React.FC<{t: number; reach?: number; strangerUp?: number; strangerTurn?: number; mouth?: number; whistle?: number; sTurn?: number; alarm?: number; safMouth?: number; foreground?: React.ReactNode; noStranger?: boolean}> = ({
   t, reach = 1, strangerUp = 0, strangerTurn = 0.21, mouth = 0, whistle = 0, sTurn = 0.6, alarm = 0.3, safMouth = 0, foreground, noStranger = false,
 }) => {
   const sHand: V = [-165 + whistle * 80, -95 - whistle * 150];

@@ -1,0 +1,21 @@
+[
+ {"id": "L00", "text": "You decided to point them upstairs.", "pauseAfter": 0.4},
+ {"id": "L01", "text": "You step back. Out of the glass. And you look at Safwan.", "pauseAfter": 0.4},
+ {"id": "L02", "text": "He closes his mouth.", "pauseAfter": 0.6},
+ {"id": "L03", "text": "You tell Grete, the man you want is upstairs.", "pauseAfter": 0.3},
+ {"id": "L04", "text": "Lida, the serving girl, runs for Marta's keys.", "pauseAfter": 0.4},
+ {"id": "L05", "text": "Three lanterns climb the stairs. Safwan climbs with them. He doesn't look back.", "pauseAfter": 0.5},
+ {"id": "L06", "text": "The bolt. The key. The door swings in.", "pauseAfter": 0.4},
+ {"id": "L07", "text": "The stranger is gone. The window is open.", "pauseAfter": 0.4},
+ {"id": "L08", "text": "But someone is lying on the floor.", "pauseAfter": 0.4},
+ {"id": "L09", "text": "Otto. Alive. Barely.", "pauseAfter": 0.8},
+ {"id": "L10", "text": "Grete waves you in. Clerk. Bring your pen.", "pauseAfter": 0.4},
+ {"id": "L11", "text": "You can't. It's his room. And he never invited you.", "pauseAfter": 0.3},
+ {"id": "L12", "text": "Your foot stops at the doorway like it's hit glass.", "pauseAfter": 0.5},
+ {"id": "L13", "text": "Otto opens his eyes. He sees you in the doorway.", "pauseAfter": 0.3},
+ {"id": "L14", "text": "The only man in Rabenfels who knows what you buy from him.", "pauseAfter": 0.5},
+ {"id": "L15", "text": "He pulls Lida close and whispers something.", "pauseAfter": 0.6},
+ {"id": "L16", "text": "Lida looks up. At you.", "pauseAfter": 0.9},
+ {"id": "L17", "text": "Grete wants you inside. Lida knows something. What's your next move?", "pauseAfter": 0.3},
+ {"id": "L18", "text": "Top comment chooses your next move.", "pauseAfter": 0.3}
+]
