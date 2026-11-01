@@ -29,6 +29,12 @@ export const Resident:React.FC<{id:string;t:number;x:number;y:number;s?:number;w
  const noseOut=Math.max(0,Math.min(1,1-turn/.35)),noseIn=Math.max(0,Math.min(1,(turn-.22)/.18));
  const noseX=HX+HR*Math.sin(yaw)*.9-4,mouthX=HX+HR*Math.sin(yaw)*.8;
  const faceEyes=[EA,-EA].map(a=>({x:HX+HR*Math.sin(a+yaw),k:Math.max(.3,Math.cos(a+yaw)),vis:Math.cos(a+yaw)}));
+ // The whole face outline morphs with the turn, not just the nose: profile (chin forward, jaw running back to the
+ // ear) to a symmetric oval round the face centre. Nose points follow noseOut (they leave early); the rest follow
+ // an eased turn. Both shapes share one command structure so every coordinate interpolates.
+ const fu=turn<.5?2*turn*turn:1-Math.pow(-2*turn+2,2)/2;
+ const P=(px:number,py:number,fx:number,fy:number,nose=false)=>{const k=nose?1-noseOut:fu;return `${mix(px,fx,k).toFixed(1)},${mix(py,fy,k).toFixed(1)}`;};
+ const faceOutline=`M${P(44,-512,42,-512)} Q${P(-8,-546,-8,-548)} ${P(-52,-505,-58,-508)} Q${P(-73,-486,-72,-482)} ${P(-67,-453,-66,-450)} L${P(-82,-425,-66,-425,true)} L${P(-102,-409,-65,-409,true)} Q${P(-107,-400,-64,-400,true)} ${P(-84,-397,-62,-395,true)} L${P(-80,-380,-58,-378,true)} Q${P(-63,-376,-52,-364)} ${P(-76,-363,-42,-352)} Q${P(-49,-335,-24,-336)} ${P(-13,-353,-6,-336)} Q${P(39,-367,26,-340)} ${P(54,-414,42,-384)} Q${P(72,-457,56,-450)} ${P(44,-512,42,-512)}Z`;
  const arm=(a:V,b:V,front:boolean)=>{const e=joint(a,b);return <g><path d={`M${a} Q${e[0]},${e[1]-8} ${b}`} stroke="#141414" strokeWidth={77} fill="none" strokeLinecap="round"/><path d={`M${a} L${e} L${b}`} stroke={cloth} strokeWidth={66} fill="none" strokeLinecap="round" strokeLinejoin="round"/><path d={`M${a[0]-14},${a[1]-18} L${e[0]-14},${e[1]-15} L${b[0]-10},${b[1]-12}`} stroke="#778077" strokeOpacity={.16} strokeWidth={6} fill="none"/><path d={`M${b[0]-28},${b[1]-20} L${b[0]+20},${b[1]-18} L${b[0]+23},${b[1]+10} L${b[0]-29},${b[1]+10}Z`} fill={m?'#b8ad97':'#473d33'}/><g transform={`translate(${b})`}><path d="M-25,-19 Q-41,-42 -19,-48 Q-10,-47 -4,-25 Q24,-34 35,-16 Q43,1 27,13 L-12,18 Q-31,9 -25,-19Z" fill={skin} stroke={shade} strokeWidth={2}/><path d="M-9,-18 Q2,-10 28,-13 M-8,-7 Q10,1 29,-3 M-9,5 Q8,12 23,7" stroke={shade} strokeWidth={2.5} fill="none"/>{front&&cup&&<ClayCup x={-16} y={-48} s={.57}/>} {front&&hammer!==0&&<g transform={`rotate(${hammer})`}><path d="M0,5 L0,-136" stroke="#705035" strokeWidth={15}/><path d="M-55,-166 L51,-166 L54,-116 L-55,-113Z" fill="#343944" stroke="#89909b" strokeOpacity={.45} strokeWidth={3}/></g>}{front&&blade&&<g transform="rotate(-22)"><path d="M-8,-20 L-13,-217 L0,-254 L13,-217 L8,-20Z" fill="#7a8794" stroke="#c4ccd1" strokeOpacity={.7} strokeWidth={2}/><path d="M-28,-23 L28,-23 M0,-20 L0,24" stroke="#3f3428" strokeWidth={13}/></g>}</g></g>;};
  return <g id={id} transform={`translate(${x},${y}) scale(${mirror?-s:s},${s})`}>
   <ellipse cx={0} cy={320} rx={155} ry={24} fill="#000" opacity={.45}/>
@@ -44,7 +50,7 @@ export const Resident:React.FC<{id:string;t:number;x:number;y:number;s?:number;w
    <path d="M-35,-365 L-31,-316 Q1,-297 34,-325 L31,-390Z" fill={shade}/>
    <g transform={`rotate(${look*5} -3 -405)`}>
     {m&&<ellipse cx={57} cy={-461} rx={36} ry={48} fill={lida?'#6a3a22':'#211c1b'} stroke="#79634e" strokeOpacity={.25} strokeWidth={4}/>}
-    <path d={`M44,-512 Q-8,-546 -52,-505 Q-73,-486 -67,-453 L${mix(-68,-82,noseOut)},-425 L${mix(-68,-102,noseOut)},-409 Q${mix(-68,-107,noseOut)},-400 ${mix(-66,-84,noseOut)},-397 L${mix(-64,-80,noseOut)},-380 Q${mix(-62,-63,noseOut)},-376 ${mix(-60,-76,noseOut)},-363 Q-49,-335 -13,-353 Q39,-367 54,-414 Q72,-457 44,-512Z`} fill={skin} stroke={shade} strokeWidth={3}/>
+    <path d={faceOutline} fill={skin} stroke={shade} strokeWidth={3}/>
     <path d="M-49,-502 Q-67,-471 -55,-439 L-69,-413 L-50,-405 Q-48,-375 -24,-365" stroke="#dfc1a0" strokeOpacity={.35*noseOut} strokeWidth={4} fill="none"/>
     <path d="M25,-493 Q61,-458 32,-404 L11,-376 Q36,-387 49,-419 Q63,-458 44,-491Z" fill={shade} opacity={.7}/>
     {faceEyes.map((e,i)=>e.vis<=0?null:<g key={i} opacity={Math.min(1,e.vis*4)} transform={`translate(${e.x},-431) scale(${e.k},1)`}>

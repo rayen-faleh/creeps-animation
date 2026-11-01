@@ -22,6 +22,13 @@ export const ClovesFigure:React.FC<{id:string;t:number;kind:FigureKind;x:number;
  const yaw=(turn-1)*Math.PI/2,HX=-4,HR=44.3,EA=0.494;
  const faceEyes=[EA,-EA].map(a=>({x:HX+HR*Math.sin(a+yaw),k:Math.max(.3,Math.cos(a+yaw)),vis:Math.cos(a+yaw)}));
  const noseX=HX+HR*Math.sin(yaw)*0.9-6;
+ // The whole face outline morphs with the turn (not just the nose): profile to a symmetric oval round the face
+ // centre. Nose points follow noseOut; the rest follow an eased turn. The witness keeps his own linear morph.
+ const fu=v?turn:(turn<.5?2*turn*turn:1-Math.pow(-2*turn+2,2)/2);
+ const P=(px:number,py:number,fx:number,fy:number,nose=false)=>{const k=nose?1-noseOut:fu;return `${mix(px,fx,k).toFixed(1)},${mix(py,fy,k).toFixed(1)}`;};
+ const faceOutline=v
+  ?`M43,-511 Q-10,-542 -56,-502 Q-72,-478 -64,-453 L${mix(-64,-79,noseOut)},-426 L${mix(-66,-99,noseOut)},-412 Q${mix(-65,-107,noseOut)},-401 ${mix(-62,-83,noseOut)},-397 L${mix(-61,-78,noseOut)},-379 Q-58,-348 -22,-352 Q25,-358 48,-405 Q69,-461 43,-511Z`
+  :`M${P(43,-511,40,-511)} Q${P(-10,-542,-6,-544)} ${P(-56,-502,-52,-506)} Q${P(-72,-478,-66,-480)} ${P(-64,-453,-60,-450)} L${P(-79,-426,-60,-426,true)} L${P(-99,-412,-59,-412,true)} Q${P(-107,-401,-58,-402,true)} ${P(-83,-397,-56,-396,true)} L${P(-78,-379,-52,-378,true)} Q${P(-58,-348,-40,-344)} ${P(-22,-352,-4,-338)} Q${P(25,-358,30,-342)} ${P(48,-405,42,-385)} Q${P(69,-461,58,-455)} ${P(43,-511,40,-511)}Z`;
  const arm=(a:V,b:V,front:boolean)=>{const e=elbow(a,b,142,148,front?-1:1);return <g><path d={`M${a} L${e} L${b}`} fill="none" stroke="#0b0e13" strokeWidth={69} strokeLinecap="round" strokeLinejoin="round"/><path d={`M${a} L${e} L${b}`} fill="none" stroke={cloth} strokeWidth={59} strokeLinecap="round" strokeLinejoin="round"/><path d={`M${a[0]-10},${a[1]-8} L${e[0]-10},${e[1]-7} L${b[0]-9},${b[1]-8}`} fill="none" stroke={edge} strokeOpacity={.28} strokeWidth={4}/><path d={`M${b[0]-27},${b[1]-17} l52,0 l0,20 l-52,0Z`} fill={v?'#312232':'#847252'}/><g transform={`translate(${b})`} opacity={v&&front&&claw>0?0:1}><path d="M-23,-12 Q-30,-35 -18,-42 Q-6,-44 -4,-23 L20,-27 Q37,-25 35,-7 L22,12 L-7,14 Q-28,9 -23,-12Z" fill={skin} stroke={shade} strokeWidth={3}/><path d="M-5,-15 L26,-15 M-7,-5 L25,-5 M-9,5 L18,5" stroke={shade} strokeWidth={2}/>{v&&<path d="M27,-20 l12,-8 l-4,15 M29,-7 l12,-6 l-7,14" fill="#10141b"/>}</g>{v&&front&&claw>0&&<Hand id={`${id}-claw`} x={b[0]} y={b[1]} rot={-82} scale={.48} style={STYLES.creature} pose={lerpPose(POSES.claw,POSES.reach,claw*.6)} showSleeve={false} light={.9}/>}</g>;};
  const leg=(a:V,b:V,k:number)=>{const n=elbow(a,b,155,155,k);return <g><path d={`M${a} L${n} L${b}`} fill="none" stroke="#10151d" strokeWidth={69} strokeLinecap="round"/><path d={`M${a} L${n} L${b}`} fill="none" stroke={v?'#22212b':'#242b31'} strokeWidth={58} strokeLinecap="round"/><path d={`M${b[0]-32},${b[1]-39} L${b[0]+29},${b[1]-38} L${b[0]+30},${b[1]+9} L${b[0]-72},${b[1]+10} Q${b[0]-90},${b[1]-6} ${b[0]-34},${b[1]-13}Z`} fill="#0b0e14" stroke="#73777b" strokeOpacity={.28} strokeWidth={3}/></g>;};
  return <g id={id} transform={`translate(${x},${y}) scale(${mirror?-s:s},${s})`}>
@@ -36,7 +43,7 @@ export const ClovesFigure:React.FC<{id:string;t:number;kind:FigureKind;x:number;
    <g transform={`rotate(${turn*5-alarm*3} 0 -430)`}>
     {/* One nose that travels: it sits on the silhouette in profile, leaves the outline early in the turn (by turn .35)
         and slides across the face to the front position, so there is never a half-retracted lump or a second nose. */}
-    <path d={`M43,-511 Q-10,-542 -56,-502 Q-72,-478 -64,-453 L${mix(-64,-79,noseOut)},-426 L${mix(-66,-99,noseOut)},-412 Q${mix(-65,-107,noseOut)},-401 ${mix(-62,-83,noseOut)},-397 L${mix(-61,-78,noseOut)},-379 Q-58,-348 -22,-352 Q25,-358 48,-405 Q69,-461 43,-511Z`} fill={skin} stroke={shade} strokeWidth={3}/>
+    <path d={faceOutline} fill={skin} stroke={shade} strokeWidth={3}/>
     <path d="M27,-494 Q57,-462 32,-413 L11,-372 Q40,-387 51,-424 Q62,-463 42,-495Z" fill={shade} opacity={.75}/>
     {/* Ears stay on the side plane and are painted before all eyes. */}
     <g transform={`translate(${v?0:turn*26},0)`}><ellipse cx={31} cy={-430} rx={12} ry={22} fill={skin} stroke={shade} strokeWidth={3}/><path d="M34,-443 Q20,-433 33,-418" stroke={shade} strokeWidth={3} fill="none"/></g>
