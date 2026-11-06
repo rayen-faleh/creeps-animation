@@ -97,8 +97,9 @@ class Score:
         b = getattr(self, buf); i = int(t * SR); j = min(self.N, i + len(sig))
         if 0 <= i < self.N: b[i:j] += sig[: j - i] * gain
     def sfx_at(self, sig, t, gain=1.0): self.place('sfx', sig, t, gain)
-    def sample(self, name, t, gain=1.0, offset=0.0, dur=None, fade_in=0.01, fade_out=0.05, rate=1.0):
-        """Place assets/sfx/<name>.wav at t. offset/dur trim the clip (s); rate < 1 slows and lowers it."""
+    def sample(self, name, t, gain=1.0, offset=0.0, dur=None, fade_in=0.01, fade_out=0.05, rate=1.0, buf='sfx'):
+        """Place assets/sfx/<name>.wav at t. offset/dur trim the clip (s); rate < 1 slows and lowers it.
+        buf: 'sfx' (spot effects), 'amb' (beds: rain, room) or 'music' (music box) - beds duck harder under the voice."""
         import os, soundfile as sf
         x, sr = sf.read(os.path.join('assets', 'sfx', name + '.wav'), always_2d=True); x = x.mean(axis=1)
         if sr != SR or rate != 1.0:
@@ -108,7 +109,7 @@ class Score:
         fi, fo = min(len(x), int(fade_in * SR)), min(len(x), int(fade_out * SR))
         if fi: x[:fi] *= np.linspace(0, 1, fi)
         if fo: x[-fo:] *= np.linspace(1, 0, fo)
-        self.place('sfx', x, t, gain)
+        self.place(buf, x, t, gain)
     def curve(self, points):
         """Piecewise-linear gain over time: [(t, g), ...]."""
         ts, gs = zip(*points); return np.interp(self.T, ts, gs)

@@ -1,0 +1,439 @@
+{
+ "unit": "seconds",
+ "total": 61.038,
+ "provenance": "kokoro bm_lewis per-line synthesis; times measured from decoded samples",
+ "lines": [
+  {
+   "id": "L01",
+   "text": "In my family, we bury our dead with a stone in their mouth.",
+   "start": 0.35,
+   "end": 4.039,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "In my family,",
+     "start": 0.35,
+     "end": 1.39
+    },
+    {
+     "text": "we bury our dead with a stone in their mouth.",
+     "start": 1.39,
+     "end": 4.039
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L02",
+   "text": "When I was eight, I watched Gran do it to Grandad.",
+   "start": 4.359,
+   "end": 7.401,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "When I was eight,",
+     "start": 4.359,
+     "end": 5.339
+    },
+    {
+     "text": "I watched Gran do it to Grandad.",
+     "start": 5.339,
+     "end": 7.401
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L03",
+   "text": "She said, the dead wake up hungry.",
+   "start": 7.641,
+   "end": 9.837,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She said,",
+     "start": 7.641,
+     "end": 8.286
+    },
+    {
+     "text": "the dead wake up hungry.",
+     "start": 8.286,
+     "end": 9.837
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L04",
+   "text": "They chew their shroud. Thread by thread.",
+   "start": 10.117,
+   "end": 12.712,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "They chew their shroud.",
+     "start": 10.117,
+     "end": 11.437
+    },
+    {
+     "text": "Thread by thread.",
+     "start": 11.437,
+     "end": 12.713
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L05",
+   "text": "And while they chew... the family dies. One by one.",
+   "start": 12.992,
+   "end": 16.532,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "And while they chew...",
+     "start": 12.992,
+     "end": 14.092
+    },
+    {
+     "text": "the family dies.",
+     "start": 14.092,
+     "end": 15.417
+    },
+    {
+     "text": "One by one.",
+     "start": 15.417,
+     "end": 16.532
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L06",
+   "text": "Gran's been gone for years.",
+   "start": 17.172,
+   "end": 18.985,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Gran's been gone for years.",
+     "start": 17.172,
+     "end": 18.985
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L07",
+   "text": "Last month, there was another funeral in our family.",
+   "start": 19.265,
+   "end": 22.377,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Last month,",
+     "start": 19.265,
+     "end": 20.125
+    },
+    {
+     "text": "there was another funeral in our family.",
+     "start": 20.125,
+     "end": 22.376
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L08",
+   "text": "Small. Rainy. Mum doesn't believe in the old ways.",
+   "start": 22.617,
+   "end": 26.23,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Small.",
+     "start": 22.617,
+     "end": 23.162
+    },
+    {
+     "text": "Rainy.",
+     "start": 23.162,
+     "end": 23.847
+    },
+    {
+     "text": "Mum doesn't believe in the old ways.",
+     "start": 23.847,
+     "end": 26.231
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L09",
+   "text": "There was no stone.",
+   "start": 26.51,
+   "end": 27.729,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "There was no stone.",
+     "start": 26.51,
+     "end": 27.729
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L10",
+   "text": "A week later, my uncle died in his sleep.",
+   "start": 28.449,
+   "end": 31.217,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "A week later,",
+     "start": 28.449,
+     "end": 29.389
+    },
+    {
+     "text": "my uncle died in his sleep.",
+     "start": 29.389,
+     "end": 31.217
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L11",
+   "text": "Then my aunt.",
+   "start": 31.537,
+   "end": 32.738,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then my aunt.",
+     "start": 31.537,
+     "end": 32.738
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L12",
+   "text": "I've been so tired. I can't seem to get up.",
+   "start": 33.098,
+   "end": 35.93,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I've been so tired.",
+     "start": 33.098,
+     "end": 34.558
+    },
+    {
+     "text": "I can't seem to get up.",
+     "start": 34.558,
+     "end": 35.93
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L13",
+   "text": "Tonight, I woke at three. My jaw ached.",
+   "start": 36.29,
+   "end": 38.967,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Tonight,",
+     "start": 36.29,
+     "end": 37.755
+    },
+    {
+     "text": "I woke at three.",
+     "start": 37.755,
+     "end": 38.775
+    },
+    {
+     "text": "My jaw ached.",
+     "start": 38.775,
+     "end": 38.967
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L14",
+   "text": "Something was chewing. Slow. Close.",
+   "start": 39.287,
+   "end": 41.88,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Something was chewing.",
+     "start": 39.287,
+     "end": 40.497
+    },
+    {
+     "text": "Slow.",
+     "start": 40.497,
+     "end": 41.192
+    },
+    {
+     "text": "Close.",
+     "start": 41.192,
+     "end": 41.88
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L15",
+   "text": "I told myself it was coming from the grave.",
+   "start": 42.24,
+   "end": 45.072,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I told myself it was coming from the grave.",
+     "start": 42.24,
+     "end": 45.072
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L16",
+   "text": "Then I felt thread between my teeth.",
+   "start": 45.552,
+   "end": 47.616,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Then I felt thread between my teeth.",
+     "start": 45.552,
+     "end": 47.616
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L17",
+   "text": "I turned on the torch.",
+   "start": 48.016,
+   "end": 49.603,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "I turned on the torch.",
+     "start": 48.016,
+     "end": 49.603
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L18",
+   "text": "White satin. Six inches above my face.",
+   "start": 49.883,
+   "end": 52.838,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "White satin.",
+     "start": 49.883,
+     "end": 50.898
+    },
+    {
+     "text": "Six inches above my face.",
+     "start": 50.898,
+     "end": 52.837
+    }
+   ],
+   "phraseSource": "measured-silence"
+  },
+  {
+   "id": "L19",
+   "text": "It was my funeral.",
+   "start": 53.318,
+   "end": 54.819,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "It was my funeral.",
+     "start": 53.318,
+     "end": 54.819
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L20",
+   "text": "Mum's texted again.",
+   "start": 55.699,
+   "end": 57.205,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Mum's texted again.",
+     "start": 55.699,
+     "end": 57.205
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L21",
+   "text": "She's the last one left.",
+   "start": 57.485,
+   "end": 59.147,
+   "whisper": false,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "She's the last one left.",
+     "start": 57.485,
+     "end": 59.147
+    }
+   ],
+   "phraseSource": "whole-line"
+  },
+  {
+   "id": "L22",
+   "text": "Still hungry.",
+   "start": 59.707,
+   "end": 60.798,
+   "whisper": true,
+   "voice": "bm_lewis",
+   "phrases": [
+    {
+     "text": "Still hungry.",
+     "start": 59.707,
+     "end": 60.798
+    }
+   ],
+   "phraseSource": "whole-line"
+  }
+ ]
+}
