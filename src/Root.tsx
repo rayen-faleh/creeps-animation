@@ -29,11 +29,12 @@ import * as TurnTest from './episodes/portrait/_turn-test/Main';
 import * as MyType02 from './episodes/portrait/my-type-02/Main';
 import * as Rabenfels04 from './episodes/portrait/rabenfels-04/Main';
 import * as ShroudEater from './episodes/portrait/shroud-eater/Main';
+import * as TheKeyhole from './episodes/portrait/the-keyhole/Main';
 
 /* Every story registers here: {META: {id, durationSec, format?}, Episode}. Add one line per new story.
    format defaults to portrait (1080x1920); long-form stories pass LANDSCAPE (1920x1080). */
 type Story = {META: {id: string; durationSec: number; format?: {W: number; H: number}}; Episode: React.FC};
-const STORIES: Story[] = [TheCount01, Template, Catalog, TheWatch01, TheWatch02, TheWatch03, TheWatch04, TheWatch05, CatalogLandscape, TheQuarterTurn, TheQuarterTurnCh1, SurviveVampire, SurviveWerewolf, WitchBottle01, DatingVampire, GraveyardShift01, FriendVampire, TheSickle, MyType01, HerRigTest, Rabenfels01, Rabenfels02, GraveyardShift02, Rabenfels03, TurnTest, MyType02, Rabenfels04, ShroudEater];
+const STORIES: Story[] = [TheCount01, Template, Catalog, TheWatch01, TheWatch02, TheWatch03, TheWatch04, TheWatch05, CatalogLandscape, TheQuarterTurn, TheQuarterTurnCh1, SurviveVampire, SurviveWerewolf, WitchBottle01, DatingVampire, GraveyardShift01, FriendVampire, TheSickle, MyType01, HerRigTest, Rabenfels01, Rabenfels02, GraveyardShift02, Rabenfels03, TurnTest, MyType02, Rabenfels04, ShroudEater, TheKeyhole];
 
 export const RemotionRoot: React.FC = () => (
   <>

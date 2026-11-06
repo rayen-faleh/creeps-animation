@@ -1,0 +1,21 @@
+[
+ {"id": "L01", "text": "There's a tuft of wool stuffed in my bedroom keyhole.", "pauseAfter": 0.3},
+ {"id": "L02", "text": "It's been there for six years.", "pauseAfter": 0.4},
+ {"id": "L03", "text": "My gran said the mare comes in through keyholes.", "pauseAfter": 0.3},
+ {"id": "L04", "text": "She's the weight on your chest when you wake up and can't move.", "pauseAfter": 0.4},
+ {"id": "L05", "text": "Block the hole while she's inside... and she can't leave.", "pauseAfter": 0.8},
+ {"id": "L06", "text": "Six years ago, she came every night.", "pauseAfter": 0.3},
+ {"id": "L07", "text": "So one night, I stuffed the keyhole shut.", "pauseAfter": 0.4},
+ {"id": "L08", "text": "It stopped. That same week, I met my wife.", "pauseAfter": 0.7},
+ {"id": "L09", "text": "Tonight, she asked what the wool was for.", "pauseAfter": 0.3},
+ {"id": "L10", "text": "So I pulled it out to show her.", "pauseAfter": 0.4},
+ {"id": "L11", "text": "She went very quiet.", "pauseAfter": 0.7},
+ {"id": "L12", "text": "Three a.m. I couldn't move.", "pauseAfter": 0.3},
+ {"id": "L13", "text": "Something was climbing onto my chest.", "pauseAfter": 0.4},
+ {"id": "L14", "text": "I tried to reach for my wife.", "pauseAfter": 0.3},
+ {"id": "L15", "text": "Her side of the bed was empty. Still warm.", "pauseAfter": 0.6},
+ {"id": "L16", "text": "I never got rid of the mare.", "pauseAfter": 0.3},
+ {"id": "L17", "text": "I married her.", "pauseAfter": 1.1},
+ {"id": "L18", "text": "Long hair fell across my face.", "pauseAfter": 0.6},
+ {"id": "L19", "text": "You let me out.", "whisper": true, "voice": "af_nicole", "speed": 0.9, "pauseAfter": 0.3}
+]
