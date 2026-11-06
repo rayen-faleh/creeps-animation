@@ -1,4 +1,5 @@
-"""Gothic POV sound engine. Everything is synthesised (no samples, no licences).
+"""Gothic POV sound engine. Mostly synthesised; recorded CC0 / CC BY clips from assets/sfx (see sound/openverse.py,
+assets/sfx/CREDITS.json) can be layered in with Score.sample().
 
 A story's cues.py defines DUR (seconds) and cues(S) which places score and effects on a Score.
 sound/build_audio.py runs it, mixes the narration under the house rules and masters the result.
@@ -96,6 +97,18 @@ class Score:
         b = getattr(self, buf); i = int(t * SR); j = min(self.N, i + len(sig))
         if 0 <= i < self.N: b[i:j] += sig[: j - i] * gain
     def sfx_at(self, sig, t, gain=1.0): self.place('sfx', sig, t, gain)
+    def sample(self, name, t, gain=1.0, offset=0.0, dur=None, fade_in=0.01, fade_out=0.05, rate=1.0):
+        """Place assets/sfx/<name>.wav at t. offset/dur trim the clip (s); rate < 1 slows and lowers it."""
+        import os, soundfile as sf
+        x, sr = sf.read(os.path.join('assets', 'sfx', name + '.wav'), always_2d=True); x = x.mean(axis=1)
+        if sr != SR or rate != 1.0:
+            n = int(len(x) * SR / sr / rate); x = np.interp(np.linspace(0, len(x) - 1, n), np.arange(len(x)), x)
+        x = x[int(offset * SR):]
+        if dur: x = x[:int(dur * SR)]
+        fi, fo = min(len(x), int(fade_in * SR)), min(len(x), int(fade_out * SR))
+        if fi: x[:fi] *= np.linspace(0, 1, fi)
+        if fo: x[-fo:] *= np.linspace(1, 0, fo)
+        self.place('sfx', x, t, gain)
     def curve(self, points):
         """Piecewise-linear gain over time: [(t, g), ...]."""
         ts, gs = zip(*points); return np.interp(self.T, ts, gs)

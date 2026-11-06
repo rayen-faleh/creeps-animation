@@ -4,6 +4,7 @@
 usage:
   python3 sound/openverse.py search "rain on umbrella" [--source freesound|jamendo] [--max 20] [--min-s 1] [--max-s 60]
   python3 sound/openverse.py get <openverse-id> <name> [--start S] [--dur S]
+  python3 sound/openverse.py import <downloaded-file> <name> --id <openverse-id> [--start S] [--dur S]
 
 `search` lists CC0 / CC BY results only (no NC, no ND, no SA), with id, length, licence and title.
 `get` downloads one result, trims it if asked, converts it to 48 kHz stereo WAV at assets/sfx/<name>.wav and records
@@ -13,7 +14,9 @@ title, creator, licence and landing page in assets/sfx/CREDITS.json. CC BY items
 import argparse, json, os, re, subprocess, sys, tempfile, urllib.parse, urllib.request
 
 API = 'https://api.openverse.org/v1/audio/'
-UA = 'creeps-animation-sfx/1.0 (+https://github.com/rayen-faleh/creeps-animation)'
+# Freesound (cdn.freesound.org, freesound.org) answers this cloud machine with 403 whatever the client, so `get` only
+# works for hosts that serve it (e.g. Jamendo); download Freesound clips by hand and use `import`.
+UA = 'ClaudeCode-SFX/1.0 (+https://claude.ai/code)'
 OUT = os.path.join('assets', 'sfx')
 CREDITS = os.path.join(OUT, 'CREDITS.json')
 
@@ -62,6 +65,21 @@ def get(a):
     print(f"{dst}  ({r['license']} {r.get('license_version') or ''}, {r['title']} — {r.get('creator')})")
 
 
+def imp(a):
+    """Convert a clip the owner downloaded by hand, and record its Openverse credit."""
+    r = json.loads(fetch(API + a.id + '/'))
+    if r['license'] not in ('cc0', 'by', 'pdm'): sys.exit(f"refusing licence {r['license']}")
+    os.makedirs(OUT, exist_ok=True); dst = os.path.join(OUT, a.name + '.wav')
+    cmd = ['ffmpeg', '-v', 'error', '-y'] + (['-ss', str(a.start)] if a.start else []) + ['-i', a.file]
+    cmd += (['-t', str(a.dur)] if a.dur else []) + ['-ar', '48000', '-ac', '2', '-c:a', 'pcm_s16le', dst]
+    subprocess.run(cmd, check=True)
+    c = credits_load(); c[a.name] = {k: r.get(k) for k in ('id', 'title', 'creator', 'creator_url', 'license', 'license_version',
+                                                         'license_url', 'foreign_landing_url', 'source', 'attribution')}
+    c[a.name]['trim'] = {'start': a.start, 'dur': a.dur}
+    json.dump(c, open(CREDITS, 'w'), indent=1, ensure_ascii=False, sort_keys=True)
+    print(f"{dst}  ({r['license']}, {r['title']} — {r.get('creator')})")
+
+
 def credits(a):
     found = [os.path.join('src', 'episodes', f, a.slug, 'cues.py') for f in ('portrait', 'landscape')]
     src = next((open(p).read() for p in found if os.path.exists(p)), '')
@@ -81,8 +99,10 @@ def main():
     s.add_argument('--min-s', type=float, default=0); s.add_argument('--max-s', type=float, default=1e9)
     g = sp.add_parser('get'); g.add_argument('id'); g.add_argument('name')
     g.add_argument('--start', type=float, default=0); g.add_argument('--dur', type=float, default=0)
+    i = sp.add_parser('import'); i.add_argument('file'); i.add_argument('name'); i.add_argument('--id', required=True)
+    i.add_argument('--start', type=float, default=0); i.add_argument('--dur', type=float, default=0)
     c = sp.add_parser('credits'); c.add_argument('slug')
-    a = ap.parse_args(); {'search': search, 'get': get, 'credits': credits}[a.cmd](a)
+    a = ap.parse_args(); {'search': search, 'get': get, 'import': imp, 'credits': credits}[a.cmd](a)
 
 
 if __name__ == '__main__':
